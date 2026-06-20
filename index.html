@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conciliação de Postos — Conferência de cartões e conciliação bancária para redes de postos</title>
+<meta name="description" content="Automação da conferência de cartões e conciliação bancária para redes de postos de combustíveis. RPAs que baixam os portais das operadoras, conferência 3-way ERP × Operadora × Conciliadora, detecção de duplicidades e dashboard online.">
+<meta name="theme-color" content="#0d3b66">
+<meta property="og:title" content="Conciliação de Postos">
+<meta property="og:description" content="Conferência de cartões e conciliação bancária para redes de postos de combustíveis — automatizada.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d3b66'/%3E%3Ctext x='50' y='72' font-size='60' text-anchor='middle' fill='%23BA7517' font-family='Arial' font-weight='bold'%3E%E2%9B%BD%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --azul:#0d3b66; --azul2:#1d6fb8; --ouro:#BA7517; --ouro-claro:#e0a93a;
+    --erp:#FF00FF; --op:#BA7517; --conc:#185FA5;
+    --ok:#2e7d32; --alerta:#c62828; --atencao:#e8a317;
+    --tinta:#13212e; --cinza:#5a6b7b; --linha:#e3e9f0; --fundo:#f6f9fc; --branco:#ffffff;
+    --sombra:0 6px 24px rgba(13,59,102,.08); --sombra-fwd:0 14px 40px rgba(13,59,102,.16);
+    --raio:16px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    color:var(--tinta);background:var(--branco);line-height:1.6;-webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+  .mono{font-family:'JetBrains Mono','Fira Code',ui-monospace,'Courier New',monospace}
+
+  /* ---------- Header ---------- */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--linha)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:66px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.07rem;color:var(--azul);letter-spacing:-.02em}
+  .brand .logo{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--azul),var(--azul2));display:grid;place-items:center;color:#fff;font-size:1.15rem;box-shadow:var(--sombra)}
+  .navlinks{display:flex;gap:26px;align-items:center}
+  .navlinks a{color:var(--cinza);font-weight:600;font-size:.94rem;transition:color .15s}
+  .navlinks a:hover{color:var(--azul)}
+  .btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;border-radius:11px;padding:12px 20px;font-size:.95rem;cursor:pointer;border:none;transition:transform .12s ease,box-shadow .15s,background .15s;white-space:nowrap}
+  .btn-primary{background:linear-gradient(135deg,var(--ouro),var(--ouro-claro));color:#1a1205;box-shadow:0 6px 18px rgba(186,117,23,.32)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(186,117,23,.42)}
+  .btn-ghost{background:transparent;color:var(--azul);border:1.5px solid var(--linha)}
+  .btn-ghost:hover{border-color:var(--azul2);background:var(--fundo)}
+  .menu-toggle{display:none;background:none;border:none;font-size:1.5rem;color:var(--azul);cursor:pointer}
+
+  /* ---------- Hero ---------- */
+  .hero{position:relative;overflow:hidden;background:
+     radial-gradient(900px 500px at 88% -8%,rgba(29,111,184,.22),transparent 60%),
+     radial-gradient(700px 500px at 5% 110%,rgba(186,117,23,.14),transparent 55%),
+     linear-gradient(180deg,#fff 0%,var(--fundo) 100%)}
+  .hero-inner{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;padding:74px 0 84px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;background:#eaf2fb;color:var(--azul2);font-weight:700;font-size:.8rem;padding:7px 14px;border-radius:999px;letter-spacing:.02em;text-transform:uppercase;margin-bottom:20px}
+  .hero h1{font-size:3rem;line-height:1.08;letter-spacing:-.03em;color:var(--azul);font-weight:800;margin-bottom:18px}
+  .hero h1 .grad{background:linear-gradient(120deg,var(--ouro),var(--ouro-claro));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero p.lead{font-size:1.16rem;color:var(--cinza);max-width:560px;margin-bottom:30px}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+  .trust{display:flex;gap:26px;margin-top:34px;flex-wrap:wrap}
+  .trust div{display:flex;flex-direction:column}
+  .trust b{font-size:1.7rem;color:var(--azul);font-weight:800;letter-spacing:-.02em}
+  .trust span{font-size:.84rem;color:var(--cinza);font-weight:600}
+
+  /* Hero visual: 3-way card */
+  .card3{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);box-shadow:var(--sombra-fwd);padding:22px;transform:rotate(.6deg)}
+  .card3 .c-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--linha);padding-bottom:13px;margin-bottom:14px}
+  .card3 .c-head b{color:var(--azul);font-size:.98rem}
+  .pill{font-size:.72rem;font-weight:700;padding:4px 10px;border-radius:999px}
+  .pill.ok{background:#e7f5e8;color:var(--ok)}
+  .row3{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:11px 0;border-bottom:1px dashed var(--linha)}
+  .row3:last-child{border-bottom:none}
+  .src{display:flex;align-items:center;gap:9px;font-size:.9rem;font-weight:600}
+  .dot{width:11px;height:11px;border-radius:50%}
+  .dot.erp{background:var(--erp)} .dot.op{background:var(--op)} .dot.conc{background:var(--conc)}
+  .val{font-weight:700;font-variant-numeric:tabular-nums;color:var(--tinta)}
+  .delta{margin-top:14px;background:var(--fundo);border-radius:11px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center}
+  .delta small{color:var(--cinza);font-weight:600}
+  .delta b{color:var(--ok)}
+
+  /* ---------- Sections ---------- */
+  section{padding:78px 0}
+  .sec-head{text-align:center;max-width:680px;margin:0 auto 48px}
+  .sec-head .kicker{color:var(--ouro);font-weight:800;text-transform:uppercase;font-size:.82rem;letter-spacing:.08em}
+  .sec-head h2{font-size:2.1rem;color:var(--azul);letter-spacing:-.02em;margin:8px 0 12px;font-weight:800}
+  .sec-head p{color:var(--cinza);font-size:1.06rem}
+  .alt{background:var(--fundo)}
+
+  /* Módulos */
+  .grid4{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+  .modcard{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:30px;transition:transform .15s,box-shadow .15s;position:relative;overflow:hidden}
+  .modcard:hover{transform:translateY(-4px);box-shadow:var(--sombra-fwd)}
+  .modcard::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:linear-gradient(90deg,var(--azul),var(--ouro))}
+  .modcard .ico{width:52px;height:52px;border-radius:13px;background:linear-gradient(135deg,#eaf2fb,#f6f9fc);display:grid;place-items:center;font-size:1.5rem;margin-bottom:16px;border:1px solid var(--linha)}
+  .modcard h3{color:var(--azul);font-size:1.22rem;margin-bottom:9px;font-weight:800}
+  .modcard p{color:var(--cinza);font-size:.97rem}
+  .modcard ul{list-style:none;margin-top:14px;display:flex;flex-direction:column;gap:7px}
+  .modcard li{font-size:.9rem;color:var(--tinta);padding-left:24px;position:relative}
+  .modcard li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}
+
+  /* Como funciona */
+  .flow{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .flowstep{text-align:center;padding:26px 20px;background:#fff;border:1px solid var(--linha);border-radius:var(--raio)}
+  .flowstep .n{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;margin:0 auto 14px;font-weight:800;color:#fff}
+  .flowstep:nth-child(1) .n{background:var(--erp)}
+  .flowstep:nth-child(2) .n{background:var(--op)}
+  .flowstep:nth-child(3) .n{background:var(--conc)}
+  .flowstep h4{color:var(--azul);margin-bottom:7px;font-size:1.08rem}
+  .flowstep p{color:var(--cinza);font-size:.93rem}
+
+  /* Cobertura / operadoras */
+  .ops{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:920px;margin:0 auto}
+  .ops span{background:#fff;border:1px solid var(--linha);border-radius:999px;padding:9px 18px;font-weight:700;font-size:.9rem;color:var(--azul);box-shadow:var(--sombra);transition:transform .12s,border-color .15s}
+  .ops span:hover{transform:translateY(-2px);border-color:var(--ouro)}
+  .ops .more{background:var(--azul);color:#fff;border-color:var(--azul)}
+
+  /* Garantias */
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .gcard{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:28px}
+  .gcard .ico{font-size:1.8rem;margin-bottom:12px}
+  .gcard h3{color:var(--azul);font-size:1.1rem;margin-bottom:8px}
+  .gcard p{color:var(--cinza);font-size:.95rem}
+
+  /* CTA final */
+  .cta{background:linear-gradient(135deg,var(--azul),#0a2d4f);border-radius:24px;padding:56px;text-align:center;color:#fff;position:relative;overflow:hidden}
+  .cta::after{content:"";position:absolute;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(186,117,23,.28),transparent 70%);right:-90px;top:-120px}
+  .cta h2{font-size:2.2rem;margin-bottom:12px;letter-spacing:-.02em;position:relative}
+  .cta p{color:#cfe0f0;font-size:1.1rem;max-width:560px;margin:0 auto 28px;position:relative}
+  .cta .hero-cta{justify-content:center;position:relative}
+  .cta .btn-ghost{color:#fff;border-color:rgba(255,255,255,.4)}
+  .cta .btn-ghost:hover{background:rgba(255,255,255,.1);border-color:#fff}
+
+  /* Footer */
+  footer{background:#0a2334;color:#a9c0d4;padding:54px 0 30px;font-size:.9rem}
+  .foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;padding-bottom:34px;border-bottom:1px solid rgba(255,255,255,.1)}
+  .foot-brand{display:flex;align-items:center;gap:10px;font-weight:800;color:#fff;font-size:1.05rem;margin-bottom:12px}
+  .foot-brand .logo{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--azul2),var(--ouro));display:grid;place-items:center}
+  footer h5{color:#fff;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:13px}
+  footer ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+  footer a:hover{color:#fff}
+  .disclaimer{font-size:.78rem;color:#7f99ad;margin-top:24px;line-height:1.7}
+  .copy{text-align:center;padding-top:22px;color:#6f8aa0;font-size:.82rem}
+
+  /* WhatsApp float */
+  .wa-float{position:fixed;right:22px;bottom:22px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(37,211,102,.45);transition:transform .15s}
+  .wa-float:hover{transform:scale(1.08)}
+  .wa-float svg{width:33px;height:33px;fill:#fff}
+
+  /* Responsivo */
+  @media(max-width:880px){
+    .navlinks{display:none}
+    .menu-toggle{display:block}
+    .navlinks.open{display:flex;position:absolute;top:66px;left:0;right:0;flex-direction:column;background:#fff;padding:18px 22px;gap:16px;border-bottom:1px solid var(--linha);box-shadow:var(--sombra)}
+    .hero-inner{grid-template-columns:1fr;gap:42px;padding:54px 0 64px}
+    .hero h1{font-size:2.3rem}
+    .grid4,.flow,.grid3,.foot-top{grid-template-columns:1fr}
+    .cta{padding:40px 24px}
+    .cta h2{font-size:1.7rem}
+    .card3{transform:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header>
+  <div class="wrap nav">
+    <a href="#topo" class="brand"><span class="logo">⛽</span> Conciliação de Postos</a>
+    <nav class="navlinks" id="nav">
+      <a href="#modulos">Módulos</a>
+      <a href="#como">Como funciona</a>
+      <a href="#operadoras">Operadoras</a>
+      <a href="#garantias">Garantias</a>
+      <a href="#contato" class="btn btn-primary">Solicitar proposta</a>
+    </nav>
+    <button class="menu-toggle" id="toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<!-- ========== HERO ========== -->
+<main id="topo" class="hero">
+  <div class="wrap hero-inner">
+    <div>
+      <span class="eyebrow">⛽ Para redes de postos de combustíveis</span>
+      <h1>Conferência de cartões <span class="grad">no automático</span>, do portal ao centavo.</h1>
+      <p class="lead">Robôs baixam os relatórios das operadoras de cartão, cruzam com o seu ERP e a conciliadora, e apontam exatamente onde <strong>sobra, falta ou foi cancelado</strong> — antes de virar prejuízo.</p>
+      <div class="hero-cta">
+        <a href="#contato" class="btn btn-primary">Solicitar proposta &rarr;</a>
+        <a href="#modulos" class="btn btn-ghost">Ver os módulos</a>
+      </div>
+      <div class="trust">
+        <div><b>30+</b><span>operadoras integradas</span></div>
+        <div><b>3 fontes</b><span>ERP × Operadora × Conciliadora</span></div>
+        <div><b>Diário</b><span>conferência automatizada</span></div>
+      </div>
+    </div>
+
+    <!-- Card mockup 3-way (dados fictícios) -->
+    <div class="card3" aria-hidden="true">
+      <div class="c-head">
+        <b>Fechamento do dia — Posto Modelo</b>
+        <span class="pill ok">Conciliado</span>
+      </div>
+      <div class="row3"><div class="src"><span class="dot erp"></span>ERP (caixa)</div><div class="val mono">R$ 184.230,50</div></div>
+      <div class="row3"><div class="src"><span class="dot op"></span>Operadora</div><div class="val mono">R$ 184.230,50</div></div>
+      <div class="row3"><div class="src"><span class="dot conc"></span>Conciliadora</div><div class="val mono">R$ 184.230,50</div></div>
+      <div class="delta"><small>Divergência</small><b class="mono">R$ 0,00 ✓</b></div>
+    </div>
+  </div>
+</main>
+
+<!-- ========== MÓDULOS ========== -->
+<section id="modulos">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">O que entra no serviço</span>
+      <h2>Quatro módulos que trabalham por você</h2>
+      <p>Da extração automática dos portais até o painel onde a rede acompanha tudo — sem digitação manual.</p>
+    </div>
+    <div class="grid4">
+
+      <div class="modcard">
+        <div class="ico">🤖</div>
+        <h3>RPAs com auto-import</h3>
+        <p>Robôs (RPA) acessam os portais das operadoras, baixam os relatórios e importam automaticamente para a base — sem digitação e sem depender de alguém lembrar de puxar cada relatório.</p>
+        <ul>
+          <li>Extração diária ou semanal dos portais</li>
+          <li>Cartão, frota, vale e PIX no mesmo fluxo</li>
+          <li>Login com 2FA/OTP automatizado</li>
+        </ul>
+      </div>
+
+      <div class="modcard">
+        <div class="ico">⚖️</div>
+        <h3>Conferente de Caixa</h3>
+        <p>Fechamento diário/semanal que cruza 3 fontes — ERP (vendas oficiais), Operadora (o que a adquirente vai pagar) e Conciliadora — e aponta, por empresa, onde sobra, falta ou foi cancelado.</p>
+        <ul>
+          <li>Comparativo 3-way por posto</li>
+          <li>Excel anexo (1 aba por empresa)</li>
+          <li>Resumo objetivo das divergências</li>
+        </ul>
+      </div>
+
+      <div class="modcard">
+        <div class="ico">🔍</div>
+        <h3>Possíveis Duplicidades</h3>
+        <p>Detector que varre vendas e lançamentos procurando duplicidade — a mesma venda batida 2x, cartão + frota no mesmo abastecimento, relançamento no ERP. Aponta o par suspeito antes de virar prejuízo.</p>
+        <ul>
+          <li>Pares suspeitos com valor em risco</li>
+          <li>Classificação por severidade</li>
+          <li>Alerta antes da perda financeira</li>
+        </ul>
+      </div>
+
+      <div class="modcard">
+        <div class="ico">📊</div>
+        <h3>Dashboard online</h3>
+        <p>Plataforma web onde a rede acompanha vendas conciliadas, divergências, taxas e antecipações — por empresa, bandeira e período, com filtros e exportação.</p>
+        <ul>
+          <li>KPIs de ERP, Operadora e Conciliadora</li>
+          <li>Visão por adquirente e por período</li>
+          <li>Aba de Chamados para demandas de cartões</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== COMO FUNCIONA ========== -->
+<section id="como" class="alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Conciliação 3-way</span>
+      <h2>Toda transação, comparada em três instâncias</h2>
+      <p>Cada venda de cartão é cruzada nas três pontas. Se uma delas diverge, o sistema mostra exatamente onde — e quanto.</p>
+    </div>
+    <div class="flow">
+      <div class="flowstep">
+        <div class="n">1</div>
+        <h4>ERP (Linx)</h4>
+        <p>A venda oficial registrada no caixa do posto — a fonte da verdade do que foi vendido.</p>
+      </div>
+      <div class="flowstep">
+        <div class="n">2</div>
+        <h4>Operadora</h4>
+        <p>O que a adquirente (Getnet, Cielo, Rede, vale, frota...) diz que vai pagar, com taxas e prazos.</p>
+      </div>
+      <div class="flowstep">
+        <div class="n">3</div>
+        <h4>Conciliadora &amp; Banco</h4>
+        <p>O que efetivamente caiu na conta — fechando o ciclo do crédito até o extrato bancário.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== OPERADORAS ========== -->
+<section id="operadoras">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Cobertura</span>
+      <h2>30+ operadoras integradas</h2>
+      <p>Cartão, frota, vale e PIX. Novos portais são adicionados conforme a necessidade da rede.</p>
+    </div>
+    <div class="ops">
+      <span>Getnet</span><span>Cielo</span><span>Rede</span><span>Alelo</span><span>Pluxee</span>
+      <span>VR</span><span>TicketLog</span><span>Edenred</span><span>ValeCard</span><span>Shellbox</span>
+      <span>ProFrotas</span><span>Abastece Aí</span><span>SemParar</span><span>Truckpag</span><span>BoaVista</span>
+      <span>CTF</span><span>FitCard</span><span>Wizeo</span><span>Ticket Serviços</span><span>PagSeguro</span>
+      <span class="more">+ muitas outras</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GARANTIAS ========== -->
+<section id="garantias" class="alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Como trabalhamos</span>
+      <h2>Transparência e conformidade</h2>
+    </div>
+    <div class="grid3">
+      <div class="gcard">
+        <div class="ico">🔒</div>
+        <h3>LGPD</h3>
+        <p>Garantimos o cumprimento da Lei Geral de Proteção de Dados no tratamento das informações da sua rede.</p>
+      </div>
+      <div class="gcard">
+        <div class="ico">🗓️</div>
+        <h3>Período de garantia</h3>
+        <p>Licença online mensal, com garantia de 30 dias — você usa por 30 dias para só então começar a pagar (a negociar).</p>
+      </div>
+      <div class="gcard">
+        <div class="ico">🎯</div>
+        <h3>Escopo sob medida</h3>
+        <p>Ajustável por rede: quantidade de empresas, portais e bandeiras envolvidas e o tamanho da tarefa diária.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA / CONTATO ========== -->
+<section id="contato">
+  <div class="wrap">
+    <div class="cta">
+      <h2>Vamos automatizar a conferência da sua rede?</h2>
+      <p>Conte quantos postos e quais operadoras você usa. Montamos uma proposta com o escopo certo para o seu caso.</p>
+      <div class="hero-cta">
+        <a href="#" data-wa class="btn btn-primary">💬 Falar no WhatsApp</a>
+        <a href="mailto:backupconciliacao@gmail.com?subject=Quero%20uma%20proposta%20de%20concilia%C3%A7%C3%A3o%20de%20cart%C3%B5es&body=Ol%C3%A1%2C%20gostaria%20de%20uma%20proposta.%0A%0ARede%2Fempresa%3A%0AQtde.%20de%20postos%3A%0AOperadoras%20usadas%3A%0AERP%3A%0A" class="btn btn-ghost">✉️ Enviar e-mail</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand"><span class="logo">⛽</span> Conciliação de Postos</div>
+        <p style="max-width:340px">Conferência de cartões e conciliação bancária para redes de postos de combustíveis — automatizada do portal ao centavo.</p>
+      </div>
+      <div>
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="#modulos">Módulos</a></li>
+          <li><a href="#como">Como funciona</a></li>
+          <li><a href="#operadoras">Operadoras</a></li>
+          <li><a href="#garantias">Garantias</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <ul>
+          <li><a href="#" data-wa>WhatsApp</a></li>
+          <li><a href="mailto:backupconciliacao@gmail.com">backupconciliacao@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">
+      <strong>Aviso:</strong> os portais das operadoras podem mudar layout, estruturas e metodologias. Diante desses desafios, não garantimos extração de dados plena e definitiva em 100% das operadoras, mas trabalhamos para que seja possível. Os dados exibidos nesta página são ilustrativos e fictícios, sem qualquer informação real de clientes.
+    </p>
+    <div class="copy">© <span id="ano">2026</span> Conciliação de Postos · Todos os direitos reservados</div>
+  </div>
+</footer>
+
+<!-- WhatsApp flutuante -->
+<a href="#" data-wa class="wa-float" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 .4C7.4.4.5 7.3.5 15.9c0 2.8.7 5.4 2 7.8L.4 31.6l8.1-2.1c2.3 1.3 4.9 2 7.5 2 8.6 0 15.5-7 15.5-15.6C31.5 7.3 24.6.4 16 .4zm0 28.4c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.7-.3-.5a12.8 12.8 0 01-2-6.9C3.1 8.8 8.9 3.1 16 3.1c3.4 0 6.7 1.3 9.1 3.8a12.8 12.8 0 013.8 9.1c0 7.1-5.8 12.8-12.9 12.8zm7.1-9.6c-.4-.2-2.3-1.1-2.6-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3.1-1.9-1.2-1-1.9-2.3-2.2-2.7-.2-.4 0-.6.2-.8l.6-.7c.2-.2.3-.4.4-.6.1-.2 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.6.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+</a>
+
+<script>
+  // ----- Número do WhatsApp (TROCAR aqui) -----
+  // Formato internacional, só dígitos: 55 + DDD + número. Ex.: 5511999998888
+  var WHATSAPP = "55XXXXXXXXXXX";
+  var WA_MSG = "Olá! Vim pelo site e gostaria de uma proposta de conciliação de cartões para a minha rede de postos.";
+  var waLink = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(WA_MSG);
+  document.querySelectorAll("[data-wa]").forEach(function(a){ a.href = waLink; a.target = "_blank"; a.rel = "noopener"; });
+
+  // Ano no rodapé
+  document.getElementById("ano").textContent = new Date().getFullYear();
+
+  // Menu mobile
+  var t = document.getElementById("toggle"), n = document.getElementById("nav");
+  t.addEventListener("click", function(){ n.classList.toggle("open"); });
+  n.querySelectorAll("a").forEach(function(a){ a.addEventListener("click", function(){ n.classList.remove("open"); }); });
+</script>
+</body>
+</html>
