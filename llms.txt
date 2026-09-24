@@ -1,0 +1,28 @@
+# Backup Conciliação
+
+> Conciliadora especializada em redes de postos de combustíveis no Brasil. Faz a conciliação 3-way (tripla) ERP × Operadora × Conciliadora e a conciliação bancária dos recebíveis de cartão, frota, vale e PIX, com robôs (RPA) que coletam automaticamente os relatórios dos portais das operadoras. Atendimento 100% remoto em todo o Brasil.
+
+A Backup Conciliação automatiza a conferência de cartões de redes de postos. Cada venda é conferida em três fontes: o ERP do posto (a venda oficial registrada no caixa), a Operadora (o que a adquirente, bandeira de vale ou empresa de frota diz que vai pagar) e a Conciliadora. Depois, os recebimentos previstos são confrontados com o extrato bancário.
+
+Principais fatos:
+
+- Público: redes de postos de combustíveis e lojas de conveniência.
+- Mais de 30 operadoras integradas, entre elas Getnet, Cielo, Rede, Alelo, Pluxee, VR, TicketLog, Edenred, ValeCard, Shellbox, ProFrotas, Abastece Aí, SemParar, Truckpag, BoaVista, CTF, FitCard, Wizeo, Ticket Serviços e PagSeguro.
+- Robôs (RPA) acessam os portais das operadoras, inclusive os que exigem 2FA/OTP, e importam os relatórios automaticamente, em rotina diária ou semanal.
+- Divergências detectadas: sobras, faltas, cancelamentos e duplicidades (por exemplo, o mesmo abastecimento cobrado no cartão e na frota).
+- Conciliação bancária: valores não pagos, taxas acima do contratado, antecipações e PIX, com visão por posto (CNPJ) e por adquirente.
+- Dashboard online com visão por empresa, bandeira e período; fechamento diário/semanal com Excel por empresa.
+- Contratação: licença online mensal com garantia de 30 dias (a rede usa por 30 dias antes de começar a pagar); escopo ajustado por rede.
+- Tratamento de dados conforme a LGPD.
+- Contato: WhatsApp +55 11 91872-9780 · contato@backupconciliacao.com.br
+
+## Páginas
+
+- [Página inicial](https://backupconciliacao.com.br/): visão geral dos módulos (RPAs com auto-import, Conferente de Caixa 3-way, Possíveis Duplicidades, Dashboard online e Conciliação bancária), operadoras cobertas e perguntas frequentes.
+- [Conciliação 3-way para postos](https://backupconciliacao.com.br/conciliacao-3-way-postos/): o que é a conferência tripla ERP × Operadora × Conciliadora, por que duas fontes não bastam e quais divergências ela encontra.
+- [Conciliação bancária para redes de postos](https://backupconciliacao.com.br/conciliacao-bancaria-postos/): recebíveis das operadoras × extrato bancário — valores não pagos, taxas acima do contratado, antecipações e PIX.
+
+## Opcional
+
+- [Perguntas frequentes](https://backupconciliacao.com.br/#faq)
+- [LinkedIn](https://www.linkedin.com/in/renatosouza-conciliacao)

@@ -3,8 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WR2TJLGTL4"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WR2TJLGTL4');</script>
+
 <title>Backup Conciliação — Conferência de cartões e conciliação bancária para redes de postos</title>
-<meta name="description" content="Automação da conferência de cartões e conciliação bancária para redes de postos de combustíveis. RPAs que baixam os portais das operadoras, conferência 3-way ERP × Operadora × Conciliadora, detecção de duplicidades e dashboard online.">
+<meta name="description" content="Conciliadora para redes de postos de combustíveis: conciliação 3-way (tripla) ERP × Operadora × Conciliadora, conciliação bancária, robôs que baixam os portais das operadoras, detecção de duplicidades e dashboard online.">
 <meta name="theme-color" content="#0d3b66">
 <link rel="canonical" href="https://backupconciliacao.com.br/">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -27,188 +32,150 @@
 <meta name="twitter:description" content="Conferência de cartões e conciliação bancária para redes de postos de combustíveis — automatizada.">
 <meta name="twitter:image" content="https://backupconciliacao.com.br/og-image.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d3b66'/%3E%3Ctext x='50' y='72' font-size='60' text-anchor='middle' fill='%23BA7517' font-family='Arial' font-weight='bold'%3E%E2%9B%BD%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/estilo.css">
 
 <!-- Dados estruturados: ajudam o Google a entender que negocio e' este -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": "https://backupconciliacao.com.br/#empresa",
   "name": "Backup Conciliação",
   "url": "https://backupconciliacao.com.br/",
   "image": "https://backupconciliacao.com.br/og-image.png",
   "logo": "https://backupconciliacao.com.br/logo.png",
   "email": "contato@backupconciliacao.com.br",
   "telephone": "+5511918729780",
-  "description": "Automação da conferência de cartões e conciliação bancária para redes de postos de combustíveis: coleta dos portais das operadoras, conferência 3-way ERP × Operadora × Conciliadora, detecção de duplicidades e dashboard online.",
-  "inLanguage": "pt-BR",
+  "description": "Automação da conferência de cartões e conciliação bancária para redes de postos de combustíveis: coleta dos portais das operadoras, conciliação 3-way ERP × Operadora × Conciliadora, detecção de duplicidades e dashboard online.",
   "priceRange": "$$",
   "areaServed": { "@type": "Country", "name": "Brasil" },
-  "serviceType": [
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/renatosouza-conciliacao"
+  ],
+  "knowsAbout": [
+    "Conciliação 3-way (ERP × Operadora × Conciliadora)",
     "Conciliação de cartões",
     "Conciliação bancária",
     "Conferência de recebíveis de operadoras",
-    "Automação de coleta em portais de adquirentes"
+    "Automação de coleta em portais de adquirentes",
+    "Postos de combustíveis"
   ],
-  "audience": {
-    "@type": "BusinessAudience",
-    "name": "Redes de postos de combustíveis e lojas de conveniência"
-  },
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "comercial",
     "email": "contato@backupconciliacao.com.br",
     "telephone": "+5511918729780",
     "availableLanguage": "pt-BR"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Serviços de conciliação para postos de combustíveis",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Conciliação 3-way para postos (ERP × Operadora × Conciliadora)",
+          "serviceType": "Conciliação 3-way (ERP × Operadora × Conciliadora)",
+          "audience": { "@type": "BusinessAudience", "name": "Redes de postos de combustíveis e lojas de conveniência" },
+          "url": "https://backupconciliacao.com.br/conciliacao-3-way-postos/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Conciliação bancária para redes de postos",
+          "serviceType": "Conciliação bancária",
+          "audience": { "@type": "BusinessAudience", "name": "Redes de postos de combustíveis e lojas de conveniência" },
+          "url": "https://backupconciliacao.com.br/conciliacao-bancaria-postos/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Robôs (RPA) de coleta nos portais das operadoras",
+          "serviceType": "Automação de coleta em portais de adquirentes",
+          "url": "https://backupconciliacao.com.br/#modulos"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Detecção de possíveis duplicidades",
+          "url": "https://backupconciliacao.com.br/#modulos"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dashboard online de conciliação",
+          "url": "https://backupconciliacao.com.br/#modulos"
+        }
+      }
+    ]
   }
 }
 </script>
-<style>
-  :root{
-    --azul:#0d3b66; --azul2:#1d6fb8; --ouro:#BA7517; --ouro-claro:#e0a93a;
-    --erp:#FF00FF; --op:#BA7517; --conc:#185FA5;
-    --ok:#2e7d32; --alerta:#c62828; --atencao:#e8a317;
-    --tinta:#13212e; --cinza:#5a6b7b; --linha:#e3e9f0; --fundo:#f6f9fc; --branco:#ffffff;
-    --sombra:0 6px 24px rgba(13,59,102,.08); --sombra-fwd:0 14px 40px rgba(13,59,102,.16);
-    --raio:16px;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-    color:var(--tinta);background:var(--branco);line-height:1.6;-webkit-font-smoothing:antialiased;
-  }
-  a{color:inherit;text-decoration:none}
-  .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
-  .mono{font-family:'JetBrains Mono','Fira Code',ui-monospace,'Courier New',monospace}
 
-  /* ---------- Header ---------- */
-  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--linha)}
-  .nav{display:flex;align-items:center;justify-content:space-between;height:66px}
-  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.07rem;color:var(--azul);letter-spacing:-.02em}
-  .brand .logo{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--azul),var(--azul2));display:grid;place-items:center;color:#fff;font-size:1.15rem;box-shadow:var(--sombra)}
-  .navlinks{display:flex;gap:26px;align-items:center}
-  .navlinks a{color:var(--cinza);font-weight:600;font-size:.94rem;transition:color .15s}
-  .navlinks a:hover{color:var(--azul)}
-  .btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;border-radius:11px;padding:12px 20px;font-size:.95rem;cursor:pointer;border:none;transition:transform .12s ease,box-shadow .15s,background .15s;white-space:nowrap}
-  .btn-primary{background:linear-gradient(135deg,var(--ouro),var(--ouro-claro));color:#1a1205;box-shadow:0 6px 18px rgba(186,117,23,.32)}
-  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(186,117,23,.42)}
-  .btn-ghost{background:transparent;color:var(--azul);border:1.5px solid var(--linha)}
-  .btn-ghost:hover{border-color:var(--azul2);background:var(--fundo)}
-  .menu-toggle{display:none;background:none;border:none;font-size:1.5rem;color:var(--azul);cursor:pointer}
-
-  /* ---------- Hero ---------- */
-  .hero{position:relative;overflow:hidden;background:
-     radial-gradient(900px 500px at 88% -8%,rgba(29,111,184,.22),transparent 60%),
-     radial-gradient(700px 500px at 5% 110%,rgba(186,117,23,.14),transparent 55%),
-     linear-gradient(180deg,#fff 0%,var(--fundo) 100%)}
-  .hero-inner{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;padding:74px 0 84px}
-  .eyebrow{display:inline-flex;align-items:center;gap:8px;background:#eaf2fb;color:var(--azul2);font-weight:700;font-size:.8rem;padding:7px 14px;border-radius:999px;letter-spacing:.02em;text-transform:uppercase;margin-bottom:20px}
-  .hero h1{font-size:3rem;line-height:1.08;letter-spacing:-.03em;color:var(--azul);font-weight:800;margin-bottom:18px}
-  .hero h1 .grad{background:linear-gradient(120deg,var(--ouro),var(--ouro-claro));-webkit-background-clip:text;background-clip:text;color:transparent}
-  .hero p.lead{font-size:1.16rem;color:var(--cinza);max-width:560px;margin-bottom:30px}
-  .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
-  .trust{display:flex;gap:26px;margin-top:34px;flex-wrap:wrap}
-  .trust div{display:flex;flex-direction:column}
-  .trust b{font-size:1.7rem;color:var(--azul);font-weight:800;letter-spacing:-.02em}
-  .trust span{font-size:.84rem;color:var(--cinza);font-weight:600}
-
-  /* Hero visual: 3-way card */
-  .card3{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);box-shadow:var(--sombra-fwd);padding:22px;transform:rotate(.6deg)}
-  .card3 .c-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--linha);padding-bottom:13px;margin-bottom:14px}
-  .card3 .c-head b{color:var(--azul);font-size:.98rem}
-  .pill{font-size:.72rem;font-weight:700;padding:4px 10px;border-radius:999px}
-  .pill.ok{background:#e7f5e8;color:var(--ok)}
-  .row3{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:11px 0;border-bottom:1px dashed var(--linha)}
-  .row3:last-child{border-bottom:none}
-  .src{display:flex;align-items:center;gap:9px;font-size:.9rem;font-weight:600}
-  .dot{width:11px;height:11px;border-radius:50%}
-  .dot.erp{background:var(--erp)} .dot.op{background:var(--op)} .dot.conc{background:var(--conc)}
-  .val{font-weight:700;font-variant-numeric:tabular-nums;color:var(--tinta)}
-  .delta{margin-top:14px;background:var(--fundo);border-radius:11px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center}
-  .delta small{color:var(--cinza);font-weight:600}
-  .delta b{color:var(--ok)}
-
-  /* ---------- Sections ---------- */
-  section{padding:78px 0}
-  .sec-head{text-align:center;max-width:680px;margin:0 auto 48px}
-  .sec-head .kicker{color:var(--ouro);font-weight:800;text-transform:uppercase;font-size:.82rem;letter-spacing:.08em}
-  .sec-head h2{font-size:2.1rem;color:var(--azul);letter-spacing:-.02em;margin:8px 0 12px;font-weight:800}
-  .sec-head p{color:var(--cinza);font-size:1.06rem}
-  .alt{background:var(--fundo)}
-
-  /* Módulos */
-  .grid4{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
-  .modcard{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:30px;transition:transform .15s,box-shadow .15s;position:relative;overflow:hidden}
-  .modcard:hover{transform:translateY(-4px);box-shadow:var(--sombra-fwd)}
-  .modcard::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:linear-gradient(90deg,var(--azul),var(--ouro))}
-  .modcard .ico{width:52px;height:52px;border-radius:13px;background:linear-gradient(135deg,#eaf2fb,#f6f9fc);display:grid;place-items:center;font-size:1.5rem;margin-bottom:16px;border:1px solid var(--linha)}
-  .modcard h3{color:var(--azul);font-size:1.22rem;margin-bottom:9px;font-weight:800}
-  .modcard p{color:var(--cinza);font-size:.97rem}
-  .modcard ul{list-style:none;margin-top:14px;display:flex;flex-direction:column;gap:7px}
-  .modcard li{font-size:.9rem;color:var(--tinta);padding-left:24px;position:relative}
-  .modcard li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}
-
-  /* Como funciona */
-  .flow{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-  .flowstep{text-align:center;padding:26px 20px;background:#fff;border:1px solid var(--linha);border-radius:var(--raio)}
-  .flowstep .n{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;margin:0 auto 14px;font-weight:800;color:#fff}
-  .flowstep:nth-child(1) .n{background:var(--erp)}
-  .flowstep:nth-child(2) .n{background:var(--op)}
-  .flowstep:nth-child(3) .n{background:var(--conc)}
-  .flowstep h4{color:var(--azul);margin-bottom:7px;font-size:1.08rem}
-  .flowstep p{color:var(--cinza);font-size:.93rem}
-
-  /* Cobertura / operadoras */
-  .ops{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:920px;margin:0 auto}
-  .ops span{background:#fff;border:1px solid var(--linha);border-radius:999px;padding:9px 18px;font-weight:700;font-size:.9rem;color:var(--azul);box-shadow:var(--sombra);transition:transform .12s,border-color .15s}
-  .ops span:hover{transform:translateY(-2px);border-color:var(--ouro)}
-  .ops .more{background:var(--azul);color:#fff;border-color:var(--azul)}
-
-  /* Garantias */
-  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-  .gcard{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:28px}
-  .gcard .ico{font-size:1.8rem;margin-bottom:12px}
-  .gcard h3{color:var(--azul);font-size:1.1rem;margin-bottom:8px}
-  .gcard p{color:var(--cinza);font-size:.95rem}
-
-  /* CTA final */
-  .cta{background:linear-gradient(135deg,var(--azul),#0a2d4f);border-radius:24px;padding:56px;text-align:center;color:#fff;position:relative;overflow:hidden}
-  .cta::after{content:"";position:absolute;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(186,117,23,.28),transparent 70%);right:-90px;top:-120px}
-  .cta h2{font-size:2.2rem;margin-bottom:12px;letter-spacing:-.02em;position:relative}
-  .cta p{color:#cfe0f0;font-size:1.1rem;max-width:560px;margin:0 auto 28px;position:relative}
-  .cta .hero-cta{justify-content:center;position:relative}
-  .cta .btn-ghost{color:#fff;border-color:rgba(255,255,255,.4)}
-  .cta .btn-ghost:hover{background:rgba(255,255,255,.1);border-color:#fff}
-
-  /* Footer */
-  footer{background:#0a2334;color:#a9c0d4;padding:54px 0 30px;font-size:.9rem}
-  .foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;padding-bottom:34px;border-bottom:1px solid rgba(255,255,255,.1)}
-  .foot-brand{display:flex;align-items:center;gap:10px;font-weight:800;color:#fff;font-size:1.05rem;margin-bottom:12px}
-  .foot-brand .logo{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--azul2),var(--ouro));display:grid;place-items:center}
-  footer h5{color:#fff;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:13px}
-  footer ul{list-style:none;display:flex;flex-direction:column;gap:9px}
-  footer a:hover{color:#fff}
-  .disclaimer{font-size:.78rem;color:#7f99ad;margin-top:24px;line-height:1.7}
-  .copy{text-align:center;padding-top:22px;color:#6f8aa0;font-size:.82rem}
-
-  /* WhatsApp float */
-  .wa-float{position:fixed;right:22px;bottom:22px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(37,211,102,.45);transition:transform .15s}
-  .wa-float:hover{transform:scale(1.08)}
-  .wa-float svg{width:33px;height:33px;fill:#fff}
-
-  /* Responsivo */
-  @media(max-width:880px){
-    .navlinks{display:none}
-    .menu-toggle{display:block}
-    .navlinks.open{display:flex;position:absolute;top:66px;left:0;right:0;flex-direction:column;background:#fff;padding:18px 22px;gap:16px;border-bottom:1px solid var(--linha);box-shadow:var(--sombra)}
-    .hero-inner{grid-template-columns:1fr;gap:42px;padding:54px 0 64px}
-    .hero h1{font-size:2.3rem}
-    .grid4,.flow,.grid3,.foot-top{grid-template-columns:1fr}
-    .cta{padding:40px 24px}
-    .cta h2{font-size:1.7rem}
-    .card3{transform:none}
-  }
-</style>
+<!-- FAQ em dados estruturados: o texto e' o MESMO da secao #faq (manter os dois iguais) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O que a Backup Conciliação faz?",
+      "acceptedAnswer": { "@type": "Answer", "text": "É uma conciliadora especializada em redes de postos de combustíveis. Robôs baixam os relatórios dos portais das operadoras de cartão, frota, vale e PIX, cruzam com o ERP do posto e com a conciliadora, e apontam onde sobra, falta ou foi cancelado. Também faz a conciliação bancária, confrontando o que as operadoras prometeram pagar com o que caiu no extrato." }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é conciliação 3-way (tripla)?",
+      "acceptedAnswer": { "@type": "Answer", "text": "É a conferência de cada venda em três fontes ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a adquirente diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto." }
+    },
+    {
+      "@type": "Question",
+      "name": "Vocês fazem conciliação bancária?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim. Os recebimentos previstos pelas operadoras são confrontados com os créditos do extrato bancário, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por posto (CNPJ) e por adquirente." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais operadoras e bandeiras são cobertas?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Mais de 30 operadoras integradas, entre elas Getnet, Cielo, Rede, Alelo, Pluxee, VR, TicketLog, Edenred, ValeCard, Shellbox, ProFrotas, SemParar, Truckpag, CTF, FitCard e PagSeguro — cartão, frota, vale e PIX no mesmo fluxo. Novos portais são adicionados conforme a necessidade da rede." }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso baixar relatórios ou digitar alguma coisa?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Não. Os robôs (RPA) acessam os portais das operadoras, inclusive os que pedem código de verificação (2FA/OTP), baixam os relatórios e importam automaticamente para a base, em rotina diária ou semanal." }
+    },
+    {
+      "@type": "Question",
+      "name": "Como funciona a contratação e o período de garantia?",
+      "acceptedAnswer": { "@type": "Answer", "text": "É uma licença online mensal com garantia de 30 dias: a rede usa o serviço por 30 dias e só então começa a pagar. O escopo é ajustado por rede — quantidade de empresas, portais e bandeiras envolvidas." }
+    },
+    {
+      "@type": "Question",
+      "name": "Atendem redes de qualquer estado?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim. O atendimento é 100% remoto e cobre redes de postos de todo o Brasil." }
+    },
+    {
+      "@type": "Question",
+      "name": "E a proteção dos dados da minha rede?",
+      "acceptedAnswer": { "@type": "Answer", "text": "O tratamento das informações segue a Lei Geral de Proteção de Dados (LGPD)." }
+    }
+  ]
+}
+</script>
 
 <!-- Metricool tracking -->
 <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"495b648fc48a73d94cfd1a8396a95478"})});</script>
@@ -224,6 +191,7 @@
       <a href="#como">Como funciona</a>
       <a href="#operadoras">Operadoras</a>
       <a href="#garantias">Garantias</a>
+      <a href="#faq">FAQ</a>
       <a href="#contato" class="btn btn-primary">Solicitar proposta</a>
     </nav>
     <button class="menu-toggle" id="toggle" aria-label="Menu">☰</button>
@@ -267,8 +235,8 @@
   <div class="wrap">
     <div class="sec-head">
       <span class="kicker">O que entra no serviço</span>
-      <h2>Quatro módulos que trabalham por você</h2>
-      <p>Da extração automática dos portais até o painel onde a rede acompanha tudo — sem digitação manual.</p>
+      <h2>Cinco módulos que trabalham por você</h2>
+      <p>Da extração automática dos portais à conciliação 3-way (tripla) ERP × Operadora × Conciliadora e à conciliação bancária — sem digitação manual.</p>
     </div>
     <div class="grid4">
 
@@ -285,13 +253,14 @@
 
       <div class="modcard">
         <div class="ico">⚖️</div>
-        <h3>Conferente de Caixa</h3>
-        <p>Fechamento diário/semanal que cruza 3 fontes — ERP (vendas oficiais), Operadora (o que a adquirente vai pagar) e Conciliadora — e aponta, por empresa, onde sobra, falta ou foi cancelado.</p>
+        <h3>Conferente de Caixa — conciliação 3-way</h3>
+        <p>Fechamento diário/semanal em conciliação 3-way (tripla): cruza ERP (vendas oficiais) × Operadora (o que a adquirente vai pagar) × Conciliadora e aponta, por empresa, onde sobra, falta ou foi cancelado.</p>
         <ul>
           <li>Comparativo 3-way por posto</li>
           <li>Excel anexo (1 aba por empresa)</li>
           <li>Resumo objetivo das divergências</li>
         </ul>
+        <a class="saiba" href="/conciliacao-3-way-postos/">Saiba mais sobre a conciliação 3-way &rarr;</a>
       </div>
 
       <div class="modcard">
@@ -316,6 +285,18 @@
         </ul>
       </div>
 
+      <div class="modcard wide">
+        <div class="ico">🏦</div>
+        <h3>Conciliação bancária</h3>
+        <p>Confronta os recebimentos previstos pelas operadoras com os créditos que de fato caíram no extrato bancário — e mostra o que não foi pago, o que veio com taxa acima do contratado e o que foi antecipado.</p>
+        <ul>
+          <li>Valores previstos e não pagos</li>
+          <li>Taxas acima do contratado</li>
+          <li>Antecipações e PIX, por posto (CNPJ) e por adquirente</li>
+        </ul>
+        <a class="saiba" href="/conciliacao-bancaria-postos/">Saiba mais sobre a conciliação bancária &rarr;</a>
+      </div>
+
     </div>
   </div>
 </section>
@@ -324,9 +305,9 @@
 <section id="como" class="alt">
   <div class="wrap">
     <div class="sec-head">
-      <span class="kicker">Conciliação 3-way</span>
+      <span class="kicker">Conciliação 3-way (tripla)</span>
       <h2>Toda transação, comparada em três instâncias</h2>
-      <p>Cada venda de cartão é cruzada nas três pontas. Se uma delas diverge, o sistema mostra exatamente onde — e quanto.</p>
+      <p>Cada venda de cartão é cruzada nas três pontas — ERP × Operadora × Conciliadora — e depois conferida contra o extrato na conciliação bancária. Se uma delas diverge, o sistema mostra exatamente onde — e quanto.</p>
     </div>
     <div class="flow">
       <div class="flowstep">
@@ -342,9 +323,10 @@
       <div class="flowstep">
         <div class="n">3</div>
         <h4>Conciliadora &amp; Banco</h4>
-        <p>O que efetivamente caiu na conta — fechando o ciclo do crédito até o extrato bancário.</p>
+        <p>O que efetivamente caiu na conta — a conciliação bancária fecha o ciclo do crédito até o extrato.</p>
       </div>
     </div>
+    <p class="flow-nota">Entenda em detalhe: <a href="/conciliacao-3-way-postos/">conciliação 3-way para postos</a> · <a href="/conciliacao-bancaria-postos/">conciliação bancária para redes de postos</a></p>
   </div>
 </section>
 
@@ -393,6 +375,50 @@
   </div>
 </section>
 
+<!-- ========== FAQ (texto igual ao JSON-LD FAQPage do <head>) ========== -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Perguntas frequentes</span>
+      <h2>Dúvidas sobre a conciliação da sua rede</h2>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>O que a Backup Conciliação faz?</summary>
+        <p>É uma conciliadora especializada em redes de postos de combustíveis. Robôs baixam os relatórios dos portais das operadoras de cartão, frota, vale e PIX, cruzam com o ERP do posto e com a conciliadora, e apontam onde sobra, falta ou foi cancelado. Também faz a conciliação bancária, confrontando o que as operadoras prometeram pagar com o que caiu no extrato.</p>
+      </details>
+      <details>
+        <summary>O que é conciliação 3-way (tripla)?</summary>
+        <p>É a conferência de cada venda em três fontes ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a adquirente diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto. <a href="/conciliacao-3-way-postos/" style="color:var(--azul2);font-weight:700">Saiba mais</a>.</p>
+      </details>
+      <details>
+        <summary>Vocês fazem conciliação bancária?</summary>
+        <p>Sim. Os recebimentos previstos pelas operadoras são confrontados com os créditos do extrato bancário, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por posto (CNPJ) e por adquirente. <a href="/conciliacao-bancaria-postos/" style="color:var(--azul2);font-weight:700">Saiba mais</a>.</p>
+      </details>
+      <details>
+        <summary>Quais operadoras e bandeiras são cobertas?</summary>
+        <p>Mais de 30 operadoras integradas, entre elas Getnet, Cielo, Rede, Alelo, Pluxee, VR, TicketLog, Edenred, ValeCard, Shellbox, ProFrotas, SemParar, Truckpag, CTF, FitCard e PagSeguro — cartão, frota, vale e PIX no mesmo fluxo. Novos portais são adicionados conforme a necessidade da rede.</p>
+      </details>
+      <details>
+        <summary>Preciso baixar relatórios ou digitar alguma coisa?</summary>
+        <p>Não. Os robôs (RPA) acessam os portais das operadoras, inclusive os que pedem código de verificação (2FA/OTP), baixam os relatórios e importam automaticamente para a base, em rotina diária ou semanal.</p>
+      </details>
+      <details>
+        <summary>Como funciona a contratação e o período de garantia?</summary>
+        <p>É uma licença online mensal com garantia de 30 dias: a rede usa o serviço por 30 dias e só então começa a pagar. O escopo é ajustado por rede — quantidade de empresas, portais e bandeiras envolvidas.</p>
+      </details>
+      <details>
+        <summary>Atendem redes de qualquer estado?</summary>
+        <p>Sim. O atendimento é 100% remoto e cobre redes de postos de todo o Brasil.</p>
+      </details>
+      <details>
+        <summary>E a proteção dos dados da minha rede?</summary>
+        <p>O tratamento das informações segue a Lei Geral de Proteção de Dados (LGPD).</p>
+      </details>
+    </div>
+  </div>
+</section>
+
 <!-- ========== CTA / CONTATO ========== -->
 <section id="contato">
   <div class="wrap">
@@ -400,8 +426,8 @@
       <h2>Vamos automatizar a conferência da sua rede?</h2>
       <p>Conte quantos postos e quais operadoras você usa. Montamos uma proposta com o escopo certo para o seu caso.</p>
       <div class="hero-cta">
-        <a href="#" data-wa class="btn btn-primary">💬 Falar no WhatsApp</a>
-        <a href="mailto:contato@backupconciliacao.com.br?subject=Quero%20uma%20proposta%20de%20concilia%C3%A7%C3%A3o%20de%20cart%C3%B5es&body=Ol%C3%A1%2C%20gostaria%20de%20uma%20proposta.%0A%0ARede%2Fempresa%3A%0AQtde.%20de%20postos%3A%0AOperadoras%20usadas%3A%0AERP%3A%0A" class="btn btn-ghost">✉️ Enviar e-mail</a>
+        <a href="#" data-wa data-origem="cta_home" class="btn btn-primary">💬 Falar no WhatsApp</a>
+        <a href="mailto:contato@backupconciliacao.com.br?subject=Quero%20uma%20proposta%20de%20concilia%C3%A7%C3%A3o%20de%20cart%C3%B5es&body=Ol%C3%A1%2C%20gostaria%20de%20uma%20proposta.%0A%0ARede%2Fempresa%3A%0AQtde.%20de%20postos%3A%0AOperadoras%20usadas%3A%0AERP%3A%0A" data-origem="cta_home" class="btn btn-ghost">✉️ Enviar e-mail</a>
       </div>
     </div>
   </div>
@@ -413,7 +439,7 @@
     <div class="foot-top">
       <div>
         <div class="foot-brand"><span class="logo">⛽</span> Backup Conciliação</div>
-        <p style="max-width:340px">Conferência de cartões e conciliação bancária para redes de postos de combustíveis — automatizada do portal ao centavo.</p>
+        <p style="max-width:340px">Conferência de cartões e conciliação bancária para redes de postos de combustíveis — automatizada do portal ao centavo. Atendimento 100% remoto em todo o Brasil.</p>
       </div>
       <div>
         <h5>Navegação</h5>
@@ -422,13 +448,21 @@
           <li><a href="#como">Como funciona</a></li>
           <li><a href="#operadoras">Operadoras</a></li>
           <li><a href="#garantias">Garantias</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Serviços</h5>
+        <ul>
+          <li><a href="/conciliacao-3-way-postos/">Conciliação 3-way para postos</a></li>
+          <li><a href="/conciliacao-bancaria-postos/">Conciliação bancária para postos</a></li>
         </ul>
       </div>
       <div>
         <h5>Contato</h5>
         <ul>
-          <li><a href="#" data-wa>WhatsApp</a></li>
-          <li><a href="mailto:contato@backupconciliacao.com.br">contato@backupconciliacao.com.br</a></li>
+          <li><a href="#" data-wa data-origem="rodape">WhatsApp</a></li>
+          <li><a href="mailto:contato@backupconciliacao.com.br" data-origem="rodape">contato@backupconciliacao.com.br</a></li>
         </ul>
       </div>
     </div>
@@ -444,21 +478,6 @@
   <svg viewBox="0 0 32 32"><path d="M16 .4C7.4.4.5 7.3.5 15.9c0 2.8.7 5.4 2 7.8L.4 31.6l8.1-2.1c2.3 1.3 4.9 2 7.5 2 8.6 0 15.5-7 15.5-15.6C31.5 7.3 24.6.4 16 .4zm0 28.4c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.7-.3-.5a12.8 12.8 0 01-2-6.9C3.1 8.8 8.9 3.1 16 3.1c3.4 0 6.7 1.3 9.1 3.8a12.8 12.8 0 013.8 9.1c0 7.1-5.8 12.8-12.9 12.8zm7.1-9.6c-.4-.2-2.3-1.1-2.6-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3.1-1.9-1.2-1-1.9-2.3-2.2-2.7-.2-.4 0-.6.2-.8l.6-.7c.2-.2.3-.4.4-.6.1-.2 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.6.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
 </a>
 
-<script>
-  // ----- Número do WhatsApp (TROCAR aqui) -----
-  // Formato internacional, só dígitos: 55 + DDD + número. Ex.: 5511999998888
-  var WHATSAPP = "5511918729780";
-  var WA_MSG = "Olá! Vim pelo site e gostaria de uma proposta de conciliação de cartões para a minha rede de postos.";
-  var waLink = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(WA_MSG);
-  document.querySelectorAll("[data-wa]").forEach(function(a){ a.href = waLink; a.target = "_blank"; a.rel = "noopener"; });
-
-  // Ano no rodapé
-  document.getElementById("ano").textContent = new Date().getFullYear();
-
-  // Menu mobile
-  var t = document.getElementById("toggle"), n = document.getElementById("nav");
-  t.addEventListener("click", function(){ n.classList.toggle("open"); });
-  n.querySelectorAll("a").forEach(function(a){ a.addEventListener("click", function(){ n.classList.remove("open"); }); });
-</script>
+<script src="/site.js"></script>
 </body>
 </html>

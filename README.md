@@ -6,14 +6,23 @@ Publicado em **https://backupconciliacao.com.br** via GitHub Pages.
 
 ## Conteúdo
 
-- `index.html` — página única (HTML + CSS + JS embutidos, sem dependências/build)
+- `index.html` — home (sem dependências/build)
+- `conciliacao-3-way-postos/` e `conciliacao-bancaria-postos/` — páginas de serviço (SEO)
+- `estilo.css` / `site.js` — estilo e script **compartilhados** por todas as páginas
+  (número do WhatsApp, menu mobile, eventos GA4 `click_whatsapp` / `click_email`)
+- `llms.txt` — resumo do site para buscadores de IA
+- `robots.txt` / `sitemap.xml` — indexação (robôs de IA liberados explicitamente)
+- `9678734e48b55fdac521f9ea5d77ca23.txt` — chave IndexNow (Bing/Copilot); não apagar
 - `CNAME` — domínio customizado do GitHub Pages
+
+FAQ: o texto visível de cada `#faq` é **igual** ao JSON-LD `FAQPage` da mesma
+página — ao editar um, edite o outro (o Google exige que batam).
 - Todos os dados exibidos são **ilustrativos e fictícios** (LGPD) — nenhuma informação real de cliente.
 
 ## Como editar
 
 1. Abra `index.html` em qualquer editor.
-2. **Número do WhatsApp**: edite a constante `WHATSAPP` no `<script>` no fim do arquivo (formato `55DDDNUMERO`).
+2. **Número do WhatsApp**: edite a constante `WHATSAPP` em `site.js` (formato `55DDDNUMERO`).
 3. Commit + push para `main` → o GitHub Pages republica em ~1 min.
 
 ## Deploy
