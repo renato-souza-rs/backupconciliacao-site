@@ -225,6 +225,10 @@ footer a:hover{color:#fff}
 .navlinks .mm-alt{font-size:.84rem;color:var(--azul2);font-weight:700;border-top:1px solid var(--linha);padding-top:10px}
 
 /* carrossel do hero */
+/* o padding do .hero-inner zerava a margem lateral do .wrap: no celular o texto
+   do hero encostava na borda (defeito anterior ao Monitor) */
+.wrap.hero-inner{padding-left:22px;padding-right:22px}
+.hero-inner>*,.mm-hero-vis,.mm-slides,.mm-slide{min-width:0}
 .mm-hero-vis{position:relative}
 .mm-slides{position:relative;display:grid}
 .mm-slide{grid-area:1/1;transition:opacity .6s ease,transform .6s ease}

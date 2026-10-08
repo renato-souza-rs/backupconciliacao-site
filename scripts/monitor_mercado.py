@@ -87,7 +87,7 @@ BLOQUEIO = re.compile(
     r"impeachment|cpi|preso|prisao|policia|crime|morte|morre|acidente|oktoberfest|chope|leilao da receita|"
     r"horoscopo|futebol|novela|bbb|emprego|vagas|opiniao|coluna|editorial|artigo|presidencia|destaques|"
     # resumo de bolsa/juros que só cita o petróleo de passagem
-    r"ibovespa|prefixad|tesouro direto|wall street|nasdaq|dow jones|bolsas?|juros|"
+    r"ibovespa|prefixad|tesouro direto|wall street|nasdaq|dow jones|bolsas?|juros|no mercado|"
     # candidatos de 2026 citados só pelo primeiro nome
     r"flavio|tarcisio|caiado|ratinho|zema|boulos|ciro gomes)",
 )
