@@ -60,8 +60,10 @@
       atual = k;
       for (var i = 0; i < n; i++) { S[i].setAttribute("aria-hidden", i === k ? "false" : "true"); dots.children[i].setAttribute("aria-current", i === k ? "true" : "false"); }
     }
-    Array.prototype.forEach.call(dots.children, function (b, i) { b.addEventListener("click", function () { mostra(i); }); });
-    function liga() { if (!reduz && !timer) timer = setInterval(function () { mostra((atual + 1) % n); }, 4500); }
+    var manual = false;
+    Array.prototype.forEach.call(dots.children, function (b, i) { b.addEventListener("click", function () { manual = true; desliga(); mostra(i); }); });
+    // troca a cada 30 s (pedido do owner); com "reduzir movimento" só esmaece
+    function liga() { if (!manual && !timer) timer = setInterval(function () { mostra((atual + 1) % n); }, 30000); }
     function desliga() { clearInterval(timer); timer = null; }
     box.addEventListener("mouseenter", desliga); box.addEventListener("mouseleave", liga);
     liga();
@@ -95,6 +97,15 @@
     document.body.insertBefore(f, document.body.firstChild);
     var b = f.querySelector(".mm-pausa");
     b.addEventListener("click", function () { var p = f.classList.toggle("parado"); b.setAttribute("aria-pressed", p); b.textContent = p ? "Retomar" : "Pausar"; });
+    if (reduz) { // sem rolagem: uma manchete por vez, esmaecendo a cada 6 s
+      f.classList.add("uma");
+      var links = f.querySelectorAll(".mm-track a"), k = 0, total = itens.length;
+      links[0].classList.add("on");
+      setInterval(function () {
+        if (f.classList.contains("parado") || f.matches(":hover")) return;
+        links[k].classList.remove("on"); k = (k + 1) % total; links[k].classList.add("on");
+      }, 6000);
+    }
   }
 
   // ---------------------------------------------------------- petróleo hoje
