@@ -108,25 +108,6 @@
     }
   }
 
-  // ---------------------------------------------------------- petróleo hoje
-  function petroleo(m) {
-    var box = document.getElementById("petroleo-hoje");
-    if (!box || !(m.wti || m.brent)) return;
-    var cols = "", selo = [];
-    [["wti", "WTI"], ["brent", "Brent"]].forEach(function (p) {
-      var x = m[p[0]]; if (!x) return;
-      cols += '<div class="mm-ph-col"><small>' + p[1] + '</small><b class="mono">US$ ' + num(x.ultimo, 2) + "</b>"
-        + '<p><span class="' + (x.var_abs >= 0 ? "mm-up" : "mm-dn") + '">' + sinal(x.var_abs, 2, "US$ ") + " (" + pct(x.var_pct) + ")</span> de ontem para hoje</p>"
-        + "<p>Na semana, " + sinal(x.semana_abs, 2, "US$ ") + "</p>"
-        + (x.min_dia != null ? "<p>No dia, entre " + num(x.min_dia, 2) + " e " + num(x.max_dia, 2) + "</p>" : "") + "</div>";
-      if (Math.abs(x.var_pct) >= 3) selo.push([p[1], (x.var_pct >= 0 ? "▲ " : "▼ ") + "Variação acima de 3% no dia"]);
-      else if (Math.abs(x.semana_pct) >= 5) selo.push([p[1], (x.semana_pct >= 0 ? "▲ " : "▼ ") + "Variação acima de 5% na semana"]);
-    });
-    var s = selo.length ? '<div class="mm-ph-selo"><span>' + selo[0][1] + "</span><p>" + selo.map(function (x) { return x[0]; }).join(" e ") + "</p></div>" : "";
-    box.innerHTML = '<div class="wrap mm-ph"><div class="mm-ph-lbl"><b>Petróleo hoje</b><span>Atualizado às ' + esc(quando(m.atualizado)) + "</span></div>" + cols + s + "</div>";
-    box.hidden = false;
-  }
-
   // ---------------------------------------------------------- seção Monitor
   function monitor(radar, m, pub) {
     var sec = document.getElementById("monitor");
@@ -160,14 +141,24 @@
     render("todos");
     var cot = sec.querySelector(".mm-cot");
     if (m && fresco(m.atualizado)) {
-      var t = [];
-      if (m.wti) t.push(["WTI", "US$ " + num(m.wti.ultimo, 2), m.wti.var_abs, m.wti.var_pct, 2, "US$ ", "Na semana, " + sinal(m.wti.semana_abs, 2, "US$ ")]);
-      if (m.brent) t.push(["Brent", "US$ " + num(m.brent.ultimo, 2), m.brent.var_abs, m.brent.var_pct, 2, "US$ ", "Na semana, " + sinal(m.brent.semana_abs, 2, "US$ ")]);
-      if (m.usd) t.push(["Dólar (BC)", "R$ " + num(m.usd.ultimo, 4), m.usd.var_abs, m.usd.var_pct, 4, "R$ ", "Cotação oficial do Banco Central"]);
-      if (m.brent_brl) t.push(["Brent em R$", "R$ " + num(m.brent_brl.ultimo, 2), m.brent_brl.var_abs, m.brent_brl.var_pct, 2, "R$ ", "Brent × dólar do BC, por barril"]);
-      cot.innerHTML = t.map(function (x) {
-        return "<div><small>" + x[0] + '</small><b class="mono">' + x[1] + '</b><span class="mono ' + (x[2] >= 0 ? "mm-up" : "mm-dn") + '">' + sinal(x[2], x[4], x[5]) + " (" + pct(x[3]) + ")</span><p>" + x[6] + "</p></div>";
-      }).join("");
+      // WTI primeiro (decisão do owner). Só fatos: variação, semana, mínima/máxima.
+      var t = [], selo = [];
+      [["wti", "WTI"], ["brent", "Brent"]].forEach(function (p) {
+        var x = m[p[0]]; if (!x) return;
+        var linhas = ["Na semana, " + sinal(x.semana_abs, 2, "US$ ")];
+        if (x.min_dia != null) linhas.push("No dia, entre " + num(x.min_dia, 2) + " e " + num(x.max_dia, 2));
+        t.push([p[1], "US$ " + num(x.ultimo, 2), x.var_abs, x.var_pct, 2, "US$ ", linhas]);
+        if (Math.abs(x.var_pct) >= 3) selo.push([p[1], (x.var_pct >= 0 ? "▲ " : "▼ ") + "Variação acima de 3% no dia"]);
+        else if (Math.abs(x.semana_pct) >= 5) selo.push([p[1], (x.semana_pct >= 0 ? "▲ " : "▼ ") + "Variação acima de 5% na semana"]);
+      });
+      if (m.usd) t.push(["Dólar (BC)", "R$ " + num(m.usd.ultimo, 4), m.usd.var_abs, m.usd.var_pct, 4, "R$ ", ["Cotação oficial do Banco Central"]]);
+      if (m.brent_brl) t.push(["Brent em R$", "R$ " + num(m.brent_brl.ultimo, 2), m.brent_brl.var_abs, m.brent_brl.var_pct, 2, "R$ ", ["Brent × dólar do BC, por barril"]]);
+      var cab = '<div class="mm-cot-cab"><b>Cotações</b><span>Atualizado às ' + esc(quando(m.atualizado)) + "</span>"
+        + (selo.length ? '<em class="mm-selo">' + selo[0][1] + " · " + selo.map(function (x) { return x[0]; }).join(" e ") + "</em>" : "") + "</div>";
+      cot.innerHTML = cab + '<div class="mm-cot-grid">' + t.map(function (x) {
+        return "<div><small>" + x[0] + '</small><b class="mono">' + x[1] + '</b><span class="mono ' + (x[2] >= 0 ? "mm-up" : "mm-dn") + '">' + sinal(x[2], x[4], x[5]) + " (" + pct(x[3]) + ")</span><i>de ontem para hoje</i>"
+          + x[6].map(function (l) { return "<p>" + l + "</p>"; }).join("") + "</div>";
+      }).join("") + "</div>";
     } else { cot.remove(); }
     sec.hidden = false;
   }
@@ -189,7 +180,6 @@
   Promise.all([carregar("radar.json"), carregar("mercado.json"), carregar("publicacao.json")]).then(function (r) {
     var radar = r[0], m = r[1], pub = r[2];
     menuRadar(pub);
-    if (m && fresco(m.atualizado)) petroleo(m);
     if (radar && radar.itens && radar.itens.length && fresco(radar.atualizado)) {
       faixa(radar);
       monitor(radar, m, pub);
