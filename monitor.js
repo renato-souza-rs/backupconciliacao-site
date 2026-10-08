@@ -8,6 +8,8 @@
   var reduz = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  // só http(s): um link "javascript:" vindo do feed nunca vira href
+  function url(u) { return /^https?:\/\//i.test(String(u || "")) ? esc(u) : "#"; }
   function num(v, casas) { return Number(v).toLocaleString("pt-BR", { minimumFractionDigits: casas, maximumFractionDigits: casas }); }
   function sinal(v, casas, pre) { return (v >= 0 ? "+" : "−") + (pre || "") + num(Math.abs(v), casas); }
   function pct(v) { return (v >= 0 ? "+" : "−") + num(Math.abs(v), 2) + "%"; }
@@ -84,7 +86,7 @@
   function faixa(radar) {
     var itens = radar.itens.slice(0, 9);
     var t = itens.map(function (n) {
-      return '<a href="' + esc(n.link) + '" target="_blank" rel="nofollow noopener"><b class="mono">' + esc(quando(n.publicado)) + "</b>" + esc(n.titulo) + "<i>" + esc(n.fonte) + "</i></a>";
+      return '<a href="' + url(n.link) + '" target="_blank" rel="nofollow noopener"><b class="mono">' + esc(quando(n.publicado)) + "</b>" + esc(n.titulo) + "<i>" + esc(n.fonte) + "</i></a>";
     }).join("");
     var f = document.createElement("div");
     f.className = "mm-faixa"; f.setAttribute("aria-label", "Últimas do mercado");
@@ -123,14 +125,14 @@
     function render(f) {
       var h = "";
       if (pub && pub.titulo) {
-        h += '<a class="mm-item mm-semana" href="' + esc(pub.linkedin || "#monitor") + '"' + (pub.linkedin ? ' target="_blank" rel="noopener"' : "") + '>'
+        h += '<a class="mm-item mm-semana" href="' + (pub.linkedin ? url(pub.linkedin) : "#monitor") + '"' + (pub.linkedin ? ' target="_blank" rel="noopener"' : "") + '>'
           + '<div class="mm-hr">' + esc(pub.data_curta || "") + "<i>Nossa publicação</i></div><div><h4>" + esc(pub.titulo) + "</h4>"
           + '<span class="mm-ft">Publicação da semana da <b>Backup Conciliação</b> · LinkedIn e Instagram</span></div></a>';
       }
       radar.itens.forEach(function (n) {
         if (f !== "todos" && n.tema !== f) return;
         var t = TEMA[n.tema] || ["", ""];
-        h += '<a class="mm-item" href="' + esc(n.link) + '" target="_blank" rel="nofollow noopener">'
+        h += '<a class="mm-item" href="' + url(n.link) + '" target="_blank" rel="nofollow noopener">'
           + '<div class="mm-hr mono">' + esc(quando(n.publicado)) + '<i class="' + t[1] + '">' + t[0] + "</i></div>"
           + "<div><h4>" + esc(n.titulo) + "</h4>"
           + (n.repercute ? '<span class="mm-rep">Repercute em ' + n.repercute + " veículos</span>" : "")
@@ -165,8 +167,8 @@
     if (!drop || !pub || !pub.titulo) return;
     drop.innerHTML = '<div class="mm-post"><span class="mm-k">Publicação da semana' + (pub.data_longa ? " · " + esc(pub.data_longa) : "") + "</span>"
       + "<h5>" + esc(pub.titulo) + "</h5>" + (pub.resumo ? "<p>" + esc(pub.resumo) + "</p>" : "")
-      + '<div class="mm-net">' + (pub.linkedin ? '<a href="' + esc(pub.linkedin) + '" target="_blank" rel="noopener">LinkedIn ↗</a>' : "")
-      + (pub.instagram ? '<a href="' + esc(pub.instagram) + '" target="_blank" rel="noopener">Instagram ↗</a>' : "") + "</div></div>"
+      + '<div class="mm-net">' + (pub.linkedin ? '<a href="' + url(pub.linkedin) + '" target="_blank" rel="noopener">LinkedIn ↗</a>' : "")
+      + (pub.instagram ? '<a href="' + url(pub.instagram) + '" target="_blank" rel="noopener">Instagram ↗</a>' : "") + "</div></div>"
       + '<a class="mm-alt" href="/#monitor">Abrir o Monitor de mercado</a>';
     drop.parentNode.classList.add("tem-drop");
   }
