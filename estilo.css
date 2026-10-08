@@ -161,6 +161,8 @@ footer{background:#0a2334;color:#a9c0d4;padding:54px 0 30px;font-size:.9rem}
 .foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;padding-bottom:34px;border-bottom:1px solid rgba(255,255,255,.1)}
 .foot-brand{display:flex;align-items:center;gap:10px;font-weight:800;color:#fff;font-size:1.05rem;margin-bottom:12px}
 .foot-brand .logo{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--azul2),var(--ouro));display:grid;place-items:center}
+/* logo B (logo.png): a imagem já traz o fundo; sem o degradê do antigo ⛽ */
+img.logo{display:block;object-fit:cover;background:none}
 footer h5{color:#fff;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:13px}
 footer ul{list-style:none;display:flex;flex-direction:column;gap:9px}
 footer a:hover{color:#fff}
