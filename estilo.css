@@ -311,8 +311,14 @@ section.mm-monitor{padding-top:30px}
   .mm-cot{grid-template-columns:1fr 1fr}
   .mm-lbl{display:none}
 }
+/* "reduzir movimento" (comum com as animações do Windows desligadas): nada
+   desliza; a faixa mostra uma manchete por vez e o carrossel só esmaece */
 @media(prefers-reduced-motion:reduce){
   .mm-track{animation:none}
-  .mm-pausa{display:none}
-  .mm-slide{transition:none}
+  .mm-slide{transition:opacity .5s ease}
+  .mm-slide[aria-hidden="true"]{transform:none}
 }
+.mm-faixa.uma .mm-track{width:auto}
+.mm-faixa.uma .mm-track a{display:none}
+.mm-faixa.uma .mm-track a.on{display:inline-flex;animation:mm-fade .5s ease}
+@keyframes mm-fade{from{opacity:0}to{opacity:1}}
