@@ -191,6 +191,7 @@
       <a href="#modulos">Módulos</a>
       <a href="#como">Como funciona</a>
       <a href="#operadoras">Operadoras</a>
+      <div class="menu-radar"><a href="#monitor" class="radar-link">Radar</a><div class="mm-radar-drop" id="mm-radar-drop"></div></div>
       <a href="#garantias">Garantias</a>
       <a href="#faq">FAQ</a>
       <a href="#contato" class="btn btn-primary">Solicitar proposta</a>
@@ -217,19 +218,30 @@
       </div>
     </div>
 
-    <!-- Card mockup 3-way (dados fictícios) -->
-    <div class="card3" aria-hidden="true">
-      <div class="c-head">
-        <b>Fechamento do dia — Posto Modelo</b>
-        <span class="pill ok">Conciliado</span>
+    <!-- Carrossel: fechamento das 2 últimas datas (valores ilustrativos) e
+         telas reais do sistema com dados de demonstração. O monitor.js monta
+         os slides; o cartão abaixo é o que aparece sem JavaScript. -->
+    <div class="mm-hero-vis">
+      <div class="mm-slides" id="mm-slides">
+        <div class="card3" aria-hidden="true">
+          <div class="c-head">
+            <b>Fechamento do dia — Posto Modelo</b>
+            <span class="pill ok">Conciliado</span>
+          </div>
+          <div class="row3"><div class="src"><span class="dot erp"></span>ERP (caixa)</div><div class="val mono">R$ 184.230,50</div></div>
+          <div class="row3"><div class="src"><span class="dot op"></span>Operadora</div><div class="val mono">R$ 184.230,50</div></div>
+          <div class="row3"><div class="src"><span class="dot conc"></span>Conciliadora</div><div class="val mono">R$ 184.230,50</div></div>
+          <div class="delta"><small>Divergência</small><b class="mono">R$ 0,00 ✓</b></div>
+        </div>
       </div>
-      <div class="row3"><div class="src"><span class="dot erp"></span>ERP (caixa)</div><div class="val mono">R$ 184.230,50</div></div>
-      <div class="row3"><div class="src"><span class="dot op"></span>Operadora</div><div class="val mono">R$ 184.230,50</div></div>
-      <div class="row3"><div class="src"><span class="dot conc"></span>Conciliadora</div><div class="val mono">R$ 184.230,50</div></div>
-      <div class="delta"><small>Divergência</small><b class="mono">R$ 0,00 ✓</b></div>
+      <div class="mm-sdots" id="mm-sdots"></div>
+      <p class="mm-ilus">Valores ilustrativos. Telas do sistema com dados de demonstração.</p>
     </div>
   </div>
 </main>
+
+<!-- ========== PETRÓLEO HOJE (preenchido pelo monitor.js) ========== -->
+<section id="petroleo-hoje" class="mm-petroleo" aria-label="Petróleo hoje" hidden></section>
 
 <!-- ========== MÓDULOS ========== -->
 <section id="modulos">
@@ -345,6 +357,33 @@
       <span>ProFrotas</span><span>Abastece Aí</span><span>SemParar</span><span>Truckpag</span><span>BoaVista</span>
       <span>CTF</span><span>FitCard</span><span>Wizeo</span><span>Ticket Serviços</span><span>PagSeguro</span>
       <span class="more">+ muitas outras</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== MONITOR DE MERCADO (preenchido pelo monitor.js) ==========
+     Manchetes e cotações geradas pelo GitHub Actions (scripts/monitor_mercado.py).
+     Sem dado das últimas 24 h, a seção fica oculta. -->
+<section id="monitor" class="mm-monitor" aria-label="Monitor de mercado" hidden>
+  <div class="wrap">
+    <div class="mm-box">
+      <div class="mm-head">
+        <div>
+          <span class="mm-kick">Monitor de mercado</span>
+          <h2>Petróleo, meios de pagamento e tributos, num só lugar</h2>
+          <p>As notícias do dia que afetam o caixa de uma rede de postos.</p>
+        </div>
+        <div class="mm-upd">Última atualização<b></b></div>
+      </div>
+      <div class="mm-abas" role="group" aria-label="Filtrar por tema">
+        <button type="button" aria-pressed="true" data-f="todos">Tudo</button>
+        <button type="button" aria-pressed="false" data-f="comb">Petróleo e combustíveis</button>
+        <button type="button" aria-pressed="false" data-f="pag">Meios de pagamento</button>
+        <button type="button" aria-pressed="false" data-f="trib">Tributos</button>
+      </div>
+      <div class="mm-lista"></div>
+      <div class="mm-cot"></div>
+      <p class="mm-nota">Manchetes de veículos de imprensa, reproduzidas com link para o texto original. O conteúdo de cada notícia é responsabilidade do veículo que a publicou. Cotações com atraso, apenas para informação; não são recomendação de compra.</p>
     </div>
   </div>
 </section>
@@ -468,7 +507,7 @@
       </div>
     </div>
     <p class="disclaimer">
-      <strong>Aviso:</strong> os portais das operadoras mudam com frequência (layout, estruturas e metodologias) e acompanhamos essas mudanças continuamente para manter a automação funcionando na maior cobertura possível. Os dados exibidos nesta página são ilustrativos e fictícios, sem qualquer informação real de clientes.
+      <strong>Aviso:</strong> os portais das operadoras mudam com frequência (layout, estruturas e metodologias) e acompanhamos essas mudanças continuamente para manter a automação funcionando na maior cobertura possível. Os dados de clientes exibidos nesta página são ilustrativos e fictícios, e as telas do sistema usam dados de demonstração, sem qualquer informação real de clientes. O Monitor de mercado reproduz manchetes de veículos de imprensa, com link para o original.
     </p>
     <div class="copy">© <span id="ano">2026</span> Backup Conciliação · Todos os direitos reservados</div>
   </div>
@@ -480,5 +519,6 @@
 </a>
 
 <script src="/site.js"></script>
+<script src="/monitor.js" defer></script>
 </body>
 </html>
