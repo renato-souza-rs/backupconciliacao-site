@@ -328,3 +328,9 @@ section.mm-monitor{padding-top:30px}
 .mm-faixa.uma .mm-track a{display:none}
 .mm-faixa.uma .mm-track a.on{display:inline-flex;animation:mm-fade .5s ease}
 @keyframes mm-fade{from{opacity:0}to{opacity:1}}
+
+/* Cobertura: porta de entrada para o varejo multiloja */
+.varejo{max-width:760px;margin:30px auto 0;text-align:center;background:var(--fundo);border:1px solid var(--linha);border-radius:14px;padding:16px 20px;color:var(--cinza);font-size:.98rem}
+.varejo b{color:var(--azul)}
+.varejo a{color:var(--azul2);font-weight:700;white-space:nowrap}
+.varejo a:hover{color:var(--ouro-txt)}

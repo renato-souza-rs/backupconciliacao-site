@@ -3,7 +3,7 @@
 // ----- Número do WhatsApp (TROCAR aqui) -----
 // Formato internacional, só dígitos: 55 + DDD + número. Ex.: 5511999998888
 var WHATSAPP = "5511918729780";
-var WA_MSG = "Olá! Vim pelo site e gostaria de uma proposta de conciliação de cartões para a minha rede de postos.";
+var WA_MSG = "Olá! Vim pelo site e gostaria de uma proposta de conciliação de cartões para a minha rede (postos ou varejo).";
 var waLink = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(WA_MSG);
 document.querySelectorAll("[data-wa]").forEach(function(a){ a.href = waLink; a.target = "_blank"; a.rel = "noopener"; });
 

@@ -1,12 +1,12 @@
 # Backup Conciliação
 
-> Conciliadora especializada em redes de postos de combustíveis no Brasil. Faz a conciliação 3-way (tripla) ERP × Operadora × Conciliadora e a conciliação bancária dos recebíveis de cartão, frota, vale e PIX, com robôs (RPA) que coletam automaticamente os relatórios dos portais das operadoras. Atendimento 100% remoto em todo o Brasil.
+> Conciliadora especializada em redes de postos de combustíveis no Brasil, que também atende supermercados, farmácias e redes de varejo multiloja. Faz a conciliação 3-way (tripla) ERP × Operadora × Conciliadora e a conciliação bancária dos recebíveis de cartão, frota, vale e PIX, com robôs (RPA) que coletam automaticamente os relatórios dos portais das operadoras. Atendimento 100% remoto em todo o Brasil.
 
 A Backup Conciliação automatiza a conferência de cartões de redes de postos. Cada venda é conferida em três fontes: o ERP do posto (a venda oficial registrada no caixa), a Operadora (o que a adquirente, bandeira de vale ou empresa de frota diz que vai pagar) e a Conciliadora. Depois, os recebimentos previstos são confrontados com o extrato bancário.
 
 Principais fatos:
 
-- Público: redes de postos de combustíveis e lojas de conveniência.
+- Público: redes de postos de combustíveis e lojas de conveniência; também supermercados, farmácias e redes de varejo multiloja com cartão, vale e PIX.
 - Mais de 30 operadoras integradas, entre elas Getnet, Cielo, Rede, Alelo, Pluxee, VR, TicketLog, Edenred, ValeCard, Shellbox, ProFrotas, Abastece Aí, SemParar, Truckpag, BoaVista, CTF, FitCard, Wizeo, Ticket Serviços e PagSeguro.
 - Robôs (RPA) acessam os portais das operadoras, inclusive os que exigem 2FA/OTP, e importam os relatórios automaticamente, em rotina diária ou semanal.
 - Divergências detectadas: sobras, faltas, cancelamentos e duplicidades (por exemplo, o mesmo abastecimento cobrado no cartão e na frota).
