@@ -1,6 +1,16 @@
 {
- "atualizado": "2026-10-10T18:23-03:00",
+ "atualizado": "2026-10-11T02:02-03:00",
  "itens": [
+  {
+   "tema": "comb",
+   "titulo": "Preço da gasolina sobe em São José dos Campos e cai em Taubaté",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUkFFRGdTbHlxWE8ybFAxYzc0R2xjVUtVX2VFY0tLT25nc3FfV2M2OTdtdW0xRERXRG5famZRc3kzU2MzZ3c2M0VVNldNUUlnT2NxQWxucXNfSERVTlNiNHhSdVdkLXpoQTZLMmQ4cTJfcHprYjRVSWpPaWt0blllajVaMm9vQ0w0S0lrTjNYODA1dVFpYzZiLTJsUlVIVVRwUGZvd2UxREZLNi1BUnBueEg0cFgyUTVoZkdDbGo5bWtFU01GZFF1NmNzMExzV3BqOUpaendSQWkxUE1YXzYxU3RwT1ExbGRsS3fSAfgBQVVfeXFMUFNwQUpQZGtHSTRabTdBMDM3VlZfZUktT0R0Zm9ZYXYzVVVfS1RNMXVHMGhOaVc1cVNNWGJ0THZFS2s0WXFXVjRNZXFEZ2pNQ095T0diV1Bab3pIRnM3cnZJNm1uMzhHcjA3a2VleVg3aEFtQVhVaWVJbkpEazNzUFFTdjBYRzhsVVZCTW9MWmhTeG4yRjlPZnp6dU5GMURRMURLbnYzTEdJYl9HLWdKdkVmVHl0b2lVQUgzQ2hzN21XX01aRjI3ZW1na1c1aDM5MEs2VUZ4T1I5WURFWGhlYnlqcExqbi1aTmJkVmV6VkxDa3RudFFsRjk?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
+   "publicado": "2026-10-10T20:18-03:00",
+   "repercute": null,
+   "dado": null
+  },
   {
    "tema": "trib",
    "titulo": "Fim do split payment mostra receio sobre redução do capital de giro",
@@ -8,6 +18,16 @@
    "fonte": "CNN Brasil",
    "site": "cnnbrasil.com.br",
    "publicado": "2026-10-10T17:20-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "O que os tributaristas dizem sobre acabar com o split payment?",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc1JUQjV0ZDM3aVZZOVRYSDRYdzdJdVg0TzZJUkpiWUVhemF2S0FBTklCc2h0aGt4MzJ1ZHRGU2t0VTZNTllucmdRZmp3NnhWNzk5eUYzLU1lTl9EVVIybm03Nklha3hRa3pvR2ZlSGVpdUhHV2FxaWkwdDhjcmN3RWd5RDd2a056NDFJODE4MFFFNGZLdW5tWHVUbG1TNEtxZWhORGF3N0FEQQ?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-10-10T17:13-03:00",
    "repercute": null,
    "dado": null
   },
@@ -23,33 +43,23 @@
   },
   {
    "tema": "comb",
-   "titulo": "JetBio vai produzir diesel renovável a partir de etanol em biorrefinaria de US$ 2 bi em São Paulo",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNejNuUVhyM3BLWEU3MWlMbVpWRE1yaFFnb0t6TDZBQkQ0ZnpOS20yODI4QURIVGZKYkVSU1pnZ3BIdTNPUUxneGp1bVFBbmQ2MnlpcDVmRHF1LTFIT20zcTU4R0t3aThKSVF3ZzBndUJwRnl6OVVsMjliR0tYdGZLazR0Q2l0SGJBZWdqQ2hOV0ppU1VlZzRNLWc5U2ZXYjdNR1HSAacBQVVfeXFMUGhUTFF5MTFrcFZuVnBxR0tneWlkcTg0SVJySTc4X0dvcU9COXRZa3o4bW1UV29Rc2hYN3NQNmxNR29QekhJY1JMQjBIVVYwdDR1dVEzSTFON0hZMHlhdldZd1JuWHctc1NuSk9BOERfcmItS2hqSzBEZ3I2UllYSXMxenh2V3ZPdlppaFM5aHc2cmZROC00MjJ5TDdBY0dKOFJWMW5aa1U?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
+   "titulo": "Governo anuncia desoneração para gasolina, etanol e diesel",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQ3NBUVZYUkR5ZVN4V1JPZUo1emlmd1NTM0lRcVJqbDRvb1doRGNGMFYxa0VYU3pZNXdxSHFwNjFGcko4YkpVaXF0U1FiRHR6VDJmMXAzV01RSzBJWWRGbC03SDdyV3IzYzdRaWM3TDRvT2ZYcENJUmJVWWFBelh6bFZYMHN3U05rQlcwWnFlUFhOcnR2dHJWWjJHV2RSQU5XMXhGdGFEb2NjYUlfODNDM1NRU085UENyemQwd0s2SDV1LTR3cmRCSHNrdHRDZWNpdG5nX2FRT1h1WjV2QXA3SGxpVUt3UXBlQ0ZzUlB1aHN3Z9IB8gFBVV95cUxPQ3NBUVZYUkR5ZVN4V1JPZUo1emlmd1NTM0lRcVJqbDRvb1doRGNGMFYxa0VYU3pZNXdxSHFwNjFGcko4YkpVaXF0U1FiRHR6VDJmMXAzV01RSzBJWWRGbC03SDdyV3IzYzdRaWM3TDRvT2ZYcENJUmJVWWFBelh6bFZYMHN3U05rQlcwWnFlUFhOcnR2dHJWWjJHV2RSQU5XMXhGdGFEb2NjYUlfODNDM1NRU085UENyemQwd0s2SDV1LTR3cmRCSHNrdHRDZWNpdG5nX2FRT1h1WjV2QXA3SGxpVUt3UXBlQ0ZzUlB1aHN3Zw?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
    "publicado": "2026-10-10T12:45-03:00",
-   "repercute": 10,
+   "repercute": 4,
    "dado": null
   },
   {
    "tema": "trib",
-   "titulo": "Simples Nacional 2027: Entenda os novos prazos e faça sua escolha com consciência e tranquilidade",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSU1peEFmS1NOZlpmalFfT1VtN2h1NmlrWnVRUFpsWEZRX3Q4TnZFd094ZEZHRS1XY3lSWTRiRDhyOVRPQzdRMWM2U0pYWmJZRkJOV0p3MDRSNWJ5a1JtanFKd3NsbVRSS1BuQTJCUmlWcmtaWlhCajY1dzdmUWdjSVpxV0g1Mld2NTFsRnRJLTdvMzhFWTA0azdmSUVOYWRnZGlnRThvbG1NMkZ6Wl9XUWR0dG1rblZVbk1qT0lkZUhNNC1HNWhoUkNzeExqSVYzOEE?oc=5",
-   "fonte": "Governo do Estado do Ceará",
-   "site": "ce.gov.br",
+   "titulo": "Entenda o que é o split payment da Reforma Tributária",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPN3d4ekt4S2FVYUVZVE1WVE54VWRkVHZWWTVKTWxuaVZyN01pY0tnZ3I4Q1M4VzAtM1k0WUlSUThoY1ZmX0h0WDhFY3hka3VMTDQtMXhVMVh1YkY1YS11Vzh1dlNDSFpGQnBPendKVnd0UldJOEFXeTVkaW8wbkZvQVhvRlNtclIxTmpTWnVaeURZMlc4SEI5SkROUTh6ZFYyVXU5VmhmOEhKY1hZMEhjTlJncXI5bjZ6MXY0M1RtZmRueTNScVF3WG5LTzJFWjAzZkNmQW9Fak5QeGx2MmdRbkxzVlgyQTlRZC1pdtIB-wFBVV95cUxNU0ppUzJkS1pxSkZhVXp5YXlFVm9yNG1oa0FtM3RqSmlHUnRRVzFWRkI0dDFTRFpHZF95UG1XQ1BZOWV0Y3dONFMyVktGMXU1RVBBMTNtd2x0elZnYzRfWUpEazBmNWtGSGgzdTJMMHZZMHQwREJEd2dOdUVvZG9xbjhwM3ItZlAzc3VjdThGaVk0eS1fUFUwZXVtS2Z3Qm13ZVhIZTYwdVV3SXRZYTFhM0E4cWtOODBuanl4TXJwaXpCcUNXU1NGX2FjSXdmRHFMTmdMbkhLejUwTkM3ZWZtaFN2QmJIclBJdnhwN0VmR3V2b0V5Z3liVm8xYw?oc=5",
+   "fonte": "O GLOBO",
+   "site": "oglobo.globo.com",
    "publicado": "2026-10-10T11:00-03:00",
-   "repercute": 5,
+   "repercute": 12,
    "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "AliançaBiodiesel apoia restrição da ANP à venda de biodiesel",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN2RUZEFmRV8yUXdycDFpd0RaSm05anpmVG8yWlI1S0hVM3o2NGVRSThfclE1cWVVcmNlQkNTaktOa1JpcW5yRGdsbUxMN2JmYWFabURiUUFhVDBEOFZoU2tDblU2Z21mXzdlVlBSMkk0amJldXlmS2FRNWREU0Uzcm1oNGlhTFpvMXNJYl85T21BUjh3dGpSNmhYMA?oc=5",
-   "fonte": "CNN Brasil",
-   "site": "cnnbrasil.com.br",
-   "publicado": "2026-10-10T09:07-03:00",
-   "repercute": null,
-   "dado": "ANP"
   },
   {
    "tema": "trib",
@@ -58,17 +68,7 @@
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-10-10T09:01-03:00",
-   "repercute": 12,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "NF-e na Reforma: campos de IBS e CBS e rejeições em 2026",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTG0zX0FIUEU2WWFJZzhzU2Y5T1RBWkQ2a01iT3hmQ3FjaW9sdlJjQjk0Y3RGN0x3NV80eTlEanBVcnFBcEg1bHhieHFFRVhlbmp6WGRPRWJoRC1XaWZMS2tER2VWUFJZYjR3VlY3eHJacElVWTJ4Vy1NMGFuTGpZQy02MXRManlZUG5CRkRBdXFrcDlodXVTY2xGNVNtN3JDdFE?oc=5",
-   "fonte": "Portal Contabeis",
-   "site": "contabeis.com.br",
-   "publicado": "2026-10-10T09:00-03:00",
-   "repercute": null,
+   "repercute": 3,
    "dado": null
   },
   {
