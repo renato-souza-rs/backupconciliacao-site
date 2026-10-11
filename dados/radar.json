@@ -1,13 +1,53 @@
 {
- "atualizado": "2026-10-11T12:28-03:00",
+ "atualizado": "2026-10-11T18:41-03:00",
  "itens": [
   {
+   "tema": "comb",
+   "titulo": "BP prepara retomada da produção de petróleo no Golfo do México",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekMzcmlFZGJBcGRsREh4c3hxTGZHNnMwSGhfQlBUdHFlVG1ZdklCc0dIRGRWVzJmYk81MlUwRlpydkxSdUw2ZFppVTFiQ2xRMFFMdTBORmRxb3djS0dSc1hnSk9oTmdxYXB1aWt4WGJ3Zkc4dFhodW8ydkNRZXlUSmJxbTFDRnN5M0lxM2VnOUY5RVZhN1djOUtPYnhhTXVPcjVDYXJucS1ZMklDbXdSc29tUFV6WGpnXzZJcEhn?oc=5",
+   "fonte": "CNN Brasil",
+   "site": "cnnbrasil.com.br",
+   "publicado": "2026-10-11T16:52-03:00",
+   "repercute": 3,
+   "dado": null
+  },
+  {
    "tema": "trib",
-   "titulo": "Split payment: veja como empresas devem se preparar",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdTAxMm9xbXZxWmFMa2xDT1BZR2ZFUEt5YWNRNk9ySzMzbDdMLXNkZWI4WWoxcTNQeWtGMlFEa2pyalNuc3YzNWR6RG1sbWxmZ05FeU1uUHRlR1RlTlZLRU1QMmI5MEl0aEkzMmZoR05CczFMcW8yZHdBU0tBV3poM0E3cVU2QThFeTVkR3Ffa25VcHg4akg2RzVqaw?oc=5",
-   "fonte": "Portal Contabeis",
-   "site": "contabeis.com.br",
-   "publicado": "2026-10-11T10:00-03:00",
+   "titulo": "O que os tributaristas dizem sobre acabar com o split payment?",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc1JUQjV0ZDM3aVZZOVRYSDRYdzdJdVg0TzZJUkpiWUVhemF2S0FBTklCc2h0aGt4MzJ1ZHRGU2t0VTZNTllucmdRZmp3NnhWNzk5eUYzLU1lTl9EVVIybm03Nklha3hRa3pvR2ZlSGVpdUhHV2FxaWkwdDhjcmN3RWd5RDd2a056NDFJODE4MFFFNGZLdW5tWHVUbG1TNEtxZWhORGF3N0FEQQ?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-10-11T16:39-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Veja quanto a gasolina deve ficar mais barata após intervenção do governo",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOS085a2lWZXF4VWx1LWNUaUhQQzF2TWpWazdTZll1S01zdDZEX0E3TWloZGtla2RlQ016RkpyajIwQ3Y5eU03Y3pBNFlRVzB5OEZjeFVTcU14eUt6RXJZVTRRWjlfZGc2ODA0U2ZaRUQ3WjZ1THpWUWN4Q1hMMkJJR0htZ2w0Z2k1NGlCZkVzYlpoRUdRSFhlR3l3TGdoV3dMa2FfOHdWU1dGaEQwRURMbFVSMk10cThCV1h4eWphTV92djdoek5nRllzRGcxZDh0?oc=5",
+   "fonte": "CNN Brasil",
+   "site": "cnnbrasil.com.br",
+   "publicado": "2026-10-11T16:15-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "STJ julga crédito de ICMS por insumos para transporte do próprio produto",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNlpjNUhtSW5GWVJrbkZEX1REczdYZU5RTS1JN0hhbGxqNnpvQ21DWGxCM1RfWGhNQ29PaTVFU3lmVXprUmNWYnU0cXRXOEZiaV9zRHFoblptSlpsU1BFbVN6V2V3eDhzTGtVOVAxUVdhT19uS25sVHljZDVtZ0g5WW1jTUUtbk9UeFBHX1V2QzBSSWgtWmJpUFBzTkJuWVJpRmx4dHE1djcxdUU?oc=5",
+   "fonte": "Consultor Jurídico",
+   "site": "conjur.com.br",
+   "publicado": "2026-10-11T14:33-03:00",
+   "repercute": null,
+   "dado": "STJ"
+  },
+  {
+   "tema": "trib",
+   "titulo": "Créditos tributários são ponto principal do Simples híbrido; entenda",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQW5xSmtYeWowZGw5RkVJUFpPV1JLY1JXZFhRM0QzODVlRDd5U0Z1OTBvSWpPVHRzcDdvenhjY1ZfWnlXTWVvanJ0QzdQalh2WjYzVWhSMnBtcTVWdFhfcWt5VHJDMUxmMElVMWpaemhDcWNlR2xVUXZzd3dWWjdCdnpxeFl5azdVdzh2em5XZERObmttdDFSTm9MT0dzZFh4ZlVyY2FXbzByejlka3U1UFoxcUN2WXRUeHhyR05ja2VYdHZVUTQ2Xy1WU2NXdw?oc=5",
+   "fonte": "UOL Economia",
+   "site": "economia.uol.com.br",
+   "publicado": "2026-10-11T09:30-03:00",
    "repercute": null,
    "dado": null
   },
@@ -23,43 +63,23 @@
   },
   {
    "tema": "trib",
-   "titulo": "Créditos tributários são ponto principal do Simples híbrido; entenda",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd3lXb2hiaThkTDJzZDlBeWlDNTRBSzU4RXdNdFJ6ZEFiUHpLU204b211bko1a0NoT09nU1JZQVVwSUJoZ2RKMS1OUDJ5NUl3WVRZdy1ScEFuXzA3UFZ0SGhTUkhPYUVJbUJlX3IzbDhWVVlLNHRVTHQ1bG1reXZTaDd3YTJiZ3VCaEJPRVJxS0ZlaElvYVdwZERJRllFb1R1eUpvUWQwb3c2eEdkdHVJM9IBsAFBVV95cUxNd3lXb2hiaThkTDJzZDlBeWlDNTRBSzU4RXdNdFJ6ZEFiUHpLU204b211bko1a0NoT09nU1JZQVVwSUJoZ2RKMS1OUDJ5NUl3WVRZdy1ScEFuXzA3UFZ0SGhTUkhPYUVJbUJlX3IzbDhWVVlLNHRVTHQ1bG1reXZTaDd3YTJiZ3VCaEJPRVJxS0ZlaElvYVdwZERJRllFb1R1eUpvUWQwb3c2eEdkdHVJMw?oc=5",
-   "fonte": "BOL",
-   "site": "bol.uol.com.br",
-   "publicado": "2026-10-11T05:30-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
    "titulo": "Reforma tributária pode ser suspensa ou revogada? Entenda com especialistas",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaUJJSHJWVG11bnc5WmZNeVZkUVNHZzNFSlRqSnd1REg5LXFyRlVjdVMyWmQ0eVljUklINjBKb3BsWkpjeDF1bDIzQVhWM0hPdlB3N3JkaUNMSEFaVjBkenFHRk1kZ1A3U0RQb3NMNEJuZHF5WUYzT2ZvY09EcVh5NnJYdkJGX3J5Q3FsNlNGZWhkWkZsM3kwRkd0YVZJMllleVByOWlFY1hZSnN3UDRQc0hPdTVGbkx3WHFZUEFEbE9acEtROVRFTHdBZHR5WkhZMkg1eTlxQXFjYXQzN0HSAd4BQVVfeXFMT2lCSUhyVlRtdW53OVpmTXlWZFFTR2czRUpUakp3dURIOS1xckZVY3VTMlpkNHlZY1JJSDYwSm9wbFpKY3gxdWwyM0FYVjNIT3ZQdzdyZGlDTEhBWlYwZHpxR0ZNZGdQN1NEUG9zTDRCbmRxeVlGM09mb2NPRHFYeTZyWHZCRl9yeUNxbDZTRmVoZFpGbDN5MEZHdGFWSTJZZXlQcjlpRWNYWUpzd1A0UHNIT3U1Rm5Md1hxWVBBRGxPWnBLUTlURUx3QWR0eVpIWTJINXk5cUFxY2F0MzdB?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-10-11T05:15-03:00",
-   "repercute": 13,
+   "repercute": 8,
    "dado": null
   },
   {
-   "tema": "trib",
-   "titulo": "IA e contencioso tributário",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYTBMTzV0VWI5V1hUdVlQY2VVRzdORFFiNm1mQVhFOUwxTWR5YjAtWHMtS0tJbVdZOHJSd0RJVXVrZnpKbHBHOS10SzNUeDJPNGVEMlBRTDdqLVFaMDBvRzZuNDlZUk9oaTJXcUl0WmVDZkZQRFpYSlNpbjRSRm1zVDVDdE9BSjZXMlBfVWtodTZFUQ?oc=5",
-   "fonte": "JOTA Info",
-   "site": "jota.info",
-   "publicado": "2026-10-11T05:00-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Ser contra avanço do split payment é favorecer quem frauda, diz Durigan após fala de Daniella",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdllYQ21CejByVkJBMWRTLUNfRG5CTGkxQVEwVDREQURzcnVLLVIxYlNXMkpRRWFudHk5Z2NMcDVmZTZsdEVfblQtdEZnYjZicVNUdnlDT2l6QVFrSDNGaU9CbHJqMy1pMXNMeXlvVXhERzhfYmJ0OXI4bnJvdVVzVmZfSGMtZE1qODdKUnFQQ25WUVhLRmFLYXJjWHZ3Z1NqWUxMRHdlcXc1VEpwRF9oYmlNaDhSVnAtRWJFYWwzY2Exd2ZOcHpGRVdlTHU3dDdQVEhF?oc=5",
+   "tema": "comb",
+   "titulo": "Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPal9RSDZPRkh4RnkxVy1NTEVJSDZTbHZxa2hZZmpnWGk0ZHhoeWJXQW9XUmFtTDlHTTZqX0docDVwNXhoU1I1b2xiUDM5WFo5WGJYV1NFSmZqNWtIc1pqVXhkRlFEMzd4NE4wYnZOQV9kOUIxOHUwT1VGUjNIZ0VWVUIwR1NPQks3dGhBUEpLbmE0RjZPUERaSm9RV1ZDV3cxWHZCVmg2enlBTnlrdkZOR3hhY05wbVFxYnFPWS1jUGlnMnJ1d0Y1QnVvWm5tYkU4?oc=5",
    "fonte": "Estadão",
    "site": "estadao.com.br",
-   "publicado": "2026-10-11T04:42-03:00",
+   "publicado": "2026-10-11T04:41-03:00",
    "repercute": null,
-   "dado": null
+   "dado": "ANP"
   },
   {
    "tema": "pag",
@@ -69,26 +89,6 @@
    "site": "correiobraziliense.com.br",
    "publicado": "2026-10-10T16:23-03:00",
    "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Furacão Isaías paralisa 69% da produção de petróleo no Golfo do México",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeWJ4bHJnY0dLUmZBb2JFVHU5NjBDakotMk05SWR5MWFsVkx5elZ2ay14OE9hZHVCdUhVT2lTa1FRbGhPVmZlRUMzbG5BbEFoUElBamI2cTdaVnZ5SFRfcm54V2c2cDJVSnh1UHh3eURiSXpxMi0yWTRsZENPQmJlLXNIQnBSWkl6R3lfZ3R5Vm9sYVNsSU5ZR0dXcEkzQ0t5Z2ptZlVZeG9IVXpJVlRWQ3gwVS1FQktxVTRtMWpJd3FEaEhobVBJ?oc=5",
-   "fonte": "CNN Brasil",
-   "site": "cnnbrasil.com.br",
-   "publicado": "2026-10-10T12:02-03:00",
-   "repercute": 4,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Governo zera tributos federais sobre a gasolina e cria subsídio extra para diesel importado",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTXN1b1AwSjVzV2ctcUVhUTlDcnNBekpKaUNaZHoyWlZvX093a0U4aEJ0TWZLY3I3MEwwdU9YZ1I1X1BNNGM1dG5WTzZPR0pRX1ZUb3pETEY5LUQybnFqYlVNdVJOTUcxME02bnhxX3dpSVItU0MwdndBcDViSEpJSGktWDNuYm8wYjlyaERyQ18zczFPbmVJN1E1V2txVHBpVUdwaDVhRHMzQUxybWtEZnFpMFdHZ0l5ak9lckdvaWlsWE1PNDVRdXpxaWNlTXNGUkhVR2NfcE9xT29LOWQ1ddIB7wFBVV95cUxPaFJQZUpDa0VOWjloeFdQM2RTcm43RXI5dllacmt1YTd6YzF6a3U2MzJCa2c0bEFtNzFIYUdsUXBvYldGTWo1SEc4c1dpTzdFbzE1bW9scUpxeEtEdk1VSXVXUG1wVXMzcl9Cc1JXQWQ3Y3gwTEJrWEZ6eVI2c2tpVGx2NzZ2TXFWcDJpRDJfN3luYllQcDdHZ2w3RHVBREdnbV9BUXQyRGJkcjRCVnNWQ3pYcW5uc0ZTcTJWQl9qdTRkWmNJanUtcFozRmZtTGVCc3lENDRzZWZ4Rk95QVhWZXRTeTRMWlZPbXFWMTFISQ?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-10-10T06:29-03:00",
-   "repercute": 4,
    "dado": null
   }
  ]
