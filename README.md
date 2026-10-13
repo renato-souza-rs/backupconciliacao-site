@@ -43,8 +43,15 @@ tela "Configurar zona DNS" em **modo avançado**. Registros do site:
 | AAAA | `backupconciliacao.com.br` | `2606:50c0:8000::153` … `:8003::153` |
 | CNAME | `www.backupconciliacao.com.br` | `renato-souza-rs.github.io` |
 
-Os demais registros da zona (MX, SPF, DMARC e os 3 CNAME de DKIM `hostingermail-*`)
-são do e-mail `contato@backupconciliacao.com.br` na Hostinger — **não remover**.
+Os demais registros da zona são do **e-mail** do domínio — **não remover**. Desde
+13/10/2026 o e-mail é **Google Workspace** (usuário `renatosouza@`, e `contato@` é
+alias dele): MX `1 smtp.google.com`; TXT SPF `v=spf1 include:_spf.google.com
+include:_spf.mail.hostinger.com ~all`; TXT `google._domainkey` (DKIM); TXT `_dmarc`
+`v=DMARC1; p=none`; 2 TXT `google-site-verification`. Os 3 CNAME de DKIM
+`hostingermail-*` e o include da Hostinger no SPF são da caixa Hostinger antiga
+(`contato@`, que não recebe mais nada) e ficaram para permitir rollback: recriar
+MX `5 mx1.hostinger.com` e `10 mx2.hostinger.com` devolve o e-mail à Hostinger.
+O site não envia e-mail — a troca de MX não o afeta.
 
 ### O certificado não é emitido sozinho
 
