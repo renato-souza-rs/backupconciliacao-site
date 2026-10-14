@@ -1,84 +1,44 @@
 {
- "atualizado": "2026-10-14T16:14-03:00",
+ "atualizado": "2026-10-14T20:47-03:00",
  "itens": [
   {
-   "tema": "comb",
-   "titulo": "Petróleo sobe com ataques na Arábia Saudita ofuscando acordo de Trump sobre diesel",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTTZwWDN1QjZmdFhLSnJjcVdRcjBsMEZJeU1EQjFQRnRvdmdmam5IaWxFNWNReTMxQ3c1bzFoYVoydWdsS28wSkx6SGdwYmZLR3RYUkdqNTNvUU5zdVRZamdfRldnVG9QaEJvemw5T3lmS1NMdFU1U2d5ZkJfa0h4WklueWo5dWs4YnpmZUdfaFhEWXk5R0dUbkpyekRheEo0TVdBWl8wT245blJlQlJYYV96OERDcEVDUXUwUnFkSXdYQXJ4MktiVDRvRi1qcTA?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-10-14T16:04-03:00",
-   "repercute": 6,
+   "tema": "pag",
+   "titulo": "Circuito MDR Recife 2026: medalha da corrida homenageia símbolos de Pernambuco",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdWpGOUtyQmcwalBUN2o1TDFaM0txQ3V4cWJXSjRwbEc3NC0wWVZrQmpGV0luNWY0TkFYUjl3Y3A2Y2Y0a3o1dEZPQUg3d2J1Rk0yc1pULTdXeGlfQU91SmliU2FBZ1VNQW9PV3NKaHNFYllzdUxpVG05Rm1remNyUGRqR3NGRFNHWmgzMEY1aFhoVm5VVERYQ2hfRXE5UC1IUjZWUjRPWWUzci1jOTNfNlI4aXNXdjAzc3VwRGNIaENpZHpIck5uSjVPUi1RdXJ1TzJBRGRFVk1XSnJkbVF4Wm9B?oc=5",
+   "fonte": "JC",
+   "site": "jc.uol.com.br",
+   "publicado": "2026-10-14T20:15-03:00",
+   "repercute": null,
    "dado": null
   },
   {
-   "tema": "trib",
-   "titulo": "Prazo para micro e pequenas empresas aderirem ao Simples Nacional termina nesta quinta",
-   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdlZXcTlTdWkyQWNVQVdoWEljTlM4S1dVUVBCUUo0MHRPQWN6eXhBaFVPakttYmZES3p1cnplS0xKQk1EN0Z4NlVobmJ1cFA3RGFldDVVX3FVd0F0OUJNNzhEdGJ4RjBtdFktcTRHc2RFTUM0eHFkMFpiNUVfUDNOaDh1QVkxcDZ2ajM0aVZjVEF2VVZfMjlqSXVWWFl4RFFJY041SVhCSXdwQWpaS0ZIWG52Wk12VnNxX0ZiZjhSRUpZd0FvVlZJOWhwUFJWWExSVTRGWmZuWmZPZ3MzTEJabFlPcVBSMjVwZi02VDhMeGx2clRHWi1WNdIBhwJBVV95cUxObm9HTUlBOHFBdVI4NUlDZUNueFZjcXRWMkt4LXhJcWpUY1d1Z3FNMjFzTGtaT0FpdUd2bHhuYVNhTmY4VVExSzVsQmNVY2p3RmY2Uk04bEtmT1JHa1h6RmNDYksxQkZtemtKOU5rN2IxdGNfb2JqWW4xYUtmTU8zZVpFQ24yVloxQlBTeVJJNTk1eG0tcGtscXE3Si0xRHFUZ1lYVzhBR0cxek44QUtCZGFBMWNrN0xvRVVfTUoyYkpKS1JhUTRSQUxLeEwwckZ1NnBjR3NJTjVBcFdJY0h6UDdGbTNYbkZYWlIxMmxVY1NkaUlZOTQ2V3c1YzZ2RVdhUjN0MUpNVQ?oc=5",
+   "tema": "comb",
+   "titulo": "Após quedas de aviões, ANP investiga possibilidade de adulteração de combustível no Aeroporto da Pampulha",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNbVhkRkNuMVl4ZGhIOTJ6THlOb2ZDMDNpWTBXVkFFU04zajZKSzd0VC1Id05sT05CU2pYa0NfTzZwUWtpQXNLSnVPd2JPLU1kVzRyMGFHWENXUW0yTml0MnhJSlNUR0VqaFVTSGhfSnNUdlNNN2RoZlpZZFhlS25YTEQ5N3VTQW12NDJtcUFHZGtwV2tzRkx6ZS1ibWJZbFBRNWlSYzNaYlZBSVBFcjNrUURiR1BFMEtmS3lrQU9SaHJMSnRBb2dUcEtiVWQ4T1A2N1VqN0h3akJwMGZrM0pKZ3NxYW44UWZIY1g0dHpPbHJlTl8zU3FMejNR0gGIAkFVX3lxTE9jTTY3V0pDV2ZtaVJlb3BJM1dNN2d4eDhCai10RkhZN2JPSkZ5MjRScV9GMWVPMC1PaXNES2JIOTZFWmNXRzBhclRDWmdmeXhMVndnVkhvWDY2WnNPeFd3LTQ1MmRmaTk2bEljUktBbHFnc3NXZXNBeUtVa01kbFRKMmpXWWNZcUR6MnY2NElRYnB0UTlIRnVHTF9JU3BZNklDaUxHaW5QSTB0OUxKV05VWERMZnlZMHZuZjdNU2pqWUp0MF9qbzd0TlVYb0FRNmxPX1RwUVVrMjBWblRyZXJ6aXpycm5OTEgxTG0zell4cEVTYXBsbUNIVElRMzJYa1RfUldENHNIdw?oc=5",
    "fonte": "G1",
    "site": "g1.globo.com",
-   "publicado": "2026-10-14T15:21-03:00",
-   "repercute": 5,
-   "dado": null
+   "publicado": "2026-10-14T20:06-03:00",
+   "repercute": null,
+   "dado": "ANP"
   },
   {
-   "tema": "pag",
-   "titulo": "Asaas lança primeira maquininha de cartão e mira faturamento de R$ 1 bilhão em 2026",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObTV5SGtKdERSZmRHMTFDSlVVdnlleHRTNUJIbS1OSzlHbXZsUWZVeHRBTXVuaWZvZmZxalBZWUY1OHJoSllnUXJQM3YtSWFOXzhEUjFKbTJaSVJ1aDQ2c1hLVEdVRGJ5eEZWc2NNaFozeUItVkFrQjRYTFRzd1IwVjVmUHl3Zm9WdTNHSDJqZl9WS3lmN2ZmQ0JoNjN5aThoT1RkWEs3LUtRbklod2Fz?oc=5",
-   "fonte": "Exame",
-   "site": "exame.com",
-   "publicado": "2026-10-14T15:12-03:00",
+   "tema": "comb",
+   "titulo": "AGU abre ações contra postos de combustíveis por reajustes abusivos",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTFNySEpUSkJXRHM3eWtIRHpsSE5DaHQxLWR2a1doMzNNamNzdWVtMXZMbjZPU1lreWJvcDVsOG5pekxYWUpjR1kzYWl2bnBCQ3V5SDN1alJrTk9BQTFwbWZGYnVrZXNsOWhFTEh4VEdFME02OE1wYUFIOG9PeFNaVWpOWlJnamUwNlFobnpSVXVTQzdIbjIwRzQ4S21pV0RLdTVlOGZ2ZDNsenFNZjNqNGhXbmFFQVp2dUthbjlsdHF1dVYzcGp6U1ZJeF93SEwyaVBIVTNpVnpGZnlreWc?oc=5",
+   "fonte": "Agência Brasil",
+   "site": "agenciabrasil.ebc.com.br",
+   "publicado": "2026-10-14T19:52-03:00",
    "repercute": null,
    "dado": null
   },
   {
-   "tema": "trib",
-   "titulo": "Reforma tributária: continuaremos no manicômio tributário?",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQlE3WTlITFE0bl9EVDBnVlpLVjk2eWEtZVlpR0hYbGRBNjdEN1hFTmJvSGNxOWlYbVpQMWNQeHk3S3JyQThTQ01DSEk2MWd3cFUxMVhIX2FtVEJzR0wtUzUySVZXTjRmZmVTbjd1MVh5ZXVYUV8xSlVvTDd3MWtvTDlRZUVweGljQzdfR2JhLXduWGktLUNKcVVGSmhRMl9senNBSkdodGJUWUxhWFhjT0V6NUFwUdIBuwFBVV95cUxQR3gwMmstdmZkMTl6TEJ2bEtfamprbGMxSlAxaGw2Qkd2aTQzNzc3UkZoVmdCMXphRnJRcDlhMkxPX3VMay1Za19uRk5zY1ZGSXE0b0xyUFdvZ3EzOUJtenVFWXBhbWFUdUlxXzFOdVNjczE4VHREaFVWODVudXNPaS0wUjlKYjh4cndTdW1NV1NRUkJ4bDZ5Mi1RYzdINjVaeGhlMkFYYzJwVTRNeHVaTkszNjQyaW83Rkdr?oc=5",
+   "tema": "comb",
+   "titulo": "Petrobras (PETR4) bate novo recorde histórico de valor de mercado. O que fazer com as ações?",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONmJJanNyVHN2aW5MSjhVeEhpeXVJNTZrbnMwR19wRS0wUEM2S3g0bGMtclJ3a1NGSGlHc2hjX05Sb19UdzB1VlZYWnhmWGl2OUs1bkQ1MXh1ZmFoaWpua0RYdTJKeDl3bnN5dERyQ3ZQXzNjTVRjeHU1TGxVMnJnUFVMcmpESXFXNjNxS0YwX2p2Nl91LTY0bmNiTHFuV18xNmd5cDJCRWRtLWl5UGs4T0tzN1lQWFBhSTk1Mm1OcmgtWnBHcWQ4UXhDTDVHWGVnT1dRR3I2bWVFSW1xSjNwONIB5gFBVV95cUxQZk1EUzFUeTFTVnVKdnpKVnhCdHJBNkMxN0pjU1V2ZnBoTW1nZXNGR2V0ZmdxT1Byd2h1Q3IxVk5fUlprLWEwSTlldHFYNWc3eGxkbTBvVWNsekQwUEZBTk5wTG1rSjNoUk5CVlEyWE5oblkydWF0bnVaRDZ5b3U2dkVpQWJPY0MtTkQtNUFBbmRXRmNud05iZ3liZElPOVpKVjNvWWxwbXZSNFZnSThiVU8zTzd4RzhWM1ZjOXNtcHZqQWFCOGNzbTFONGw3MTZpQUZOYzVNSENOS0Z5bEs5SUstWUo5UQ?oc=5",
    "fonte": "Estadão",
    "site": "estadao.com.br",
-   "publicado": "2026-10-14T15:11-03:00",
-   "repercute": 11,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petrobras recebe R$ 2,8 bi em novas parcelas de subsídios para combustíveis",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdl9ibWtQOHpUcE5KbmJRbG1jX0llRC1uVm1tMFlTb2pfNTdLTWV2QldnaDBrMG1VRW9CQnFsMkpxUUhodDE4bVhxOHFpRzIzZ3JRRGlXLXJBN3lrZ1VEVzExMV94LWtLM19ON0RPcl8wYk1iM0JudW1hLXB6ZzdNU1c4SmRMZDluVTMxSGp4d3A4RUk4QzZSNUtkT19ob0JYLTJCQ1Vwd09EdVlZMDNFOF9aY3p3NEo1VkExaEQzUmd0MXFYUy04blRCZ9IB2gFBVV95cUxNeDJlblhSamxaNnExOEdRLUNMSWJrWWtuQU4zUnF3VjFaVF9DYVpQM0VEemkwTlA5RlJidnEwS2ZlWmJIYm80WEFFQ2dZLUVueWJ5dUtwREFva0Q3eVpRYzZxWUhxallZUjJMVlc0X1F4UjUwUzJXM1F3dnJQQkhVM000LUllbzNpNVg1SzdDd3hFNVRqT2tQbFFCVUJyV3ZsVGdmWXBHbmdBcHRiYUNaWTR0QWo1NkxyQnZYUXV6N2l2TVNnVjFXUGZtV1dwT0dnTVNzZ1JMbndOQQ?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-10-14T14:32-03:00",
-   "repercute": 7,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Nova regra do Banco Central pode acelerar concentração entre fintechs",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWUdfQ24zYUVxQTEtSzhScEpPTDZwMzJlaGJMUWNSa0N6UGN4cUh2M1JzYVJXb3oyU1p3XzNHajJsVjNyX1JrOXBxY1Y1aFY5RnB5VGx6S1Fpay1EcWFLVndZWnVYVU5Jb3NrRkUzVUVTTExXWWJfMENscXNMUXF0M0JaQ0pKUVdwR3V3RUJBWloxSFNHRFlpRVVMQi01U3MxWGN6YmQ4SDc?oc=5",
-   "fonte": "VEJA",
-   "site": "veja.abril.com.br",
-   "publicado": "2026-10-14T14:00-03:00",
-   "repercute": null,
-   "dado": "Banco Central"
-  },
-  {
-   "tema": "comb",
-   "titulo": "O valor bilionário que a Petrobras recebeu da subvenção dos combustíveis",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZHlONFFISWx5dlNndnF1Zy1USHlRbllpdk9LTnJ4VXZCdUhkT0ctUm9BdkRCQ0JvMy1OZ004aVJuUks2V0Exci0wZFVlS1VTOXhVQ3BxZ2pYZWRzbklzS3loNWV1eEMwNWZpMUJ2QklfMnA1UDEwX0t2dC1lTHRRcFVtNXNtSm94SWlUYWxfWV9sTk1sa19Wc0V4akVtU01VVy01ckNiOG8td3dq?oc=5",
-   "fonte": "VEJA",
-   "site": "veja.abril.com.br",
-   "publicado": "2026-10-14T11:30-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petrobras recebe mais R$ 2,8 bi em subsídios à gasolina e diesel",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZzgxNDNwaDlBVnJGUGpITFFtY3FhTXV1R095YWdTY0E4dFdsdV9SXzNtUkVYWUJuRnFaaFhMcVJNanBpcW1pLVJ3ODhQbVpxaDRCSVdzcjh3X1l3UkFXVW9RU21RN3JtS2ZFU3dsdHdHQUdIcTZ4dG5ad0VqWjN2ejBLeVNPc2Nwd180TEtFOXJpb2pWQ3BQRG1YZS0tZzZGLTZ6cw?oc=5",
-   "fonte": "MegaWhat",
-   "site": "megawhat.uol.com.br",
-   "publicado": "2026-10-14T09:24-03:00",
-   "repercute": null,
+   "publicado": "2026-10-14T18:18-03:00",
+   "repercute": 10,
    "dado": null
   },
   {
@@ -87,8 +47,48 @@
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVEU4YS1YZlBtS0dhelBMMFl1MTZEdWJIY2h0Skp2UXR3X29xYVlNb2ZnbElxeUZUMWM1MTlfNzNRNUNzQ2FabnRqYUhoUVk1UXRNbjhGX1M0MFhpUmh1ZWVpZHMwVDNYSWxrLTVEVU4tbXFPN0t5XzdYRVJfRVVlREhCcGx5a2RHM3N6aFZiNUlFaHdQY3FqLTFFQXotTkYtZDFiN0VxS0tCTk9jZDVKOTNqVG5nQld4LUJpempFdEpSbmNjVlpoVy1Hb9IB2gFBVV95cUxQeWp3NFY3b1Y5d3JSSmUyTXJhb0dZRXFicHU2RWxjQ0RPV1h5WWNwUjRFRW00emlUOGNlYXVsLWxhRF9VXzRuV09mZFhxaHNXOXVrc0JySmtESF96M1pJNmR4NkF3V0tnRVV0ckdNdWNuZERmdjBycUdEazhEaUJZNVZMZTRCU3pHQkdKUmJyTlpsZ3JxblZFVXRob0xTR1BoUlVycFB4N05kTE9LNldLdmhndDg4M1k1bVN3M0ptV005R1hBZUZuSWRWYjZZMXBzSFY1dUQwYWNTQQ?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
-   "publicado": "2026-10-14T09:18-03:00",
-   "repercute": 5,
+   "publicado": "2026-10-14T17:37-03:00",
+   "repercute": 6,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Petróleo sobe mais de 1% após novos ataques dos houthis a petrolífera da Arábia Saudita",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdnRkbENmUjF2T28wbk9WZ0J1R2Fwci1rd19pUWdqcGVIQkZyZm9kMlN6aC1jVVpaeUp4Zm1FRlUyUWdHbk1PUTdXRElwNFdBVnVpSGZBQndhVXNRamJ3czBUcnluOFo0VWhBVjRvdDYybThDVmNUSjhscTh1enBiZVVHckVBM3hHV3JBYlhUYjI1cU1RQmJuZFQtZDBPM3BoMEE4VW96VkJTTHFBYmN5VGwyWF82NjRCQUpwZ1M2TEdmQlc3YmVaMTFFcXNHYkF5cU1TdQ?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-10-14T16:53-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "São Gonçalo realiza palestra gratuita sobre reforma tributária",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYlZYTFY4NWtUcHpTQW9BODNlT0c2MHQ4cExfTHhMNWdQYlB6QXd1eG1Cb2tKRW51TW9KejhqTWNOVXdOSEFJYVNCUmRPeHdnVGppUEJxWmpsQ2M1aVlkTW80eG1XeUhUT0VDN2FncGFLMkNES2dEaWhGdWV0OFVZN3ItVnpHVld4VFJpNkhReVFtNnlfdjNXcEJfVHo?oc=5",
+   "fonte": "Prefeitura de São Gonçalo",
+   "site": "saogoncalo.rj.gov.br",
+   "publicado": "2026-10-14T16:05-03:00",
+   "repercute": 12,
+   "dado": null
+  },
+  {
+   "tema": "pag",
+   "titulo": "Asaas lança primeira maquininha de cartão e mira faturamento de R$ 1 bilhão em 2026",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObTV5SGtKdERSZmRHMTFDSlVVdnlleHRTNUJIbS1OSzlHbXZsUWZVeHRBTXVuaWZvZmZxalBZWUY1OHJoSllnUXJQM3YtSWFOXzhEUjFKbTJaSVJ1aDQ2c1hLVEdVRGJ5eEZWc2NNaFozeUItVkFrQjRYTFRzd1IwVjVmUHl3Zm9WdTNHSDJqZl9WS3lmN2ZmQ0JoNjN5aThoT1RkWEs3LUtRbklod2Fz?oc=5",
+   "fonte": "Exame",
+   "site": "exame.com",
+   "publicado": "2026-10-14T15:23-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Prazo para micro e pequenas empresas aderirem ao Simples Nacional termina nesta quinta",
+   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxObm9HTUlBOHFBdVI4NUlDZUNueFZjcXRWMkt4LXhJcWpUY1d1Z3FNMjFzTGtaT0FpdUd2bHhuYVNhTmY4VVExSzVsQmNVY2p3RmY2Uk04bEtmT1JHa1h6RmNDYksxQkZtemtKOU5rN2IxdGNfb2JqWW4xYUtmTU8zZVpFQ24yVloxQlBTeVJJNTk1eG0tcGtscXE3Si0xRHFUZ1lYVzhBR0cxek44QUtCZGFBMWNrN0xvRVVfTUoyYkpKS1JhUTRSQUxLeEwwckZ1NnBjR3NJTjVBcFdJY0h6UDdGbTNYbkZYWlIxMmxVY1NkaUlZOTQ2V3c1YzZ2RVdhUjN0MUpNVdIBhwJBVV95cUxObm9HTUlBOHFBdVI4NUlDZUNueFZjcXRWMkt4LXhJcWpUY1d1Z3FNMjFzTGtaT0FpdUd2bHhuYVNhTmY4VVExSzVsQmNVY2p3RmY2Uk04bEtmT1JHa1h6RmNDYksxQkZtemtKOU5rN2IxdGNfb2JqWW4xYUtmTU8zZVpFQ24yVloxQlBTeVJJNTk1eG0tcGtscXE3Si0xRHFUZ1lYVzhBR0cxek44QUtCZGFBMWNrN0xvRVVfTUoyYkpKS1JhUTRSQUxLeEwwckZ1NnBjR3NJTjVBcFdJY0h6UDdGbTNYbkZYWlIxMmxVY1NkaUlZOTQ2V3c1YzZ2RVdhUjN0MUpNVQ?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
+   "publicado": "2026-10-14T14:03-03:00",
+   "repercute": 3,
    "dado": null
   }
  ]
