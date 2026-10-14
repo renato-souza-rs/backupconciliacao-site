@@ -12,7 +12,9 @@ Principais fatos:
 - Divergências detectadas: sobras, faltas, cancelamentos e duplicidades (por exemplo, o mesmo abastecimento cobrado no cartão e na frota).
 - Conciliação bancária: valores não pagos, taxas acima do contratado, antecipações e PIX, com visão por posto (CNPJ) e por adquirente.
 - Dashboard online com visão por empresa, bandeira e período; fechamento diário/semanal com Excel por empresa.
-- Contratação: licença online mensal com garantia de 30 dias (a rede usa por 30 dias antes de começar a pagar); escopo ajustado por rede.
+- Contratação: licença online mensal com garantia de 30 dias (a rede usa por 30 dias antes de começar a pagar); sem fidelidade e sem multa de cancelamento; escopo ajustado por rede.
+- Preço (teto por empresa/CNPJ, por mês): conferência de cartões R$ 150; conciliação bancária R$ 100; as duas fases juntas R$ 250. As fases são independentes e podem ser contratadas em separado. O valor publicado é o máximo — o ajuste de escopo é sempre para baixo.
+- Recuperação de perdas (auditoria retroativa, serviço sob demanda): entrega de relatório e documentos comprobatórios para a rede pleitear o ressarcimento junto à operadora; cobrança de 10% sobre o valor efetivamente ressarcido, sem cobrança pela auditoria.
 - Tratamento de dados conforme a LGPD.
 - Contato: WhatsApp +55 11 91872-9780 · contato@backupconciliacao.com.br
 
@@ -21,6 +23,7 @@ Principais fatos:
 - [Página inicial](https://backupconciliacao.com.br/): visão geral dos módulos (RPAs com auto-import, Conferente de Caixa 3-way, Possíveis Duplicidades, Dashboard online e Conciliação bancária), operadoras cobertas e perguntas frequentes.
 - [Conciliação 3-way para postos](https://backupconciliacao.com.br/conciliacao-3-way-postos/): o que é a conferência tripla ERP × Operadora × Conciliadora, por que duas fontes não bastam e quais divergências ela encontra.
 - [Conciliação bancária para redes de postos](https://backupconciliacao.com.br/conciliacao-bancaria-postos/): recebíveis das operadoras × extrato bancário — valores não pagos, taxas acima do contratado, antecipações e PIX.
+- [Preço](https://backupconciliacao.com.br/preco/): valores publicados por empresa (CNPJ), calculadora do total da rede, condições de contratação (30 dias antes da primeira cobrança, sem fidelidade) e o serviço de recuperação de perdas com cobrança de 10% sobre o recuperado.
 
 ## Opcional
 
