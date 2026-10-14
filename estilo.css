@@ -427,3 +427,17 @@ section.mm-monitor{padding-top:30px}
 .pr-rec-fee small,
 .pr-rec-fee p,
 .pr-calc-nota{text-wrap:balance}
+
+/* numeros grandes da secao "por que vale o custo" */
+.pr-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 4px}
+.pr-stats>div{border:1px solid var(--linha);border-radius:12px;padding:18px 14px;text-align:center;background:var(--fundo)}
+.pr-stats>div.dest{border-color:var(--ouro);background:#fffaf2}
+.pr-stats b{display:block;font-size:2rem;font-weight:800;color:var(--azul);letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1.1}
+.pr-stats>div.dest b{color:var(--ouro-txt)}
+.pr-stats small{display:block;font-size:.82rem;color:var(--cinza);font-weight:600;margin-top:8px;line-height:1.4}
+.pr-prova+.pr-prova{margin-top:22px}
+.pr-prova-intro{font-size:.95rem;color:var(--cinza);line-height:1.65;margin-top:14px}
+@media(max-width:560px){
+  .pr-stats{grid-template-columns:1fr}
+  .pr-stats b{font-size:1.8rem}
+}
