@@ -334,3 +334,96 @@ section.mm-monitor{padding-top:30px}
 .varejo b{color:var(--azul)}
 .varejo a{color:var(--azul2);font-weight:700;white-space:nowrap}
 .varejo a:hover{color:var(--ouro-txt)}
+
+/* =====================================================================
+   Pagina de preco (/preco/). Prefixo pr- para nao colidir.
+   Ouro em texto pequeno usa --ouro-txt: o --ouro reprova contraste (3,7:1).
+   ===================================================================== */
+
+/* --- cards de plano --- */
+.pr-planos{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+.pr-plano{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:30px 26px;display:flex;flex-direction:column;position:relative}
+.pr-plano.destaque{border:2px solid var(--ouro);box-shadow:var(--sombra-fwd)}
+.pr-tag{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,var(--ouro),var(--ouro-claro));color:#1a1205;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:5px 15px;border-radius:999px;white-space:nowrap}
+.pr-fase{font-size:.78rem;font-weight:800;color:var(--ouro-txt);text-transform:uppercase;letter-spacing:.08em}
+.pr-plano h3{color:var(--azul);font-size:1.26rem;font-weight:800;margin:6px 0 20px}
+.pr-preco{display:flex;align-items:baseline;gap:5px;color:var(--azul);line-height:1}
+.pr-preco small{font-size:1.1rem;font-weight:700}
+.pr-preco b{font-size:3rem;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.pr-preco span{font-size:.88rem;font-weight:700;color:var(--cinza)}
+.pr-teto{font-size:.82rem;color:var(--ouro-txt);font-weight:700;background:#fdf1df;border-radius:9px;padding:8px 12px;margin-top:14px}
+.pr-plano ul{list-style:none;margin:22px 0 26px;display:flex;flex-direction:column;gap:10px}
+.pr-plano li{font-size:.93rem;color:var(--tinta);padding-left:25px;position:relative;line-height:1.5}
+.pr-plano li::before{content:"\2713";position:absolute;left:0;color:var(--ok);font-weight:800}
+.pr-plano .btn{margin-top:auto;justify-content:center}
+
+/* --- calculadora da rede --- */
+.pr-calc{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);box-shadow:var(--sombra);padding:32px 30px;max-width:840px;margin:0 auto}
+.pr-calc-top{display:flex;align-items:center;gap:16px;flex-wrap:wrap;justify-content:center}
+.pr-calc label{font-weight:700;color:var(--azul);font-size:1.02rem}
+.pr-calc input{font:inherit;font-weight:800;font-size:1.3rem;color:var(--azul);width:112px;text-align:center;border:2px solid var(--linha);border-radius:11px;padding:9px 10px;font-variant-numeric:tabular-nums;background:#fff}
+.pr-calc input:focus-visible{outline:none;border-color:var(--ouro)}
+.pr-calc-out{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+.pr-calc-out>div{border:1px solid var(--linha);border-radius:12px;padding:17px 14px;text-align:center;background:var(--fundo)}
+.pr-calc-out>div.dest{border-color:var(--ouro);background:#fffaf2}
+.pr-calc-out small{display:block;font-size:.75rem;font-weight:800;color:var(--cinza);text-transform:uppercase;letter-spacing:.06em}
+.pr-calc-out b{display:block;font-size:1.65rem;color:var(--azul);font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.02em;margin:7px 0 2px}
+.pr-calc-out span{font-size:.8rem;color:var(--cinza);font-weight:600}
+.pr-calc-nota{text-align:center;font-size:.87rem;color:var(--cinza);margin-top:20px;line-height:1.6}
+
+/* --- prova medida (passivo x ativo) --- */
+.pr-prova{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);box-shadow:var(--sombra);padding:26px 30px;max-width:760px;margin:0 auto}
+.pr-prova h3{color:var(--azul);font-size:1.04rem;font-weight:800;border-bottom:1px solid var(--linha);padding-bottom:14px;margin-bottom:4px}
+.pr-linha{display:grid;grid-template-columns:1fr auto auto;gap:16px;align-items:center;padding:14px 0;border-bottom:1px dashed var(--linha);font-size:.95rem;color:var(--tinta)}
+.pr-linha i{font-style:normal;font-variant-numeric:tabular-nums;color:var(--cinza);font-weight:600;min-width:104px;text-align:right}
+.pr-linha b{font-variant-numeric:tabular-nums;color:var(--tinta);font-weight:700;min-width:118px;text-align:right}
+.pr-dif{display:grid;grid-template-columns:1fr auto auto;gap:16px;align-items:center;margin-top:18px;background:#fdecec;border-radius:11px;padding:15px 16px;font-size:.95rem}
+.pr-dif strong{color:#a32020}
+.pr-dif i{font-style:normal;font-variant-numeric:tabular-nums;color:#a32020;font-weight:700;min-width:104px;text-align:right}
+.pr-dif b{font-variant-numeric:tabular-nums;color:#a32020;font-weight:800;min-width:118px;text-align:right}
+.pr-prova-nota{font-size:.83rem;color:var(--cinza);margin-top:18px;line-height:1.65}
+
+/* --- recuperacao de perdas --- */
+.pr-rec{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:start}
+.pr-rec>div>p{color:var(--tinta);font-size:1rem;margin-bottom:14px;line-height:1.65}
+.pr-rec-fee{background:linear-gradient(135deg,var(--azul),#0a2d4f);color:#fff;border-radius:var(--raio);padding:28px 26px;text-align:center;margin-top:22px}
+.pr-rec-fee b{display:block;font-size:3.2rem;font-weight:800;letter-spacing:-.03em;line-height:1}
+.pr-rec-fee small{display:block;font-size:.95rem;color:#cfe0f0;margin-top:10px;line-height:1.5}
+.pr-rec-fee p{font-size:.9rem;color:#f1c470;font-weight:700;margin-top:16px;border-top:1px solid rgba(255,255,255,.18);padding-top:16px;line-height:1.5}
+.pr-janela{margin-top:22px;background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:20px 22px}
+.pr-janela h3{font-size:.84rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--ouro-txt);margin-bottom:10px}
+.pr-janela p{font-size:.93rem;color:var(--cinza);line-height:1.65}
+.pr-perdas h3{font-size:.84rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--ouro-txt);margin-bottom:14px}
+.pr-perdas h3+ul{margin-bottom:28px}
+.pr-perdas ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.pr-perdas li{font-size:.93rem;color:var(--tinta);padding-left:27px;position:relative;line-height:1.5}
+.pr-perdas li::before{content:"\2713";position:absolute;left:0;color:var(--ok);font-weight:800}
+.pr-perdas .so3way li::before{content:"\2605";color:var(--ouro-txt)}
+.pr-perdas-nota{font-size:.84rem;color:var(--cinza);line-height:1.65;border-left:3px solid var(--ouro);padding-left:14px}
+.pr-rec-cta{justify-content:center;margin-top:40px}
+
+@media(max-width:880px){
+  .pr-planos,.pr-calc-out,.pr-rec{grid-template-columns:1fr}
+  .pr-calc{padding:24px 18px}
+  .pr-prova{padding:22px 18px}
+  .pr-rec{gap:28px}
+  .pr-perdas{margin-top:8px}
+}
+@media(max-width:560px){
+  .pr-preco b{font-size:2.6rem}
+  .pr-linha,.pr-dif{grid-template-columns:1fr;gap:3px;text-align:left}
+  .pr-linha i,.pr-linha b,.pr-dif i,.pr-dif b{text-align:left;min-width:0}
+  .pr-calc-top{flex-direction:column;gap:12px}
+  .pr-calc label{text-align:center}
+}
+
+/* Quebra de linha equilibrada, so na pagina de preco: sem isso o h1 deixa
+   "postos" sozinho na 2a linha e o selo de teto deixa "mais" orfao.
+   Navegador sem text-wrap:balance ignora e cai no comportamento atual. */
+.pr-pagina .page-hero h1,
+.pr-pagina .sec-head h2,
+.pr-pagina .sec-head p,
+.pr-teto,
+.pr-rec-fee small,
+.pr-rec-fee p,
+.pr-calc-nota{text-wrap:balance}
