@@ -441,3 +441,4 @@ section.mm-monitor{padding-top:30px}
   .pr-stats{grid-template-columns:1fr}
   .pr-stats b{font-size:1.8rem}
 }
+.pr-janela .pr-janela-nota{margin-top:10px;padding-top:10px;border-top:1px dashed var(--linha);font-size:.88rem}
