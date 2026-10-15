@@ -1,14 +1,34 @@
 {
- "atualizado": "2026-10-15T15:58-03:00",
+ "atualizado": "2026-10-15T20:36-03:00",
  "itens": [
   {
    "tema": "trib",
-   "titulo": "Reforma Tributária exige preparação dos municípios para mudanças na arrecadação",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TN2VDd1BVVGhLVHNjSk5oTU1PSi1qbUdZVlgzc2ExbTlGcnRPandNVk5BcVB3TWJYV2gweF9OemxiZUlxOGdMVVA0M2xycnpUMWJUa3pjTTdhcWZVTl9Ldkl1R1RrNlJs?oc=5",
-   "fonte": "Prefeitura de Paranaguá",
-   "site": "paranagua.pr.gov.br",
-   "publicado": "2026-10-15T15:10-03:00",
+   "titulo": "Reforma tributária: A volta dos que não foram",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZjVDOHpPLUpRaHc3V1pEcFRoSmlUTnFvSFhOZHBlYWJoS3lnQ05PcE1QSEtjZWNBLV9HemQySmNVd05mTzZSeVU5ckZ1T1ZkUHRfci10Q2RCLTlyaU9vLWtLZ0c2OUExTk54ZzhqSEloTW1ocDczVFNGNGhFVzVGeXM4SFAtSV95cEdDZ0FNTms1dUZFWEdSNUlaTHBLLVXSAa4BQVVfeXFMUHdtQnAtYmtycGczTXMtQ1lCY2ZVbEptUDZJdHltRW1QaEkzbmNndjBOY0NLd0wxNGp5aUJTY3FDUERFb0RxN24xRVJVQmxSOTY3Z3k0WGxrM2NSb1g2QVdBcko4VkNlQnBYbGtuMmdBMTZBb3dQZnN3VkRKUXk5X2RiZW1ZQ3lPVVVnbWxTN0p5S0JoOVQycmVhRWw2S01hVEdMMFhJWjdKNXVtV013?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-10-15T19:45-03:00",
    "repercute": 10,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Petróleo sobe mais de 1% após novos ataques dos houthis a petrolífera da Arábia Saudita",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdnRkbENmUjF2T28wbk9WZ0J1R2Fwci1rd19pUWdqcGVIQkZyZm9kMlN6aC1jVVpaeUp4Zm1FRlUyUWdHbk1PUTdXRElwNFdBVnVpSGZBQndhVXNRamJ3czBUcnluOFo0VWhBVjRvdDYybThDVmNUSjhscTh1enBiZVVHckVBM3hHV3JBYlhUYjI1cU1RQmJuZFQtZDBPM3BoMEE4VW96VkJTTHFBYmN5VGwyWF82NjRCQUpwZ1M2TEdmQlc3YmVaMTFFcXNHYkF5cU1TdQ?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-10-15T18:02-03:00",
+   "repercute": 4,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Petróleo fecha sem direção única com liberação de reservas e queda nos estoques dos EUA",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTG1KMm1jeXRaTmZ5elp1VHUwajFyQzdNVFVFaFdWeVQtU2duQlNGQlNCQnkwYXJnMzg2aTNOM2w0UUFER2JmVHlTXzBpaGpnaTZTLWNOREZXaDhNbGRWckRBVjN3Z0J4SW5YTFhZaWpRU3VEa2tyenNfQzdPYVp3UHBRRzU4eFNQb3VhczVobnpuMmVQTlpVQ1pMS2N0VFFkRkk2R0xWQUJyNzRrcThDRG45QWN4dVBvYXRweUJoMVZmTWZYMXNYbWFmQkdma0pwN3daZlZrSDRwcC1RcEHSAewBQVVfeXFMTllLRG5CUnBGMUhIaWF5ZXV1eV9XbUIwbERSRUllLTBpRk5jMm1rWmRxd0duczBDX1lIR2NBREJRVE5oQ3hKMEIwOXUwOHZXWGhreWtoUmtHdmEwUkNpMmNlazBITUpmV3M3clFRVDZQckQzQ3BITGxSLVJJX0ZWQmlMR1pwX0xvLVczeVFlZ2xJdS1vRS1ab25iMUNmMEFDNnl5Nk14YTlHcDBWRVlQR093N1FZOTVEdi15bE8xanRUV1hFS19rTHZ1cEkzYUFwSUhzQWttQ0twVl9rS1hPRkt1UXdOeFJXSS1hZVI?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-10-15T16:45-03:00",
+   "repercute": 5,
    "dado": null
   },
   {
@@ -18,27 +38,7 @@
    "fonte": "CNN Brasil",
    "site": "cnnbrasil.com.br",
    "publicado": "2026-10-15T14:48-03:00",
-   "repercute": 3,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Estoques de petróleo dos EUA apresentam queda inesperada na semana passada",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcFNnektCRU9OdGZMTURHa1pNeFlYNkVDUGdpN3lfdG4tdm80NERMc0RQRjBCOHNqMk5lanc1RG5mR1FFV3RaYnVnOElKZDNYN2hSdmFtUFBZSGZuc2hfVnRoc2FMN2kyMTRyN1ZYYUk4bVNtVkpLWUNNRWp6XzZjRHV0TDBickIyd0tJSEVURWpRN1pQMC1YcTExa2ZOdk5BYXpzOEs2MlVBVFpQU2xWOWZVU0duc1c3Vnc1LS03NmVtaVdSZHhja2RZNGzSAdsBQVVfeXFMTVJuVEotTGRmUF9wa3ktR183eDByc0s4eGdCNUF2bjFFa0YtR05VeXM4ckN0elp3TnNPTk0wSV80S0ZCT2JJMkh2b2ZYelRZblEyM3l3Wmk0TjdLOGFtUzF2QjgtS2QzUjVLY20ydnNOcUotOVFPcUhDS1pWZi1tSjhJU2RCc0xJT19RaHhlc2xpM2ZKNTZrN2dOR1BydXB3dEt0ak1DSG11Wk9KYVdlRVRBcU9wbFFMSGhtLTFNU3FJTzFqUTUwNmM0WW5waUhXSE9oS2JMODdxaTBR?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-10-15T14:21-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "União vence disputa sobre crédito de PIS/Cofins",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0w2Y1FDOXNsTktOaWRjUlhzcl8tVFdyRWNmanlxbFJRR2luRmJnTFNRamxUVEliZ3NTVk5GUExTUFc5bV9EanNHUTFBYnFXcFEwLVVGckZZdjlSdXoxdWFIRFVNUDEzUDc2Zy1iRnROaGdZOE5wcnhudUNfUTVUb20wX1Y2RG1pNWQ0NnVsMFc3aFA2Tlo2VWtubnkwdnY2RXZDMVdFNVlQYUdiUFNRTkFUdDdkeHNGYVHSAboBQVVfeXFMTl9MNmNRQzlzbE5LTmlkY1JYc3JfLVRXckVjZmp5cWxSUUdpbkZiZ0xTUWpsVFRJYmdzU1ZORlBMU1BXOW1fRGpzR1ExQWJxV3BRMC1VRnJGWXY5UnV6MXVhSERVTVAxM1A3NmctYkZ0TmhnWThOcHJ4bnVDX1E1VG9tMF9WNkRtaTVkNDZ1bDBXN2hQNk5aNlVrbm55MHZ2NkV2QzFXRTVZUGFHYlBTUU5BVHQ3ZHhzRmFR?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-10-15T14:13-03:00",
-   "repercute": null,
+   "repercute": 4,
    "dado": null
   },
   {
@@ -48,7 +48,7 @@
    "fonte": "O GLOBO",
    "site": "oglobo.globo.com",
    "publicado": "2026-10-15T14:04-03:00",
-   "repercute": 10,
+   "repercute": 11,
    "dado": null
   },
   {
@@ -87,8 +87,8 @@
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONmJJanNyVHN2aW5MSjhVeEhpeXVJNTZrbnMwR19wRS0wUEM2S3g0bGMtclJ3a1NGSGlHc2hjX05Sb19UdzB1VlZYWnhmWGl2OUs1bkQ1MXh1ZmFoaWpua0RYdTJKeDl3bnN5dERyQ3ZQXzNjTVRjeHU1TGxVMnJnUFVMcmpESXFXNjNxS0YwX2p2Nl91LTY0bmNiTHFuV18xNmd5cDJCRWRtLWl5UGs4T0tzN1lQWFBhSTk1Mm1OcmgtWnBHcWQ4UXhDTDVHWGVnT1dRR3I2bWVFSW1xSjNwONIB5gFBVV95cUxQZk1EUzFUeTFTVnVKdnpKVnhCdHJBNkMxN0pjU1V2ZnBoTW1nZXNGR2V0ZmdxT1Byd2h1Q3IxVk5fUlprLWEwSTlldHFYNWc3eGxkbTBvVWNsekQwUEZBTk5wTG1rSjNoUk5CVlEyWE5oblkydWF0bnVaRDZ5b3U2dkVpQWJPY0MtTkQtNUFBbmRXRmNud05iZ3liZElPOVpKVjNvWWxwbXZSNFZnSThiVU8zTzd4RzhWM1ZjOXNtcHZqQWFCOGNzbTFONGw3MTZpQUZOYzVNSENOS0Z5bEs5SUstWUo5UQ?oc=5",
    "fonte": "Estadão",
    "site": "estadao.com.br",
-   "publicado": "2026-10-15T05:00-03:00",
-   "repercute": 6,
+   "publicado": "2026-10-15T09:37-03:00",
+   "repercute": 5,
    "dado": null
   }
  ]
