@@ -1,55 +1,85 @@
 {
- "atualizado": "2026-10-15T11:03-03:00",
+ "atualizado": "2026-10-15T15:58-03:00",
  "itens": [
   {
-   "tema": "comb",
-   "titulo": "ANP anuncia que fará auditoria em unidade da BP Bioenergy em Tocantins",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeVZRWXNtREZ5NG9NR0t1aFN5eFRGVXgyM2RPMVU5MVNqVWNkdVZ2UENndDhRT3Nwc0hsWi1ldENGaVRHdFppRE9yc1hfNk43SEUzdEViMnpyRHgtWkREX0RfUlpOd2FpR21KTk5hSmxjSE5yMDZqdkk5aTlka0pXSTRwX3lwZ2FLeGJRdm9kd1o1cE1Hb1JsRzZTTjVqRWF1SGRTeVlaQQ?oc=5",
-   "fonte": "NovaCana",
-   "site": "novacana.com",
-   "publicado": "2026-10-15T10:28-03:00",
-   "repercute": null,
-   "dado": "ANP"
-  },
-  {
    "tema": "trib",
-   "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
-   "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQSGtaSGJEb21kekp3ZmlnOWRWVGllSmdzQVRQOUtBYl9XYWRDSFhYbVhBbmlTX1lUTGFoQWMxSDZCZ3BMdU03b3NJLUVTN0Q0eGNPSjJsaVNoamxBUGkxZ2JJUjR2ZXBoejkza0dSYXhMdHdQa3VqeWMzWEJNcjZMWjdaNW1TTVFWLXBtX0Y3NXdpS0xpdWZkRnE3aFh0bGplelV1cWlxYV9uOHhCNFdxUms2QkI3SDl2a0ZhbTZWNG9IcklXR25WNERSM2lFc05vbWJ0aENBXzJ1bzBENVdhTUxzTFRWbGJGTlMxNkJGaFVTN2FZSU5rYTk0cmtLNmk0THhpRHVOelRSMF90R0tzbjhpNDVjS25FR2NGaA?oc=5",
-   "fonte": "www.gov.br",
-   "site": "gov.br",
-   "publicado": "2026-10-15T10:22-03:00",
-   "repercute": 8,
-   "dado": "Receita Federal"
-  },
-  {
-   "tema": "comb",
-   "titulo": "Dexxos diz que ANP manteve autorização da GPC Química para distribuição de metanol",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVjlwQlQ4N0JMcEoyTVVnandhOFJwYlpEbHREUzVzTExSYzNwWm1CcnI1TDMwRVhoYVdVYzVyTzRHTDJCMVlsYXlFMGxJNk1tZWZfaUtUaUhoaUtoak4xQl9ZMUhpUFRtdUdrTkJxeTdCc0xIaXNhNDQzVGZWRkJEdm9xUTd6WGRQeGtnNkZlRkcxQXpwUlBqX2JZel81c1BFVFNZS2k1Wk1iWHFlY09OaTFxRWR3N25uOFFvaFpWQ1ZoYm01WVZVU1ZsVjZXbjNp0gHfAUFVX3lxTE16aHZlQWpORGoxZWVVS0ZUMWc0eFpFMFh1eWdJZ29lTjF6TElvOTZsaVNoczFjN3NwSW9BOHJRRXNUMnJUM2hveERNSzg1ZWxyZEdBT2JON1F4bFY1YVVEVTZmMWxXSUIwdUJuUzc0akhueGNWUUo1WmdrN2ltTXR6T1BTaGZMOHFlcmZFU0g4UG5oT3JPQ1pQcFlaM2JHVFZPR1VWVUJZN3lPR2EtQmNZUmcwUlhlN3hLYzNjSjhvUGN4Ti1SYVNHMGxvOERmUWs3MzByQk8zSE1NTFdzTUk?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-10-15T09:45-03:00",
-   "repercute": null,
-   "dado": "ANP"
-  },
-  {
-   "tema": "trib",
-   "titulo": "Reforma tributária: empresas correm para salvar créditos bilionários com o fim do ICMS",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTkhZWl9hZkdVamhOZ0xvb1JaN1ZySktLU0FxdDRhaDlRTjcxSnE3c2t6eGRJUHZzU2dIbUx5MFBEMzdoeTRTLTBOaXNYWXNfN3BydlFlT0NHOUhrSXhDR1czeGRIWmc5c0NNX3RWYWpSZzR0SndyWDdIRXBld2xIZjNsYnlEVjZIRmhxaEdVdExUSnBJR2E5OG84aFVnUzlfNm1xejJQRVZ4aUhMYnYwUzhBWQ?oc=5",
-   "fonte": "Exame",
-   "site": "exame.com",
-   "publicado": "2026-10-15T09:32-03:00",
+   "titulo": "Reforma Tributária exige preparação dos municípios para mudanças na arrecadação",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TN2VDd1BVVGhLVHNjSk5oTU1PSi1qbUdZVlgzc2ExbTlGcnRPandNVk5BcVB3TWJYV2gweF9OemxiZUlxOGdMVVA0M2xycnpUMWJUa3pjTTdhcWZVTl9Ldkl1R1RrNlJs?oc=5",
+   "fonte": "Prefeitura de Paranaguá",
+   "site": "paranagua.pr.gov.br",
+   "publicado": "2026-10-15T15:10-03:00",
    "repercute": 10,
    "dado": null
   },
   {
    "tema": "comb",
-   "titulo": "Petrobras recebe R$ 2,8 bi em novas parcelas de subsídios para combustíveis",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdl9ibWtQOHpUcE5KbmJRbG1jX0llRC1uVm1tMFlTb2pfNTdLTWV2QldnaDBrMG1VRW9CQnFsMkpxUUhodDE4bVhxOHFpRzIzZ3JRRGlXLXJBN3lrZ1VEVzExMV94LWtLM19ON0RPcl8wYk1iM0JudW1hLXB6ZzdNU1c4SmRMZDluVTMxSGp4d3A4RUk4QzZSNUtkT19ob0JYLTJCQ1Vwd09EdVlZMDNFOF9aY3p3NEo1VkExaEQzUmd0MXFYUy04blRCZ9IB2gFBVV95cUxNeDJlblhSamxaNnExOEdRLUNMSWJrWWtuQU4zUnF3VjFaVF9DYVpQM0VEemkwTlA5RlJidnEwS2ZlWmJIYm80WEFFQ2dZLUVueWJ5dUtwREFva0Q3eVpRYzZxWUhxallZUjJMVlc0X1F4UjUwUzJXM1F3dnJQQkhVM000LUllbzNpNVg1SzdDd3hFNVRqT2tQbFFCVUJyV3ZsVGdmWXBHbmdBcHRiYUNaWTR0QWo1NkxyQnZYUXV6N2l2TVNnVjFXUGZtV1dwT0dnTVNzZ1JMbndOQQ?oc=5",
+   "titulo": "Be8 começa a receber trigo para nova indústria de glúten e etanol no RS",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVDJuWFZPTWFnUV9qOFVRWHJOMUZCVnp1M1l0T0drV09zNHJvSWFqT2xRNVlCWnJvOWY5bFdHVDNtSmRVQlphc2JTQW9oYzBSNllCV0hWWWplSHJvNXgzM21mYXdfLVJwMWdqSGpGTURSVWRCUC16aXJDejVSTTBESlVpNUNpVTA5QWswVE1PdzF3NTlFTkxyRjAtMzEwczZkbEFpZnQ3TDN4UQ?oc=5",
+   "fonte": "CNN Brasil",
+   "site": "cnnbrasil.com.br",
+   "publicado": "2026-10-15T14:48-03:00",
+   "repercute": 3,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Estoques de petróleo dos EUA apresentam queda inesperada na semana passada",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcFNnektCRU9OdGZMTURHa1pNeFlYNkVDUGdpN3lfdG4tdm80NERMc0RQRjBCOHNqMk5lanc1RG5mR1FFV3RaYnVnOElKZDNYN2hSdmFtUFBZSGZuc2hfVnRoc2FMN2kyMTRyN1ZYYUk4bVNtVkpLWUNNRWp6XzZjRHV0TDBickIyd0tJSEVURWpRN1pQMC1YcTExa2ZOdk5BYXpzOEs2MlVBVFpQU2xWOWZVU0duc1c3Vnc1LS03NmVtaVdSZHhja2RZNGzSAdsBQVVfeXFMTVJuVEotTGRmUF9wa3ktR183eDByc0s4eGdCNUF2bjFFa0YtR05VeXM4ckN0elp3TnNPTk0wSV80S0ZCT2JJMkh2b2ZYelRZblEyM3l3Wmk0TjdLOGFtUzF2QjgtS2QzUjVLY20ydnNOcUotOVFPcUhDS1pWZi1tSjhJU2RCc0xJT19RaHhlc2xpM2ZKNTZrN2dOR1BydXB3dEt0ak1DSG11Wk9KYVdlRVRBcU9wbFFMSGhtLTFNU3FJTzFqUTUwNmM0WW5waUhXSE9oS2JMODdxaTBR?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
-   "publicado": "2026-10-15T08:34-03:00",
-   "repercute": 9,
+   "publicado": "2026-10-15T14:21-03:00",
+   "repercute": null,
    "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "União vence disputa sobre crédito de PIS/Cofins",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0w2Y1FDOXNsTktOaWRjUlhzcl8tVFdyRWNmanlxbFJRR2luRmJnTFNRamxUVEliZ3NTVk5GUExTUFc5bV9EanNHUTFBYnFXcFEwLVVGckZZdjlSdXoxdWFIRFVNUDEzUDc2Zy1iRnROaGdZOE5wcnhudUNfUTVUb20wX1Y2RG1pNWQ0NnVsMFc3aFA2Tlo2VWtubnkwdnY2RXZDMVdFNVlQYUdiUFNRTkFUdDdkeHNGYVHSAboBQVVfeXFMTl9MNmNRQzlzbE5LTmlkY1JYc3JfLVRXckVjZmp5cWxSUUdpbkZiZ0xTUWpsVFRJYmdzU1ZORlBMU1BXOW1fRGpzR1ExQWJxV3BRMC1VRnJGWXY5UnV6MXVhSERVTVAxM1A3NmctYkZ0TmhnWThOcHJ4bnVDX1E1VG9tMF9WNkRtaTVkNDZ1bDBXN2hQNk5aNlVrbm55MHZ2NkV2QzFXRTVZUGFHYlBTUU5BVHQ3ZHhzRmFR?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-10-15T14:13-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "PF identifica grupo criminoso que recebia avisos de servidores estaduais sobre fiscalizações em postos de combustíveis",
+   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNc1NPN3ZrdDBISVNKaFZhaGRmdzNYVzVxUnZNaWo3cTFTZW5iUjJPVWNyUXNYdXNrbVQ0RDU1NlAxd3ktQmxrUXNRb000bDQ2dkpmekQwbWZ2bkhGUlI3dkVzMnFoSXQ5azZsOEJmblRsQjdZNXRHd2gwcHN2RU0walIzc0RGc04wSG5SQ2ctMkdJcFhLLTZrYVNwQ3JJRVhLbEpUSHA2NjN2dlZJREdNMHB6Und3enNzZEpzNDM1RU5BaXBwaXFtQy1vdnhDRVRzWHAxWFBIdzRmc1REYkZpbVJnYzFpcjlFZFJ3SE5tTWltcTdONzJyd0h4WnVhcEJXREHSAZACQVVfeXFMT3FoOWk3X3lSUUtETFNYZmxrcXgteHJWUmQwUnppcEFPdlBJWmF5RlNabnVQYVhRNVp6VS1SRUp5TWhRd1AtNC1jU3BpbnVnbXlKX21KUHJYOVNubEo1U0JlbXhfbEVaZWJYTXVRVzVIck9MN1hrTFV0aGQyV2pyeFE1YkphYkFleXk4M2VEZTI2RVBOYnJsdzVMeWY1TnZJYXRlNklXLV9BTEpoYmM1TjhwWFA5NXZvbUQwQ2xmTGQzRmlDMHlqanRvZlJwVzVXeEVBR2JXdHplcFAyeXI2cXhDNTVrb2dBRTVMNUFXck9IeFhsUnA4cnhTa0k2Vk9xUWFpTlMyTjBtM0I2djBGTm8?oc=5",
+   "fonte": "O GLOBO",
+   "site": "oglobo.globo.com",
+   "publicado": "2026-10-15T14:04-03:00",
+   "repercute": 10,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+   "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQSGtaSGJEb21kekp3ZmlnOWRWVGllSmdzQVRQOUtBYl9XYWRDSFhYbVhBbmlTX1lUTGFoQWMxSDZCZ3BMdU03b3NJLUVTN0Q0eGNPSjJsaVNoamxBUGkxZ2JJUjR2ZXBoejkza0dSYXhMdHdQa3VqeWMzWEJNcjZMWjdaNW1TTVFWLXBtX0Y3NXdpS0xpdWZkRnE3aFh0bGplelV1cWlxYV9uOHhCNFdxUms2QkI3SDl2a0ZhbTZWNG9IcklXR25WNERSM2lFc05vbWJ0aENBXzJ1bzBENVdhTUxzTFRWbGJGTlMxNkJGaFVTN2FZSU5rYTk0cmtLNmk0THhpRHVOelRSMF90R0tzbjhpNDVjS25FR2NGaA?oc=5",
+   "fonte": "Governo Federal",
+   "site": "gov.br",
+   "publicado": "2026-10-15T11:36-03:00",
+   "repercute": 6,
+   "dado": "Receita Federal"
+  },
+  {
+   "tema": "pag",
+   "titulo": "Agência de Comunicação - Getnet expande atuação na Europa com integração unificada de pagamentos",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMG84ZllQSDVlODBhZm9JMm4wdk5VQ1oxSEYyNWxyS0pyekNRLXluaWhVZF91SWpqQ291NTNPT2FFZ0ZWZDFxektDSU91U0MzNl8wY3U5UExvX3hsdkpqWXpwT2ZBQThNbnNWM0NZZlhOaVBwLVhjemFRXzFBQ1h4X0VJSFFNNkNTRndnVXd6cmlpMDJidmhnSllvVjNaYldXOVpXWGF1OWIzOGxhLUJyLW5PVEhwWjM0aE5sY1lKV09Pa3VlaGdjbW9xUF8weGlZTm5yQlgzWQ?oc=5",
+   "fonte": "Estadão Blue Studio",
+   "site": "bluestudio.estadao.com.br",
+   "publicado": "2026-10-15T10:32-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "pag",
+   "titulo": "Bitfinex encerra Pix no Brasil às vésperas de prazo do Banco Central para exchanges",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONElNSGlQb3dWaE5HMFB5cWVDZnhmVHoxNmN2bjE3aW9feDFZMFhEZ1VieU1TcnpYaW1uTHBZeUk3dUExSGV5aV9CaGc1Sl95SW5GX0dqc3g5TUpSS3BHZWNjeEJDM1p6M3lyMm9mR1RIMmFaMXN2c1JfVDB4X2V6MTcyb1ltenlrSDB4YkJJYUg5NDljRlhIbkY2ak9ZaXBzUndmS05COGtlVkZlWjdESXhwWEFMNldsTkI40gHAAUFVX3lxTE44VVVvTm5pdG95UUlibVdGZm5LUHZ5cEdNY1R6eEtwaldScWJMbFpLZHRoc1owdDJ5WEhMbDRQWjF5ZUU3bHZLYTktOC1oOFAyeEpMcHlwdEVrZ1pxTWdkRmVsOVozeHdMTVFpR3dNRW5vejBNNVB3Q2tWeGNfOHZER1NGRFlTSjZRTE8zZV9HMkZLRGFXVFhGSDg2WjdMTDNRSV9GaWRGMEYxWGlXWXdkTEFkMlV3N1JqSGVLQ2E0cw?oc=5",
+   "fonte": "Portal do Bitcoin",
+   "site": "portaldobitcoin.uol.com.br",
+   "publicado": "2026-10-15T10:12-03:00",
+   "repercute": null,
+   "dado": "Banco Central"
   },
   {
    "tema": "comb",
@@ -59,36 +89,6 @@
    "site": "estadao.com.br",
    "publicado": "2026-10-15T05:00-03:00",
    "repercute": 6,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Circuito MDR Recife 2026: medalha da corrida homenageia símbolos de Pernambuco",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdWpGOUtyQmcwalBUN2o1TDFaM0txQ3V4cWJXSjRwbEc3NC0wWVZrQmpGV0luNWY0TkFYUjl3Y3A2Y2Y0a3o1dEZPQUg3d2J1Rk0yc1pULTdXeGlfQU91SmliU2FBZ1VNQW9PV3NKaHNFYllzdUxpVG05Rm1remNyUGRqR3NGRFNHWmgzMEY1aFhoVm5VVERYQ2hfRXE5UC1IUjZWUjRPWWUzci1jOTNfNlI4aXNXdjAzc3VwRGNIaENpZHpIck5uSjVPUi1RdXJ1TzJBRGRFVk1XSnJkbVF4Wm9B?oc=5",
-   "fonte": "JC",
-   "site": "jc.uol.com.br",
-   "publicado": "2026-10-14T20:15-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petróleo fecha sem direção única com perspectiva de oferta russa no radar",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVEU4YS1YZlBtS0dhelBMMFl1MTZEdWJIY2h0Skp2UXR3X29xYVlNb2ZnbElxeUZUMWM1MTlfNzNRNUNzQ2FabnRqYUhoUVk1UXRNbjhGX1M0MFhpUmh1ZWVpZHMwVDNYSWxrLTVEVU4tbXFPN0t5XzdYRVJfRVVlREhCcGx5a2RHM3N6aFZiNUlFaHdQY3FqLTFFQXotTkYtZDFiN0VxS0tCTk9jZDVKOTNqVG5nQld4LUJpempFdEpSbmNjVlpoVy1Hb9IB2gFBVV95cUxQeWp3NFY3b1Y5d3JSSmUyTXJhb0dZRXFicHU2RWxjQ0RPV1h5WWNwUjRFRW00emlUOGNlYXVsLWxhRF9VXzRuV09mZFhxaHNXOXVrc0JySmtESF96M1pJNmR4NkF3V0tnRVV0ckdNdWNuZERmdjBycUdEazhEaUJZNVZMZTRCU3pHQkdKUmJyTlpsZ3JxblZFVXRob0xTR1BoUlVycFB4N05kTE9LNldLdmhndDg4M1k1bVN3M0ptV005R1hBZUZuSWRWYjZZMXBzSFY1dUQwYWNTQQ?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-10-14T17:37-03:00",
-   "repercute": 4,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Asaas lança primeira maquininha de cartão e mira faturamento de R$ 1 bilhão em 2026",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObTV5SGtKdERSZmRHMTFDSlVVdnlleHRTNUJIbS1OSzlHbXZsUWZVeHRBTXVuaWZvZmZxalBZWUY1OHJoSllnUXJQM3YtSWFOXzhEUjFKbTJaSVJ1aDQ2c1hLVEdVRGJ5eEZWc2NNaFozeUItVkFrQjRYTFRzd1IwVjVmUHl3Zm9WdTNHSDJqZl9WS3lmN2ZmQ0JoNjN5aThoT1RkWEs3LUtRbklod2Fz?oc=5",
-   "fonte": "Exame",
-   "site": "exame.com",
-   "publicado": "2026-10-14T15:23-03:00",
-   "repercute": null,
    "dado": null
   }
  ]
