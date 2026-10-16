@@ -1,6 +1,26 @@
 {
- "atualizado": "2026-10-16T10:51-03:00",
+ "atualizado": "2026-10-16T15:41-03:00",
  "itens": [
+  {
+   "tema": "comb",
+   "titulo": "Zelensky desafia apelo de Trump e volta a atacar refinarias de petróleo da Rússia",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0NaYjVBQnA3OFp2OVZKZDMyQy1Sblg3ZFRfUFF0MXlWWGU2dXBEblFfOWowNFNLNU1OWTZHc1o5VTcwOHFabll6SHVaWDBfMG1XU2lVOFhsby00SDNNQV9LZGdsM0tVaWJ3d2paZzR6bGcwZEpjM3RlUnpRZElnS3Itckl4OFl4Y3ppR3lEY1lMMHlzYVh0ZW9DN0RzZ0VqdUNjRVF6SDZvVVpEcjhTOTF6VEtmVUVX0gG-AUFVX3lxTE5oT1FnOVNBX0tja0FCQzl3d1lROTdkcks4dHJLelUzeFlXbGZyeDMzMTRXNGRGanJMdE9DUnZOOHA4VjA2eVdjc3BvaXBIYmRXVWNwTlMxM1l1eEJucTlMYUtwbjVyRjRtNFJ5akUwQ0tXZVRhX2xyYnhiaXhzMFRNalc4Z3dsaEE0cHRNMmpBU3ZsQWMtUlZiZ1EzUEVIUy15X1RGclVvUkl4enZkVHpUcHc1azBiZkhaRjNja1E?oc=5",
+   "fonte": "InfoMoney",
+   "site": "infomoney.com.br",
+   "publicado": "2026-10-16T15:25-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Procon de Parauapebas recebe capacitação da ANP para fortalecer fiscalização no setor de combustíveis",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdW44Znd4dDdDTElzUVNGWVd2cmFGZ2hRbXMya3FUTWpxQnNFcnFMb3huVUE1cERQckh5QUlVbDV4QUtGVFFJbzR3UmduamIxVDZhWVpWd1VfQTZyY0VEczF3SXd4NUtHSkM1aThMS2J1TnFZdHhINW5ORlJjODBWUzhNZmgyWHBLa25jd1V5VzVNYzF5WUJCWWhSTUlIMS0zRGNjTTJ6UzNWcmhoN3kybGdpNWVvZVA1dHlaaTVQMjVlV0g4bGpFdXBNbFdzNmh2SG5vZ1BtVmE?oc=5",
+   "fonte": "Prefeitura de Parauapebas",
+   "site": "parauapebas.pa.gov.br",
+   "publicado": "2026-10-16T15:22-03:00",
+   "repercute": null,
+   "dado": "ANP"
+  },
   {
    "tema": "trib",
    "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
@@ -8,7 +28,7 @@
    "fonte": "Governo Federal",
    "site": "gov.br",
    "publicado": "2026-10-16T09:15-03:00",
-   "repercute": 6,
+   "repercute": 5,
    "dado": "Receita Federal"
   },
   {
@@ -18,46 +38,26 @@
    "fonte": "Estadão",
    "site": "estadao.com.br",
    "publicado": "2026-10-16T08:00-03:00",
-   "repercute": 7,
+   "repercute": 6,
    "dado": null
   },
   {
    "tema": "trib",
-   "titulo": "Governo quer mudar reforma tributária para prorrogar IPI e cobrir atraso no Imposto Seletivo",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORzZfSkQ5cWdORXV2RzBubzdCbGwxR2ZkeDRId1ZDWUVvS3NyOGZ0RUMtb0F0WGo1dC00dk5EWFFPTENCRXdGSWFLZGVFQnBUQU5NLTd3Vzl6Vzg1eUJLbl93aHA2ZnVOWVNVeXZBVk1KRm92SjJnSXBSbmp5MnJNN0tTX1B5YllwNklnY1pkNzJmeEFKdjFTZW9rTnFEX3o0RUZ4LU1vei1sWUZzdHNTekNZc3BmTEh0T2t2djVMSVRwTTd5TXd3RW9rLXdMT05HdkdMeDc1UjVfek43?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-10-16T06:30-03:00",
-   "repercute": 11,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petróleo recua, mas caminha para alta semanal em meio a riscos de abastecimento no Oriente Médio",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVUs0dldSOExySVFGcFhvQkxtczlzZmFEQjJBNXlHXzhiNGU2eXhXWk1XWUF6V3NiUzdXN2NBWDRtNklBMUpsRHlGY0Z6M1R2a3JBUGNTV0VfeU9lYVFSR0hjYlJ2VDFLV2xuaEFOajZjNkZsM2MycC1jZVF1YkxvWEdicC1fN3oyc1Noa2toMUx6dTZ4S1BMbWxEYUZCUFdPalJ2MHdQM1pMejBYVjI3MXRQTU1LNS0zWGljbEg5Vl9pQzJVYjZwVXZoMA?oc=5",
-   "fonte": "Money Times",
-   "site": "moneytimes.com.br",
-   "publicado": "2026-10-16T04:37-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petróleo fecha sem direção única com liberação de reservas e queda nos estoques dos EUA",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTG1KMm1jeXRaTmZ5elp1VHUwajFyQzdNVFVFaFdWeVQtU2duQlNGQlNCQnkwYXJnMzg2aTNOM2w0UUFER2JmVHlTXzBpaGpnaTZTLWNOREZXaDhNbGRWckRBVjN3Z0J4SW5YTFhZaWpRU3VEa2tyenNfQzdPYVp3UHBRRzU4eFNQb3VhczVobnpuMmVQTlpVQ1pMS2N0VFFkRkk2R0xWQUJyNzRrcThDRG45QWN4dVBvYXRweUJoMVZmTWZYMXNYbWFmQkdma0pwN3daZlZrSDRwcC1RcEHSAewBQVVfeXFMTllLRG5CUnBGMUhIaWF5ZXV1eV9XbUIwbERSRUllLTBpRk5jMm1rWmRxd0duczBDX1lIR2NBREJRVE5oQ3hKMEIwOXUwOHZXWGhreWtoUmtHdmEwUkNpMmNlazBITUpmV3M3clFRVDZQckQzQ3BITGxSLVJJX0ZWQmlMR1pwX0xvLVczeVFlZ2xJdS1vRS1ab25iMUNmMEFDNnl5Nk14YTlHcDBWRVlQR093N1FZOTVEdi15bE8xanRUV1hFS19rTHZ1cEkzYUFwSUhzQWttQ0twVl9rS1hPRkt1UXdOeFJXSS1hZVI?oc=5",
+   "titulo": "Reforma tributária: A volta dos que não foram",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZjVDOHpPLUpRaHc3V1pEcFRoSmlUTnFvSFhOZHBlYWJoS3lnQ05PcE1QSEtjZWNBLV9HemQySmNVd05mTzZSeVU5ckZ1T1ZkUHRfci10Q2RCLTlyaU9vLWtLZ0c2OUExTk54ZzhqSEloTW1ocDczVFNGNGhFVzVGeXM4SFAtSV95cEdDZ0FNTms1dUZFWEdSNUlaTHBLLVXSAa4BQVVfeXFMUHdtQnAtYmtycGczTXMtQ1lCY2ZVbEptUDZJdHltRW1QaEkzbmNndjBOY0NLd0wxNGp5aUJTY3FDUERFb0RxN24xRVJVQmxSOTY3Z3k0WGxrM2NSb1g2QVdBcko4VkNlQnBYbGtuMmdBMTZBb3dQZnN3VkRKUXk5X2RiZW1ZQ3lPVVVnbWxTN0p5S0JoOVQycmVhRWw2S01hVEdMMFhJWjdKNXVtV013?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
-   "publicado": "2026-10-15T16:45-03:00",
-   "repercute": 4,
+   "publicado": "2026-10-16T06:30-03:00",
+   "repercute": 7,
    "dado": null
   },
   {
    "tema": "comb",
-   "titulo": "Be8 começa a receber trigo para nova indústria de glúten e etanol no RS",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVDJuWFZPTWFnUV9qOFVRWHJOMUZCVnp1M1l0T0drV09zNHJvSWFqT2xRNVlCWnJvOWY5bFdHVDNtSmRVQlphc2JTQW9oYzBSNllCV0hWWWplSHJvNXgzM21mYXdfLVJwMWdqSGpGTURSVWRCUC16aXJDejVSTTBESlVpNUNpVTA5QWswVE1PdzF3NTlFTkxyRjAtMzEwczZkbEFpZnQ3TDN4UQ?oc=5",
-   "fonte": "CNN Brasil",
-   "site": "cnnbrasil.com.br",
-   "publicado": "2026-10-15T14:52-03:00",
+   "titulo": "Petróleo fecha sem direção única em meio a ataques no Oriente Médio e alta da oferta",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTkRoeUNBS1FUN01tdU10V0JpLW95S2QyWWRaMlZMWTNUNWFuVUZJWkl1MVJnUzJUbkJseDBOMFhvLVd5dzhaQUV5QW5rU0FvNy1uQVRJNUFQSTdQZzhQYm95dVEzNkp1bzQ1dGpzMmM1X3VaYk9NRVZHVFV3OVRraGJnaTBkSEhkeElqdtIBkgFBVV95cUxNd3hWNU9tUkM5eUlIZ0l5OGVFcUktdzQ5YlMzY19nS3ctZ1RzSXM3MzFiQkpwdGV5LVZONVNYYVlnX3F2UGlSMnh3Qm9xcEFDbXBKbzB2Vk9ORmNNNHJ3NnBrM1RxZVlYTFA0b2owenZXUWJTN2ZqRVVvcEdEQ2Izc2xmNXhvTU9vNUJ5QUZEMWVCdw?oc=5",
+   "fonte": "InfoMoney",
+   "site": "infomoney.com.br",
+   "publicado": "2026-10-16T05:00-03:00",
    "repercute": 4,
    "dado": null
   },
