@@ -1,6 +1,16 @@
 {
- "atualizado": "2026-10-17T19:57-03:00",
+ "atualizado": "2026-10-18T00:52-03:00",
  "itens": [
+  {
+   "tema": "comb",
+   "titulo": "Governo testa aumentar mistura de etanol na gasolina de 32% para 35%",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQR0NTOW1FTkRyajd6a2hIRXE2QTc2NVM1MzV2TFItUjVRYzE0MmpleF94VnpJaTRSY2JTTjR1X2FHMmp4S2hBZHUxOGJOVHUyeFFjLVEtNFZ6aHVPTGdlaVJxSGpucU0zVm01N24yYlExUFFwRzFlRW8wdU01WllWS1YxMXkzeXQwbFBVamRja3VBNXNZRWdEck13NTRkV2xGRENhcnR1TDAwdmFyTmZzWTlTUnhxbjljcXZUbzZEa1hrQTV3WVo3anNYako2RnpVRV9rU01tTXFVcDNmVERPV3ZTdHpoVmpHXzdNZG5vWS16cDJubVhz0gGGAkFVX3lxTFBSMXh3dmZYZFppMlBUeHY1TUdWZ2NjM1I5U2daYkpKRHZwSkJOY0kyT3Z6OUNhaWxsWnJqQVZaQkVGLVEwUjJQRi1na1Y5UVJZT1pVaGJ6cDNLcmExM1FrZXlBcmVnOEdRRWF2cFI0aVRVNHBza1lZLVlzdGNmSG5JMWk2bl8xZHFSeDFzdUVVbW5lYXpXZks4bkQwTXo4OHpQaXJsdzd3UE1VVEhqR3JleklxUm90SDZ4elB0OUxnSDhqdkJjYk9ncWthTkppcVFHWnNTQnRFcmxPbkc5ZDUxOFNzaFZZaExKVEFWSVFQYlNjUnRKZGdwNkZGSUt0SXczaEhDR1E?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
+   "publicado": "2026-10-17T19:56-03:00",
+   "repercute": null,
+   "dado": null
+  },
   {
    "tema": "comb",
    "titulo": "Bank of America vê Petrobras perto de R$ 1 trilhão em valor de mercado",
@@ -9,6 +19,16 @@
    "site": "timesbrasil.com.br",
    "publicado": "2026-10-17T19:08-03:00",
    "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "A reforma tributária traz três grandes ganhos, uma oportunidade que o Brasil não pode perder",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSHhyNXNBTkJqNGM0dzFLV0VsVHl4X1BOU2lfcnpUdmZVV0puSDcwdmN6MzFnbmExU1FfM3A5UjZRZHJEQm5wUFY4NlhyMEV4eHo1aUY2a2ZzeE5mZkd0UFJzUGlydnlzVkFoY25pNm02TFFVOVl4djY1ZFMxN1R0SW5GZXFhR241ZjNOQlRORUw5Q19zc3RObmxDSUtOY3JaQ3p0c0NqeG5wUVRCOTVxbUJEY0dpY0dzZ0RuX2FxNklKc3dGRXI1VnNUNlR0VHFjcHJTOTNmNjg1RUlKUXB5TTJJMllfYkdNekZ5WVlZbHhPTThZc3FpZkE4S2c?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-10-17T18:19-03:00",
+   "repercute": 11,
    "dado": null
   },
   {
@@ -22,32 +42,12 @@
    "dado": null
   },
   {
-   "tema": "trib",
-   "titulo": "A reforma tributária traz três grandes ganhos, uma oportunidade que o Brasil não pode perder",
-   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSHhyNXNBTkJqNGM0dzFLV0VsVHl4X1BOU2lfcnpUdmZVV0puSDcwdmN6MzFnbmExU1FfM3A5UjZRZHJEQm5wUFY4NlhyMEV4eHo1aUY2a2ZzeE5mZkd0UFJzUGlydnlzVkFoY25pNm02TFFVOVl4djY1ZFMxN1R0SW5GZXFhR241ZjNOQlRORUw5Q19zc3RObmxDSUtOY3JaQ3p0c0NqeG5wUVRCOTVxbUJEY0dpY0dzZ0RuX2FxNklKc3dGRXI1VnNUNlR0VHFjcHJTOTNmNjg1RUlKUXB5TTJJMllfYkdNekZ5WVlZbHhPTThZc3FpZkE4S2c?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-10-17T17:06-03:00",
-   "repercute": 11,
-   "dado": null
-  },
-  {
    "tema": "comb",
    "titulo": "Petróleo a US$ 80 em 2027? O que sustenta a previsão do Goldman Sachs",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQVpFUmxoOEZUQWluSWVsNVA2OThwUEFqNTdGZmFDd3BKT015MjVFNzdkb3R4X0szOHVwV2haQXpsd2lSYjZWRG44dXpIN2NwcWVpOEt5c1RJNFhwOTJMcWM2b2Qyb0JGc2pjbWF5WTRJT1FDMEh1YzVVYWFjeVRHVTd4Q0hYM2ZqWnNjTVF1LVFnVDVSblJPT3dVYlQ1cmFyNEgwWQ?oc=5",
    "fonte": "Exame",
    "site": "exame.com",
    "publicado": "2026-10-17T14:28-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "PF encontra conexões entre cartel de postos de combustíveis no Rio e empresas associadas ao PCC investigadas na Carbono Oculto",
-   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQN0lNQVVvdzA3UF9uVlA4ZnpKUlJnLXA5Xzh4VmxhajN1YlBjQjk2TlZuTFloWlhodk5FZGZEdVpIT3M5U2E4dlpCeUUycFk1akxtX3Baa044anIxN3kwb3JQUmZSUWhmQ1J3ZUtveVJXTUNUdFZqVEUwYkNTWEtsb1V6SHgzMnR2S0NxajhPR1EzNmNTOU0ybS1OcmNaMkdnZHpTYW5hNERUS1N4dTZyZlp3V283TFJIM2lneWhmTWtoTW5zREY1R1ZlZ29uT0xiZDZxdk0wWDdzb1ljOFVodFRYRk9YRUYtODduTl9aZW90WjhFYnpqdE1weHdCbi1hSnBSbjl5UU1fc0Fl0gGbAkFVX3lxTFB4bWZSeFF4MDRCUzlqVWlpUHFpMUsyRDJvZmotZ3h3aGQ2al92SmNrZG91TTVrbHdHTFZXYkR2TXl2QlhPSk1QRDlfdnhqdjZEOGx6VWpCb3VzWUkwUUVYdVBvaF9xRUtLaEMxQWxTd3puTzc3YW9iNVNwaGpkd3ZvZkZ2c01QNklLMUp6cnR2YllYTlhhOC0zZE5YRzhMaU56dEgzUjRCVDZUaHp2a19IbXhGOERGWUIxVFdWbUZzZEljZk9NUlFuelY4Q0dWMXlYVjdvNkxrNHFBVzNZSjBPRE1QcjhSbnhsOHBSREY5Z0NrZzBpQ1RrMVViNS15a0MxY0dWNHlmdUVMSWcwTVltMm9QOTZJMmVyVEk?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-10-17T13:00-03:00",
    "repercute": null,
    "dado": null
   },
