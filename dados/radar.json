@@ -1,6 +1,36 @@
 {
- "atualizado": "2026-10-18T00:52-03:00",
+ "atualizado": "2026-10-18T10:06-03:00",
  "itens": [
+  {
+   "tema": "comb",
+   "titulo": "Brent pode atingir US$ 120 por barril se impasse entre EUA e Irã persistir",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMXVpcVgwV0J0TlZjRGcteDhXdm5HUlNLNE5IREpWYlFka29pU0oyc01KMFdQT0Y4MGg4VXQtUmJrTmF0TFVZWkp0ckZRRUFWMm4za2JlN2kyR0w0dEszSmZEOTBBWVpMcENzMjViRTlpY2NJelJfU2JmUFFIN005eFpMdG15NW5qVW4weDU2RHpabDRNaGMzTGVEcTF3a0RhNjllczFXdTNFTGVZSS13UmJFckJnLTA?oc=5",
+   "fonte": "Times Brasil | CNBC",
+   "site": "timesbrasil.com.br",
+   "publicado": "2026-10-18T09:30-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "STJ nega excluir ICMS da base do PIS/Cofins no regime de alíquota por volume",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb2JQRkR6c1NnMTZ2NkpSOWR5QzIyc3BqaU02N1M2cjRXSVB5ajhzZVVtT2hxTGlTSUVLU01oQm1PVzM4UDZrWk53b1ozLWQ4dG9qX2hYUDliQlZRcUNEUzEwZ0lrOGFPbGFwQmdFd3hCOUlTRmdRMUtyZWNPWFdYazY5Ujl6M0dKLUotTEx2NVJTZ3lvY1pzSDRLZnNWN0dYdzdFQ1YySnB6b0E?oc=5",
+   "fonte": "JOTA Info",
+   "site": "jota.info",
+   "publicado": "2026-10-18T07:18-03:00",
+   "repercute": null,
+   "dado": "STJ"
+  },
+  {
+   "tema": "trib",
+   "titulo": "A reforma tributária traz três grandes ganhos, uma oportunidade que o Brasil não pode perder",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSHhyNXNBTkJqNGM0dzFLV0VsVHl4X1BOU2lfcnpUdmZVV0puSDcwdmN6MzFnbmExU1FfM3A5UjZRZHJEQm5wUFY4NlhyMEV4eHo1aUY2a2ZzeE5mZkd0UFJzUGlydnlzVkFoY25pNm02TFFVOVl4djY1ZFMxN1R0SW5GZXFhR241ZjNOQlRORUw5Q19zc3RObmxDSUtOY3JaQ3p0c0NqeG5wUVRCOTVxbUJEY0dpY0dzZ0RuX2FxNklKc3dGRXI1VnNUNlR0VHFjcHJTOTNmNjg1RUlKUXB5TTJJMllfYkdNekZ5WVlZbHhPTThZc3FpZkE4S2c?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-10-18T05:20-03:00",
+   "repercute": 11,
+   "dado": null
+  },
   {
    "tema": "comb",
    "titulo": "Governo testa aumentar mistura de etanol na gasolina de 32% para 35%",
@@ -22,16 +52,6 @@
    "dado": null
   },
   {
-   "tema": "trib",
-   "titulo": "A reforma tributária traz três grandes ganhos, uma oportunidade que o Brasil não pode perder",
-   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSHhyNXNBTkJqNGM0dzFLV0VsVHl4X1BOU2lfcnpUdmZVV0puSDcwdmN6MzFnbmExU1FfM3A5UjZRZHJEQm5wUFY4NlhyMEV4eHo1aUY2a2ZzeE5mZkd0UFJzUGlydnlzVkFoY25pNm02TFFVOVl4djY1ZFMxN1R0SW5GZXFhR241ZjNOQlRORUw5Q19zc3RObmxDSUtOY3JaQ3p0c0NqeG5wUVRCOTVxbUJEY0dpY0dzZ0RuX2FxNklKc3dGRXI1VnNUNlR0VHFjcHJTOTNmNjg1RUlKUXB5TTJJMllfYkdNekZ5WVlZbHhPTThZc3FpZkE4S2c?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-10-17T18:19-03:00",
-   "repercute": 11,
-   "dado": null
-  },
-  {
    "tema": "comb",
    "titulo": "Para impedir alta do petróleo, Trump desiste de sanções comerciais à Rússia",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZ0NPbUtVdDNhMFpoQlBjRWh4RFZNMlRBc1dnTHJYNEdIUXRXZ2xTaDk3VWRHMk4zQjRZV3dpSU05dG5adTVFbndIS1J2LWxNZ3ZJMjZFRURsUlhkNmhLQ0xlSllGUy12TDdaQ2xBanY0bThfZnVBTU94THFmQXIzYWRLRlJwQU1hbzJ1Nm90MHh1X0c1ZVB2d3BTN3Vhb0RzX2JhVGVKTVR6WFE?oc=5",
@@ -43,11 +63,11 @@
   },
   {
    "tema": "comb",
-   "titulo": "Petróleo a US$ 80 em 2027? O que sustenta a previsão do Goldman Sachs",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQVpFUmxoOEZUQWluSWVsNVA2OThwUEFqNTdGZmFDd3BKT015MjVFNzdkb3R4X0szOHVwV2haQXpsd2lSYjZWRG44dXpIN2NwcWVpOEt5c1RJNFhwOTJMcWM2b2Qyb0JGc2pjbWF5WTRJT1FDMEh1YzVVYWFjeVRHVTd4Q0hYM2ZqWnNjTVF1LVFnVDVSblJPT3dVYlQ1cmFyNEgwWQ?oc=5",
-   "fonte": "Exame",
-   "site": "exame.com",
-   "publicado": "2026-10-17T14:28-03:00",
+   "titulo": "Esforço global para aliviar o mercado de diesel será em vão?",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVW1hbkVQQy1XcHhJNFRnakhseWszdGU0V25yS3ZwQWxYRWNnbVV6NkoxeU5QY2gyazkzRTNJSS1qTFBpSW5ZTXdQUi16YnNfVGN3YklOeW1sQlBPZ3ZLWUJ3a2ZTemYtOEZIRXU4bTZBc3hUVVNYcHRSY3dvZ1UxQkRLbGdxb0t6SVJpZURtRHc4a2g4ME5GZUVWQWpiYW_SAaQBQVVfeXFMTUtBeDRZWUI0akh6NGFnMkpRLWx2dkxqTVJPMjhTdTU0Z2M3bUNUZFpZd1BkMjRGUTEydWxpMXl4V2Q3V00xcW51eldndmtSb00tbzlKN2tjVlU0Wk1MeTRrOUF3YXZULTZtdW84QVJ3UHpLaE1RREh0YjZGOFhnZGZiWjFfem5VcWhBRGFhRVZfNTFGWUFJdk1ZOXFvMTZQSkw0a3c?oc=5",
+   "fonte": "InfoMoney",
+   "site": "infomoney.com.br",
+   "publicado": "2026-10-17T09:16-03:00",
    "repercute": null,
    "dado": null
   },
@@ -70,26 +90,6 @@
    "publicado": "2026-10-16T21:49-03:00",
    "repercute": null,
    "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petróleo Brent supera US$ 110 pela 1ª vez desde maio com temor sobre oferta global",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR3lZY1FKTVdXZHlYd0ViMm84UkkxNXdVSHVDaW5tRzQ0WlpRWHVtRkdhcHlOZEFjLWFtS3hqY2UzT01RbkQ1VzFzNWFPZTBOeXNJLTNXMGR2Y2RacDlCWVdFNDdmZ0F5UDVCbXdDS2I3VGRjR0hLUmUwODNMSWhWc2sxcmxQUWhBNU1PSNIBkgFBVV95cUxOLUtERWZ0NUliY0JDRXhwQ0lDWGVfemFuQlNfMnpRenduVEhrVWFIX0VZTnNmRDg4ZXNvNl96SFJPZnNxMTlXcTdabzJBQ2R1eWU2clVGc09GYXdnNklhRHJ0amNCTEk4bEE1ZDh5YzZKdk5mcVpiMzR5OVBKei1IM3J4QXZUWHg3NWJYUWtoc2lFQQ?oc=5",
-   "fonte": "InfoMoney",
-   "site": "infomoney.com.br",
-   "publicado": "2026-10-16T16:30-03:00",
-   "repercute": 4,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "A Receita Federal divulga a atualização dos números referentes às solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
-   "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNYmxHY1dKR00wdG5wT0ZXZ29mVGtacE9NOE9WTHk5bi02UldmdFFiVVNpNzFHSnVLZmQyeDdnUE1QR2lBdWwzeDl2U1FyZ2xXVk5KYWxuZklORHlUZE9WNHU3VVFFOVJhYnY4OXQtTnVxbGE3eklHQkJRN2FFN0M3RXg4OGxHdjVNMXgxcldBX2dtRkFDWTk5a1ZtVW1fR3V4YjNJRjhROWF5YTlvenowRWd6NGl0d2p5NkpXZXNsNkMyZ2MwdjA3WllQS2E5SWVoVXZwY1E5d3hxdUlvemRMMVFTX1htRVpqUnpYR096NUxDTVllcmJPZVIyM0ppcHpKNXl5MkVNVlVJMFA0RjZPZHNiQWM5V19NeHo2Ukp0VkpVLUluQWRxeVM5NU9SajZDdXBHSHpMSFNFSGFPeVBv?oc=5",
-   "fonte": "Governo Federal",
-   "site": "gov.br",
-   "publicado": "2026-10-16T15:34-03:00",
-   "repercute": 3,
-   "dado": "Receita Federal"
   }
  ]
 }
