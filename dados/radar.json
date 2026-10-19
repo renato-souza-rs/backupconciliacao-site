@@ -1,93 +1,93 @@
 {
- "atualizado": "2026-10-19T01:01-03:00",
+ "atualizado": "2026-10-19T13:20-03:00",
  "itens": [
+  {
+   "tema": "trib",
+   "titulo": "Associação de aviação diz que reforma tributária pode elevar preço das passagens",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQckg2T00yY2p1ZjE2dHMxdUdzd2tyS0Z6TE1yalhPT0o2MWxrY0kyQUNxNTZTMWxmUllXVmNqM2w2NHhJRjNoT1JNRktvZ2tjNFhsM3RQc2lDakNqLU9FR3pVRTRxbkNwN3FQUjByX1NDM28tNEpzS3ZjS3JXSVlnSG9jUUNvcW45ZVM0VGVxOEthTWozcjlvSEVDbUpVaU5OamxaenFQeFlKb21uRFBGSTk0enlSc2txcFlrQ2Y4RC1keHpxSjY4SzBRWHY?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-10-19T13:00-03:00",
+   "repercute": 6,
+   "dado": null
+  },
+  {
+   "tema": "pag",
+   "titulo": "Agência de Comunicação - Pix Automático: o guia completo do novo padrão da cobrança recorrente",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFptSjRDY0ZTbWQ1MlVFT2Rnemd1WEpwRmUtbnNlaDdybVFCSXdtTHZ0elZMeC0xcG9wRmo4aUNVdDRVOVJIZmp0akJuUWp5M2VBcnB0STF1VnRRU0FTazJnSnUwX2dtQ3VtelQ2UU90bGxvZkZxaVhHTzZaVUhhRlF1S21uLW1IcDZ5VnBObzNDcVhoeWZXRlBnbkNRMHBYMVZKRnFJZw?oc=5",
+   "fonte": "Estadão Blue Studio",
+   "site": "bluestudio.estadao.com.br",
+   "publicado": "2026-10-19T12:29-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "“Garapeiros” e “pipoqueiros” fazem as contas para investir em etanol",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWFBBamh5d0lFZDZWSmliU0tNVUdEMmxxZFlNMkNnX0huQXhudXdTMDc3S2VTMlB1b2dqUFlVTFdCeFUzTm52MW9pRnFVeVpCQXNxYlpnc0k0bFFuVzh5MDZpSG54LVVGZHdUdC04Rkh1WTg0SWVOOVNHd05Cd3RKQkp3anVkV1BYQWlqc2EtVnJ1SC1VSmJlMVVpVjF3cFk?oc=5",
+   "fonte": "NovaCana",
+   "site": "novacana.com",
+   "publicado": "2026-10-19T10:43-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "pag",
+   "titulo": "A IA poderá escolher seu cartão — e mudar a disputa dos bancos por suas compras",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUjdkUl9Pb2ZpcmY2emlndmNiX1F4UWg2aXNaR2dhLWx0eFBYUVNURV9vZEl1eXM2YlgtNXBuTHE4Q3JyUWRiZ00wZElDRDNTS1c1QW9raHRZZ19KYU5tRXh1YUtpaDZmcnpaSXVXN0JwVWQ3cGtPX1ZQb3VwM28wX1hackh2QzhRc3JSSQ?oc=5",
+   "fonte": "Exame",
+   "site": "exame.com",
+   "publicado": "2026-10-19T10:08-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Deságio na compra de créditos de ICMS deve pagar IRPJ e CSLL",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMnUtakV6Vnk1TE5IOVlWR3V1ZHp1MUdWYzUzb3RKZkd1SnpUT2ZlQV8zWDY0MHB4SkdCN2phV01mVjhveUM0RWE3WHdLM2dxeGtxZ3NBUm9uMVNXZ3V3MEJlcElDRW5rYktOOGhLSjFZZGJCTWtQR3VBUkx0aFdhcDNRNTB4dUNtVWZRTmFCM1JrSWhzbEpYTTFLcXNqX1lkRzlhUGJ5c3k?oc=5",
+   "fonte": "Portal Contabeis",
+   "site": "contabeis.com.br",
+   "publicado": "2026-10-19T10:00-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Dólar cai ante real e moedas emergentes com recuo do petróleo e pesquisas no radar",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQckFZTlZid1J3M0pDZ0NTUzE2M2VkcUQ1TGtqNEVIUTJhbWp3cEFCbzZYOHFuWUFodmZ4NHdtSnFHUmZIRXZLMm1uVmlkT29jU1RkV3UzemFsTkNWM3BMLXZUTF8wM0Itck9kVG5nWURkQnJrSzRPdU00a29wdUVHZTFqTEROc2JwcUg0SThOMTJwQ09FRGFIUUNERC04WklIOWVKaTJVRng1X2pBMlJPYWY3ZzZnbU1OWmlNT3RmSm1qZU00S3FnYmdyT0xpQ0tSNzdIQ1A2eTYycjlnTlBzWWVGTDlBQQ?oc=5",
+   "fonte": "UOL Economia",
+   "site": "economia.uol.com.br",
+   "publicado": "2026-10-19T09:44-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "IBS e CBS no lucro presumido: apuração muda e exige atenção ao caixa",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzaVBPdHAzRkM5LWFOZmZzMzNhNU1uUW1NNndGZndLbE5nQzlqSHRlMVJpcWstZGJyMElTSnlqNGp0YWZ0MlRuWGx6RXl6bUp5eDhhNzJ2RG56RXB5VVNvSmNoem5yYkQ1UFF5QU5IZmVIeVhLZTRHLVJDMUNtdjQ?oc=5",
+   "fonte": "ISTOÉ DINHEIRO",
+   "site": "istoedinheiro.com.br",
+   "publicado": "2026-10-19T09:31-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Simples Nacional: 401 mil pedidos foram indeferidos para 2027",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ2VQV2VDRDRXbEEzZEZ4bXVfdEtGWkZkRkJ4Y1BxWW5SWGswbU5TY2VseXVrX1kwN2pqVXZQSjNqOFd5V1J6VGZnc1JBNHJjTHlYTHVvSWgySmNTblJNLUhYMTg0bG0tcTlRVldMeUxYN3NyNXZidlhjTm90V21qQUgwd1VrLXVDcG5UQ3F0TC1pVFltYzJmeHhTaG4xTzBnR3pVNC13Rlc?oc=5",
+   "fonte": "Portal Contabeis",
+   "site": "contabeis.com.br",
+   "publicado": "2026-10-19T09:30-03:00",
+   "repercute": null,
+   "dado": null
+  },
   {
    "tema": "comb",
    "titulo": "União Europeia lidera alta do superávit brasileiro com salto do petróleo",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmRocjF6a1dheXpYVFFSRElRSjVLVGtNZjFPNlAwRVZyY05rNE96ejJaLVpGNVRORE9vUDNPM1dlZGxramJoc2FHQXF1Qms1ZUR3SkF1MkNWamw4QUtPcEJ3RExlMWJPU2tIOXNlbnRma2o2UnJCOENmQmhwWVBvYnVTVU13cmw2YlhkVXdJclFfa290Z3JYdDQ5TEEtQXJDZ3h0Y0VqN3U?oc=5",
    "fonte": "Estadão",
    "site": "estadao.com.br",
-   "publicado": "2026-10-18T23:28-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petrobras avalia impactos do fim da escala 6x1 a 130 mil terceirizados",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQVRjOG0weGtZUjhjWTQ4VC1Kdnl1M0gtQk9oT3ZpbVdsOVprSFBhOVpqRHJHeGlEWWtIVEN3SUJvSDJqSHRYYVZzVEdFZWR3ZlNKdno5SU5jZzRaYzZGSWhzNnZYd1R0c1pUX1hZNjhMSHBtMlhsX1RzUVBzZURZTllaWERTLXVyOFFHc2RDRDlJSXp5OWxrNzBlenE1YU0zcjhmajZsRGdjczlXUjBCX1BMRUowRk05QU1iZG54bS3SAcYBQVVfeXFMT2pORjdWYldLNFRydS1RSlBydE82S09wWGw3aVRZRWJmUHdESmp0bmxpOE5xX3pzWjE4cVpYZWtFYUhScU1fV1dIQ09VbmlNcUo4aUdBUjc1Mi1ieVZ2U2ZPd001eEdOR2hHUjAzVWRsV2dCd0taeWVMMDlTZ2FuQ1hBWmFtR1podUhIalBhdTBXblRZNjZ0eGxfeEJPTUN3VUxfdWZiNDBqc0EwNTZUQUd3Tmk4YWRwbHJJYUZzZWFjXzBZNm53?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-10-18T21:59-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petróleo abre em queda após Irã dizer que oferta para reabrir Hormuz continua de pé",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNlBXRVpWMjVKelU0cUVPSjFSMnFqaDVoSW9zRWIweWNiRU5Zc1dWbkNRcmRFS0RTNXZYUHpEUkF4SGtWWE9idm5POEczM0lGWDZ2UTNycnRUNU1HNlpyeFYyRFRzZk9TYkI1UndmSThMZ21uZlJNempwTEpNbzdOZzJod0t0VFRTNzBia1JGY2tOWWR1QkFDZG5OWDB4Z2IxTUI4em9NQTE1WFZwVHZXLWpTZHJvaVZ5WlJtTWNIZHVNYlVYVVRUVWxDTUtTVnNI?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-10-18T20:16-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Justiça afasta IBS e CBS da base de cálculo do ICMS a partir de 2027",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYUIyd25zVTVvSzhJSElJVGFMQV9CYjh1TVdqem0wZ1NqUE1tMVFZS1F3SHVQTmd1U2J5NmxNaFV4UFRKaEFIeDZtRm5PRHlxTGxOMFJVSnV0LU5RT2E3bmYwWG5GMHVuT1ZfUk1IemNYQk12WkhEN2tmQUJkYTVXcnZFVmZMM1lMd2x3dnozaFN0SVBOT1RtMnlLRGhIbjZIeHM5eEx4Y0hGck5lX1hZeg?oc=5",
-   "fonte": "Migalhas",
-   "site": "migalhas.com.br",
-   "publicado": "2026-10-18T20:06-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "ANP aprova estudos que podem abrir caminho para nova oferta de área no pré-sal",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRU9WS1V3a2pWN3pMTDRyd1hlN2RaeEZ5WGR1RHh3b2hDYTNtMmp4TU1ibUdTbTRuZEd4eDlpREU5RUtqZ0Q4dGxoNVlLRDdfTE5jVmh1ODFnQTJNRUhrMkp2d3VpT0hndWMtbzlmNU01bkoyc0lYV2JuQzFfZjBJb19QbjNYX3lGN3hPRG0yb3FlellYdXJYMnVSZk0wOVA3OGd6R3FMWXBhbGhWOGM2UWdOLW1mMkt2Q0hhMmpRNkNxaGhra0JrN1BFUnFBR3c?oc=5",
-   "fonte": "Times Brasil | CNBC",
-   "site": "timesbrasil.com.br",
-   "publicado": "2026-10-18T18:00-03:00",
-   "repercute": null,
-   "dado": "ANP"
-  },
-  {
-   "tema": "comb",
-   "titulo": "ENTREVISTA DEVASTADORA DE ROBERTA LUSCHINGER MOSTRA CORRUPÇÃO NO GOVERNO COM ENVOLVIMENTO DE LULINHA NA PETROBRÁS E DO PRÓPRIO PRESIDENTE",
-   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNVzBTd2xlRG8ybWNNRWp2RHF2MmpiV3BhWjR6LVBxQmdWaUplSGJKanJWZ0FCQnBONW1zeER6TlNuRWViVTd0SnlLcEFNaWNmdHNLaVFBRnl6R2ZEY3AxM3ctOUlpWWJlb2ZzSzFyM1l3VjZqclVMdS0xbEN6dkpNWnNpc2ZyS2JLcE9QNmpNUnZSeXhXZ3RrQlJGYXRNZWd0Ym5yV0RYSkZvQ2F6ZEM1U0ZiMjZEQXRsZVhvaDVZOHdlV0RvRGdBaGlQcTlLWmFydFlhMkF2aWttLU1Vd2tTYTFaRTg1aDZIWkMyeGU2d0xmbl81UFNHaGRMa0wxSG45akpSOVdKU3FMUTl1d0hfaEd3?oc=5",
-   "fonte": "Petronotícias",
-   "site": "petronoticias.com.br",
-   "publicado": "2026-10-18T12:40-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "A reforma tributária traz três grandes ganhos, uma oportunidade que o Brasil não pode perder",
-   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSHhyNXNBTkJqNGM0dzFLV0VsVHl4X1BOU2lfcnpUdmZVV0puSDcwdmN6MzFnbmExU1FfM3A5UjZRZHJEQm5wUFY4NlhyMEV4eHo1aUY2a2ZzeE5mZkd0UFJzUGlydnlzVkFoY25pNm02TFFVOVl4djY1ZFMxN1R0SW5GZXFhR241ZjNOQlRORUw5Q19zc3RObmxDSUtOY3JaQ3p0c0NqeG5wUVRCOTVxbUJEY0dpY0dzZ0RuX2FxNklKc3dGRXI1VnNUNlR0VHFjcHJTOTNmNjg1RUlKUXB5TTJJMllfYkdNekZ5WVlZbHhPTThZc3FpZkE4S2c?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-10-18T10:00-03:00",
-   "repercute": 6,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Brent pode atingir US$ 120 por barril se impasse entre EUA e Irã persistir",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMXVpcVgwV0J0TlZjRGcteDhXdm5HUlNLNE5IREpWYlFka29pU0oyc01KMFdQT0Y4MGg4VXQtUmJrTmF0TFVZWkp0ckZRRUFWMm4za2JlN2kyR0w0dEszSmZEOTBBWVpMcENzMjViRTlpY2NJelJfU2JmUFFIN005eFpMdG15NW5qVW4weDU2RHpabDRNaGMzTGVEcTF3a0RhNjllczFXdTNFTGVZSS13UmJFckJnLTA?oc=5",
-   "fonte": "Times Brasil | CNBC",
-   "site": "timesbrasil.com.br",
-   "publicado": "2026-10-18T09:30-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Cliente tenta cancelar cartão de crédito pelo aplicativo durante três dias, mas robô repete as mesmas opções e nunca transfere para atendente; nova regra do SAC passa a exigir alternativa de atendimento humano em tempo real",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdWpndTJfc0NCQS1oYmp3bXNPUHRIeTZZRTlWSlVNT3lCWFdycmJLUDZLYUtxYXNpZzB1QVN4M2czX2dFTFBwbFUyNjh4azQ4N0xTLVhCWktxUmM3TmxneFQ4ZjQtUF9DOXkxWTE1cm11dGp2NzhVVzRRMnNQY1kybVNKU2dOZXJPdnoyY0xXaEpzUmxrLXZGdDI5aUU1Q3h4TTdMTQ?oc=5",
-   "fonte": "Correio Braziliense",
-   "site": "correiobraziliense.com.br",
-   "publicado": "2026-10-17T03:40-03:00",
+   "publicado": "2026-10-19T09:28-03:00",
    "repercute": null,
    "dado": null
   }
