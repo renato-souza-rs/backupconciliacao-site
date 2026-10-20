@@ -1,35 +1,35 @@
 {
- "atualizado": "2026-10-20T11:12-03:00",
+ "atualizado": "2026-10-20T16:04-03:00",
  "wti": {
-  "ultimo": 98.28,
-  "var_abs": -0.26,
-  "var_pct": -0.26,
-  "semana_abs": 4.14,
-  "semana_pct": 4.4,
-  "min_dia": 98.13,
+  "ultimo": 97.88,
+  "var_abs": -0.66,
+  "var_pct": -0.67,
+  "semana_abs": 3.74,
+  "semana_pct": 3.97,
+  "min_dia": 95.25,
   "max_dia": 101.37
  },
  "brent": {
-  "ultimo": 109.05,
-  "var_abs": -0.5,
-  "var_pct": -0.46,
-  "semana_abs": 3.36,
-  "semana_pct": 3.18,
-  "min_dia": 109.0,
+  "ultimo": 108.87,
+  "var_abs": -0.68,
+  "var_pct": -0.62,
+  "semana_abs": 3.18,
+  "semana_pct": 3.01,
+  "min_dia": 105.95,
   "max_dia": 111.97
  },
  "usd": {
-  "ultimo": 5.0564,
-  "var_abs": -0.0262,
-  "var_pct": -0.52,
-  "semana_abs": 0.0672,
-  "semana_pct": 1.35,
+  "ultimo": 5.014,
+  "var_abs": -0.0424,
+  "var_pct": -0.84,
+  "semana_abs": 0.0044,
+  "semana_pct": 0.09,
   "min_dia": null,
   "max_dia": null
  },
  "brent_brl": {
-  "ultimo": 551.4,
-  "var_abs": -5.4,
-  "var_pct": -0.97
+  "ultimo": 545.87,
+  "var_abs": -8.05,
+  "var_pct": -1.45
  }
 }
