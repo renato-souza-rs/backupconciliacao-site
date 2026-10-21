@@ -88,5 +88,9 @@ document.addEventListener("click", function(ev){
     gtag("event", "click_whatsapp", { link_url: "https://wa.me/" + WHATSAPP, origem: origem, page_path: location.pathname, transport_type: "beacon" });
   } else if (href.indexOf("mailto:") === 0) {
     gtag("event", "click_email", { link_url: href.split("?")[0], origem: origem, page_path: location.pathname, transport_type: "beacon" });
+  } else if (a.hasAttribute("data-origem")) {
+    // Demais CTAs com origem (ex.: "30 dias sem cobrança" no topo de guias e
+    // operadoras, data-origem="topo_guia_<slug>"): mede o clique por página.
+    gtag("event", "click_cta", { link_url: href, origem: origem, page_path: location.pathname, transport_type: "beacon" });
   }
 });
