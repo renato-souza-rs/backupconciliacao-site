@@ -16,6 +16,8 @@ Nas operadoras (/operadoras/<slug>/): as mesmas regras, com JSON-LD Service no
   lugar de Article, data-origem="operadora_<slug>", links para 2 guias e sem
   faixa de palavras.
 Em todas as páginas, também: nenhum link interno ("/...") quebrado.
+Entre as operadoras: semelhança do texto do <main> (nome da operadora trocado
+  por X, difflib.SequenceMatcher por palavras) de no máximo 60% entre duas páginas.
 
 Uso: python3 scripts/verificar_paginas.py   (sai com código 1 se algo falhar)
 """
@@ -41,6 +43,9 @@ class Leitor(HTMLParser):
         self.tem_resposta = self.tem_tabela = self.tem_ol = False
         self.form_origem = None
         self.texto_conteudo = []
+        self.texto_main = []      # todo o texto do <main> (semelhança entre páginas)
+        self.nome_atual = ""     # último item da trilha (aria-current), ex.: nome da operadora
+        self._em_atual = False
         self._pilha = []          # tags abertas (para saber se estamos no #faq / .artigo)
         self._script = None
         self._em_title = False
@@ -52,6 +57,8 @@ class Leitor(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == "li" and a.get("aria-current") == "page":
+            self._em_atual = True
         classes = (a.get("class") or "").split()
         if tag not in ("meta", "link", "input", "img", "br", "hr"):
             self._pilha.append((tag, a))
@@ -89,6 +96,8 @@ class Leitor(HTMLParser):
             self._script = None
         if tag == "title":
             self._em_title = False
+        if tag == "li":
+            self._em_atual = False
         if tag in ("summary", "p"):
             self._faq_campo = None
         # fecha até a tag correspondente (HTML tolerante)
@@ -104,6 +113,10 @@ class Leitor(HTMLParser):
         if self._script is not None:
             self._script.append(d)
             return
+        if self._em_atual:
+            self.nome_atual += d
+        if self._dentro(lambda t, x: t == "main"):
+            self.texto_main.append(d)
         if self._em_title:
             self.title += d
         if self._faq_campo == "q":
@@ -214,6 +227,46 @@ def verificar(caminho, erros, sitemap, llms):
         print(f"OK  {rel}: {palavras} palavras, title {len(norm(p.title))}, description {len(norm(p.desc))}")
 
 
+LIMITE_SEMELHANCA = 0.60
+
+
+def palavras_main(caminho):
+    """Palavras do <main>, com o nome da operadora trocado por X."""
+    p = Leitor()
+    p.feed(open(caminho, encoding="utf-8").read())
+    texto = norm(" ".join(p.texto_main))
+    nome = norm(p.nome_atual)
+    if nome:
+        texto = re.sub(re.escape(nome), "X", texto, flags=re.I)
+    return texto.split()
+
+
+def semelhanca_operadoras(erros):
+    """Matriz de semelhança (difflib, por palavras) entre as páginas de operadora."""
+    from difflib import SequenceMatcher
+    paginas = sorted(glob.glob(os.path.join(RAIZ, "operadoras", "*", "index.html")))
+    nomes = [os.path.basename(os.path.dirname(c)) for c in paginas]
+    textos = [palavras_main(c) for c in paginas]
+    print("\nSemelhança entre páginas de operadora (máx. %d%%):" % round(LIMITE_SEMELHANCA * 100))
+    print("           " + " ".join("%9s" % n[:9] for n in nomes))
+    pior = 0
+    for i, a in enumerate(nomes):
+        linha = []
+        for j, b in enumerate(nomes):
+            if i == j:
+                linha.append("        -")
+                continue
+            r = SequenceMatcher(None, textos[i], textos[j]).ratio()
+            linha.append("%8d%%" % round(r * 100))
+            if j > i:
+                pior = max(pior, r)
+                if r > LIMITE_SEMELHANCA:
+                    erros.append(f"operadoras/{a} × operadoras/{b}: {r:.0%} de semelhança (máx. {LIMITE_SEMELHANCA:.0%})")
+        print("%-10s " % a[:10] + " ".join(linha))
+    if len(nomes) > 1:
+        print("maior semelhança: %d%%" % round(pior * 100))
+
+
 def main():
     sitemap = open(os.path.join(RAIZ, "sitemap.xml"), encoding="utf-8").read()
     llms = open(os.path.join(RAIZ, "llms.txt"), encoding="utf-8").read()
@@ -221,6 +274,7 @@ def main():
     paginas = sorted(glob.glob(os.path.join(RAIZ, "**", "index.html"), recursive=True))
     for caminho in paginas:
         verificar(caminho, erros, sitemap, llms)
+    semelhanca_operadoras(erros)
     for indice in ("guias", "operadoras"):
         if f"{SITE}/{indice}/" not in sitemap:
             erros.append(f"sitemap.xml: sem /{indice}/")
