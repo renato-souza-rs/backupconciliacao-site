@@ -31,8 +31,56 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://backupconciliacao.com.br/guias/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://backupconciliacao.com.br/guias/quanto-custa-conciliadora-para-postos/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://backupconciliacao.com.br/guias/getnet-nao-pagou-venda-do-posto/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://backupconciliacao.com.br/guias/conferir-reembolso-ticketlog-posto/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://backupconciliacao.com.br/guias/taxa-cielo-acima-do-contrato-posto/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://backupconciliacao.com.br/guias/conciliacao-cartao-frota-posto/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://backupconciliacao.com.br/guias/duplicidade-cartao-e-frota-mesmo-abastecimento/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://backupconciliacao.com.br/guias/conferir-shellbox-semparar-ctf-posto/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://backupconciliacao.com.br/llms.txt</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
