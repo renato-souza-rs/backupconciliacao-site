@@ -541,3 +541,7 @@ section.mm-monitor{padding-top:30px}
   .tabela{font-size:.86rem}
   .tabela th,.tabela td{padding:9px 10px}
 }
+
+/* /sobre/: cartão do fundador dentro do artigo */
+.artigo .qs{margin:28px 0 8px}
+.artigo .qs .qs-nome{margin:0;font-size:1.3rem}
