@@ -12,6 +12,10 @@ Nos guias (/guias/<slug>/):
   - links para /preco/, /conciliacao-3-way-postos/ e mais 2 guias;
   - formulário e botões do CTA final com data-origem="guia_<slug>";
   - presença no sitemap.xml e no llms.txt; nenhum emoji.
+Nas operadoras (/operadoras/<slug>/): as mesmas regras, com JSON-LD Service no
+  lugar de Article, data-origem="operadora_<slug>", links para 2 guias e sem
+  faixa de palavras.
+Em todas as páginas, também: nenhum link interno ("/...") quebrado.
 
 Uso: python3 scripts/verificar_paginas.py   (sai com código 1 se algo falhar)
 """
@@ -147,18 +151,34 @@ def verificar(caminho, erros, sitemap, llms):
         else:
             print(f"OK  {rel}: FAQ visível = JSON-LD ({len(ld)} perguntas)")
 
-    m = re.match(r"guias/([^/]+)/index\.html$", rel.replace(os.sep, "/"))
+    # links internos: todo href "/..." precisa apontar para um arquivo existente
+    for h in sorted(set(p.links)):
+        if h.startswith("/") and not h.startswith("//"):
+            alvo = h.split("#")[0].split("?")[0]
+            if not alvo:
+                continue
+            arq = os.path.join(RAIZ, alvo.lstrip("/"), "index.html") if alvo.endswith("/") else os.path.join(RAIZ, alvo.lstrip("/"))
+            if not os.path.exists(arq):
+                erros.append(f"{rel}: link interno quebrado {h}")
+
+    caminho_url = rel.replace(os.sep, "/")
+    m = re.match(r"(guias|operadoras)/([^/]+)/index\.html$", caminho_url)
     if not m:
         return
-    slug = m.group(1)
-    url = f"{SITE}/guias/{slug}/"
-    origem = "guia_" + slug.replace("-", "_")
+    secao, slug = m.groups()
+    url = f"{SITE}/{secao}/{slug}/"
+    if secao == "guias":
+        origem = "guia_" + slug.replace("-", "_")
+        tipos_ld = ("Article", "BreadcrumbList", "FAQPage")
+    else:
+        origem = "operadora_" + slug
+        tipos_ld = ("Service", "BreadcrumbList", "FAQPage")
     falhas = []
     if len(norm(p.title)) > 60:
         falhas.append(f"title com {len(norm(p.title))} caracteres (> 60)")
     if len(norm(p.desc)) > 155:
         falhas.append(f"description com {len(norm(p.desc))} caracteres (> 155)")
-    for tipo in ("Article", "BreadcrumbList", "FAQPage"):
+    for tipo in tipos_ld:
         if tipo not in t:
             falhas.append(f"sem JSON-LD {tipo}")
     if len(ld) != 4:
@@ -168,7 +188,7 @@ def verificar(caminho, erros, sitemap, llms):
     if not (p.tem_tabela or p.tem_ol):
         falhas.append("sem tabela nem lista numerada")
     palavras = len(norm(" ".join(p.texto_conteudo)).split())
-    if not 900 <= palavras <= 1400:
+    if secao == "guias" and not 900 <= palavras <= 1400:
         falhas.append(f"{palavras} palavras (esperado 900–1.400)")
     if "/preco/" not in p.links:
         falhas.append("sem link para /preco/")
@@ -176,7 +196,7 @@ def verificar(caminho, erros, sitemap, llms):
         falhas.append("sem link para /conciliacao-3-way-postos/")
     outros = {h for h in p.links if re.fullmatch(r"/guias/[^/]+/", h) and h != f"/guias/{slug}/"}
     if len(outros) < 2:
-        falhas.append(f"só {len(outros)} link(s) para outros guias")
+        falhas.append(f"só {len(outros)} link(s) para guias")
     if p.form_origem != origem:
         falhas.append(f"formulário com data-origem={p.form_origem!r} (esperado {origem!r})")
     cta = [o for tag, o in p.origens if o == origem]
@@ -201,8 +221,9 @@ def main():
     paginas = sorted(glob.glob(os.path.join(RAIZ, "**", "index.html"), recursive=True))
     for caminho in paginas:
         verificar(caminho, erros, sitemap, llms)
-    if f"{SITE}/guias/" not in sitemap:
-        erros.append("sitemap.xml: sem /guias/")
+    for indice in ("guias", "operadoras"):
+        if f"{SITE}/{indice}/" not in sitemap:
+            erros.append(f"sitemap.xml: sem /{indice}/")
     if erros:
         print("\nFALHAS:")
         print("\n".join(erros))

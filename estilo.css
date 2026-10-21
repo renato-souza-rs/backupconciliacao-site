@@ -102,9 +102,11 @@ section{padding:78px 0}
 
 /* Cobertura / operadoras */
 .ops{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:920px;margin:0 auto}
-.ops span{background:#fff;border:1px solid var(--linha);border-radius:999px;padding:9px 18px;font-weight:700;font-size:.9rem;color:var(--azul);box-shadow:var(--sombra);transition:transform .12s,border-color .15s}
-.ops span:hover{transform:translateY(-2px);border-color:var(--ouro)}
+.ops span,.ops a{background:#fff;border:1px solid var(--linha);border-radius:999px;padding:9px 18px;font-weight:700;font-size:.9rem;color:var(--azul);box-shadow:var(--sombra);transition:transform .12s,border-color .15s}
+.ops span:hover,.ops a:hover{transform:translateY(-2px);border-color:var(--ouro)}
 .ops .more{background:var(--azul);color:#fff;border-color:var(--azul)}
+/* nomes com página própria em /operadoras/ */
+.ops a{border-color:#e6cfa6}
 
 /* Garantias */
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
@@ -155,6 +157,8 @@ section{padding:78px 0}
 .artigo .ops{margin:6px 0 16px;justify-content:flex-start}
 .relacionado{margin-top:34px;background:var(--fundo);border:1px solid var(--linha);border-radius:var(--raio);padding:22px 24px}
 .relacionado b{color:var(--azul)}
+.relacionado a{color:var(--azul2);font-weight:700}
+.relacionado a:hover{color:var(--ouro)}
 
 /* Footer */
 footer{background:#0a2334;color:#a9c0d4;padding:54px 0 30px;font-size:.9rem}
