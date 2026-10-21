@@ -513,3 +513,27 @@ section.mm-monitor{padding-top:30px}
 .trust div{max-width:none}
 .cta-form .btn{font-family:inherit}
 @media(max-width:560px){.trust{grid-template-columns:1fr 1fr}}
+
+/* ==========================================================
+   Guias (/guias/). Resposta direta no topo (trecho citado por
+   buscadores de IA), tabelas e listas numeradas de passo a passo.
+   ========================================================== */
+.guia-data{font-size:.85rem;color:var(--cinza);margin:-12px 0 22px}
+.artigo .resposta{background:#fffaf2;border:1px solid #f1dcb6;border-left:4px solid var(--ouro);border-radius:12px;padding:18px 20px;font-size:1.06rem;margin-bottom:8px}
+.artigo ol{margin:0 0 16px;list-style:none;counter-reset:passo;display:flex;flex-direction:column;gap:10px}
+.artigo ol>li{counter-increment:passo;padding-left:36px}
+.artigo ol>li::before{content:counter(passo);left:0;top:1px;width:24px;height:24px;border-radius:50%;background:var(--azul);color:#fff;font-size:.8rem;display:grid;place-items:center}
+.tabela-wrap{overflow-x:auto;margin:6px 0 18px;border:1px solid var(--linha);border-radius:12px}
+.tabela{width:100%;border-collapse:collapse;font-size:.95rem;font-variant-numeric:tabular-nums}
+.tabela th{background:var(--fundo);color:var(--azul);text-align:left;font-weight:800;padding:11px 14px;border-bottom:1px solid var(--linha)}
+.tabela td{padding:10px 14px;border-bottom:1px solid var(--linha);color:var(--tinta)}
+.tabela tr:last-child td{border-bottom:none}
+.guias-grid{margin-bottom:8px}
+.guia-card{display:flex;flex-direction:column;transition:transform .12s,box-shadow .15s,border-color .15s}
+.guia-card:hover{transform:translateY(-2px);box-shadow:var(--sombra);border-color:var(--ouro)}
+.guia-card p{flex:1}
+.guia-ler{margin-top:14px;font-weight:700;color:var(--azul2);font-size:.92rem}
+@media(max-width:560px){
+  .tabela{font-size:.86rem}
+  .tabela th,.tabela td{padding:9px 10px}
+}

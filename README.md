@@ -8,6 +8,7 @@ Publicado em **https://backupconciliacao.com.br** via GitHub Pages.
 
 - `index.html` — home (sem dependências/build)
 - `conciliacao-3-way-postos/` e `conciliacao-bancaria-postos/` — páginas de serviço (SEO)
+- `guias/` — guias práticos para o financeiro de redes de postos (índice + 1 pasta por guia)
 - `estilo.css` / `site.js` — estilo e script **compartilhados** por todas as páginas
   (número do WhatsApp, menu mobile, eventos GA4 `click_whatsapp` / `click_email`)
 - `llms.txt` — resumo do site para buscadores de IA
@@ -17,6 +18,8 @@ Publicado em **https://backupconciliacao.com.br** via GitHub Pages.
 
 FAQ: o texto visível de cada `#faq` é **igual** ao JSON-LD `FAQPage` da mesma
 página — ao editar um, edite o outro (o Google exige que batam).
+Antes de abrir PR, rode `python3 scripts/verificar_paginas.py`: confere FAQ visível = JSON-LD
+em todas as páginas e, nos guias, title/description, JSON-LD, palavras, links internos e CTA.
 - Todos os dados exibidos são **ilustrativos e fictícios** (LGPD) — nenhuma informação real de cliente.
 
 ## Como editar
