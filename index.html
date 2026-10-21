@@ -59,6 +59,13 @@
   "sameAs": [
     "https://www.linkedin.com/in/renatosouza-conciliacao"
   ],
+  "founder": {
+    "@type": "Person",
+    "name": "Renato Souza",
+    "jobTitle": "Fundador",
+    "image": "https://backupconciliacao.com.br/img/renato-400.webp",
+    "sameAs": ["https://www.linkedin.com/in/renatosouza-conciliacao"]
+  },
   "knowsAbout": [
     "Conciliação 3-way (ERP × Operadora × Conciliadora)",
     "Conciliação de cartões",
@@ -142,6 +149,11 @@
     },
     {
       "@type": "Question",
+      "name": "Já tenho conciliadora. Por que contratar?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Porque ela vira a terceira fonte, não a concorrente. A conciliadora recebe o arquivo que as operadoras enviam; a Backup Conciliação cruza esse resultado com o ERP da rede, que mostra o que o caixa registrou, e busca os dados também no portal da própria operadora. Em redes clientes, de abril a setembro de 2026, a busca no portal trouxe 4% a mais de transações do que o arquivo entregou, e 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional." }
+    },
+    {
+      "@type": "Question",
       "name": "O que é conciliação 3-way (tripla)?",
       "acceptedAnswer": { "@type": "Answer", "text": "É a conferência de cada venda em três fontes ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a adquirente diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto." }
     },
@@ -149,6 +161,11 @@
       "@type": "Question",
       "name": "Vocês fazem conciliação bancária?",
       "acceptedAnswer": { "@type": "Answer", "text": "Sim. Os recebimentos previstos pelas operadoras são confrontados com os créditos do extrato bancário, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por adquirente." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa?",
+      "acceptedAnswer": { "@type": "Answer", "text": "R$ 150 por empresa (CNPJ) por mês na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços cheios de cada módulo: o ajuste de escopo só desce a partir deles. Não há taxa de implantação nem fidelidade." }
     },
     {
       "@type": "Question",
@@ -162,8 +179,13 @@
     },
     {
       "@type": "Question",
-      "name": "Como funciona a contratação e o período de garantia?",
-      "acceptedAnswer": { "@type": "Answer", "text": "É uma licença online mensal com garantia de 30 dias: a rede usa o serviço por 30 dias e só então começa a pagar. O escopo é ajustado por rede — quantidade de empresas, portais e bandeiras envolvidas." }
+      "name": "Como funcionam os 30 dias antes da primeira cobrança?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A rede usa o serviço por 30 dias, na própria operação, e só então começa a pagar. Se não servir, não há cobrança. A licença é mensal e sem fidelidade, e o escopo é ajustado por rede — quantidade de empresas, portais e bandeiras envolvidas." }
+    },
+    {
+      "@type": "Question",
+      "name": "Os robôs mexem em alguma coisa nos portais das operadoras?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Não. Os robôs só consultam e baixam relatórios: não alteram, não cancelam e não contestam nada em nome da rede. O tratamento das informações segue a Lei Geral de Proteção de Dados (LGPD)." }
     },
     {
       "@type": "Question",
@@ -174,11 +196,6 @@
       "@type": "Question",
       "name": "Atendem empresas que não são postos?",
       "acceptedAnswer": { "@type": "Answer", "text": "Sim. O mesmo fluxo de conferência de cartão, vale e PIX atende supermercados, farmácias e redes de varejo multiloja. A maior parte dos portais integrados veio de redes de postos, e novos portais são adicionados conforme a necessidade de cada rede." }
-    },
-    {
-      "@type": "Question",
-      "name": "E a proteção dos dados da minha rede?",
-      "acceptedAnswer": { "@type": "Answer", "text": "O tratamento das informações segue a Lei Geral de Proteção de Dados (LGPD)." }
     }
   ]
 }
@@ -196,12 +213,11 @@
     <nav class="navlinks" id="nav">
       <a href="#modulos">Módulos</a>
       <a href="#como">Como funciona</a>
-      <a href="#operadoras">Operadoras</a>
       <a href="/preco/">Preço</a>
-      <div class="menu-radar"><a href="#monitor" class="radar-link">Radar</a><div class="mm-radar-drop" id="mm-radar-drop"></div></div>
-      <a href="#garantias">Garantias</a>
+      <div class="menu-radar"><a href="/radar/" class="radar-link">Radar</a><div class="mm-radar-drop" id="mm-radar-drop"></div></div>
+      <a href="#quem-somos">Quem somos</a>
       <a href="#faq">FAQ</a>
-      <a href="#contato" class="btn btn-primary">Solicitar proposta</a>
+      <a href="#contato" class="btn btn-primary">30 dias sem cobrança</a>
     </nav>
     <button class="menu-toggle" id="toggle" aria-label="Menu">☰</button>
   </div>
@@ -211,18 +227,23 @@
 <main id="topo" class="hero">
   <div class="wrap hero-inner">
     <div>
-      <span class="eyebrow">⛽ Para redes de postos e varejo multiloja</span>
+      <span class="eyebrow">Para redes de postos de combustíveis</span>
       <h1>Conferência de cartões <span class="grad">no automático</span>, do portal ao centavo.</h1>
-      <p class="lead">Robôs baixam os relatórios das operadoras de cartão, cruzam com o seu ERP e a conciliadora, e apontam exatamente onde <strong>sobra, falta ou foi cancelado</strong> — antes de virar prejuízo.</p>
+      <p class="lead">Robôs baixam os relatórios das operadoras de cartão, frota, vale e PIX, cruzam com o seu ERP e a conciliadora, e apontam exatamente onde <strong>falta, sobra ou não foi pago</strong> — antes de virar prejuízo.</p>
       <div class="hero-cta">
-        <a href="#contato" class="btn btn-primary">Solicitar proposta &rarr;</a>
-        <a href="#modulos" class="btn btn-ghost">Ver os módulos</a>
+        <a href="#contato" class="btn btn-primary">Começar os 30 dias sem cobrança &rarr;</a>
+        <a href="#calculadora" class="btn btn-ghost">Simular o custo da minha rede</a>
       </div>
+      <!-- Resultado, nao caracteristica. 10,9% e +4% sao os mesmos de /preco/#vale-a-pena
+           (medidos em redes clientes, anonimizados): mudar la' = mudar aqui.
+           "+50 postos": CNPJs ativos de clientes (empresas.ativo, out/2026); owner: nao citar
+           quantas redes nem nomes. -->
       <div class="trust">
-        <div><b>30+</b><span>operadoras integradas</span></div>
-        <div><b>3 fontes</b><span>ERP × Operadora × Conciliadora</span></div>
-        <div><b>Diário</b><span>conferência automatizada</span></div>
+        <div><b>+50 postos</b><span>já utilizam módulos do sistema</span></div>
+        <div><b>10,9%</b><span>do faturamento fica fora da conciliadora tradicional</span></div>
+        <div><b>+4%</b><span>de transações achadas buscando no portal da operadora</span></div>
       </div>
+      <p class="trust-nota">Medido em redes clientes, de abril a setembro de 2026. <a href="/preco/#vale-a-pena">Veja como medimos</a>.</p>
     </div>
 
     <!-- Carrossel: fechamento das 2 últimas datas (valores ilustrativos) e
@@ -247,6 +268,41 @@
   </div>
 </main>
 
+<!-- ========== JÁ TEM CONCILIADORA? (a objeção nº 1) ========== -->
+<section id="conciliadora" class="alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Já usa uma conciliadora?</span>
+      <h2>Ótimo: ela vira a terceira fonte, não a concorrente</h2>
+      <p>A sua conciliadora continua onde está. O que ela não faz sozinha é olhar para o seu caixa e ir buscar o que a operadora não mandou.</p>
+    </div>
+    <div class="cc-grid">
+      <div class="cc-card">
+        <span class="cc-num">ERP</span>
+        <h3>Cruza com o que o caixa registrou</h3>
+        <p>Venda no caixa que a operadora nunca cobrou, movimento na operadora sem venda correspondente, lançamento em duplicidade: isso só aparece quando o ERP entra na conta. Quem recebe só o arquivo da operadora não tem como saber o que o caixa registrou.</p>
+      </div>
+      <div class="cc-card">
+        <span class="cc-num">10,9%</span>
+        <h3>Cobre as operadoras que ela não integra</h3>
+        <p>PIX, Abastece Aí, Shellbox, SemParar/CTF e outras: são 36 operadoras no nosso fluxo e 23 na cobertura da conciliadora. Nas redes medidas, 10,9% do faturamento conferido ficava fora dela.</p>
+      </div>
+      <div class="cc-card">
+        <span class="cc-num">+4%</span>
+        <h3>Busca no portal em vez de esperar o arquivo</h3>
+        <p>Robô no portal da própria operadora, além do arquivo eletrônico (EDI). Em 49.520 comparações diárias ao longo de seis meses, isso trouxe 4% a mais de transações — e de valor — do que o arquivo entregou.</p>
+      </div>
+    </div>
+    <p class="cc-nota">Medições em redes clientes, anonimizadas, de abril a setembro de 2026. “Conciliadora tradicional” é a categoria de serviço que consome só o arquivo EDI das operadoras; nenhuma empresa específica é avaliada. <a href="/preco/#vale-a-pena">Detalhes da medição</a>.</p>
+    <!-- DEPOIMENTO (pendente de autorização do cliente). Para ativar, preencher e
+         tirar do comentário:
+    <blockquote class="relacionado" style="max-width:760px;margin:26px auto 0">
+      <p>“FRASE DO CLIENTE.”</p>
+      <b>NOME</b>, CARGO — REDE (N postos)
+    </blockquote>
+    -->
+  </div>
+</section>
 
 <!-- ========== MÓDULOS ========== -->
 <section id="modulos">
@@ -259,7 +315,7 @@
     <div class="grid4">
 
       <div class="modcard">
-        <div class="ico">🤖</div>
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M12 8V5"/><circle cx="12" cy="4" r="1"/><path d="M9 13v1M15 13v1M9.5 17h5"/></svg></div>
         <h3>RPAs com auto-import</h3>
         <p>Robôs (RPA) acessam os portais das operadoras, baixam os relatórios e importam automaticamente para a base — sem digitação e sem depender de alguém lembrar de puxar cada relatório.</p>
         <ul>
@@ -270,7 +326,7 @@
       </div>
 
       <div class="modcard">
-        <div class="ico">⚖️</div>
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M7 21h10M5 7h14"/><path d="M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/></svg></div>
         <h3>Conferente de Caixa — conciliação 3-way</h3>
         <p>Fechamento diário/semanal em conciliação 3-way (tripla): cruza ERP (vendas oficiais) × Operadora (o que a adquirente vai pagar) × Conciliadora e aponta, por empresa, onde sobra, falta ou foi cancelado.</p>
         <ul>
@@ -282,7 +338,7 @@
       </div>
 
       <div class="modcard">
-        <div class="ico">🔍</div>
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4M8.5 11h5"/></svg></div>
         <h3>Possíveis Duplicidades</h3>
         <p>Detector que varre vendas e lançamentos procurando duplicidade — a mesma venda batida 2x, cartão + frota no mesmo abastecimento, relançamento no ERP. Aponta o par suspeito antes de virar prejuízo.</p>
         <ul>
@@ -293,7 +349,7 @@
       </div>
 
       <div class="modcard">
-        <div class="ico">📊</div>
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
         <h3>Dashboard online</h3>
         <p>Plataforma web onde a rede acompanha vendas conciliadas, divergências, taxas e antecipações — por empresa, bandeira e período, com filtros e exportação.</p>
         <ul>
@@ -304,7 +360,7 @@
       </div>
 
       <div class="modcard wide">
-        <div class="ico">🏦</div>
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10l9-6 9 6M5 10v8M10 10v8M14 10v8M19 10v8M3 21h18"/></svg></div>
         <h3>Conciliação bancária</h3>
         <p>Confronta os recebimentos previstos pelas operadoras com os créditos que de fato caíram no extrato bancário — e mostra o que não foi pago, o que veio com taxa acima do contratado e o que foi antecipado.</p>
         <ul>
@@ -367,55 +423,106 @@
   </div>
 </section>
 
-<!-- ========== MONITOR DE MERCADO (preenchido pelo monitor.js) ==========
-     Manchetes e cotações geradas pelo GitHub Actions (scripts/monitor_mercado.py).
-     Sem dado das últimas 24 h, a seção fica oculta. -->
-<section id="monitor" class="mm-monitor" aria-label="Monitor de mercado" hidden>
+<!-- ========== CALCULADORA + CONTA DO RETORNO ==========
+     Mesma calculadora de /preco/ (site.js le #pr-cnpjs). Precos = /preco/. -->
+<section id="calculadora" class="alt">
   <div class="wrap">
-    <div class="mm-box">
-      <div class="mm-head">
+    <div class="sec-head">
+      <span class="kicker">Preço publicado</span>
+      <h2>Quanto fica para a sua rede</h2>
+      <p>O preço é por empresa (CNPJ) e é o teto: o ajuste de escopo só desce a partir dele. Sem taxa de implantação, sem fidelidade.</p>
+    </div>
+    <div class="pr-calc">
+      <div class="pr-calc-top">
+        <label for="pr-cnpjs">Quantas empresas (CNPJs) a sua rede tem?</label>
+        <input id="pr-cnpjs" type="number" min="1" max="999" step="1" value="10" inputmode="numeric" aria-describedby="pr-calc-nota">
+      </div>
+      <div class="pr-calc-out">
         <div>
-          <span class="mm-kick">Monitor de mercado</span>
-          <h2>Petróleo, meios de pagamento e tributos, num só lugar</h2>
-          <p>As notícias do dia que afetam o caixa de redes de postos e do varejo.</p>
+          <small>Só cartões</small>
+          <b id="pr-v1">R$ 1.500</b>
+          <span>por mês</span>
         </div>
-        <div class="mm-upd">Última atualização<b></b></div>
+        <div>
+          <small>Só bancária</small>
+          <b id="pr-v2">R$ 1.000</b>
+          <span>por mês</span>
+        </div>
+        <div class="dest">
+          <small>Completo</small>
+          <b id="pr-v3">R$ 2.500</b>
+          <span>por mês</span>
+        </div>
       </div>
-      <div class="mm-abas" role="group" aria-label="Filtrar por tema">
-        <button type="button" aria-pressed="true" data-f="todos">Tudo</button>
-        <button type="button" aria-pressed="false" data-f="comb">Petróleo e combustíveis</button>
-        <button type="button" aria-pressed="false" data-f="pag">Meios de pagamento</button>
-        <button type="button" aria-pressed="false" data-f="trib">Tributos</button>
+      <p class="pr-calc-nota" id="pr-calc-nota">Valores de <strong>teto</strong>. O escopo final — portais, bandeiras e o tamanho da tarefa diária — é fechado antes da contratação, e o ajuste é sempre para baixo.</p>
+    </div>
+    <div class="roi">
+      <b>1 venda</b>
+      <p>A R$ 150 por posto/mês, basta a conferência achar <strong>uma venda desse valor que a operadora não pagou</strong>, por posto, no mês, para a mensalidade se pagar. E os primeiros 30 dias são de uso, antes de qualquer cobrança.</p>
+    </div>
+    <p class="calc-mais"><a href="/preco/">Ver os planos, o que está incluso e a recuperação de perdas &rarr;</a></p>
+  </div>
+</section>
+
+<!-- ========== SEGURANÇA E CONDIÇÕES ========== -->
+<section id="garantias">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Como trabalhamos</span>
+      <h2>Segurança e condições, por escrito</h2>
+    </div>
+    <div class="grid3">
+      <div class="gcard">
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Robôs só consultam</h3>
+        <p>Nos portais das operadoras, os robôs só consultam e baixam relatórios. Não alteram, não cancelam e não contestam nada em nome da rede.</p>
       </div>
-      <div class="mm-lista"></div>
-      <div class="mm-cot"></div>
-      <p class="mm-nota">Manchetes de veículos de imprensa, reproduzidas com link para o texto original. O conteúdo de cada notícia é responsabilidade do veículo que a publicou. Cotações com atraso, apenas para informação; não são recomendação de compra.</p>
+      <div class="gcard">
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>LGPD</h3>
+        <p>O tratamento das informações da sua rede segue a Lei Geral de Proteção de Dados.</p>
+      </div>
+      <div class="gcard">
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+        <h3>30 dias antes de pagar</h3>
+        <p>A rede usa o serviço por 30 dias, na própria operação, e só então começa a pagar. Se não servir, não há cobrança.</p>
+      </div>
+      <div class="gcard">
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 7.5-2"/></svg></div>
+        <h3>Sem fidelidade</h3>
+        <p>Licença mensal, sem prazo mínimo e sem multa de cancelamento.</p>
+      </div>
+      <div class="gcard">
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12l-8 8-9-9V3h8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></div>
+        <h3>Preço publicado</h3>
+        <p>R$ 150 por empresa/mês na conferência de cartões. É o teto: daqui só desce. <a href="/preco/">Ver preços</a>.</p>
+      </div>
+      <div class="gcard">
+        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div>
+        <h3>Escopo sob medida</h3>
+        <p>Ajustável por rede: quantidade de empresas, portais e bandeiras envolvidas e o tamanho da tarefa diária.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ========== GARANTIAS ========== -->
-<section id="garantias" class="alt">
+<!-- ========== QUEM SOMOS ==========
+     So' fatos verificaveis. Foto enviada pelo owner em 20/10/2026.
+     Pendente do owner: anos de experiencia/trajetoria. -->
+<section id="quem-somos" class="alt">
   <div class="wrap">
     <div class="sec-head">
-      <span class="kicker">Como trabalhamos</span>
-      <h2>Transparência e conformidade</h2>
+      <span class="kicker">Quem está por trás</span>
+      <h2>Você fala com quem constrói o sistema</h2>
     </div>
-    <div class="grid3">
-      <div class="gcard">
-        <div class="ico">🔒</div>
-        <h3>LGPD</h3>
-        <p>Garantimos o cumprimento da Lei Geral de Proteção de Dados no tratamento das informações da sua rede.</p>
-      </div>
-      <div class="gcard">
-        <div class="ico">🗓️</div>
-        <h3>Período de garantia</h3>
-        <p>Licença online mensal, com garantia de 30 dias — você usa por 30 dias para só então começar a pagar (a negociar).</p>
-      </div>
-      <div class="gcard">
-        <div class="ico">🎯</div>
-        <h3>Escopo sob medida</h3>
-        <p>Ajustável por rede: quantidade de empresas, portais e bandeiras envolvidas e o tamanho da tarefa diária.</p>
+    <div class="qs">
+      <img class="qs-av" src="/img/renato.webp" alt="Renato Souza, fundador da Backup Conciliação" width="96" height="96" loading="lazy">
+      <div>
+        <h3>Renato Souza</h3>
+        <p class="qs-cargo">Fundador da Backup Conciliação · São Paulo, SP</p>
+        <p>A Backup Conciliação nasceu dentro da rotina de conferência de cartões de redes de postos. Os robôs, o motor de conciliação 3-way e os painéis foram construídos para responder às perguntas que o financeiro de uma rede faz todo dia: qual venda não foi paga, em qual posto, por qual operadora — e com qual prova.</p>
+        <p>Não há central de atendimento no meio do caminho: o contato é direto, pelo WhatsApp ou e-mail, com quem conhece o sistema por dentro.</p>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/renatosouza-conciliacao" target="_blank" rel="noopener">Ver o perfil no LinkedIn &rarr;</a>
       </div>
     </div>
   </div>
@@ -434,12 +541,20 @@
         <p>É uma conciliadora especializada em redes de postos de combustíveis, que também atende supermercados, farmácias e redes de varejo multiloja. Robôs baixam os relatórios dos portais das operadoras de cartão, frota, vale e PIX, cruzam com o ERP da empresa e com a conciliadora, e apontam onde sobra, falta ou foi cancelado. Também faz a conciliação bancária, confrontando o que as operadoras prometeram pagar com o que caiu no extrato.</p>
       </details>
       <details>
+        <summary>Já tenho conciliadora. Por que contratar?</summary>
+        <p>Porque ela vira a terceira fonte, não a concorrente. A conciliadora recebe o arquivo que as operadoras enviam; a Backup Conciliação cruza esse resultado com o ERP da rede, que mostra o que o caixa registrou, e busca os dados também no portal da própria operadora. Em redes clientes, de abril a setembro de 2026, a busca no portal trouxe 4% a mais de transações do que o arquivo entregou, e 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional.</p>
+      </details>
+      <details>
         <summary>O que é conciliação 3-way (tripla)?</summary>
         <p>É a conferência de cada venda em três fontes ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a adquirente diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto. <a href="/conciliacao-3-way-postos/" style="color:var(--azul2);font-weight:700">Saiba mais</a>.</p>
       </details>
       <details>
         <summary>Vocês fazem conciliação bancária?</summary>
         <p>Sim. Os recebimentos previstos pelas operadoras são confrontados com os créditos do extrato bancário, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por adquirente. <a href="/conciliacao-bancaria-postos/" style="color:var(--azul2);font-weight:700">Saiba mais</a>.</p>
+      </details>
+      <details>
+        <summary>Quanto custa?</summary>
+        <p>R$ 150 por empresa (CNPJ) por mês na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços cheios de cada módulo: o ajuste de escopo só desce a partir deles. Não há taxa de implantação nem fidelidade. <a href="/preco/" style="color:var(--azul2);font-weight:700">Ver preços</a>.</p>
       </details>
       <details>
         <summary>Quais operadoras e bandeiras são cobertas?</summary>
@@ -450,8 +565,12 @@
         <p>Não. Os robôs (RPA) acessam os portais das operadoras, inclusive os que pedem código de verificação (2FA/OTP), baixam os relatórios e importam automaticamente para a base, em rotina diária ou semanal.</p>
       </details>
       <details>
-        <summary>Como funciona a contratação e o período de garantia?</summary>
-        <p>É uma licença online mensal com garantia de 30 dias: a rede usa o serviço por 30 dias e só então começa a pagar. O escopo é ajustado por rede — quantidade de empresas, portais e bandeiras envolvidas.</p>
+        <summary>Como funcionam os 30 dias antes da primeira cobrança?</summary>
+        <p>A rede usa o serviço por 30 dias, na própria operação, e só então começa a pagar. Se não servir, não há cobrança. A licença é mensal e sem fidelidade, e o escopo é ajustado por rede — quantidade de empresas, portais e bandeiras envolvidas.</p>
+      </details>
+      <details>
+        <summary>Os robôs mexem em alguma coisa nos portais das operadoras?</summary>
+        <p>Não. Os robôs só consultam e baixam relatórios: não alteram, não cancelam e não contestam nada em nome da rede. O tratamento das informações segue a Lei Geral de Proteção de Dados (LGPD).</p>
       </details>
       <details>
         <summary>Atendem redes de qualquer estado?</summary>
@@ -461,23 +580,37 @@
         <summary>Atendem empresas que não são postos?</summary>
         <p>Sim. O mesmo fluxo de conferência de cartão, vale e PIX atende supermercados, farmácias e redes de varejo multiloja. A maior parte dos portais integrados veio de redes de postos, e novos portais são adicionados conforme a necessidade de cada rede.</p>
       </details>
-      <details>
-        <summary>E a proteção dos dados da minha rede?</summary>
-        <p>O tratamento das informações segue a Lei Geral de Proteção de Dados (LGPD).</p>
-      </details>
     </div>
   </div>
 </section>
 
-<!-- ========== CTA / CONTATO ========== -->
+<!-- ========== CTA / CONTATO ==========
+     Formulario via FormSubmit (e-mail para contato@). O site.js envia por
+     fetch; sem JS o form posta direto e volta com ?enviado=1.
+     ATIVACAO: o 1o envio dispara um e-mail de confirmacao do FormSubmit para
+     contato@ — sem clicar nele, nenhum lead chega. -->
 <section id="contato">
   <div class="wrap">
     <div class="cta">
-      <h2>Vamos automatizar a conferência da sua rede?</h2>
-      <p>Conte quantas lojas ou postos e quais operadoras você usa. Montamos uma proposta com o escopo certo para o seu caso.</p>
+      <h2>Comece os 30 dias sem cobrança</h2>
+      <p>Deixe quatro dados e retornamos pelo WhatsApp com o escopo da sua rede. A cobrança só começa depois de 30 dias de uso.</p>
+      <form class="cta-form" id="form-lead" data-origem="form_home" action="https://formsubmit.co/contato@backupconciliacao.com.br" method="POST">
+        <input type="hidden" name="_subject" value="Novo contato pelo site — 30 dias sem cobrança">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://backupconciliacao.com.br/?enviado=1#contato">
+        <div class="hp" aria-hidden="true"><label>Não preencha<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+        <label>Seu nome<input type="text" name="Nome" required autocomplete="name" maxlength="80"></label>
+        <label>Rede ou empresa<input type="text" name="Rede" required autocomplete="organization" maxlength="120"></label>
+        <label>Quantos postos (CNPJs)<input type="number" name="CNPJs" required min="1" max="999" inputmode="numeric"></label>
+        <label>WhatsApp<input type="tel" name="WhatsApp" required autocomplete="tel" placeholder="(11) 90000-0000" maxlength="20"></label>
+        <button type="submit" class="btn btn-primary full">Quero começar os 30 dias &rarr;</button>
+        <p class="cta-lgpd">Usamos estes dados só para responder ao seu contato (LGPD).</p>
+        <p class="cta-msg" id="form-msg" role="status" hidden></p>
+      </form>
+      <p class="cta-ou">Prefere conversar agora?</p>
       <div class="hero-cta">
-        <a href="#" data-wa data-origem="cta_home" class="btn btn-primary">💬 Falar no WhatsApp</a>
-        <a href="mailto:contato@backupconciliacao.com.br?subject=Quero%20uma%20proposta%20de%20concilia%C3%A7%C3%A3o%20de%20cart%C3%B5es&body=Ol%C3%A1%2C%20gostaria%20de%20uma%20proposta.%0A%0ARede%2Fempresa%3A%0AQtde.%20de%20lojas%2Fpostos%3A%0AOperadoras%20usadas%3A%0AERP%3A%0A" data-origem="cta_home" class="btn btn-ghost">✉️ Enviar e-mail</a>
+        <a href="#" data-wa data-origem="cta_home" class="btn btn-primary">Falar no WhatsApp</a>
+        <a href="mailto:contato@backupconciliacao.com.br?subject=Quero%20uma%20proposta%20de%20concilia%C3%A7%C3%A3o%20de%20cart%C3%B5es&body=Ol%C3%A1%2C%20gostaria%20de%20uma%20proposta.%0A%0ARede%2Fempresa%3A%0AQtde.%20de%20lojas%2Fpostos%3A%0AOperadoras%20usadas%3A%0AERP%3A%0A" data-origem="cta_home" class="btn btn-ghost">Enviar e-mail</a>
       </div>
     </div>
   </div>
@@ -498,7 +631,8 @@
           <li><a href="#como">Como funciona</a></li>
           <li><a href="#operadoras">Operadoras</a></li>
           <li><a href="/preco/">Preço</a></li>
-          <li><a href="#garantias">Garantias</a></li>
+          <li><a href="/radar/">Radar do mercado</a></li>
+          <li><a href="#quem-somos">Quem somos</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
       </div>
@@ -515,11 +649,12 @@
         <ul>
           <li><a href="#" data-wa data-origem="rodape">WhatsApp</a></li>
           <li><a href="mailto:contato@backupconciliacao.com.br" data-origem="rodape">contato@backupconciliacao.com.br</a></li>
+          <li><a href="https://www.linkedin.com/in/renatosouza-conciliacao" target="_blank" rel="noopener">LinkedIn</a></li>
         </ul>
       </div>
     </div>
     <p class="disclaimer">
-      <strong>Aviso:</strong> os portais das operadoras mudam com frequência (layout, estruturas e metodologias) e acompanhamos essas mudanças continuamente para manter a automação funcionando na maior cobertura possível. Os dados de clientes exibidos nesta página são ilustrativos e fictícios, e as telas do sistema usam dados de demonstração, sem qualquer informação real de clientes. O Monitor de mercado reproduz manchetes de veículos de imprensa, com link para o original.
+      <strong>Aviso:</strong> os portais das operadoras mudam com frequência (layout, estruturas e metodologias) e acompanhamos essas mudanças continuamente para manter a automação funcionando na maior cobertura possível. Os dados de clientes exibidos nesta página são ilustrativos e fictícios, e as telas do sistema usam dados de demonstração, sem qualquer informação real de clientes. O total de postos refere-se às empresas (CNPJs) ativas em clientes em outubro de 2026. As medições citadas (10,9% e +4%) vêm de dados históricos de redes clientes, anonimizados, de abril a setembro de 2026; “conciliadora tradicional” descreve a categoria de serviço que consome apenas o arquivo EDI das operadoras, e nenhuma empresa específica é avaliada. O formulário de contato é processado pelo serviço FormSubmit, que entrega a mensagem por e-mail.
     </p>
     <div class="copy">© <span id="ano">2026</span> Backup Conciliação · Todos os direitos reservados</div>
   </div>

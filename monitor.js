@@ -1,5 +1,5 @@
-// Monitor de mercado: faixa de manchetes, "Petróleo hoje", seção Monitor,
-// menu Radar e carrossel do hero. Lê os JSON de /dados/ gerados pelo
+// Monitor de mercado: faixa de manchetes e seção Monitor (só em /radar/),
+// menu Radar (todas as páginas) e carrossel do hero (home). Lê os JSON de /dados/ gerados pelo
 // GitHub Actions (scripts/monitor_mercado.py). Sem dado novo (> 24 h) ou
 // sem rede, as partes dinâmicas simplesmente não aparecem.
 (function () {
@@ -171,7 +171,7 @@
       + "<h5>" + esc(pub.titulo) + "</h5>" + (pub.resumo ? "<p>" + esc(pub.resumo) + "</p>" : "")
       + '<div class="mm-net">' + (pub.linkedin ? '<a href="' + url(pub.linkedin) + '" target="_blank" rel="noopener">LinkedIn ↗</a>' : "")
       + (pub.instagram ? '<a href="' + url(pub.instagram) + '" target="_blank" rel="noopener">Instagram ↗</a>' : "") + "</div></div>"
-      + '<a class="mm-alt" href="/#monitor">Abrir o Monitor de mercado</a>';
+      + '<a class="mm-alt" href="/radar/">Abrir o Radar do mercado</a>';
     drop.parentNode.classList.add("tem-drop");
   }
 
@@ -180,9 +180,17 @@
   Promise.all([carregar("radar.json"), carregar("mercado.json"), carregar("publicacao.json")]).then(function (r) {
     var radar = r[0], m = r[1], pub = r[2];
     menuRadar(pub);
+    // Faixa e seção só na página /radar/ (a única com #monitor): nas páginas de
+    // venda o ticker empurrava a marca para baixo e competia com o CTA.
+    var sec = document.getElementById("monitor");
+    if (!sec) return;
     if (radar && radar.itens && radar.itens.length && fresco(radar.atualizado)) {
       faixa(radar);
       monitor(radar, m, pub);
+    } else {
+      sec.querySelector(".mm-lista").innerHTML = '<p class="rd-vazio">Sem manchetes novas nas últimas 24 horas. A atualização é automática; volte mais tarde.</p>';
+      sec.querySelector(".mm-cot").remove();
+      sec.hidden = false;
     }
   });
 })();

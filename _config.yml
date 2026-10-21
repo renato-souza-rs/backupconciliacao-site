@@ -1,0 +1,11 @@
+# GitHub Pages (Jekyll): o que NAO e' publicado no site.
+# Sem esta lista, todo arquivo do repositorio vira URL publica — inclusive
+# docs/marketing/ (proposta do Raio-X marcada "nao publicar", roteiros de
+# prospeccao), os scripts e o README (que ja respondiam 200 em out/2026).
+# Mantem publicados: paginas, estilo/scripts do site, dados/, img/, llms*.txt,
+# robots.txt, sitemap.xml, CNAME e a chave IndexNow (*.txt na raiz).
+exclude:
+  - docs/
+  - scripts/
+  - README.md
+  - gerar_og_image.py
