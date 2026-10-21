@@ -259,6 +259,8 @@ def semelhanca_operadoras(erros):
             r = SequenceMatcher(None, textos[i], textos[j]).ratio()
             linha.append("%8d%%" % round(r * 100))
             if j > i:
+                # a razão do difflib não é simétrica: vale o maior dos dois sentidos
+                r = max(r, SequenceMatcher(None, textos[j], textos[i]).ratio())
                 pior = max(pior, r)
                 if r > LIMITE_SEMELHANCA:
                     erros.append(f"operadoras/{a} × operadoras/{b}: {r:.0%} de semelhança (máx. {LIMITE_SEMELHANCA:.0%})")
