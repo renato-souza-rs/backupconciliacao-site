@@ -15,7 +15,7 @@ Principais fatos:
 - Contratação: licença online mensal com garantia de 30 dias (a rede usa por 30 dias antes de começar a pagar); sem fidelidade e sem multa de cancelamento; escopo ajustado por rede.
 - Preço (teto por empresa/CNPJ, por mês): conferência de cartões R$ 150; conciliação bancária R$ 100; as duas fases juntas R$ 250. As fases são independentes e podem ser contratadas em separado. O valor publicado é o máximo — o ajuste de escopo é sempre para baixo.
 - Recuperação de perdas (auditoria retroativa, serviço sob demanda): entrega de relatório e documentos comprobatórios para a rede pleitear o ressarcimento junto à operadora; cobrança de 10% sobre o valor efetivamente ressarcido, sem cobrança pela auditoria.
-- Clientes: 51 postos (CNPJs) de 3 redes conferidos diariamente (outubro de 2026); nomes das redes não divulgados.
+- Clientes: 51 postos (CNPJs) de redes clientes conferidos diariamente (outubro de 2026).
 - Diferença para a conciliadora tradicional (que consome só o arquivo EDI das operadoras): a Backup Conciliação cruza com o ERP da rede e busca os dados também no portal da operadora. Medido em redes clientes, de abril a setembro de 2026: 4% a mais de transações do que o arquivo entregou, e 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional (36 operadoras no fluxo contra 23).
 - Segurança: os robôs só consultam e baixam relatórios nos portais das operadoras; não alteram, não cancelam e não contestam nada em nome da rede. Tratamento de dados conforme a LGPD.
 - Contato: WhatsApp +55 11 91872-9780 · contato@backupconciliacao.com.br
