@@ -1,15 +1,15 @@
 {
- "atualizado": "2026-10-20T20:41-03:00",
+ "atualizado": "2026-10-21T01:02-03:00",
  "itens": [
   {
    "tema": "comb",
-   "titulo": "Petrobras celebra adiamento de audiência sobre gas release na ANP",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPXzl5WVRqVmpob0pJWnpKMl9aZUNISExma1dRUk1EeEt1dWdNWGluU21kOG1uaW4wMzNUNkNJenpqa0VLMFVlRFRhMjFWTzh2VldpcWFqMFFJVlZnTzdrTGg0Y2tfV3NtY1RLcmxGamFpVUhYSWZYeU9RSldoblRFTmktdXhHeVk4SWwwNk8wTElrVTlWZzdzb0JYNzZ2dGJNbWstaWNOXzVpdw?oc=5",
-   "fonte": "Poder360",
-   "site": "poder360.com.br",
-   "publicado": "2026-10-20T20:10-03:00",
-   "repercute": null,
-   "dado": "ANP"
+   "titulo": "Petrobras avalia como positivo adiamento de audiência sobre Gas Release",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa3B6WldVWVhlMXhmNGVZWTFqTFk4MC1QeHpEWmQ3dnRDZWdOWlNLd1Z0RGN2eGNwUWNCMUtGWTBRTzlYeTVaRkp6VlVLOWRYbmlXSVBEVmU5NGVubHZYWHlraGZLcGZZWFRFd1gzaDFhRFhicHlyOHNwSW5sYnB0dUE4c3B0N2NrVjNBc05zU29XSzZOWHBBMzQ2aFRIdnV1UEM0elp2VUltamdadDJIX2duYjZyeUR3Yzd5MXhBa9IBxAFBVV95cUxNdjJiQ3VjcEhYNTd6S2ZweFpncmtfWVJKVkRoRTRYZi1pemtFN05XSHZlVWcyd2M2V2JQRU9iQlAzd0xSc3FjWTZ6UnZ6UXZCMWg0QmU1bXByRGFfMlg2SmYxU191UF9JQ2lRZVdPNFRqVlpMSUJqT3h4c2p5ZG05enloX1Z0eDlETHp6UzA2REkzUXY1VXE1bmdDQ2ZWT3g5QUdGQnFNTFhBTjhiRXJMd2pMcDdDMmRUTGtoLVVxdy1weEk4?oc=5",
+   "fonte": "BOL",
+   "site": "bol.uol.com.br",
+   "publicado": "2026-10-20T23:46-03:00",
+   "repercute": 3,
+   "dado": null
   },
   {
    "tema": "trib",
@@ -33,12 +33,12 @@
   },
   {
    "tema": "comb",
-   "titulo": "Petróleo sobe mais de 2%, vai a US$ 111 e atinge maior preço desde maio",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdmdLNUs1QU9NM1A4UkVPNlZ6SHU4bUFDX0t2OXVwWXhXdk1ZSUxGSFE2ZnVKQ2VJUTNQdUFFZm45dWhUMXZ6VXJLUGx4enFwTVZ0YXRuRVk0Sk9oak9IdzZILTN2clJVMEloQ25jM1UyVWVDRkhzVmFXdVRZa1NXQXRhdEx6b1dkMTNTbDFOdTZ1ejZJY0tXZTdkbFNHNGctalluUVhWUXNGUjcxeVl1eVZaVkE5Znh4emNrRw?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
+   "titulo": "Petróleo sobe e Brent supera US$ 111 com queda na oferta do Golfo e ataques do Irã em Ormuz | Finanças",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQU3NVc1FSdm9SZm5kRkNlV3Zma2dJMjliTkFKaUhJRkpoUnRITWtrREtYRnVsYjBsdDhHZWlCUFFHdXE4S3E3LV9QdTNhcEFIZThGdDJ0ajZidW5UNVNnRmlodGNsOWYzTVVuY2dSNVlhMDNwaWlMZG4ydWpXT3RQV0ludEFHbVVuLVR1TVRLejFQQ2hVUFByeTYySUtiTWlDREtYOEZ2SndvdVk0RGxFQ2JDQ3hPWlB4VV9vZjRoZklsTzJGU1VyU3JuUHRxMXdlRDlaTnZEdUF6MG9LY1hj?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
    "publicado": "2026-10-20T17:10-03:00",
-   "repercute": 9,
+   "repercute": 7,
    "dado": null
   },
   {
@@ -62,6 +62,16 @@
    "dado": null
   },
   {
+   "tema": "comb",
+   "titulo": "Abicom: Diesel da Petrobras se aproxima ao subsídio com alta do Brent",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMlliRnMxWXRWSVJOMUtYaHpLVzZ1cVdnTWlRTW9aUUt3Y1d5bTdzcm82RzRIQUpGNzJudnljbHZNZGYxR0Z1QVdUdFpkMXZyMGV2NG9HVkRFYnNxTkZ1czhyMFpNSzZsd3IyZmVJNE1KbFVzV0ZCMVg0YndJVzMwdVF0d1JVdWxITFcwNUJubjBCaXk1LTVGbEhDMWVrRUxoZWZjbmpiS0ZNSGRtRC1NTjUwNHhPWVF1ejhia01CTjZuaWM0Z1E?oc=5",
+   "fonte": "CNN Brasil",
+   "site": "cnnbrasil.com.br",
+   "publicado": "2026-10-20T14:59-03:00",
+   "repercute": 3,
+   "dado": null
+  },
+  {
    "tema": "pag",
    "titulo": "Mais de 214 mil empresas correm risco de perder benefício fiscal do vale-alimentação",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLUYtOFd6a00tbmdUN19SSWJOWVVkQlQ0QUVrX0VBalNBTEM3dmFJSGdvdUpkY1Y2OTMxLVEwN0xrMHlCUjZ2d0NsWlNiSDNpNXBLVC1EczZwdlhFVjBZTTBDYy1WNVVhTDBmUmFwSVcyWlF1U3NscndFam9OZjNXUnd5UEJhQnFMLXRCRzRQUEtVR0l6R1N4cHRZTlQwaVZZZ1JMbEFQYVM3TjVnMll1dHVwbnoxekhxWFU4eg?oc=5",
@@ -78,16 +88,6 @@
    "fonte": "Migalhas",
    "site": "migalhas.com.br",
    "publicado": "2026-10-20T13:10-03:00",
-   "repercute": 3,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Agência Internacional de Energia descarta normalização do mercado de petróleo em 2027",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNczFVclBvWHBnQm9nUVFZc243U3Rsb09PazdwRW41b0ZLY2NCRFR2dDB5a0ZXdW5CVEJsSUxKZUVIVVB0NlM2WjZuMDF6b2tXeDQ1cE1YTklnVXl2UW0tQjlUX3hnUHc2bVZFQkZvbDdnRi1fUjJVV2hob3NIZzFDZjZMdFJmcjNvZDBpRE1wT2NRd0s2RU1STnp2YjBUVHRFSm9lenVJTEs3WXIycVpz?oc=5",
-   "fonte": "Exame",
-   "site": "exame.com",
-   "publicado": "2026-10-20T12:09-03:00",
    "repercute": 3,
    "dado": null
   }
