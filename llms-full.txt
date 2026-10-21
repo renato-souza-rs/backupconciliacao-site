@@ -1,0 +1,1030 @@
+# Backup Conciliação — texto integral
+
+> Texto integral dos guias práticos, das páginas por operadora e da página Sobre de
+> https://backupconciliacao.com.br, para buscadores e assistentes de IA. Resumo do
+> site em https://backupconciliacao.com.br/llms.txt. Exemplos com valores são
+> ilustrativos e fictícios; prazos e regras de contestação dependem do contrato de
+> cada posto com a operadora.
+
+---
+
+# Quanto custa uma conciliadora de cartões para postos
+
+URL: https://backupconciliacao.com.br/guias/quanto-custa-conciliadora-para-postos/
+
+Na Backup Conciliação, a conferência de cartões custa no máximo R$ 150 por posto (CNPJ) por mês, a conciliação bancária R$ 100 e as duas juntas R$ 250. Não há taxa de implantação nem fidelidade, e a rede usa o serviço por 30 dias antes da primeira cobrança. Para uma rede de 10 postos, o teto da conferência de cartões é de R$ 1.500 por mês.
+
+## Quanto custa, por posto e por mês
+
+O preço é por empresa (CNPJ), porque cada posto tem cadastro próprio nas operadoras, vendas próprias e extrato próprio. São duas fases, que podem ser contratadas juntas ou separadas:
+
+- Conferência de cartões, R$ 150 por CNPJ/mês: cada venda de cartão, frota, vale e PIX conferida entre o caixa (ERP), o portal da operadora e a conciliadora.
+- Conciliação bancária, R$ 100 por CNPJ/mês: o que cada operadora deveria pagar confrontado com o que caiu no banco, com taxas e antecipações.
+- As duas fases, R$ 250 por CNPJ/mês.
+
+Esses valores são o teto. O escopo é ajustado a cada rede (quantidade de postos, de operadoras e de portais), e o ajuste é sempre para baixo. Não há taxa de implantação, fidelidade nem multa de cancelamento, e a rede usa o serviço por 30 dias, na própria operação, antes da primeira cobrança.
+
+## Tabela: quanto a rede paga por mês
+
+Valores máximos, com o preço cheio multiplicado pela quantidade de CNPJs:
+
+| Postos (CNPJs) | Cartões | Bancária | As duas |
+|---|---|---|---|
+| 5 | R$ 750 | R$ 500 | R$ 1.250 |
+| 10 | R$ 1.500 | R$ 1.000 | R$ 2.500 |
+| 20 | R$ 3.000 | R$ 2.000 | R$ 5.000 |
+| 50 | R$ 7.500 | R$ 5.000 | R$ 12.500 |
+
+Para outra quantidade de postos, use a calculadora da página de preço: digite o número de CNPJs e ela mostra o total das três opções.
+
+## A conta que importa: uma venda não paga por posto
+
+A pergunta certa não é só quanto custa a conciliadora, mas quanto custa ficar sem ela. A conta é aritmética: a conferência de cartões custa até R$ 150 por posto por mês. Se a conferência encontrar, no mês, uma venda de R$ 150 ou mais que a operadora deixou de pagar, a mensalidade daquele posto está coberta. Para o seu caso, divida R$ 150 pelo valor de uma venda do seu posto: o resultado é quantas vendas não pagas cobrem a mensalidade.
+
+Quantas diferenças existem em cada posto, só a conferência mostra. Quando existem, elas podem aparecer como uma transação que não entrou no reembolso da frota, uma taxa acima do contrato ou um repasse de aplicativo que caiu menor. Uma por uma, se perdem no total do mês; por isso a conferência é feita venda a venda.
+
+Dois números medidos em redes clientes, de abril a setembro de 2026, mostram onde essas diferenças se escondem:
+
+- 10,9% do faturamento conferido vinha de operadoras que ficavam fora da cobertura da conciliadora tradicional: 36 operadoras no fluxo, contra 23.
+- Buscando os dados no portal da operadora, apareceram 4% a mais de transações, e de valor, do que no arquivo padrão que a operadora envia (o arquivo EDI), em 49.520 comparações diárias.
+
+Ou seja: uma conciliadora pode ser barata e ainda assim deixar uma parte das vendas sem conferência, simplesmente porque não olha para elas.
+
+## O que perguntar antes de contratar
+
+Ao pedir proposta, faça estas perguntas. Elas dizem mais sobre o custo real do que o valor da mensalidade:
+
+1. Quantas das minhas operadoras entram na conferência? Liste todas as que o posto aceita (adquirentes, vales, frota, aplicativos e tags) e pergunte quais ficam de fora.
+2. A conferência usa o meu caixa (ERP)? Comparar só o que a operadora informa com o que ela pagou não mostra a venda que ela nem registrou.
+3. Os dados vêm só do arquivo da operadora ou também do portal? O arquivo pode chegar incompleto; o portal é onde a operadora mostra o detalhe de cada transação.
+4. Quem baixa os relatórios? Se a equipe do posto precisa entrar em cada portal, a conferência atrasa justamente no mês mais corrido.
+5. Tem implantação, fidelidade ou multa? Custo de entrada e de saída também é preço.
+6. Posso testar antes de pagar? Usar na própria rede, com as próprias vendas, vale mais que qualquer demonstração.
+
+## E a recuperação de perdas?
+
+Quando a conferência encontra valores que a operadora deveria ter pago e não pagou, a rede pode pedir o ressarcimento. A Backup Conciliação oferece a auditoria retroativa como serviço à parte: levantamos as diferenças e entregamos o relatório e os documentos que comprovam cada uma. A rede pleiteia; nós produzimos a prova.
+
+A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Não há cobrança pela auditoria em si, e não há promessa de valor: quem decide o ressarcimento é a operadora.
+
+## Como começar
+
+Comece pela calculadora de preço para ter o teto da sua rede. Depois, preencha o formulário abaixo com o nome da rede, a quantidade de postos e o seu WhatsApp: retornamos com o escopo, e você usa por 30 dias antes da primeira cobrança. Se quiser entender o método antes, veja como funciona a conciliação 3-way. Hoje, mais de 50 postos já utilizam módulos do sistema.
+
+## Dúvidas sobre o preço
+
+### Quanto custa a conciliação de cartões para um posto de combustíveis?
+
+Na Backup Conciliação, o teto é de R$ 150 por CNPJ por mês para a conferência de cartões, R$ 100 para a conciliação bancária e R$ 250 para as duas fases juntas. Uma rede de 10 postos paga no máximo R$ 1.500 por mês na conferência de cartões.
+
+### Existe taxa de implantação ou fidelidade?
+
+Não. Não há taxa de implantação, fidelidade nem multa de cancelamento. A rede usa o serviço por 30 dias antes da primeira cobrança.
+
+### Como é cobrada a recuperação de perdas?
+
+A recuperação de perdas é um serviço à parte, cobrado em 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia o ressarcimento; a Backup Conciliação produz a prova. Não há cobrança pela auditoria.
+
+### O preço muda para redes maiores?
+
+O valor publicado é o teto por CNPJ. O escopo é ajustado a cada rede, conforme a quantidade de postos, operadoras e portais, e o ajuste é sempre para baixo.
+
+---
+
+# A Getnet não pagou uma venda do posto: como descobrir, provar e cobrar
+
+URL: https://backupconciliacao.com.br/guias/getnet-nao-pagou-venda-do-posto/
+
+Para saber se a Getnet deixou de pagar uma venda, compare venda a venda o que o caixa (ERP) registrou com a agenda de recebíveis do portal da Getnet e com o extrato bancário. A venda que está no caixa, foi autorizada na maquininha e não aparece paga no banco é a candidata. Junte o comprovante (NSU, código de autorização, data, valor e terminal) e abra o pedido de ajuste no atendimento ao estabelecimento.
+
+## Por que a venda some sem ninguém perceber
+
+No fechamento do mês, o total de cartões da Getnet costuma ficar perto do total do caixa. Perto, mas não igual. Como a diferença é pequena em relação ao faturamento, ela vira “arredondamento” e ninguém investiga. O problema é que dentro dessa diferença podem estar vendas inteiras que não foram pagas, compensadas por outras diferenças no sentido contrário.
+
+Uma venda pode ficar sem pagamento por vários motivos: a transação não foi capturada corretamente, foi cancelada sem que o caixa soubesse, foi paga em outro estabelecimento ou conta da própria rede, ou entrou numa antecipação e o crédito caiu agrupado. Para o gerente financeiro, o motivo importa menos do que a pergunta: essa venda foi paga ou não? E só a conferência venda a venda responde.
+
+## Como descobrir: passo a passo
+
+1. Escolha o período e o posto. Comece por um CNPJ e uma semana. Vários postos ao mesmo tempo confundem a análise.
+2. Tire do caixa (ERP) as vendas Getnet do período, com data, hora, valor e forma de pagamento (débito, crédito, parcelado).
+3. Baixe do portal da Getnet o relatório de vendas e a agenda de recebíveis do mesmo período e do mesmo estabelecimento.
+4. Cruze as duas listas por data, valor e, quando houver, NSU ou código de autorização. Marque o que bateu.
+5. Confira no extrato bancário se o crédito previsto para cada venda caiu na data prevista e no valor líquido esperado.
+6. Classifique o que sobrou: venda no caixa que não está no portal; venda no portal que não foi paga; venda paga com valor menor que o previsto.
+
+Cada grupo tem um encaminhamento diferente. Venda que não está no portal pode ser erro de lançamento no caixa, e é preciso olhar a bobina ou o comprovante. Venda que está no portal e não foi paga é cobrança direta à operadora. Valor menor costuma ser taxa ou desconto que precisa ser explicado.
+
+## Que prova juntar
+
+O pedido de ajuste anda mais rápido quando chega com a prova completa. Para cada venda, reúna:
+
+- o comprovante da transação (via do estabelecimento), com NSU e código de autorização;
+- data, hora, valor e modalidade (débito, crédito à vista ou parcelado);
+- o número do terminal e o número do estabelecimento na Getnet;
+- o registro da venda no caixa (ERP), com o cupom correspondente;
+- o extrato bancário do dia em que o crédito deveria ter caído, mostrando que ele não veio;
+- a tela ou o relatório do portal da Getnet com a situação da venda.
+
+Organize tudo numa planilha com uma linha por venda e o total pedido no fim. Isso evita o vai e volta de “mande o comprovante desta” e deixa claro quanto está sendo cobrado.
+
+## Como pedir o pagamento
+
+1. Confira no contrato o prazo para contestar. Ele depende do contrato do estabelecimento; quanto mais antiga a venda, mais difícil reunir a prova.
+2. Abra o pedido pelo canal de atendimento ao estabelecimento da Getnet e anote o número do protocolo.
+3. Envie a planilha e os comprovantes de uma vez, separados por posto.
+4. Acompanhe o protocolo e confira no extrato se o ajuste caiu no valor certo.
+
+Registre cada pedido, com protocolo, data e valor. Esse histórico ajuda a ver se o problema se repete no mesmo posto ou no mesmo tipo de venda, o que normalmente aponta para uma causa que dá para corrigir na origem.
+
+## Onde a Backup Conciliação entra
+
+Fazer esse cruzamento à mão, todo dia e em vários postos, é o que ninguém consegue manter. Na Backup Conciliação, robôs baixam os relatórios do portal da Getnet e das outras operadoras, inclusive dos portais que pedem código de verificação, e a conciliação 3-way confere cada venda contra o caixa e a conciliadora. A venda sem pagamento aparece no fechamento diário ou semanal, já com o posto, a data e o valor.
+
+Os robôs só consultam e baixam: não alteram nada no portal e não contestam em nome da rede. Quando a rede quer recuperar valores de meses anteriores, a auditoria retroativa entrega o relatório com a prova de cada diferença. A rede pleiteia; nós produzimos a prova. A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Veja os valores na página de preço.
+
+## Dúvidas sobre venda não paga pela Getnet
+
+### Como saber se a Getnet pagou todas as vendas do posto?
+
+Compare venda a venda o que o caixa (ERP) registrou com a agenda de recebíveis do portal da Getnet e com o extrato bancário. A venda autorizada que não aparece paga no banco na data prevista é a que precisa ser cobrada.
+
+### Que documentos provam uma venda não paga?
+
+O comprovante da transação com NSU e código de autorização, data, hora, valor e modalidade, o número do terminal e do estabelecimento, o registro da venda no caixa e o extrato bancário do dia em que o crédito deveria ter caído.
+
+### Existe prazo para cobrar a Getnet?
+
+O prazo depende do contrato do estabelecimento com a Getnet; confira no contrato e no canal de atendimento. Quanto mais antiga a venda, mais difícil reunir a prova, por isso a conferência deve ser diária ou semanal.
+
+### A Backup Conciliação cobra a Getnet em nome do posto?
+
+Não. Os robôs só consultam e baixam relatórios, sem alterar nada no portal. A rede pleiteia o pagamento; a Backup Conciliação produz a prova. Na recuperação de perdas, a cobrança é de 10% só sobre o valor recuperado e comprovado.
+
+---
+
+# Como conferir o reembolso da TicketLog no posto
+
+URL: https://backupconciliacao.com.br/guias/conferir-reembolso-ticketlog-posto/
+
+Conferir o reembolso da TicketLog é comparar cada abastecimento de frota registrado no caixa com as transações do portal da TicketLog e, depois, com o crédito que caiu no banco, descontada a taxa combinada no contrato. As diferenças podem aparecer como transação que não entrou no reembolso, taxa diferente da acordada ou crédito menor que o previsto.
+
+## Como o reembolso funciona, em linhas gerais
+
+No cartão frota, o cliente do posto é uma empresa que paga a TicketLog, e a TicketLog reembolsa o posto pelos abastecimentos dos veículos dessa empresa. O reembolso sai em ciclos, conforme o contrato do posto, com a taxa combinada já descontada. Entre o abastecimento e o dinheiro no banco existem, portanto, três números que precisam bater: o que o posto vendeu, o que a TicketLog registrou e o que ela efetivamente pagou.
+
+Como o reembolso vem agrupado, um crédito único no extrato pode representar centenas de abastecimentos. Olhando só o total, é quase impossível perceber que um deles ficou de fora.
+
+## O que comparar e onde encontrar
+
+| Etapa | Onde está | O que pode dar errado |
+|---|---|---|
+| Abastecimento | Caixa do posto (ERP) | Venda lançada em outra forma de pagamento |
+| Transação autorizada | Portal da TicketLog | Transação que não aparece ou aparece com outro valor |
+| Reembolso previsto | Relatório de reembolso no portal | Transação autorizada que não entrou no ciclo |
+| Taxa | Contrato do posto | Percentual diferente do combinado |
+| Crédito | Extrato bancário | Valor menor ou data diferente da prevista |
+
+## Passo a passo da conferência
+
+1. Separe as vendas TicketLog do caixa por posto e por dia, com data, hora, valor e, se o ERP registrar, placa ou cartão.
+2. Baixe do portal da TicketLog o relatório de transações do mesmo período e do mesmo estabelecimento.
+3. Cruze as duas listas. Toda venda do caixa precisa ter uma transação correspondente, e toda transação precisa ter uma venda no caixa.
+4. Baixe o relatório de reembolso e confira se todas as transações autorizadas entraram em algum ciclo.
+5. Recalcule a taxa: valor bruto do ciclo menos o valor líquido, dividido pelo bruto. Compare com o percentual do contrato.
+6. Confira o crédito no extrato: valor líquido e data de cada ciclo.
+7. Liste as diferenças por posto, com data, valor e o tipo (falta no portal, fora do reembolso, taxa ou crédito).
+
+## As diferenças mais comuns
+
+- Venda no caixa sem transação no portal: pode ser lançamento na forma de pagamento errada. O abastecimento foi pago em outro cartão, e a diferença aparece em outra operadora.
+- Transação autorizada fora do reembolso: é o caso que precisa ser cobrado. A transação existe, mas não entrou em nenhum ciclo pago.
+- Taxa acima do combinado: pequena por ciclo, relevante no ano, principalmente depois de uma renegociação de contrato.
+- Mesmo abastecimento em dois meios de pagamento: o cliente passa o cartão comum e a frota para a mesma venda. Veja o guia de duplicidade cartão e frota.
+
+## Quando encontrar uma diferença
+
+Para pedir o ajuste à TicketLog, reúna o registro do abastecimento no caixa, os dados da transação no portal (data, hora, valor e identificação do cartão ou veículo), o relatório do ciclo de reembolso em que ela deveria estar e o extrato do crédito. Abra o pedido pelo canal de atendimento ao estabelecimento e guarde o protocolo. O prazo para contestar depende do contrato, por isso a conferência precisa ser frequente: diferença de seis meses atrás é muito mais difícil de provar.
+
+Antes de cobrar, descarte as causas internas. Se o abastecimento foi lançado como TicketLog mas pago em outro cartão, não há o que pedir à TicketLog; o ajuste é no caixa. Separar o que é erro do posto do que é diferença da operadora evita pedidos recusados e economiza tempo da equipe.
+
+Por fim, acompanhe o pedido até o fim: o ajuste só está resolvido quando o valor aparece no extrato. Mantenha uma lista simples com protocolo, data de abertura, valor pedido e valor recebido, por posto. No fim do mês, essa lista mostra quanto a conferência trouxe de volta para a rede.
+
+## Onde a Backup Conciliação entra
+
+Na Backup Conciliação, robôs baixam todo dia os relatórios do portal da TicketLog e de outras operadoras de frota, como ValeCard, CTF, ProFrotas e Truckpag. Cada abastecimento é conferido entre o caixa, a operadora e a conciliadora, na conciliação 3-way, e a conciliação bancária confere se o reembolso caiu no banco com a taxa certa. A diferença chega no fechamento diário ou semanal, por posto e com valor.
+
+Os robôs só consultam e baixam, sem alterar nada no portal, e os dados são tratados conforme a LGPD. Para saber quanto custa na sua rede, use a calculadora de preço.
+
+## Dúvidas sobre o reembolso da TicketLog
+
+### Como conferir o reembolso da TicketLog no posto?
+
+Compare cada abastecimento registrado no caixa com as transações do portal da TicketLog, confira se todas entraram em um ciclo de reembolso, recalcule a taxa descontada e verifique se o crédito caiu no banco no valor e na data previstos.
+
+### Por que o reembolso da TicketLog veio menor que as vendas de frota?
+
+As causas mais comuns são uma transação autorizada que não entrou no ciclo de reembolso, uma taxa diferente da combinada ou uma venda lançada como TicketLog no caixa que, na verdade, foi paga em outro cartão. Só a conferência venda a venda mostra qual é o caso.
+
+### Preciso baixar o relatório da TicketLog todos os dias?
+
+Para não perder prazo de contestação, a conferência deve ser diária ou semanal. Na Backup Conciliação, robôs baixam os relatórios do portal automaticamente; os robôs só consultam e baixam, sem alterar nada no portal.
+
+### O que fazer quando um abastecimento não entrou no reembolso?
+
+Reúna o registro da venda no caixa, os dados da transação no portal, o relatório do ciclo em que ela deveria estar e o extrato bancário, e abra o pedido de ajuste no canal de atendimento ao estabelecimento, guardando o protocolo.
+
+---
+
+# Taxa da Cielo acima do contrato no posto: como conferir e pedir o ajuste
+
+URL: https://backupconciliacao.com.br/guias/taxa-cielo-acima-do-contrato-posto/
+
+Para saber se a Cielo está cobrando taxa acima do contrato, calcule a taxa efetiva de cada venda (valor bruto menos valor líquido, dividido pelo bruto) e compare com a taxa contratada para aquela bandeira e modalidade. Diferenças pequenas por venda viram valor relevante no mês e em vários postos. Com a lista das vendas e o contrato, a rede pede a revisão à Cielo.
+
+## Por que a taxa errada passa despercebida
+
+O extrato mostra o crédito líquido, já com a taxa descontada. Ninguém olha venda por venda se o desconto foi de 1,10% ou de 1,30%. E, numa rede, a taxa não é uma só: ela muda por bandeira, por modalidade (débito, crédito à vista, parcelado) e, às vezes, por posto, conforme o que foi negociado em cada CNPJ.
+
+Por isso, vale conferir com atenção depois de qualquer mudança: uma renegociação que não foi aplicada em todos os estabelecimentos, um posto novo cadastrado com a tabela padrão, ou vendas classificadas numa modalidade diferente da real.
+
+## Exemplo ilustrativo
+
+Os números abaixo são fictícios e servem só para mostrar a conta. Um posto vende R$ 300 mil por mês no crédito à vista de uma bandeira, com taxa contratada de 1,20%:
+
+| Item | Contratado | Cobrado |
+|---|---|---|
+| Taxa (crédito à vista) | 1,20% | 1,40% |
+| Desconto no mês | R$ 3.600 | R$ 4.200 |
+| Diferença no mês | R$ 600 |
+| Diferença em 12 meses | R$ 7.200 |
+
+Num único posto e numa única modalidade, dois décimos de diferença já pagam com folga a conferência daquele CNPJ. Multiplique pela quantidade de postos da rede para ter a dimensão do problema.
+
+## Como conferir, passo a passo
+
+1. Tenha a tabela de taxas contratadas de cada posto, por bandeira e modalidade. Se ela não estiver por escrito, peça à Cielo a confirmação das condições vigentes.
+2. Baixe do portal da Cielo o relatório de vendas com valor bruto, valor líquido, bandeira e modalidade de cada transação.
+3. Separe a antecipação. Se o posto antecipa recebíveis, o desconto da antecipação é outra cobrança e não deve ser misturado com a taxa da venda.
+4. Calcule a taxa efetiva de cada venda: (bruto − líquido) ÷ bruto.
+5. Compare com o contrato e marque as vendas com taxa acima do combinado.
+6. Some a diferença por posto, bandeira, modalidade e mês.
+7. Confira no extrato se o líquido informado pelo portal é o que de fato caiu, porque pode haver outros descontos no crédito.
+
+## Como pedir a revisão
+
+Monte uma planilha com uma linha por venda, ou por dia e modalidade quando o volume for grande, mostrando a taxa contratada, a taxa cobrada e a diferença em reais. Anexe o contrato ou a confirmação das condições e abra o pedido pelo canal de atendimento ao estabelecimento, anotando o protocolo. Peça duas coisas: a correção do cadastro, para que o erro pare, e o ajuste das diferenças já cobradas.
+
+Depois da correção, confira as vendas dos dias seguintes. É a forma de ter certeza de que a nova taxa foi aplicada em todas as modalidades e em todos os postos.
+
+## Erros comuns ao conferir a taxa
+
+- Comparar a média do mês com o contrato: a média mistura débito, crédito e parcelado. Uma modalidade cobrada acima fica escondida atrás de outra abaixo.
+- Usar o valor do extrato como bruto: o extrato mostra o líquido, às vezes já com outros descontos, como aluguel de equipamento. A conta precisa partir do bruto de cada venda.
+- Esquecer os postos novos: CNPJ que entrou na rede depois da negociação pode ter sido cadastrado com outra tabela.
+- Conferir uma vez e parar: a taxa pode mudar depois de uma alteração de cadastro, de equipamento ou de contrato. A conferência precisa ser contínua.
+
+Guarde o resultado de cada mês. A série histórica mostra quando a diferença começou, o que ajuda a delimitar o período do pedido de ajuste e a entender a causa.
+
+## Não é só a Cielo
+
+O mesmo raciocínio vale para qualquer adquirente e para as operadoras de vale e frota, que também descontam taxa no repasse. Numa rede que aceita dezenas de meios de pagamento, fazer essa conta à mão para todos, todo mês, não é realista. Nas redes clientes medidas de abril a setembro de 2026, 36 operadoras passavam pelo fluxo de conferência, contra 23 cobertas pela conciliadora tradicional.
+
+## Onde a Backup Conciliação entra
+
+A conciliação bancária da Backup Conciliação confronta o que cada operadora deveria pagar com o que caiu no banco e aponta taxas acima do contratado, por posto e por operadora. Robôs baixam os relatórios dos portais, e a conciliação 3-way garante que a venda conferida é a mesma que está no caixa. Os robôs só consultam e baixam; o pedido de revisão é da rede, com a prova pronta. Veja os valores na página de preço.
+
+## Dúvidas sobre a taxa da Cielo
+
+### Como saber se a taxa da Cielo está acima do contrato?
+
+Calcule a taxa efetiva de cada venda, que é o valor bruto menos o valor líquido dividido pelo bruto, e compare com a taxa contratada para a mesma bandeira e modalidade. As vendas com taxa maior que a contratada mostram a diferença a pedir.
+
+### A taxa de antecipação entra nessa conta?
+
+Não. O desconto da antecipação de recebíveis é uma cobrança à parte e deve ser conferido separadamente. Misturar as duas coisas faz a taxa da venda parecer maior do que é.
+
+### Renegociei a taxa. Por que preciso conferir de novo?
+
+Porque a nova condição precisa ser aplicada no cadastro de cada posto, bandeira e modalidade. Conferir as vendas dos dias seguintes à mudança mostra se ela foi aplicada em tudo e permite pedir o ajuste do que foi cobrado a mais.
+
+### A Backup Conciliação confere taxas de outras operadoras?
+
+Sim. A conciliação bancária compara o que cada operadora deveria pagar com o que caiu no banco e aponta taxas acima do contratado em adquirentes, vales e frotas, por posto e por operadora.
+
+---
+
+# Conciliação de cartão frota no posto: TicketLog, ValeCard, CTF, ProFrotas e Truckpag
+
+URL: https://backupconciliacao.com.br/guias/conciliacao-cartao-frota-posto/
+
+Conciliar cartão frota é conferir, em cada operadora de frota, se todo abastecimento autorizado na bomba virou crédito no banco, com a taxa e o prazo combinados. Como TicketLog, ValeCard, CTF, ProFrotas e Truckpag têm portal, relatório e ciclo de reembolso próprios, a conferência manual costuma ficar para depois, e é aí que a diferença se perde.
+
+## Por que a frota pede uma conferência própria
+
+No cartão de crédito ou débito comum, a adquirente paga cada venda em uma data previsível. Na frota é diferente: o posto atende o veículo de uma empresa cliente da operadora, e a operadora reembolsa o posto em ciclos, com a taxa combinada descontada. Somam-se a isso três características que tornam a frota mais arriscada:
+
+- Venda de valor alto: o tanque cheio de um veículo pesado é uma única transação. Se ela for esquecida, pesa.
+- Pagamento agrupado: o crédito no extrato reúne muitos abastecimentos, e não dá para ver de olho qual faltou.
+- Muitas operadoras: cada uma com portal, login, relatório e calendário próprios. Conferir uma por uma, à mão, toma tempo de quem fecha o caixa.
+
+## A rotina de conferência, etapa por etapa
+
+| Etapa | Fonte | O que conferir |
+|---|---|---|
+| 1. Venda | Caixa (ERP) | Abastecimentos por operadora de frota, por posto e por dia |
+| 2. Autorização | Portal de cada operadora | Se cada abastecimento tem transação com o mesmo valor |
+| 3. Reembolso | Relatório de reembolso | Se toda transação entrou em um ciclo |
+| 4. Taxa | Contrato com a operadora | Se o desconto bate com o combinado |
+| 5. Crédito | Extrato bancário | Se o valor líquido caiu na data prevista |
+
+## Passo a passo para montar a rotina
+
+1. Liste todas as operadoras de frota que cada posto aceita. A lista pode revelar operadoras que ninguém confere porque têm pouco volume.
+2. Confira se o caixa separa cada operadora como forma de pagamento própria. Se tudo entra como “frota”, a conferência fica impossível.
+3. Defina a frequência: diária para as operadoras de maior volume, no mínimo semanal para as demais.
+4. Baixe os relatórios de transações e de reembolso de cada portal, sempre para o mesmo período.
+5. Cruze caixa e operadora e separe o que é erro de lançamento do posto do que é diferença da operadora.
+6. Confira o crédito no banco e a taxa de cada ciclo.
+7. Registre cada diferença com posto, data, valor e situação do pedido de ajuste.
+
+## Diferenças que aparecem na frota
+
+Os tipos de diferença a procurar são o abastecimento lançado numa operadora e pago em outra, a transação autorizada que não entrou no reembolso, a taxa diferente da combinada e o mesmo abastecimento pago duas vezes, no cartão e na frota. Este último caso tem um guia próprio: duplicidade cartão e frota no mesmo abastecimento. Para o passo a passo de uma operadora específica, veja como conferir o reembolso da TicketLog.
+
+## Cuidado com a cobertura
+
+Muitas conciliadoras trabalham só com o arquivo padrão que a operadora envia (o arquivo EDI). Se uma operadora de frota não envia esse arquivo, ou envia incompleto, as vendas dela ficam fora da conferência sem que ninguém perceba. Nas redes clientes medidas de abril a setembro de 2026, 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional: 36 operadoras no fluxo, contra 23. E, buscando os dados também no portal, apareceram 4% a mais de transações do que no arquivo.
+
+Na prática, peça à sua conciliadora a lista das operadoras de frota que ela confere e compare com a lista do seu caixa.
+
+## Quem faz a conferência na rede
+
+Quando a conferência da frota fica com o mesmo time que fecha o caixa e paga as contas, ela tende a ser a primeira tarefa a ser adiada. Três decisões simples ajudam a manter a rotina de pé:
+
+- Um responsável por operadora, não por posto. Quem conhece o portal e o calendário de uma operadora confere todos os postos dela mais rápido.
+- Um prazo fixo para tratar cada diferença, por exemplo até o fim da semana seguinte. Diferença sem dono e sem prazo vira saldo antigo.
+- Um relatório mensal para a diretoria com o total de diferenças encontradas, cobradas e recebidas por operadora. É o que mostra se a conferência está se pagando.
+
+Se o time não tem horas para baixar relatórios de cinco ou mais portais toda semana, a conferência só vai acontecer com automação. O papel da equipe passa a ser tratar as diferenças, não procurar por elas.
+
+## Onde a Backup Conciliação entra
+
+Na Backup Conciliação, robôs entram nos portais de TicketLog, ValeCard, CTF, ProFrotas, Truckpag e das demais operadoras, inclusive nos que pedem código de verificação, e baixam os relatórios em rotina diária ou semanal. Frota, cartão, vale e PIX são conferidos no mesmo fluxo da conciliação 3-way, e as diferenças chegam por posto, com valor. Os robôs só consultam e baixam; não alteram nada no portal. Para saber o custo na sua rede, use a calculadora de preço.
+
+## Dúvidas sobre conciliação de cartão frota
+
+### O que é conciliação de cartão frota no posto?
+
+É conferir, em cada operadora de frota, se todo abastecimento registrado no caixa foi autorizado, entrou no reembolso e virou crédito no banco com a taxa e o prazo combinados.
+
+### Quais operadoras de frota a Backup Conciliação confere?
+
+TicketLog, ValeCard, CTF, ProFrotas e Truckpag, entre outras. Nas redes clientes, 36 operadoras de cartão, frota, vale e PIX passam pelo mesmo fluxo de conferência.
+
+### Com que frequência devo conferir o cartão frota?
+
+Diariamente para as operadoras de maior volume e, no mínimo, semanalmente para as demais. Diferença antiga é mais difícil de provar e pode passar do prazo de contestação do contrato.
+
+### Frota e cartão comum podem ser conferidos juntos?
+
+Sim, e devem. Conferir no mesmo fluxo permite achar o abastecimento lançado numa operadora e pago em outra e o mesmo abastecimento pago duas vezes, no cartão e na frota.
+
+---
+
+# Duplicidade: o mesmo abastecimento cobrado no cartão e na frota
+
+URL: https://backupconciliacao.com.br/guias/duplicidade-cartao-e-frota-mesmo-abastecimento/
+
+Duplicidade cartão e frota é quando o mesmo abastecimento é cobrado duas vezes: uma no cartão comum e outra no cartão frota, ou a mesma venda é passada duas vezes e relançada no caixa. Para encontrar, procure transações do mesmo posto, com valor igual ou muito próximo e horário próximo, em meios de pagamento diferentes, e confira qual delas corresponde ao cupom do caixa.
+
+## Como a duplicidade acontece
+
+Na pista, com fila na bomba, as situações que geram duplicidade são comuns:
+
+- o cartão frota dá erro ou demora, o frentista passa o cartão comum do motorista, e a transação de frota acaba sendo concluída depois;
+- a maquininha não confirma a venda, o frentista passa de novo, e as duas transações são aprovadas;
+- o motorista apresenta dois meios de pagamento para o mesmo abastecimento;
+- a venda é lançada duas vezes no caixa, ou relançada em outra forma de pagamento para “fechar” a diferença do turno.
+
+Nenhuma dessas situações aparece no fechamento do turno como problema. Pelo contrário: o caixa pode até parecer que sobrou dinheiro.
+
+## Por que isso é um problema para o posto
+
+Dinheiro cobrado duas vezes não é do posto. Quando o cliente percebe, contesta, e o valor volta para ele, às vezes semanas depois, junto com o desgaste com a empresa de frota que é cliente do posto. Quando ninguém percebe, a sobra esconde outras diferenças: uma falta verdadeira em outra operadora fica compensada e passa sem investigação.
+
+## Exemplo ilustrativo
+
+Os dados abaixo são fictícios. Repare no padrão: mesmo posto, mesmo valor, poucos minutos de diferença, meios de pagamento diferentes e um único cupom no caixa.
+
+| Hora | Meio de pagamento | Valor | Cupom no caixa |
+|---|---|---|---|
+| 14:02 | Cartão frota | R$ 812,40 | Sim |
+| 14:05 | Crédito (adquirente) | R$ 812,40 | Não |
+
+## Como encontrar, passo a passo
+
+1. Junte as transações de todas as operadoras do dia de um mesmo posto: adquirentes, frota, vale e aplicativos.
+2. Ordene por horário e deixe lado a lado o valor e o meio de pagamento.
+3. Procure pares suspeitos: mesmo valor, ou valor muito próximo, num intervalo curto de tempo, em operadoras diferentes ou na mesma operadora.
+4. Confira no caixa (ERP) quantos cupons existem para aquele abastecimento: bomba, bico, horário e valor.
+5. Verifique se uma das transações foi cancelada depois. Se foi, não há duplicidade.
+6. Decida o encaminhamento: estorno ou cancelamento da transação indevida, contato com o cliente e correção no caixa.
+
+Valores redondos (R$ 100, R$ 200) geram muitos falsos pares, porque vários clientes abastecem o mesmo valor. Por isso o cupom do caixa é a prova que decide: ele mostra quantos abastecimentos de fato aconteceram.
+
+## O que fazer com a duplicidade encontrada
+
+Encontrado o par, o objetivo é devolver a situação ao que aconteceu de fato: um abastecimento, um pagamento. O caminho depende do momento:
+
+- No mesmo dia: o cancelamento da transação indevida costuma ser o caminho mais simples. Registre o motivo e guarde o comprovante do cancelamento.
+- Depois de alguns dias: fale com o cliente antes que ele conteste. Para a empresa de frota, o posto que avisa primeiro ganha confiança; o posto que espera a contestação perde.
+- Quando a duplicidade está só no caixa: a operadora cobrou uma vez, mas o ERP registrou duas. Aí o ajuste é interno, e é importante fazê-lo para que o fechamento mostre a diferença real.
+
+Em todos os casos, anote posto, data, operadoras envolvidas, valor e solução. Esse registro mostra se a duplicidade é ocasional ou se tem uma causa que se repete, e ajuda a responder rápido se o cliente procurar o posto meses depois.
+
+## Duplicidade não é só entre cartão e frota
+
+O mesmo raciocínio vale para outras combinações: cartão e aplicativo de pagamento, duas transações na mesma adquirente, vale e cartão. Quanto mais meios de pagamento o posto aceita, maior a chance de uma venda ser registrada em dois lugares. Por isso a busca deve olhar todas as operadoras do dia juntas, e não uma de cada vez.
+
+## Como evitar que se repita
+
+- Combine com a equipe de pista: transação com erro só é repassada depois de confirmar que a primeira não foi aprovada.
+- Não permita relançar venda em outra forma de pagamento para fechar o caixa sem registrar o motivo.
+- Acompanhe os casos por posto e por turno. Duplicidade repetida no mesmo lugar pode indicar necessidade de treinamento ou problema de equipamento.
+
+## Onde a Backup Conciliação entra
+
+Procurar pares à mão em todas as operadoras e todos os postos é inviável no dia a dia. Na Backup Conciliação, o módulo de possíveis duplicidades cruza as transações de cartão, frota, vale e aplicativos baixadas pelos robôs e aponta os pares suspeitos, por posto, para a equipe da rede decidir. Como a conciliação 3-way também usa o caixa, fica claro qual transação tem cupom e qual não tem. Veja os valores na página de preço.
+
+## Dúvidas sobre duplicidade cartão e frota
+
+### O que é duplicidade entre cartão e frota no posto?
+
+É quando o mesmo abastecimento é cobrado duas vezes, uma no cartão comum e outra no cartão frota, ou quando a mesma venda é passada duas vezes ou relançada no caixa em outra forma de pagamento.
+
+### Como encontrar um abastecimento cobrado duas vezes?
+
+Junte as transações de todas as operadoras do dia, por posto, ordene por horário e procure pares com o mesmo valor em intervalo curto. Depois confira no caixa quantos cupons existem para aquele abastecimento.
+
+### Quem perde com a duplicidade?
+
+O valor cobrado a mais não é do posto: quando o cliente contesta, ele volta, às vezes semanas depois, com desgaste na relação com a empresa de frota. Quando ninguém percebe, a sobra esconde faltas verdadeiras em outras operadoras.
+
+### A Backup Conciliação aponta duplicidades automaticamente?
+
+Sim. O módulo de possíveis duplicidades cruza as transações de cartão, frota, vale e aplicativos e aponta os pares suspeitos por posto, para a equipe da rede decidir o encaminhamento.
+
+---
+
+# Como conferir Shell Box, Sem Parar e CTF no posto
+
+URL: https://backupconciliacao.com.br/guias/conferir-shellbox-semparar-ctf-posto/
+
+Pagamentos por aplicativo, tag ou identificação do veículo, como Shell Box, Sem Parar e CTF, em geral não passam pela maquininha do posto e, por isso, não aparecem no relatório da adquirente. Para conferir, é preciso baixar o relatório de cada operadora no portal dela, cruzar com as vendas registradas no caixa (ERP) e acompanhar o repasse até o extrato bancário.
+
+## Por que esses pagamentos escapam da conferência
+
+A conferência de cartões costuma começar pelo relatório da adquirente, a empresa da maquininha. Só que uma parte das vendas do posto não passa por ela: o cliente paga pelo aplicativo no celular, pela tag no para-brisa ou pela identificação do veículo na bomba. Cada um desses meios tem a sua própria operadora, o seu portal, o seu relatório e o seu calendário de repasse.
+
+Se ninguém baixa esses relatórios, as vendas ficam numa zona cinzenta: estão no caixa, mas ninguém confirma se foram pagas. E, como cada meio representa uma fatia pequena do faturamento, a falta de conferência não chama atenção.
+
+## Cada meio, onde conferir
+
+| Meio | Como o cliente paga | Onde conferir |
+|---|---|---|
+| Shell Box | Aplicativo no celular | Relatório no portal da operadora e extrato do repasse |
+| Sem Parar | Tag no veículo | Relatório no portal da operadora e extrato do repasse |
+| CTF | Identificação do veículo de frota na bomba | Relatório no portal da operadora e extrato do repasse |
+
+O ponto comum é que, para os três, a prova da venda não está no relatório da maquininha. Ela está no portal de cada operadora.
+
+## Sinais de que há vendas sem conferência
+
+- No fechamento do caixa existe uma forma de pagamento “outros” ou “aplicativos” com valor relevante e sem relatório de origem.
+- O financeiro sabe quanto recebeu de cada adquirente, mas não sabe dizer quanto recebeu de cada aplicativo ou tag no mês.
+- Os créditos dessas operadoras caem no banco e são baixados pelo total, sem ligação com as vendas.
+- Ninguém na equipe tem acesso, ou lembra o acesso, ao portal de alguma operadora que o posto aceita.
+
+Se um desses sinais aparece na sua rede, comece por essa operadora: é ali que a diferença tem mais chance de estar acumulada.
+
+## Como conferir, passo a passo
+
+1. Confira se o caixa separa cada meio como forma de pagamento própria. Se Shell Box, Sem Parar e CTF entram todos como “outros”, não há como conferir.
+2. Separe as vendas de cada meio por posto e por dia, com data, hora e valor.
+3. Baixe do portal de cada operadora o relatório de transações do mesmo período e estabelecimento.
+4. Cruze caixa e operadora. Venda no caixa sem transação pode ser lançamento na forma errada; transação sem venda no caixa pode ser abastecimento não registrado.
+5. Baixe o relatório de repasse e confira se todas as transações foram incluídas, com a taxa combinada.
+6. Confira o crédito no extrato bancário, no valor e na data previstos.
+7. Liste as diferenças com a prova de cada uma: registro no caixa, dados da transação no portal e extrato.
+
+## A conciliadora tradicional confere esses meios?
+
+Depende de a operadora enviar o arquivo padrão (o arquivo EDI) que a conciliadora tradicional consome. Quando não envia, as vendas ficam de fora da conferência. Nas redes clientes medidas de abril a setembro de 2026, 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional, com 36 operadoras no fluxo contra 23. E, mesmo nas operadoras que enviam arquivo, buscar os dados no portal trouxe 4% a mais de transações, e de valor, em 49.520 comparações diárias.
+
+Vale a pena pedir à sua conciliadora a lista de operadoras conferidas e comparar com as formas de pagamento do seu caixa.
+
+## Quando encontrar uma diferença
+
+Abra o pedido pelo canal de atendimento ao estabelecimento de cada operadora, com a planilha das transações, o registro no caixa e o extrato, e guarde o protocolo. O prazo para contestar depende do contrato do posto, por isso a conferência deve ser diária ou semanal. Se a diferença for de cadastro, como um posto da rede recebendo repasse de outro, peça também a correção para que ela não se repita.
+
+## Onde a Backup Conciliação entra
+
+Na Backup Conciliação, robôs entram nos portais dessas operadoras, inclusive nos que pedem código de verificação, e baixam os relatórios em rotina diária ou semanal. As vendas por aplicativo, tag e frota são conferidas no mesmo fluxo da conciliação 3-way que confere cartões e vales, e a conciliação bancária acompanha o repasse até o extrato. Os robôs só consultam e baixam, sem alterar nada no portal, e os dados são tratados conforme a LGPD. Veja os valores na página de preço.
+
+## Dúvidas sobre Shell Box, Sem Parar e CTF
+
+### Por que Shell Box, Sem Parar e CTF não aparecem no relatório da maquininha?
+
+Porque esses pagamentos, em geral, não passam pela maquininha do posto: o cliente paga pelo aplicativo, pela tag no veículo ou pela identificação do veículo na bomba. A prova da venda fica no portal de cada operadora.
+
+### Como conferir os repasses do Shell Box no posto?
+
+Separe no caixa as vendas Shell Box por posto e por dia, baixe o relatório de transações e de repasse no portal da operadora, cruze as duas listas e confira se o crédito caiu no extrato bancário no valor e na data previstos.
+
+### A conciliadora tradicional confere esses pagamentos?
+
+Depende de a operadora enviar o arquivo padrão (EDI) que ela consome. Nas redes clientes medidas de abril a setembro de 2026, 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Os robôs só consultam e baixam relatórios, inclusive nos portais que pedem código de verificação. Não alteram, não cancelam e não contestam nada em nome da rede, e os dados são tratados conforme a LGPD.
+
+---
+
+# Conciliação Getnet para postos de combustíveis
+
+URL: https://backupconciliacao.com.br/operadoras/getnet/
+
+Na Getnet, as vendas e os pagamentos do posto ficam no aplicativo e no Portal Minha Conta, e o arquivo de conciliação da Getnet se chama Extrato Eletrônico. A Backup Conciliação confere cada venda do caixa (ERP) contra esses dados, separa o que foi antecipado e acompanha o pagamento até o extrato bancário, por posto.
+
+## Onde ficam os dados da Getnet
+
+A Getnet atende o posto com as maquininhas Get Clássica e Get Smart e com TEF, a integração da venda com a automação do caixa; ela também oferece Pix por aproximação nesses equipamentos e link de pagamento. Seja qual for o equipamento, os dados da venda chegam a dois lugares:
+
+- Aplicativo Getnet: no menu Extrato, o lojista encontra o Histórico de vendas, os Recebimentos, a Negociação e a Agenda Financeira.
+- Portal Minha Conta (Portal do Cliente): a versão web, onde também se habilita a antecipação automática, em Produtos e Serviços.
+
+Para quem concilia, o documento mais completo é o Extrato Eletrônico, o arquivo de conciliação da Getnet. Pelo manual publicado, ele traz vendas, pagamentos, antecipações, cessões e gravames, ajustes e cancelamentos. É exatamente por isso que a conferência não pode olhar só a venda: um recebível cedido ou antecipado muda o valor e a data do crédito, e o caixa do posto não mostra isso.
+
+Outro ponto de atenção é a Antecipação de Vendas. Ela pode ser pedida no app, em Serviços, e os pedidos ficam em Meus Pedidos; a antecipação automática é ligada pelo portal. Quando parte da agenda é antecipada, o crédito no banco deixa de bater com a venda do dia, e a conciliação precisa separar a taxa da venda do desconto da antecipação. Os créditos podem cair numa conta bancária ou na Get Conta, a conta digital da Getnet, e a conferência precisa olhar o extrato certo.
+
+As dúvidas do estabelecimento vão para a Central de Relacionamento e para a central de ajuda Get Ajuda; a Getnet também mantém Ouvidoria.
+
+## O que a Backup Conciliação confere na Getnet
+
+1. Vendas do caixa (ERP) contra o Histórico de vendas da Getnet, por posto e por dia.
+2. Agenda Financeira: valor bruto, taxa, líquido e data prevista de cada venda.
+3. Antecipações, cessões e gravames do Extrato Eletrônico, separados da taxa da venda.
+4. Crédito no banco ou na Get Conta, contra a agenda.
+
+Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+
+## Dúvidas sobre a conciliação da Getnet
+
+### Onde o posto vê as vendas e os recebimentos da Getnet?
+
+No aplicativo Getnet, menu Extrato (Histórico de vendas, Recebimentos, Negociação e Agenda Financeira), e no Portal Minha Conta. Para conciliação, a Getnet oferece o arquivo Extrato Eletrônico.
+
+### O que muda na conferência quando o posto antecipa vendas na Getnet?
+
+A venda antecipada é paga em outra data e com desconto da antecipação. A conferência separa a taxa da venda do desconto da antecipação, usando os dados de antecipações, cessões e gravames do Extrato Eletrônico.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
+
+### Quanto custa conferir a Getnet na minha rede?
+
+Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem implantação nem fidelidade.
+
+---
+
+# Conciliação Cielo para postos de combustíveis
+
+URL: https://backupconciliacao.com.br/operadoras/cielo/
+
+Na Cielo, as vendas e os recebíveis do posto aparecem no app Cielo Gestão e na área logada Vendas e Recebíveis, e o arquivo de conciliação se chama EDI Extrato Eletrônico. A Backup Conciliação confere cada venda do caixa (ERP) contra esses dados, recalcula a taxa por bandeira e modalidade e acompanha o crédito até o extrato bancário.
+
+## Onde ficam os dados da Cielo
+
+A Cielo lista quatro tipos de solução para o lojista: POS, Smart POS, TEF e link de pagamento, e indica o TEF para postos de gasolina. Na linha Cielo Smart, a própria Cielo menciona a integração com as bombas de abastecimento e o preenchimento do Livro de Movimentação de Combustíveis (LMC), e mantém um portal de aplicativos com uma seção para postos de combustível. A Cielo também tem o Pix Cielo e aceita cartões de vale-refeição e alimentação conforme o credenciamento do estabelecimento.
+
+Para o financeiro, os dados ficam em três lugares:
+
+- App Cielo Gestão: vendas e recebimentos, inclusive a opção Recebíveis, que mostra também as negociações de recebíveis.
+- Área logada do site: em Vendas e Recebíveis, com o Extrato Cielo.
+- EDI Extrato Eletrônico: o arquivo de conciliação, solicitado em Vendas e Recebíveis > Recursos > Extrato Eletrônico. Quando o estabelecimento usa um conciliador de mercado, a Cielo orienta que o pedido seja feito por ele.
+
+Na conferência, o ponto sensível é o recebimento antecipado. O manual do EDI tem um indicador de Receba Rápido, e a Cielo oferece o Vendeu, Tá na Conta. Quando a venda é paga antes, o crédito muda de data e de valor, e é preciso separar o desconto da antecipação da taxa da venda. Sem essa separação, a taxa parece acima do contrato quando não está, ou o contrário.
+
+O atendimento ao estabelecimento está na página Fale conosco da Cielo, que inclui um WhatsApp atendido pela assistente virtual Elô.
+
+## O que a Backup Conciliação confere na Cielo
+
+1. Vendas do caixa (ERP) contra as vendas Cielo, por posto, bandeira e modalidade.
+2. Taxa efetiva de cada venda contra a taxa contratada.
+3. Recebimentos antecipados (Receba Rápido) separados da taxa da venda.
+4. Crédito no banco contra os recebíveis previstos.
+
+Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+
+## Dúvidas sobre a conciliação da Cielo
+
+### Onde o posto vê as vendas e os recebíveis da Cielo?
+
+No app Cielo Gestão e na área logada do site, em Vendas e Recebíveis. Para conciliação, a Cielo oferece o EDI Extrato Eletrônico, pedido em Vendas e Recebíveis, Recursos, Extrato Eletrônico, ou pelo conciliador de mercado do estabelecimento.
+
+### Por que separar o Receba Rápido na conferência da Cielo?
+
+Porque a venda recebida antes muda a data e o valor do crédito. Separar o desconto da antecipação da taxa da venda evita confundir antecipação com taxa acima do contrato.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
+
+### Quanto custa conferir a Cielo na minha rede?
+
+Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem implantação nem fidelidade.
+
+---
+
+# Conciliação Rede para postos de combustíveis
+
+URL: https://backupconciliacao.com.br/operadoras/rede/
+
+Na Rede, adquirente do Itaú, as vendas do posto e o que foi recebido e ainda será recebido aparecem no Portal Rede e no aplicativo da Rede, inclusive vendas de vales, cessões e gravames. A Backup Conciliação confere cada venda do caixa (ERP) contra esses dados, separa as antecipações e acompanha o crédito até o extrato bancário.
+
+## Onde ficam os dados da Rede
+
+A Rede é a adquirente do Itaú. Para o posto, ela oferece a maquininha POS TEF, o Mobile TEF e o link de pagamento. As vendas feitas em qualquer desses canais vão para o mesmo lugar: o Portal Rede, que também existe como aplicativo.
+
+- Portal Rede: o caminho para ver as vendas é Vendas > Extratos > Consultar Extratos.
+- Aplicativo da Rede (nas lojas, “Rede: maquininha, pix, vendas”): mostra as vendas, inclusive as feitas com vales, o que já foi recebido e o que ainda vai ser recebido, com cessões e gravames.
+
+Esse último ponto importa para a rede de postos. Cessão e gravame significam que parte da agenda de recebíveis está comprometida, por exemplo como garantia de uma operação financeira. O valor que cai no banco do posto pode ser menor que a soma das vendas sem que haja erro da Rede, e a conferência precisa enxergar isso antes de apontar uma falta.
+
+A antecipação é outro fator. A Rede oferece a Antecipação de Vendas, pedida em Serviços > Antecipação de Recebimentos, e a Antecipação automática. Quando ela está ligada, a data e o valor do crédito mudam, e o desconto da antecipação precisa ser separado da taxa da venda.
+
+Como o aplicativo mostra também as vendas com vales, vale conferir se o caixa registra essas vendas na forma de pagamento certa. Se o ERP lança tudo como cartão, a diferença aparece depois, no fechamento por operadora. O atendimento ao estabelecimento é feito pela Central de Atendimento Rede.
+
+## O que a Backup Conciliação confere na Rede
+
+1. Vendas do caixa (ERP) contra os extratos do Portal Rede, por posto e por dia.
+2. Vendas com vales lançadas na forma de pagamento certa no caixa.
+3. Cessões, gravames e antecipações separados antes de apontar falta.
+4. Crédito no banco contra o que o portal mostra a receber.
+
+Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+
+## Dúvidas sobre a conciliação da Rede
+
+### Onde o posto vê as vendas e os recebimentos da Rede?
+
+No Portal Rede, em Vendas, Extratos, Consultar Extratos, e no aplicativo da Rede, que mostra as vendas, inclusive com vales, o que foi recebido e o que vai ser recebido, com cessões e gravames.
+
+### Por que o crédito da Rede pode vir menor que as vendas sem ser erro?
+
+Porque parte da agenda pode estar antecipada ou comprometida em cessões e gravames. A conferência separa esses valores antes de apontar uma falta, para cobrar só o que de fato não foi pago.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
+
+### Quanto custa conferir a Rede na minha rede?
+
+Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem implantação nem fidelidade.
+
+---
+
+# Conciliação TicketLog para postos: reembolso de frota
+
+URL: https://backupconciliacao.com.br/operadoras/ticketlog/
+
+Na TicketLog, da Edenred, o posto credenciado acompanha pagamentos, vendas e transações no portal Sou Parceiro Abastecimento, que também tem relatórios financeiros e antecipação de reembolso. A Backup Conciliação confere cada abastecimento do caixa (ERP) contra esses dados, verifica o reembolso e acompanha o crédito até o extrato bancário.
+
+## Como a TicketLog funciona para o posto
+
+A TicketLog é a marca de mobilidade da Edenred. Do lado da frota, os cartões mais conhecidos são o Ticket Fleet, para abastecimento de frotas, o Ticket Car e o Ticket Cargo, voltado a caminhões. No Ticket Fleet, o gestor da frota define regras por veículo e por motorista: dias e horários, tipo de combustível, limite de litros e preço máximo. Por isso, uma transação pode ser recusada na bomba por regra do cliente, e não por problema do posto.
+
+Há também o pagamento por QR Code: o motorista lê o código na maquininha Punto, da Edenred, pelo aplicativo Minha Mobilidade, onde pode registrar a foto do hodômetro e digitar a senha no celular.
+
+## O portal Sou Parceiro
+
+O posto revendedor, o TRR ou a distribuidora credenciada acessa o portal Sou Parceiro com código de usuário e senha, e o Representante Legal cria os perfis de acesso da equipe. Há portais separados para abastecimento e para manutenção. No de abastecimento, a TicketLog lista consulta de pagamentos, acompanhamento de vendas e transações, habilitação de equipamentos, gestão de notas fiscais, relatórios financeiros e antecipação de reembolso.
+
+A antecipação tem nome próprio, Antecipa, e o recebimento antecipado aparece como Fastcash. Quando o posto antecipa, o reembolso chega antes e com desconto, e a conferência precisa ligar cada crédito ao ciclo de reembolso que ele representa. A gestão de notas fiscais no mesmo portal ajuda a cruzar o abastecimento faturado à frota com o que foi reembolsado.
+
+O programa de relacionamento da TicketLog com os postos se chama Tamo Junto, e inclui o TamoJunto Recompensa.
+
+## O que a Backup Conciliação confere na TicketLog
+
+1. Abastecimentos do caixa (ERP) contra as transações do portal Sou Parceiro.
+2. Cada transação autorizada dentro de um pagamento consultado no portal.
+3. Reembolsos antecipados pelo Antecipa ligados ao ciclo de origem.
+4. Crédito no banco contra os pagamentos previstos.
+
+Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+
+## Dúvidas sobre a conciliação da TicketLog
+
+### Onde o posto consulta os pagamentos da TicketLog?
+
+No portal Sou Parceiro Abastecimento, acessado com código de usuário e senha. Ali ficam a consulta de pagamentos, o acompanhamento de vendas e transações, os relatórios financeiros e a antecipação de reembolso.
+
+### Por que uma transação TicketLog pode ser recusada na bomba?
+
+No Ticket Fleet, o gestor da frota define regras por veículo e motorista, como dias e horários, tipo de combustível, limite de litros e preço máximo. A recusa pode ser regra do cliente, e não falha do posto.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
+
+### Quanto custa conferir a TicketLog na minha rede?
+
+Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem implantação nem fidelidade.
+
+---
+
+# Conciliação ValeCard para postos: cartão frota
+
+URL: https://backupconciliacao.com.br/operadoras/valecard/
+
+Na ValeCard, o posto credenciado acompanha as vendas e os pagamentos pelo portal da Rede Credenciada – Estabelecimento, com consultas de pagamento, plano de pagamento e antecipação. A Backup Conciliação confere cada abastecimento do caixa (ERP) contra esses dados, verifica o que entrou no pagamento e acompanha o crédito até o extrato bancário.
+
+## Como a ValeCard funciona para o posto
+
+A ValeCard atende frotas com o Vale Abastecimento, a Gestão de Frotas e a linha Frota Pesada, para caminhões. Tem ainda um produto pensado para o próprio posto, o Prime Posto, com portal de gestão e treinamento, em que cada motorista abastece com senha pessoal e intransferível. Isso ajuda o posto a identificar quem abasteceu quando um cliente frotista questiona uma transação.
+
+## Onde ficam os dados do estabelecimento
+
+O estabelecimento credenciado entra pela área Sou Estabelecimento, no acesso ao portal da Rede Credenciada – Estabelecimento. Segundo as perguntas frequentes da ValeCard, o menu Relatórios traz o extrato financeiro da conveniada, a Consulta Pagamento, que é o demonstrativo das vendas pagas, e a Consulta Plano de Pagamento. O menu Antecipação tem Simulação, Liberar e Consulta: a simulação mostra o valor antes de liberar, e a consulta lista o que já foi antecipado, que deve ser cruzado com os créditos do banco.
+
+Essa divisão é útil para a conferência. A Consulta Pagamento mostra quais vendas compõem cada pagamento, e o plano de pagamento mostra o que ainda está previsto. Assim dá para saber se uma transação ficou fora do pagamento ou só ainda não venceu. Quando o posto libera uma antecipação, o crédito chega antes e com desconto, e precisa ser ligado às vendas que antecipou.
+
+Para o dia a dia, a ValeCard separa a Central de Atendimento de Estabelecimento Comercial, que atende postos, supermercados e restaurantes, da Central de Autorização, usada nas vendas. O suporte técnico de POS e TEF e o credenciamento passam pela central de atendimento ou por formulário no site.
+
+## O que a Backup Conciliação confere na ValeCard
+
+1. Abastecimentos do caixa (ERP) contra as vendas ValeCard do portal.
+2. Consulta Pagamento: quais vendas entraram em cada pagamento.
+3. Plano de pagamento e antecipações liberadas, separados do que está em atraso.
+4. Crédito no banco contra o pagamento consultado.
+
+Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+
+## Dúvidas sobre a conciliação da ValeCard
+
+### Onde o posto consulta os pagamentos da ValeCard?
+
+No portal da Rede Credenciada – Estabelecimento, pela área Sou Estabelecimento. Segundo a ValeCard, o menu Relatórios traz o extrato financeiro, a Consulta Pagamento e a Consulta Plano de Pagamento.
+
+### O que é o Prime Posto da ValeCard?
+
+É um produto da ValeCard voltado ao posto, com portal de gestão e treinamento, em que cada motorista abastece com senha pessoal e intransferível.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
+
+### Quanto custa conferir a ValeCard na minha rede?
+
+Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem implantação nem fidelidade.
+
+---
+
+# Conciliação Alelo para postos e lojas de conveniência
+
+URL: https://backupconciliacao.com.br/operadoras/alelo/
+
+Na Alelo, o estabelecimento acompanha extratos e pagamentos no portal e aplicativo Meu Estabelecimento, onde também pede antecipação. A Backup Conciliação confere cada venda Alelo do caixa do posto ou da loja de conveniência contra esses dados e acompanha o reembolso até o extrato bancário, por posto (CNPJ).
+
+## Como a Alelo chega ao posto
+
+A Alelo tem credenciamento próprio. O estabelecimento precisa já ter maquininha de uma adquirente, como Cielo, Rede, Getnet, Stone ou PagSeguro, e informa a marca e o código de afiliação para habilitar os cartões Alelo nela. Na prática, a venda passa pela maquininha da adquirente, mas o reembolso vem da Alelo. É por isso que essa venda não aparece no recebimento da adquirente e precisa de conferência própria.
+
+Para o posto, a Alelo interessa em duas frentes. Na loja de conveniência, os cartões refeição e alimentação. Na pista, o Alelo Mobilidade, que só é aceito em estabelecimentos credenciados à Alelo e cujos termos citam postos de combustíveis. Já o antigo Alelo Frota, segundo a própria Alelo, evoluiu e agora é Veloe Go, outra marca, com relação própria com o posto.
+
+## Onde ficam os dados do estabelecimento
+
+O portal e o aplicativo se chamam Meu Estabelecimento. A Alelo descreve o portal como o lugar para ver extratos e pagamentos e contratar soluções. O aplicativo mostra os pagamentos feitos com cartões Alelo no estabelecimento, um resumo dos recebimentos do mês, o pedido de antecipação e o informe de rendimentos. Pelo contrato de credenciamento, o valor líquido já reembolsado pode ser consultado no Meu Estabelecimento.
+
+Na conferência, o ponto de atenção é o CNPJ. Cada posto e cada loja de conveniência com CNPJ próprio tem cadastro próprio, e o reembolso precisa cair para o estabelecimento certo. Quando a antecipação é usada, o crédito vem antes e com desconto, e precisa ser ligado às vendas que antecipou.
+
+## O que a Backup Conciliação confere na Alelo
+
+1. Vendas Alelo do caixa (ERP) contra os pagamentos do Meu Estabelecimento.
+2. Reembolso líquido de cada venda, por posto e loja (CNPJ).
+3. Antecipações separadas do reembolso normal.
+4. Crédito no banco contra o valor reembolsado.
+
+Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+
+## Dúvidas sobre a conciliação da Alelo
+
+### Onde o posto consulta os reembolsos da Alelo?
+
+No portal e aplicativo Meu Estabelecimento, da Alelo, com extratos, pagamentos, resumo dos recebimentos do mês e pedido de antecipação.
+
+### A venda Alelo aparece no recebimento da maquininha?
+
+Não. A venda passa pela maquininha da adquirente, mas quem reembolsa é a Alelo, com credenciamento próprio. Por isso ela precisa ser conferida no Meu Estabelecimento, e não no extrato da adquirente.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
+
+### Quanto custa conferir a Alelo na minha rede?
+
+Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem implantação nem fidelidade.
+
+---
+
+# Conciliação Pluxee para postos e lojas de conveniência
+
+URL: https://backupconciliacao.com.br/operadoras/pluxee/
+
+Na Pluxee, o estabelecimento acompanha vendas e reembolsos no portal e aplicativo Pluxee Estabelecimentos, no menu Extratos, em Extrato de Pagamentos, filtrado por produto e período. A Backup Conciliação confere cada venda Pluxee do caixa do posto ou da loja de conveniência contra esses extratos e acompanha o reembolso até o banco.
+
+## Produtos Pluxee que passam pelo posto
+
+A Pluxee lista, para o estabelecimento, os produtos Refeição, Alimentação, Combustível, Multibenefícios, Cultura e Gift. No posto, isso significa vendas na loja de conveniência e também na pista, pelo cartão Combustível. Para frotas, há o Pluxee Frota, o antigo Wizeo, com página própria para o posto; ele é aceito por POS Sysdata e por TEF SITEF e LINX, ou seja, pode entrar pela automação do posto e não pela maquininha da adquirente.
+
+Os demais cartões são habilitados na maquininha que o posto já tem. A Pluxee publica a lista de maquininhas compatíveis, que inclui Rede, Cielo, Getnet, PagSeguro, Stone e Ton, e a habilitação é pedida no portal, em Serviços > Maquininhas, com acompanhamento em Acompanhar Solicitações.
+
+## Onde ficam os dados do estabelecimento
+
+O portal e o aplicativo se chamam Pluxee Estabelecimentos, com consultas, extratos, habilitação de maquininhas e antecipação de reembolsos. A Pluxee separa dois extratos: o de vendas e o de pagamentos. O reembolso fica em Extratos > Extrato de Pagamentos, com filtro por produto e período, e o arquivo baixado aparece em Arquivos solicitados. No aplicativo, os pagamentos ficam na aba Pagamentos.
+
+Para a conferência, o filtro por produto é o detalhe que mais ajuda: refeição, alimentação e combustível podem ter reembolsos separados, e somar tudo esconde a diferença de um deles. O credenciamento na Pluxee é próprio, feito pelo site ou pela Central de Credenciamento, e o atendimento ao estabelecimento inclui chat na área logada do portal, além da Ouvidoria.
+
+## O que a Backup Conciliação confere na Pluxee
+
+1. Vendas Pluxee do caixa (ERP) contra o extrato de vendas, por produto.
+2. Extrato de Pagamentos por produto e período, contra as vendas.
+3. Pluxee Frota, capturado pela automação do posto, conferido à parte.
+4. Crédito no banco contra o Extrato de Pagamentos.
+
+Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+
+## Dúvidas sobre a conciliação da Pluxee
+
+### Onde o posto consulta os reembolsos da Pluxee?
+
+No portal ou aplicativo Pluxee Estabelecimentos. No portal, em Extratos, Extrato de Pagamentos, com filtro por produto e período; no aplicativo, na aba Pagamentos.
+
+### O que é o Pluxee Frota?
+
+É o cartão de frota da Pluxee, antigo Wizeo, com página própria para postos. Segundo a Pluxee, ele é aceito por POS Sysdata e por TEF SITEF e LINX.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
+
+### Quanto custa conferir a Pluxee na minha rede?
+
+Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem implantação nem fidelidade.
+
+---
+
+# Conciliação Shell Box para postos de combustíveis
+
+URL: https://backupconciliacao.com.br/operadoras/shellbox/
+
+No Shell Box, aplicativo de pagamento dos postos Shell, o cliente digita no celular o código de seis dígitos que fica ao lado da bomba e paga pelo app, sem passar pela maquininha. A Backup Conciliação confere cada venda Shell Box do caixa (ERP) contra os relatórios da operadora e acompanha o repasse até o extrato bancário.
+
+## Como o pagamento acontece
+
+O Shell Box é o aplicativo de pagamento dos postos Shell. O cliente escolhe o posto, digita no aplicativo o código de seis dígitos que fica ao lado da bomba e paga pelo celular. O pagamento pelo app só vale nos postos que aderiram ao Shell Box, e, pelos termos de uso, a Raízen apenas exibe no app o preço definido pelo próprio posto. Para frotas, existe o Shell Box Empresas.
+
+Para o financeiro do posto, a consequência é direta: a venda não passa pela maquininha da adquirente e não aparece no recebimento dela. Ela precisa estar no caixa do posto com uma forma de pagamento própria, e a conferência precisa buscar a transação no relatório do Shell Box. Se o caixa lança essas vendas como cartão, o fechamento por operadora mostra uma sobra na adquirente e uma falta no Shell Box que, na verdade, são a mesma venda.
+
+A Raízen mantém o Portal do Revendedor, que ela descreve como o canal para acompanhar o desempenho dos postos.
+
+## O que a Backup Conciliação confere no Shell Box
+
+1. Vendas Shell Box do caixa (ERP) em forma de pagamento própria.
+2. Cada venda contra a transação correspondente no relatório da operadora.
+3. Repasse previsto contra o crédito no banco.
+
+Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+
+## Dúvidas sobre a conciliação do Shell Box
+
+### Como o cliente paga com o Shell Box?
+
+Pelo aplicativo: ele digita o código de seis dígitos que fica ao lado da bomba e paga pelo celular. O pagamento só vale nos postos que aderiram ao Shell Box.
+
+### Por que a venda Shell Box não aparece na maquininha?
+
+Porque o pagamento é feito no aplicativo, sem passar pela adquirente. A venda precisa ser registrada no caixa com forma de pagamento própria e conferida no relatório do Shell Box.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
+
+### Quanto custa conferir o Shell Box na minha rede?
+
+Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem implantação nem fidelidade.
+
+---
+
+# Conciliação CTF para postos: frota com identificação
+
+URL: https://backupconciliacao.com.br/operadoras/ctf/
+
+Na CTF, que agora é Sem Parar Empresas, o veículo da frota é identificado na bomba por uma antena no bocal do tanque (UVE), TAG ou iButton, e a bomba é liberada sem passar pela maquininha. A Backup Conciliação confere cada abastecimento do caixa (ERP) contra os relatórios do Portal CTF e acompanha o crédito até o extrato bancário.
+
+## Como o abastecimento CTF acontece
+
+A CTF anuncia no próprio site que agora é Sem Parar Empresas. Os produtos de frota incluem o Cartão CTF BR Frota e o CTF Abastecimento. O que diferencia a CTF é a identificação automática do veículo: a UVE é uma antena instalada no bocal do tanque que transmite placa, código do cliente, tipo de combustível e quilometragem, e libera a bomba. As alternativas são a TAG e o iButton, sempre com um identificador por veículo. No posto, o equipamento que recebe essa identificação é o Zymux; há também o POS Verifone do cartão CTF e o POS UVE.
+
+Para o financeiro, isso tem duas consequências. A venda não passa pela maquininha da adquirente, então não aparece no recebimento dela. E cada abastecimento já chega com placa e odômetro, o que facilita ligar a venda do caixa ao veículo quando a frota questiona uma transação.
+
+## O Portal CTF
+
+O posto acessa o Portal CTF com um login master. Pelos manuais publicados, o portal tem relatórios de crédito por período, que também servem para gerar a nota fiscal para a frota, e a área Contingências > FIC eletrônico > Consultar. A contingência importa para a conferência: quando a identificação automática falha, o abastecimento pode ser feito de forma manual, com autorização prévia da Central de Atendimento CTF. Essas vendas precisam ser conferidas com atenção, porque não seguem o caminho normal. Os manuais de operação do Zymux, dos POS e do portal estão publicados no CTF Informa Posto, o canal da CTF para os postos, que também já anunciou o pagamento por QR Code.
+
+## O que a Backup Conciliação confere na CTF
+
+1. Abastecimentos CTF do caixa (ERP) contra os relatórios de crédito do Portal CTF.
+2. Abastecimentos em contingência (FIC eletrônico) conferidos à parte.
+3. Placa e odômetro usados para ligar cada venda ao veículo.
+4. Crédito no banco contra os créditos do período.
+
+Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+
+## Dúvidas sobre a conciliação da CTF
+
+### Como o veículo é identificado na bomba pela CTF?
+
+Por uma antena no bocal do tanque, a UVE, que transmite placa, código do cliente, tipo de combustível e quilometragem e libera a bomba. As alternativas são TAG e iButton. No posto, o equipamento é o Zymux.
+
+### O que é abastecimento em contingência na CTF?
+
+É o abastecimento feito de forma manual quando a identificação automática falha, com autorização prévia da Central de Atendimento CTF. No Portal CTF, essas vendas ficam em Contingências, FIC eletrônico.
+
+### Os robôs alteram alguma coisa no portal da operadora?
+
+Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
+
+### Quanto custa conferir a CTF na minha rede?
+
+Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem implantação nem fidelidade.
+
+---
+
+# Sobre a Backup Conciliação
+
+URL: https://backupconciliacao.com.br/sobre/
+
+A Backup Conciliação é uma conciliadora especializada em redes de postos de combustíveis, fundada por Renato Souza, em São Paulo (SP), com atendimento 100% remoto em todo o Brasil. Ela confere cada venda de cartão, frota, vale e PIX entre o caixa do posto (ERP), o portal da operadora e a conciliadora, e acompanha o pagamento até o extrato bancário. Mais de 50 postos já utilizam módulos do sistema.
+
+## Renato Souza
+
+Fundador da Backup Conciliação · São Paulo, SP
+
+A Backup Conciliação nasceu dentro da rotina de conferência de cartões de redes de postos. Os robôs, o motor de conciliação 3-way e os painéis foram construídos para responder às perguntas que o financeiro de uma rede faz todo dia: qual venda não foi paga, em qual posto, por qual operadora — e com qual prova.
+
+Não há central de atendimento no meio do caminho: o contato é direto, pelo WhatsApp ou e-mail, com quem conhece o sistema por dentro.
+
+## O que a Backup Conciliação faz
+
+Cada venda de cartão, frota, vale e PIX é conferida em três fontes ao mesmo tempo, na conciliação 3-way: o caixa do posto (ERP), o portal da operadora e a conciliadora. Depois, a conciliação bancária confronta o que cada operadora deveria pagar com o que caiu no banco. As divergências chegam no fechamento diário ou semanal, por posto (CNPJ) e com valor.
+
+Os dados das operadoras são coletados por robôs, que entram nos portais no acesso da própria rede e baixam os relatórios. Veja as operadoras conferidas e os guias práticos para o financeiro.
+
+## Os números
+
+- Mais de 50 postos já utilizam módulos do sistema (outubro de 2026).
+- 36 operadoras no fluxo de conferência das redes clientes, contra 23 da conciliadora tradicional.
+- 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional.
+- 4% a mais de transações, e de valor, buscando no portal da operadora em relação ao arquivo EDI, em 49.520 comparações diárias.
+
+As medições vêm de dados históricos de redes clientes, anonimizados, de abril a setembro de 2026. “Conciliadora tradicional” é a categoria de serviço que consome só o arquivo EDI das operadoras; nenhuma empresa específica é avaliada.
+
+## Como trabalhamos
+
+1. Robôs só consultam: nos portais das operadoras, só consultam e baixam relatórios. Não alteram, não cancelam e não contestam nada em nome da rede.
+2. LGPD: o tratamento das informações da rede segue a Lei Geral de Proteção de Dados.
+3. 30 dias antes de pagar: a rede usa o serviço por 30 dias, na própria operação, antes da primeira cobrança.
+4. Sem fidelidade e sem implantação: licença mensal, sem prazo mínimo e sem multa de cancelamento.
+5. Preço publicado: até R$ 150 por CNPJ/mês na conferência de cartões, R$ 100 na conciliação bancária e R$ 250 nas duas. Veja a página de preço.
+6. Recuperação de perdas: 10% só do valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia; nós produzimos a prova.
+
+## Dúvidas sobre a Backup Conciliação
+
+### Quem é o fundador da Backup Conciliação?
+
+Renato Souza, fundador da Backup Conciliação, em São Paulo (SP). O contato é direto com ele, pelo WhatsApp ou e-mail, e o perfil profissional está no LinkedIn.
+
+### Onde a Backup Conciliação atende?
+
+Em todo o Brasil, de forma 100% remota. A empresa fica em São Paulo (SP) e não há atendimento presencial: os robôs acessam os portais das operadoras no acesso da própria rede.
+
+### Quantos postos usam o sistema?
+
+Mais de 50 postos já utilizam módulos do sistema (outubro de 2026).
+
+### Como a Backup Conciliação trata os dados da rede?
+
+Os robôs só consultam e baixam relatórios nos portais das operadoras; não alteram, não cancelam e não contestam nada em nome da rede. O tratamento dos dados segue a LGPD.

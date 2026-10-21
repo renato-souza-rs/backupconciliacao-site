@@ -139,6 +139,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://backupconciliacao.com.br/sobre/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://backupconciliacao.com.br/llms.txt</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>

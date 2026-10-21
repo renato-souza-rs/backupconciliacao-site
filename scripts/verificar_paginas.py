@@ -16,6 +16,7 @@ Nas operadoras (/operadoras/<slug>/): as mesmas regras, com JSON-LD Service no
   lugar de Article, data-origem="operadora_<slug>", links para 2 guias e sem
   faixa de palavras.
 Em todas as páginas, também: nenhum link interno ("/...") quebrado.
+O llms-full.txt precisa estar igual ao que scripts/gerar_llms_full.py gera.
 Entre as operadoras: semelhança do texto do <main> (nome da operadora trocado
   por X, difflib.SequenceMatcher por palavras) de no máximo 60% entre duas páginas.
 
@@ -277,6 +278,14 @@ def main():
     for caminho in paginas:
         verificar(caminho, erros, sitemap, llms)
     semelhanca_operadoras(erros)
+    # llms-full.txt precisa refletir o texto atual das páginas
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import gerar_llms_full
+    atual = open(os.path.join(RAIZ, "llms-full.txt"), encoding="utf-8").read()
+    if atual != gerar_llms_full.gerar():
+        erros.append("llms-full.txt desatualizado: rode python3 scripts/gerar_llms_full.py")
+    else:
+        print("OK  llms-full.txt atualizado com o texto das páginas")
     for indice in ("guias", "operadoras"):
         if f"{SITE}/{indice}/" not in sitemap:
             erros.append(f"sitemap.xml: sem /{indice}/")
