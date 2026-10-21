@@ -442,3 +442,74 @@ section.mm-monitor{padding-top:30px}
   .pr-stats b{font-size:1.8rem}
 }
 .pr-janela .pr-janela-nota{margin-top:10px;padding-top:10px;border-top:1px dashed var(--linha);font-size:.88rem}
+
+/* =====================================================================
+   Home orientada a conversao (out/2026): icones SVG, "ja tem conciliadora",
+   calculadora + conta do retorno, quem somos e formulario de contato.
+   ===================================================================== */
+.ico svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.modcard .ico{color:var(--azul2)}
+.gcard .ico{width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,#eaf2fb,#f6f9fc);border:1px solid var(--linha);display:grid;place-items:center;color:var(--azul2);margin-bottom:14px}
+.gcard p a{color:var(--azul2);font-weight:700}
+.trust div{max-width:200px}
+.trust-nota{font-size:.8rem;color:var(--cinza);margin-top:14px}
+.trust-nota a{color:var(--azul2);font-weight:700}
+
+/* ja tem conciliadora */
+.cc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.cc-card{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:28px;display:flex;flex-direction:column;gap:10px}
+.cc-num{font-size:2.4rem;font-weight:800;color:var(--ouro-txt);letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
+.cc-card h3{color:var(--azul);font-size:1.1rem;font-weight:800}
+.cc-card p{color:var(--cinza);font-size:.95rem}
+.cc-nota{text-align:center;max-width:760px;margin:26px auto 0;font-size:.84rem;color:var(--cinza)}
+.cc-nota a{color:var(--azul2);font-weight:700}
+
+/* conta do retorno, abaixo da calculadora */
+.roi{max-width:840px;margin:22px auto 0;display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;background:linear-gradient(135deg,var(--azul),#0a2d4f);color:#fff;border-radius:var(--raio);padding:24px 28px}
+.roi b{font-size:2.2rem;font-weight:800;color:#f1c470;letter-spacing:-.02em;white-space:nowrap}
+.roi p{color:#cfe0f0;font-size:.98rem}
+.roi p strong{color:#fff}
+.calc-mais{text-align:center;margin-top:22px}
+.calc-mais a{color:var(--azul2);font-weight:700}
+
+/* quem somos */
+.qs{max-width:860px;margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:30px;align-items:start;background:#fff;border:1px solid var(--linha);border-radius:var(--raio);box-shadow:var(--sombra);padding:32px}
+.qs-av{width:96px;height:96px;border-radius:50%;background:linear-gradient(135deg,var(--azul),var(--azul2));color:#fff;display:grid;place-items:center;font-size:2rem;font-weight:800;object-fit:cover}
+.qs h3{color:var(--azul);font-size:1.3rem;font-weight:800}
+.qs-cargo{color:var(--ouro-txt);font-weight:700;font-size:.9rem;margin-bottom:12px}
+.qs p{color:var(--tinta);margin-bottom:12px}
+
+/* formulario de contato (dentro do .cta escuro) */
+.cta-form{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:640px;margin:0 auto;text-align:left;position:relative}
+.cta-form label{display:flex;flex-direction:column;gap:6px;font-size:.86rem;font-weight:700;color:#cfe0f0}
+.cta-form input{font:inherit;font-size:1rem;color:var(--tinta);background:#fff;border:2px solid transparent;border-radius:11px;padding:11px 13px;width:100%}
+.cta-form input:focus-visible{outline:none;border-color:var(--ouro-claro)}
+.cta-form .full{grid-column:1/-1}
+.cta-form .btn{justify-content:center}
+.cta-form .btn[disabled]{opacity:.6;cursor:wait}
+.cta-form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.cta .cta-lgpd{grid-column:1/-1;text-align:center;font-size:.8rem;color:#9fb8cf;margin:0}
+.cta-msg{grid-column:1/-1;text-align:center;font-weight:700;border-radius:11px;padding:12px}
+.cta-msg.ok{background:rgba(46,125,50,.3);color:#d6f5d8}
+.cta-msg.erro{background:rgba(198,40,40,.3);color:#ffdede}
+.cta-msg a{text-decoration:underline}
+.cta .cta-ou{font-size:.95rem;margin:28px auto 14px}
+
+/* pagina /radar/: a secao fica visivel mesmo sem dado novo */
+.rd-vazio{grid-column:1/-1;padding:22px 0;color:var(--cinza)}
+
+@media(max-width:880px){
+  .cc-grid{grid-template-columns:1fr}
+  .qs{grid-template-columns:1fr;padding:24px 20px}
+  .roi{grid-template-columns:1fr;text-align:center;padding:22px 20px}
+  .cta-form{grid-template-columns:1fr}
+}
+
+/* botao do menu: o cinza do .navlinks a vencia a cor do .btn-primary (texto
+   quase ilegivel no dourado) */
+.navlinks a.btn-primary,.navlinks a.btn-primary:hover{color:#1a1205}
+/* numeros do hero em 3 colunas fixas: com flex o 3o caia sozinho na linha de baixo */
+.trust{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.trust div{max-width:none}
+.cta-form .btn{font-family:inherit}
+@media(max-width:560px){.trust{grid-template-columns:1fr 1fr}}
