@@ -1,6 +1,36 @@
 {
- "atualizado": "2026-10-21T20:56-03:00",
+ "atualizado": "2026-10-22T01:26-03:00",
  "itens": [
+  {
+   "tema": "trib",
+   "titulo": "Prazo para pedir adesão ao Simples Nacional termina em 15 de outubro",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWXdUOXZuSHlqWWNtWmcxN3ZMRTJiS0F5bll0bmd5bVR0TFY4TXhsTFlGeVZ4VEZTYmlXUFZ1SnNKcmFPZkRSTDJsYnJTMWJZd1JXWGU3Tzh0bUtGVkowR1pHQXd1TkZxbUdkWW1DSlFxVUU2WUJGOTFVdGJkcXkzVWs4eGotVkU5Sy1GZUZhYkstRllPYzVhT0xfeFVxdXpoTVNWZ2pMN1lxNHZDN3FKN0NoTTBJckZ1LXhFRnphUzd2VnJxd2I4ZklFTG8zelZwZU5yZ1MyRWlBMFRaUFpERWo5MVZ2Rkx5aklLZGtUUdIB_gFBVV95cUxNb2dFOHlwbjBjbUQwQTAwLWh6TXVGRmVFdGxvRmFDdTZmcVNXajQyOTRpQTNueTZabThINTJqT05MYkFTdjlOcjdwdW1xdU1OQnRoMUxXRFhGV3ktUHNzQkhxa2RuU3FlNVduMXNmNXRvckdYUHotUWs3dkoya3lCbTVCWXZtanY0Z2ZvM1dTSEgxQjhmNFpNeEltbXBtWHRxTE5mYWtsaGhSXzQ3RVVLSFNtYmF1SFRTNXFNX1BjbkxKTDN3N3Z6X3ZXOE5fa3F3WTdDTlJaYk8xSC16T2p1MXBSR2NzaHhHN3N1c2treUtLR3ZlWU1hdHB6dGhDZw?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
+   "publicado": "2026-10-21T23:19-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "STF decide que ISS não integra base de cálculo do PIS/Cofins",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbkFfZ1ZqdzdfeGhDa3NUY0c0Z0t6MFVERndXc205M0ctWU5oemRsS1cycW9ubEwxSThXbkQ0ZTZab2RrOFFCQnA1MG1DZjJVLUl3UlktMWRiLURTZTFMRVBwNTgxYTB5VmxQeHVzbnM1aEtLQU1JUGp1ZFZmbFZtdVpUVHFtM21nalg4ZXhYTHRPUEY0VWV1Q00zeUczaV84UV9QYWk3dXg3RWJ3RWMya21FRTh0ajQ?oc=5",
+   "fonte": "Agência Brasil",
+   "site": "agenciabrasil.ebc.com.br",
+   "publicado": "2026-10-21T22:45-03:00",
+   "repercute": null,
+   "dado": "STF"
+  },
+  {
+   "tema": "pag",
+   "titulo": "Com nova licença, SumUp vai expandir crédito para ir além das maquininhas",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRDZBNkhCMlhKbUZqSUIyRUd2cFBhU3BTWHJKM2M1S2J2TlhSQTdTbXZDWEVtN1VtMXZQdXZqU192emtVV3ZEMWZXYndFQU5xTUdFbVhJMDFYUzd1SENZSjN6ZmR0cnNBUFFpT2tTQWxsbGFKb2oxMGQyWVBQcjgwNGRaYWNTTkVKQm5RZnFueDNOXzRqcndGUEZFeFk0OUJOTWZUbEkzTnJTRE83cVJmQXZaSThuVUlFS0Y3aDJkSzVhbGPSAcgBQVVfeXFMT1cwUnhFSGtYTkd6Nm5jTTRwU0FHYXNBTXdTODdxNGdjelV4NnBjMjdJcnk2YktkUW1WemhzRnZwMkhZM2p2V1BhT1JOVTRCYVZXOEpfbDA5a01ZTTAwOFNYT24zZUJVR0ZsSjRyM1NUd3ZHcndlYjFqUDAxazh4bExxenM0Tnpvb2pIU3JCTnh4dUZaRHgwSlUzVEhjcXo1TlNEZm00cU5TOFNRMlhHRjJSdEJPY1Fld2duY2ZKT1ZRUTkzZ0EtSEs?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-10-21T21:59-03:00",
+   "repercute": null,
+   "dado": null
+  },
   {
    "tema": "pag",
    "titulo": "Rapper que ateou fogo em dinheiro é indiciado por desvio de R$ 20 milhões em programa de vale-alimentação nos EUA",
@@ -18,7 +48,7 @@
    "fonte": "Folha de S.Paulo",
    "site": "www1.folha.uol.com.br",
    "publicado": "2026-10-21T20:31-03:00",
-   "repercute": 11,
+   "repercute": 13,
    "dado": null
   },
   {
@@ -33,22 +63,12 @@
   },
   {
    "tema": "comb",
-   "titulo": "Petróleo fecha sem direção única com acordo na Ucrânia e tensão no Estreito de Ormuz no radar",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rakMzelFSTm9Bb0FMbXBIam1wRV96dmUzRjRVbjhUejFTUjlrZkdwMUtobll4cC1VTEYtMldFbEZoa1B0TGpld1BGU0EwLTMwbUVHamtuWHdWNE1ISWVfbFVMMThJQQ?oc=5",
-   "fonte": "Money Times",
-   "site": "moneytimes.com.br",
-   "publicado": "2026-10-21T17:30-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
    "titulo": "Ouro tem leve alta com alívio nos preços do petróleo",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTUNHbzFyc0lwS2xreDJJMHpQRGNZTFI1TXgxS2tQeEtWNVl1cmZ0U2oyYS0wdjZPX1ZMN2p0bzI2VG1JTXFoVTZDaWM3alZDV2t3QWx6YzlMZVhoVXhENEFTZmwzQVA5RWthUWllNlM4WmwteE1sRnBrWmJiTE4tbEZjMU9QMkFWbUcyX3QydFRrRnF6aWcwdUcxQVlzelhQQlh1VmszUjJIZGxfWmhv0gG-AUFVX3lxTFBpSFR6Z1J6X0oyYnp1Y3psbkNrWEM0RGc5UFBRM183UWk1TWk3ZDczMF9Ia2cwNHktV0NydWhzR2R4OW5nN3RmWGJZT2hMR3A3akxmV1RETHRsOHREMUNnVWE2cFBEUkJrMG1CMzJ1ZU8yWFVQYk1lSmxncUJLVEVVZzdSRi1odnlWWG9vVjZrZ19NeFhxT09fVy1WMWdub1k4RjRRdjEtV3BFNUR6LXlmdXhIVjJSeDYzRTdQNWc?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-10-21T15:42-03:00",
-   "repercute": null,
+   "repercute": 3,
    "dado": null
   },
   {
@@ -63,32 +83,12 @@
   },
   {
    "tema": "comb",
-   "titulo": "Queda no preço do etanol é percebida em postos de Goiânia",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOR2Q0OGpQdVdFUzJKbW9tZTRTYTNKbnJURUsyUW5ZNWttaUpPZVJoSjhSOEhnY2NpQjVvLXBMcHFta2hjMEZwOFM2Nml3WXlTbG1wQlFMZTRZaGZQSnZvdTdiX202eGxWbDRRUmhicWhYUkdMYmxMVHFlX0ttb1owdzVtRm9UcTFXNXV3MGY4QUt1LVp3ZC1BQ19iUV9uN2NSLWg5Q2hjNUxBNHMxNXBfVVRRWURyMi1maUwxYVdNd1BKRkpVeUVmMFBJei1iOW9JY3I2WtIB1AFBVV95cUxOR2Q0OGpQdVdFUzJKbW9tZTRTYTNKbnJURUsyUW5ZNWttaUpPZVJoSjhSOEhnY2NpQjVvLXBMcHFta2hjMEZwOFM2Nml3WXlTbG1wQlFMZTRZaGZQSnZvdTdiX202eGxWbDRRUmhicWhYUkdMYmxMVHFlX0ttb1owdzVtRm9UcTFXNXV3MGY4QUt1LVp3ZC1BQ19iUV9uN2NSLWg5Q2hjNUxBNHMxNXBfVVRRWURyMi1maUwxYVdNd1BKRkpVeUVmMFBJei1iOW9JY3I2Wg?oc=5",
-   "fonte": "G1",
-   "site": "g1.globo.com",
-   "publicado": "2026-10-21T15:07-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
    "titulo": "Diesel da Petrobras fica perto de defasagem máxima no ano",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQXzkyR3pJdkpRUU1WRUtIOHF5dVJnZkFvQlhRTExvWTlFWWF0anJta2EyMnZobGxTR3FfS1JFblhrbGQ3bmdVbXdoSUdGT3hQWG04N0FJWmJwNU1RRjBHODl6MUVGRnpxZkNVNWF3Mk5ZaWRKR3k0dEtBS2NLeWZfRFNWbmN4Vi1WZ2lqczBFWWNfWHBiNTlncmJfdU1BRVZ0WXMyQ2dIOTN0UnRSMV9VaGdoek5id9IBxAFBVV95cUxPTjFtV1FXekhRc2JIUG1pUVNLamJMbF82dnFmNXBfRjVEYUR3c3dqbG93RDBEQlN1a2xWMkNaSzdjNEkyS0F3V3pSZnlyQXJ5c29vYThxdldiMjlrcGtiaUhOTGVwV3RzcFZ1c09nSS1OMEtRZElLWFZfSnBwbG9adFdKY0tlSldDOUpqWXhUYjYtSHZ2T0J1YXhQNW1nT3lrQThVMTJMbzhWOWpxZVBmNU4zaS1TeF9WSlNNSVVrdXcwX2FI?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-10-21T05:00-03:00",
    "repercute": 4,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "iFood compra Caju e amplia disputa com gigantes do vale-refeição",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR205V1ZYTmFKNkxfR1dLS1ZZUXhQazNIN2NuaF9mY2ZfT1YzRjRLRU80VmUxVzVzdERwa0pHc3FGRHAyaG9QQWlnY1dNdWpreDVPbHJUZlp2V0QzYzhDOE5YVVI3bkJNQlYyMC12d3ZZLVdqZjl3V3Y4cUx1M044ONIBhgFBVV95cUxQel9NcFFBdi1hMGo0WHBvVHlMOE1yZXh6N29TMkg3YmFSb2RpeEdqdGY5N0p0T3J5VUJFQXpHNGhTRzM4cnhyWVlJbkZCZGdNYzh5ellqQV94MWZVa2JQZzVPcm05d241UER2ZFZDLXhkUXNXbUdBcFRyRXhNM2JNZ212TmpOZw?oc=5",
-   "fonte": "InvestNews",
-   "site": "investnews.com.br",
-   "publicado": "2026-10-20T16:42-03:00",
-   "repercute": null,
    "dado": null
   }
  ]
