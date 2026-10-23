@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-22T20:55-03:00",
+ "atualizado": "2026-10-23T01:16-03:00",
  "itens": [
   {
    "tema": "comb",
@@ -7,13 +7,23 @@
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbGlCRjRsYlY0cXhVeTRuWlNFUUlsZ185T3ppa3FDYnZuNFhudmNvWWZjWUZOSGNFM0RfOHh4OXFmY05YQWFzbExmQkZuODF6RzlZS2tlQUVFQnNYTXhTSWFoZGVCYjVXYnRtUEJfQnVFWUh4YWYtbXhBX2JqWGVZc0xHTFBUVER6NHRzelZUckM3WHpDeU51elB1QXp1UlRfMzRDRlQ2S082aERjMXlWdHBqQ3pzWldX?oc=5",
    "fonte": "CNN Brasil",
    "site": "cnnbrasil.com.br",
-   "publicado": "2026-10-22T19:30-03:00",
+   "publicado": "2026-10-22T21:00-03:00",
    "repercute": null,
    "dado": null
   },
   {
+   "tema": "comb",
+   "titulo": "Encontro Nacional do PRH-ANP 2026 — Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVm5qOHZCcFFjYkctdFBzRUU3UV9SU1djUzZURUtWa09Wb3N1YTlYSkhnTHFKVlpCUlg5V053MExGczQtM0pCaWNMSkt0Uk1mM3N1dEZHU3Q1bkNiTWItYXNya3p4NEhBX0kyZXRPYUpFeUdHa1R4VHVTMDBBQllYVHJza1hIcG5tTEFMWXA4Y0o2Y2N2QTNtMTJGNHZaQQ?oc=5",
+   "fonte": "Governo Federal",
+   "site": "gov.br",
+   "publicado": "2026-10-22T19:55-03:00",
+   "repercute": null,
+   "dado": "ANP"
+  },
+  {
    "tema": "trib",
-   "titulo": "IVA Dual exige rever créditos de PIS/Cofins e split payment",
+   "titulo": "IVA Dual exige revisão de créditos de PIS/Cofins, contratos e split payment",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORkdyRTFleVNEeVh5aTdVX081R3BXdXp1YkdDNnpDVWI5NDBMV0x1OEZrOWthcVVRaG9QclUySUhkWTN0LVZXbC1Obl8xM0RSTEpOOFhPS1l0Y1Atc09RcVlBVTdza2ItYzBjSkRiMGR6QzBYUEVJS0d2WnE3MHExTGZJVm5DVTY3cHNrTDY5WTZJQThDRzBQUXg5UGF2Tl82VDl3QjF5UkhyYWVpMlE?oc=5",
    "fonte": "Consultor Jurídico",
    "site": "conjur.com.br",
@@ -38,17 +48,7 @@
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-10-22T18:13-03:00",
-   "repercute": 5,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Preço do petróleo avança na Ásia com temor de escalada no conflito entre EUA e Irã",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZUotZEFpU2tBajZCYWdGNzkzcjFyelNlb3VPaEJjYTJfUGpGc3hJOFMwWllxZ2FCZW94Q3Q0ZHlMQVo5NlpmZTZMbVJ6WDk5ZlRmeXdjN19HRG04UkZfYjNseG54UDhpMmlCZWw2TThnQ0MwODdibk1Cdm85c3FTbkNRY1Z3Mmo3a3pKYkt1aXZ3SDZrT3E0a2xHdFVrM2tGZUp5cXpZTW9sNTRsNDRnU01fZjY2N3FfaTVDVWx0cjNZLUZnVkxPMFh4LVFvRExMZWJULUk3RdIB5gFBVV95cUxNZC0wWFNKNlBTT3BmbHBXNHc2WlU0S1Q1c0dfYVBLRmdTRlhTaDdaejNXVFFBb29Ea3ctZnBha2lhWl9ZOHlQRXNxdXZya2lkT1ZKRGV5Q2pzSzFPSkJpNkNQU1NUV0hVNm5idXg2aE9KVDUxeTRpaHM0Ml9oU2s2UmdxZFlqTjJQdm03WVgyUUd6dGk2NTZvbjZTYS1MUHh4WGxHQ0NqZHZQRTd4T2V1a0QxTGs5eWNmb3YxZ1RCS2RPSE9UZk9xZHdaZkFuTjlaOHNSYno0YmhLZHRKM2hrX3R5bm1MQQ?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-10-22T17:35-03:00",
-   "repercute": null,
+   "repercute": 7,
    "dado": null
   },
   {
