@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-24T14:59-03:00",
+ "atualizado": "2026-10-24T17:39-03:00",
  "itens": [
   {
    "tema": "comb",
@@ -7,8 +7,8 @@
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOY3JxdUhPbFVKbGpWdTE4MWxyeEFwSElYREN3TzQ1LU9ScUJTNC1MTGNWSDFyYVp2QkU5TXlMcmN5TUloeE1vUWxGUnBkY0QxZ0MxdEgxMTd2Y09HTXZ0MlZGanZSemdrc2h6UF9GV2xfeng5dnFGeTdFcmQ0STI5dV9pQ0tpMDdBRTFjS1dBc29nbDFQWS1NV1lwbWgxTDJJaEJHNzVEbzczd01OaDVaaGFTRHBLVmFiZG9WZlNBWEUwSDBt0gHTAUFVX3lxTFB0RHZaNnBNbEJJb2ktbXNka04wajRaVHZrblJxWEpuSjE4Z0wwV2U1SkFuU1JFODRBcEtuckdUa0tYWE5vUGdmQV9EeDNJVzl2elRodkVjUUt4bmdHa2ZkZGtLdGN1REV2WjFPUllKNVRoQjdrc0xVZnU5NlhiUGpDMWJZMlNlbzJ4VnBzS1g2UXc3eDRCX2N5VjhPdlZOdHZIcEc4R1Y3b2E4N0VvMUF2d2Nsd290QkpBUjc5andERUt1MXhSUUJWLXNFS3VJNmdRX1E?oc=5",
    "fonte": "O GLOBO",
    "site": "oglobo.globo.com",
-   "publicado": "2026-10-24T08:33-03:00",
-   "repercute": null,
+   "publicado": "2026-10-24T15:08-03:00",
+   "repercute": 3,
    "dado": null
   },
   {
@@ -23,12 +23,12 @@
   },
   {
    "tema": "trib",
-   "titulo": "Reforma tributária: o fornecedor mais barato pode deixar de ser o mais econômico em 2027",
-   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNNXJjcUZFa2R3LVp0a1NpN1BvbzZENGdoSnUwTGF6aTlBbHYzVElDbWItMk9VUlk0bUFQTnFxZWFxQ2duandKeDB0cEVvc2dfTjlieE1pYXozbm1sRzE3S1ZjbnNyWlRlX29VbnVNWklHUVBLdUtHTDFoS2l3b1lqeUxiYzF3akdWMlRucGNlZm5wM0RWbTJlcGlabmpVZ2p4MWVTdGxUV3JySHYwM0xMNDFzV3R6UHdCbHlqYWY4elpLdXp0SVVLZ1FIUDRGNGdUal94cHlyUkh4QXFOM3Q1VUhNV0hlc0s1M0ktdUpVNVExSERiUEhKWEZJV2hxaW1kTlZN0gGDAkFVX3lxTE01cmNxRkVrZHctWnRrU2k3UG9vNkQ0Z2hKdTBMYXppOUFsdjNUSUNtYi0yT1VSWTRtQVBOcXFlYXFDZ25qd0p4MHRwRW9zZ19OOWJ4TWlhejNubWxHMTdLVmNuc3JaVGVfb1VudU1aSUdRUEt1S0dMMWhLaXdvWWp5TGJjMXdqR1YyVG5wY2VmbnAzRFZtMmVwaVpualVnangxZVN0bFRXcnJIdjAzTEw0MXNXdHpQd0JseWphZjh6Wkt1enRJVUtnUUhQNEY0Z1RqX3hweXJSSHhBcU4zdDVVSE1XSGVzSzUzSS11SlU1UTFIRGJQSEpYRklXaHFpbWROVk0?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
+   "titulo": "Antecipação de recebíveis: como a reforma tributária muda o custo do crédito em 2027",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQlZDcm92N1d0cVhtcjB6bHI1cHNIMnpoX1VuWi1INzk4MVRNZnlENUxDbzVyZTFaeDJxaGNNbEU3bWl0T0NTeVVsSVJWQWlyeTY3Z2dndG9QMEZRTzFzcTV5Q2VRWGp2bFZlV3NNdGFPMDloRWtPRTRLSS1GdDN4UnlfRDJXMWNJZzdYRXBBYmRfb3hLMDEtT2l0UE5lcTRw?oc=5",
+   "fonte": "Exame",
+   "site": "exame.com",
    "publicado": "2026-10-24T07:00-03:00",
-   "repercute": 12,
+   "repercute": 10,
    "dado": null
   },
   {
@@ -47,17 +47,17 @@
    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY19UTnExYUdtOTRSUFN1ZDRBa3cyb1k0eUJpOXBVS2NoZUNqRnZoZ3B0ajF2aXFTSHpydFA0R3JkRlBqaUtIZTFfV3JyczRKUk9Ia1dLdzBBOHg3a1NCWXJFTXBxX2hlOFZQT1FnWWpSQ2xDdjdiNlY2V0gzZWZyenlQTEExX3R2UGVrNXlDdVZXSjZvQXZDMXZnTkY5UDdITFhac0RmeThnYkxjb1dsNkhibEdBLXRTWUJiTnVLemZ3dW9GVVBlZGpvQmZNRXpyWE0tNnNvamFFUmhIQW5iMWxZWGJGR2000gH3AUFVX3lxTE5HaU5ocFI5LWVHSkZpbmlOYUs5bFdvaGJwbTNjNGpkXzdfQW0zaXluRmo4YTh6dElGZTJUZnBlWnpJZ3JZQUs5YVpQcUQ0LWxjaGEyVmlpRjRBUW5SLS1ORzZST2VocG9JLVFYaENjQ0Vhd0NkUUNOYlBzMllTX3FmRTMwSFZEbkh5OTFoX1VzY1U2Q1N2OG5TemZJYW4xN1d0SG1nVksyOUcyUXRWQTE2X2tpQVUtSXFCTWVhaDhDbGlrSTItdEVFVmFpTnhtYWFkWGhZcG0zZUJfMWloQ0ppcU4zWl9Kd0gtbHBLdkpIT0VCTDNyX2M?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
-   "publicado": "2026-10-23T19:57-03:00",
-   "repercute": 3,
+   "publicado": "2026-10-23T20:29-03:00",
+   "repercute": null,
    "dado": "Banco Central"
   },
   {
    "tema": "pag",
-   "titulo": "Após caso do Banco Master e perdas do FGC, Banco Central propõe mudar regra para ganhos de plataformas de investimentos",
-   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNWXVXNEJnM3ZmaWIwQVlHU00tUzU5SW82RElGTWk2LW9FU2I5S1NRYWkwLVlEQXphUThXeWRLc2lFZHh1eHRkYkdoUnB5Y2d6dnBGakZPbzNPSFZSNkxYNkdCc1BmeFQybld3LW9IS2lIck1DYUt6OU12ck1wQ2NNeDVJd3k3Y0huUXVwd0VPQ3VPcXU2R2dUeTdydE9zVGZDb1JDQnVWemo1QzVQd1NJNWxWSlI3YlBDSkxfN1VnbUtfelJEcUU3TnUzdHppc1pXUWU4a1ZqaHhic2xDTzZHaUFDNFY3THFPM3BQbWE0NjJrYnRfT0hhZktBTGppa1dpaTJfME83a3jSAZcCQVVfeXFMTU53SWd2NjJrb0E5WnotSHM5M2V2WWVESE5jQjlWM1ByU29kN1J6RERKWmJIZlNVTXpPb3ZzTWdFMGpGRExUTm5NTW1oZ2NpclVHVVZIZzJjRDhxWkN6VWZtSGhhLU1DUXhNMGVhSVBMcktpWm01OUEtNHVmRGZrVm8ydG5MWFZtMkdiZE42RGxiYVZEQkcwSURMN2FaeHRUTGU3U3otdWc3Ni03cUtvTTFtNXVUX01ycVYzQk5GZ3U5UkZveDNTT2dVVk1CMnVUU01vRS1yWjlBSmFzOTlfX1RLdmFMb2dHSG9UaEkyazBJVkp4b0gtaHd5aEdGNVZNajljZXFVQTZmdGkzMEQwR25oSHJKMkVJ?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-10-23T19:56-03:00",
+   "titulo": "BC passa a exigir autorização prévia para oferecer crédito a clientes com risco de endividamento",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVGpHOHVGZndDeGNjcFZVbmROMmozdmlFMUdkUEdlbk0wN1g4aXJhX3FsRkpGMDA1RlByT0NzUkZ0T21RcnllQS1Vc2dUZzg5cUVQVjNZUDRfUlo4b0lUVElqWlJaUlBWU2tWWHRQNGhZV2s4X3liS3F5TWRaY1B0eGRQaHduQkQ0aGIxV291M2tWMGpYYlJlVEtJSzZ3dndTYWVVUGhTdGRWSG5YdE41RXFwS0hPYmp0bGVXMjZFSDVQWnVkYk5Na1JweGtHNHpHV3JkUlJHdU1XNXB1eko5elAzaVpRVFdWVVZXUTJR0gH8AUFVX3lxTE5RdzVWNUw4c0RBNmpkQ19nV0JEdUJwejk1WU8tZjR5V1JkdlRBVDFsUVhRQ2RmQmVxZVFlTExabHhyVnVCckc3b3AzY0VrQ2NjV1MwcU9kdnJXTXJPS3dmbUk0YnFZMzE5UDJnV3pfOVFLM09KZ2VFdngzODQ4a2xlTUNUbWRsTDNJejBqbThCNmRzN2dFZWk4dnhESGhRYlF2S20wNUg2N1ZtTUd2bzNSUWlTbUFNN0E1cC1vX3dxZC02b0xSeDhVOW1ubXhqam01dEFJZVZOVG1iZ2JCcEtYSkRkQ0pneXdjSEZLaXZ4MmNpREN5MENsMElvbg?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
+   "publicado": "2026-10-23T19:57-03:00",
    "repercute": null,
    "dado": "Banco Central"
   },
