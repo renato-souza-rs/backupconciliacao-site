@@ -1,20 +1,20 @@
 {
- "atualizado": "2026-10-24T01:00-03:00",
+ "atualizado": "2026-10-24T10:11-03:00",
  "wti": {
-  "ultimo": 103.44,
-  "var_abs": 3.97,
-  "var_pct": 3.99,
-  "semana_abs": 2.03,
-  "semana_pct": 2.0,
+  "ultimo": 103.27,
+  "var_abs": 3.8,
+  "var_pct": 3.82,
+  "semana_abs": 1.86,
+  "semana_pct": 1.83,
   "min_dia": 99.91,
   "max_dia": 103.92
  },
  "brent": {
-  "ultimo": 111.66,
-  "var_abs": 3.0,
-  "var_pct": 2.76,
-  "semana_abs": 1.8,
-  "semana_pct": 1.64,
+  "ultimo": 111.7,
+  "var_abs": 3.04,
+  "var_pct": 2.8,
+  "semana_abs": 1.84,
+  "semana_pct": 1.67,
   "min_dia": 108.84,
   "max_dia": 114.66
  },
@@ -28,8 +28,8 @@
   "max_dia": null
  },
  "brent_brl": {
-  "ultimo": 562.51,
-  "var_abs": 15.05,
-  "var_pct": 2.75
+  "ultimo": 562.71,
+  "var_abs": 15.25,
+  "var_pct": 2.79
  }
 }
