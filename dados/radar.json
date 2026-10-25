@@ -1,6 +1,26 @@
 {
- "atualizado": "2026-10-25T10:38-03:00",
+ "atualizado": "2026-10-25T15:16-03:00",
  "itens": [
+  {
+   "tema": "comb",
+   "titulo": "Incêndio atinge tanque de etanol em usina no interior de SP",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTlGdjFuUldHaWFjS0RpQXVtaFVvcFByUnAySlNOSlhQY2l3QTJ0RDJkZzBOREl6a2EtLXpzQVI4VjlVU1FvUmdjX29Ga18xSFR1dWJTOF9qaThoR3A1amlKbnFmc0pEcHB5azZMWm5OWGhNWjdKekR2NnlwWUJ5NEs1N0tHTnFQdTVEX1d3VzFmOTN1SmJJTXMxSGRQcDhFdi1yeUk2cmgzbThXX0hyT1djZw?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-10-25T14:52-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "cClassTrib exige atenção na parametrização fiscal",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWFBKRkZuR2FWbUpPYXRPS2VJU0UwcFU4SG1MWFlKSi1zMk9sUkd6dGlxX1hoTEpmMjd0WjJsczRUZXJrRmZTVkh2ajZrVWRQVGNySkx2TkszbHprTUpFZUxDeFJkTnd0Znc0MGRTdWtMUlhxNTE1NjdCT09KM2xKUFVIR0NQcUtCaE1XdGJsSlZzZ3ZGZkk4UzhB?oc=5",
+   "fonte": "Portal Contabeis",
+   "site": "contabeis.com.br",
+   "publicado": "2026-10-25T11:00-03:00",
+   "repercute": null,
+   "dado": null
+  },
   {
    "tema": "trib",
    "titulo": "Permuta de terreno por unidades a construir no IBS e na CBS: neutralidade na entrada, atenção na saída",
@@ -18,7 +38,7 @@
    "fonte": "Estadão",
    "site": "estadao.com.br",
    "publicado": "2026-10-25T06:34-03:00",
-   "repercute": 9,
+   "repercute": 5,
    "dado": null
   },
   {
@@ -40,16 +60,6 @@
    "publicado": "2026-10-24T07:05-03:00",
    "repercute": null,
    "dado": "STF"
-  },
-  {
-   "tema": "comb",
-   "titulo": "Alta do petróleo pressiona governo a manter subsídio ao diesel",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPXzlZREdDVWV0NHFJS2lOREd2TnJJcC1wVmVaV3NodjRUWGNPUkllTlJNdGl4SU5nVUt6T2FXTEtlb0RsN2lnazdFWkJqZF9HdGNoa1pEblp1bWZFQUtra2c0blotazVOVVFVak1obVM1c2NmOVRYVEFpakJ3bmdJeVZFeDA5Q0VzSDdOUXVHZlNrNXlPS0Y1V1hfMHdQdW1DR3BwUTlvV3NKTFhRWWFUdEtyS18?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-10-24T04:00-03:00",
-   "repercute": null,
-   "dado": null
   },
   {
    "tema": "pag",
@@ -78,16 +88,6 @@
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-10-23T17:42-03:00",
-   "repercute": 4,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Agência de Comunicação - Etanol abastece navios regularmente no Porto de Santos",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPT2h6ZUlnQThuYnExanByNlVmTkFVZ0VWcVFzRDl5Tm5kakFmTTBrQ3dicEZkdzFmY1FXSE92UmJFcW94bUJfTDFEWElGd0d2eXpTb1JTNE9sSFZuTUZ2WDZVX1lWN3hNd2NXZnV1dVpCWm9iT0M4ZlZ0MnR4dHRiUE5aUXZCMHE0aG44SDBHb1ZFSk42akU3eFluNGtocGFmdWFjeEFBaFh1YmJ1YzlHR2cyaTlPNWpJbF90RThrdUduZw?oc=5",
-   "fonte": "Estadão Blue Studio",
-   "site": "bluestudio.estadao.com.br",
-   "publicado": "2026-10-23T16:59-03:00",
    "repercute": 3,
    "dado": null
   }
