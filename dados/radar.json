@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-25T15:16-03:00",
+ "atualizado": "2026-10-25T20:06-03:00",
  "itens": [
   {
    "tema": "comb",
@@ -34,11 +34,21 @@
   {
    "tema": "trib",
    "titulo": "Reforma tributária: a promessa é simplificar, mas quem paga a conta da nova burocracia?",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPb2JlUHhwSlhWTmt3YnlKZGkyWDB3U2lmaEFZcHVDSkJCeXo0YnVGUFY0c3EwNGNrSFRVSTFkdkNHX2RCMVh2VFhremF3RVZVeUFLZ2VyQVktLTc2VmZfdnVrQXFtMEMxRmNtZjY0WWZRUUFPdVdzZXhYenowLWhBcWxJNEUzX3dQcHU4dDh4OVAxR2JKa2U2MjF0YUg0ZmIxU3o0V2J0cThyRGFiRzJSNXBZaTBodlJMaDJLNnBacGdmQ2VfY2llaWRTOTdDSFJRTzJTTTRhdlFxZ2xrZmc?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWGphS0ZkaHk5VlpPTFZxYnExb1lCdkg5OWItWGtObUNLa3BSZl9Ub0Z0QlJmMmV3Y0g5d3Jpc21CeTdNaktiZDNORXBWT2ZLVFBQVDFKM29mekp5ZkVQc2VsYkJ4M21nZzhvVmJkbmVKYlZxcFNQZm10YTNlOWxIMURoVEp4dGdhVkwyaU9SWjFmNEE0TUllbzJSWU5kN2tpMGluNEFORmxmZFBLYTZucndaR3ZwRHoweHkxc1BLWWNUcHlmRGw2eS1qSmkxWnJ5aklN0gHYAUFVX3lxTE1keHhuMFR2UXZMSnNkVDRsUlFMMGVrM3FSUWc3VkMtb3RkUmdUMGREdnkyZVJrSUI1Y2hidE1zNFJJVHJBQUdhU1pJd1FTMnU2RE9veDRhOUtvLUZ0NDBpX3ZycnhaSTJkZ0M1cGJzN1JsbTR5RE9ubDVzSmt6Qy1RandYdzNMT211Y0ptWUV0TmpPZ0x6YzA5cXJkNHdyTjE2NldkSk84VmhkMnRQR3Z3b3dFQkVSOGl5SXdTNnR4bDZnVDRrRm4yQzRLNm5OUDM1eXNPUV9UOQ?oc=5",
    "fonte": "Estadão",
    "site": "estadao.com.br",
-   "publicado": "2026-10-25T06:34-03:00",
-   "repercute": 5,
+   "publicado": "2026-10-25T06:30-03:00",
+   "repercute": 3,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Azul aprova financiamento de R$ 2 bi para lidar com combustível volátil",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdlEyYzFmdVhJVjlqRGZKQWlJZ2J3ei1NVEh6SGVGQ1hBdWhwaEd5bDNQQllmcFBWdGJZd19GZHRJcFFyaDI3cDQ4ZW9LeHNfM2U2MlFYbllYbG9OSFYxaThtUGMxX1NkaXVrT0oxTGFlQkhlMTFtbW4zWTBKN3lNSG1nRUEtVUo0VE1SNWZ3VG1HRHIyR3lRT29jWXkxWmJvNVA5UDlYT3pCdkpET1dSVg?oc=5",
+   "fonte": "Poder360",
+   "site": "poder360.com.br",
+   "publicado": "2026-10-24T19:33-03:00",
+   "repercute": null,
    "dado": null
   },
   {
@@ -62,34 +72,24 @@
    "dado": "STF"
   },
   {
+   "tema": "comb",
+   "titulo": "Alta do petróleo pressiona governo a manter subsídio ao diesel",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPXzlZREdDVWV0NHFJS2lOREd2TnJJcC1wVmVaV3NodjRUWGNPUkllTlJNdGl4SU5nVUt6T2FXTEtlb0RsN2lnazdFWkJqZF9HdGNoa1pEblp1bWZFQUtra2c0blotazVOVVFVak1obVM1c2NmOVRYVEFpakJ3bmdJeVZFeDA5Q0VzSDdOUXVHZlNrNXlPS0Y1V1hfMHdQdW1DR3BwUTlvV3NKTFhRWWFUdEtyS18?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-10-24T04:00-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
    "tema": "pag",
-   "titulo": "BC aumenta proteção a consumidor de crédito; regra exigirá aval prévio para oferta a vulneráveis",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY19UTnExYUdtOTRSUFN1ZDRBa3cyb1k0eUJpOXBVS2NoZUNqRnZoZ3B0ajF2aXFTSHpydFA0R3JkRlBqaUtIZTFfV3JyczRKUk9Ia1dLdzBBOHg3a1NCWXJFTXBxX2hlOFZQT1FnWWpSQ2xDdjdiNlY2V0gzZWZyenlQTEExX3R2UGVrNXlDdVZXSjZvQXZDMXZnTkY5UDdITFhac0RmeThnYkxjb1dsNkhibEdBLXRTWUJiTnVLemZ3dW9GVVBlZGpvQmZNRXpyWE0tNnNvamFFUmhIQW5iMWxZWGJGR2000gH3AUFVX3lxTE5HaU5ocFI5LWVHSkZpbmlOYUs5bFdvaGJwbTNjNGpkXzdfQW0zaXluRmo4YTh6dElGZTJUZnBlWnpJZ3JZQUs5YVpQcUQ0LWxjaGEyVmlpRjRBUW5SLS1ORzZST2VocG9JLVFYaENjQ0Vhd0NkUUNOYlBzMllTX3FmRTMwSFZEbkh5OTFoX1VzY1U2Q1N2OG5TemZJYW4xN1d0SG1nVksyOUcyUXRWQTE2X2tpQVUtSXFCTWVhaDhDbGlrSTItdEVFVmFpTnhtYWFkWGhZcG0zZUJfMWloQ0ppcU4zWl9Kd0gtbHBLdkpIT0VCTDNyX2M?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
+   "titulo": "BC reforça regras de proteção ao consumidor em ofertas de crédito",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdTRFdEZOUTFCY0VsSWY0eFhmUHk4YmFqNEljcmkxZGs1S2dZQzh1N2VLam1GZWw1WmhfSWhvM25lR0F2MTRGbjliUF92NnlNZGJSZE5oNF96VENzNHAtUjhvaWFDekhadk1ZbG9QcjQyYVJTd2dPYXVEUGQ4MDBWamRvWDR4bGpYTlF6aXo2UjNkbUdkbUNPdTVPZTc2RXZaS1R4QWE0UkZaczM1QTYtSWtsLWpfTTUwY3drd3dqbU1YOGFBdFhDSDdqVQ?oc=5",
+   "fonte": "Correio do Povo",
+   "site": "correiodopovo.com.br",
    "publicado": "2026-10-23T20:29-03:00",
    "repercute": null,
    "dado": "Banco Central"
-  },
-  {
-   "tema": "pag",
-   "titulo": "BC passa a exigir autorização prévia para oferecer crédito a clientes com risco de endividamento",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVGpHOHVGZndDeGNjcFZVbmROMmozdmlFMUdkUEdlbk0wN1g4aXJhX3FsRkpGMDA1RlByT0NzUkZ0T21RcnllQS1Vc2dUZzg5cUVQVjNZUDRfUlo4b0lUVElqWlJaUlBWU2tWWHRQNGhZV2s4X3liS3F5TWRaY1B0eGRQaHduQkQ0aGIxV291M2tWMGpYYlJlVEtJSzZ3dndTYWVVUGhTdGRWSG5YdE41RXFwS0hPYmp0bGVXMjZFSDVQWnVkYk5Na1JweGtHNHpHV3JkUlJHdU1XNXB1eko5elAzaVpRVFdWVVZXUTJR0gH8AUFVX3lxTE5RdzVWNUw4c0RBNmpkQ19nV0JEdUJwejk1WU8tZjR5V1JkdlRBVDFsUVhRQ2RmQmVxZVFlTExabHhyVnVCckc3b3AzY0VrQ2NjV1MwcU9kdnJXTXJPS3dmbUk0YnFZMzE5UDJnV3pfOVFLM09KZ2VFdngzODQ4a2xlTUNUbWRsTDNJejBqbThCNmRzN2dFZWk4dnhESGhRYlF2S20wNUg2N1ZtTUd2bzNSUWlTbUFNN0E1cC1vX3dxZC02b0xSeDhVOW1ubXhqam01dEFJZVZOVG1iZ2JCcEtYSkRkQ0pneXdjSEZLaXZ4MmNpREN5MENsMElvbg?oc=5",
-   "fonte": "G1",
-   "site": "g1.globo.com",
-   "publicado": "2026-10-23T19:57-03:00",
-   "repercute": null,
-   "dado": "Banco Central"
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petróleo Brent sobe ao maior preço desde maio com risco geopolítico em foco",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSGdKajRlNnRoa0NJamVQaDJxb1NYM2NiTUZjc3cyODJCaTdUUHI3ZmNSdVZ5ZnUtal95cGs5WVZnU0MtMFNQbWU1ZW9KblhkdE5vRldfa2NCQ0JFYlVRaGoxTEhhdnUzTi1WcUFhTElVUGxlVGMyZWtER0pWdXhTdm9OZ2hNY1RXSmY4ZlppVk9maG5Fb3ByaXVNX3RJRUdrY0h3Uy1YZGVPS21nbEZydWpTTG1lUGJZeG0tbC0yZHl4OUZOSmRneWp1a3JSQdIB3AFBVV95cUxOR1d0a2d0WmpsSEs5ZVE1MnJ5TlVoR29rMXRHbXVwOHJHemJaN1BodXowZ2FZS0E4OU10MElLZGlUMTdwd3ZLNVNwWmVOM0QzaFIyYmh6QlFoQWxjRmlrTnpOLXkxbFEtQ0oybEFib21aZkdfdFpwNmxyalpTNURtbTl5RkVaNTkyNUZDQXg0NnQzYTl3YXU2LVF3em0tLVdmWENsblAzd3dvZ3liZ2hlWmV0OGdIVlpnTnNyZkQyVllEX1M4MTJ3ZXJjbmF4aXhqWXkyLVQ2clBQVXJu?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-10-23T17:42-03:00",
-   "repercute": 3,
-   "dado": null
   }
  ]
 }
