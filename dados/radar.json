@@ -1,13 +1,83 @@
 {
- "atualizado": "2026-10-26T01:05-03:00",
+ "atualizado": "2026-10-26T12:59-03:00",
  "itens": [
   {
+   "tema": "trib",
+   "titulo": "Empresa obtém exclusão de ISS da base de cálculo do PIS e da Cofins",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVWVPZWNlOGhILVg4ZlZNWmpyM3g2MGRpbkRrTllYMG1BVm9mTjI1RmNwRVRyTFowS2dKSF9BVTNUMnR1NGNGZmdaVDJIQXlnZnFBOEJLdS1peVMzSDhtSjdPRW85SXNXWEpYUXlrSG9EQkYwSnc1SUtzMTBGdVhKalZ3dV9TYm5lREhsQ3dQYXhsS3A4UkZwR3NSLXk?oc=5",
+   "fonte": "Consultor Jurídico",
+   "site": "conjur.com.br",
+   "publicado": "2026-10-26T12:25-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Jéssica Sant'Ana: TCU julga na quarta alíquota de novo imposto mantida em sigilo pelo governo",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNY0ZGT3JkZ1lTN3lYR1Vxb1lPdUJ2N2lhRHBRU0UyVm1ZVDhPeHVMYVN2SDZiYTdjcWRSdnZIbFNzNGxzM1BqaDg5Yk1Ld3ZMMVRFOE1rVXp2UjBZM0ZQQTlyX3hsQmVtVTdzWDZoVk5GTjZrTFhUcno0R3pXOGNtRmZRRlBlbzhwTVFmdWFxeE1XTU9EMHlILUZjSDdDRVRXT3ZkZkg4WGJfeGdpQ09qdEt0Ym1sdEhnQml3aWFadnNlSXVsZzZKM2xsemZfQ0lQYmNNS0REZ1lfQWc?oc=5",
+   "fonte": "UOL Economia",
+   "site": "economia.uol.com.br",
+   "publicado": "2026-10-26T12:14-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Reforma tributária deve ganhar corpo na agenda política",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR292STBDd1Q3WlZEOVdSdnJMYk5sQnhIWW5ZVzZERzA3eHJnT1otNVpOU18wRmZmT2N1d19qSnpWQzEzUW12MFRRSDQwa0JHd0hmNW5xZVFBemtaazRBNjdQUFJVQUFPU1I0b3ltVGwyWHd2clZGd0hJRlNCRTBVVzBicVFobHBIYTZNMXl0MXJ2RTdHVG5Gbm5TTlhnWnU4X2FLcW5UbW9wejNvZElLLVc2b0xyVHY1QUoxNFFtSXNjck96RFHSAdQBQVVfeXFMTjJ6bGpzT3FjempMYjgtZW5GM1NnWFZvQ0FrQWdicThjbm1yNUhQdFE5UUhvMW4zZmdfbFdNMFB6b3QySjE0Qkp6Y3JtWkgxbDQ1bWdaMzhBcmNvSWJISmpQaU5XVExSNFFROUt5aVh2VU55UTAwQ096MWJpejVSVHZaVEZwb0R2Sjl1WF9MMXNyRGxxdmhDNW1oUW9yaktSMV91UThkT0hzTTAzcmdzMTdVUGJaWHhXV25wYUQ2WkhObFczNHJNTTU1ck9wdXBYVmFMVk8?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-10-26T12:00-03:00",
+   "repercute": 5,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Emissão de notas fiscais para empresas do Simples Nacional ocorrerá no Emissor Nacional a partir de novembro",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbmN4VEdBUFJoRkZzTUZvcjJxOFlXdHRFV1VITWYza2daWDg5VGVIdS1CTzFsYVR1QzBXZ3R0ajU2MDBQTGd2eE8tSWF0Tk1jSWdMRTVma3dJSGpiTnNWeDA3bXBodHdPck5PZlAxdkZ3V0ljVV9tLUhYOW5JY1NPWXJQNnlJZGZQNDFFQWFFMERXLVN3ZWgzWFBUZFpVeGlQdjNwenJValBfdW5zZUxnOUZjTzEzelp5b0pLQVBfVnNZMm05LWpORWxCMEtfc21UV0Zxc2NLdjhtcHNz?oc=5",
+   "fonte": "Prefeitura Municipal de Santa Maria",
+   "site": "santamaria.rs.gov.br",
+   "publicado": "2026-10-26T11:24-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Split payment: debate deve ser o momento de recolher o tributo",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMUQ3MElvOHRkMldEaGlXcEFQZWhjS2REWkM5cG9NNXM5WjJodFZYMWpSdlNmaGdGbmxLZVFuMzliczV3N0FDUFY4SzRSM2VMbEVxU2xHLW5JaU42am9sc3NNbFdDbkJ4YUdTQUVVNUpzMHBiTGsySUVkV0JiNTZIZERVR0ZfS2JFQUU4elpQQ2ZsSmFDOVNoSXpjMjFhUmsyc0xiMlgwa2h6MUNjVnJr?oc=5",
+   "fonte": "Consultor Jurídico",
+   "site": "conjur.com.br",
+   "publicado": "2026-10-26T11:22-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
    "tema": "comb",
-   "titulo": "Com petróleo acima de US$ 110, manutenção de subsídios e preço do diesel da Petrobras preocupam",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNazJSOGlVMkFEbnRuV2QtbTNBcy13aFVzUC1ibi1yVjBRMmhSblA5Mk1rTVdqa1I0ckhfSWh5SmxUOHI4a1c3bmItUGNYZjdGbUs5akgtUEdvVERoTi1zRFdvcnZZOXdZZEFTWHpfWEhWb3NiT1VuVk1kMGpSa09KV1ZiMzRsQUNlNGxxT2s1RXpOMW1IUHYyMXFPd2Zqc1Z1ZlNUamR5d1RHN29tOU9KRThXeU5XbW9lMmQwWnczRHZtTW5QYkVhOGhuajhGVFhteXhzdGRsS2w1bVFYdDl1eFdsdlE4cXfSAfYBQVVfeXFMT3FqTGJQR3FZTktUT0U3VXl0ZTctQ3M5V1dCOVF5UHk2ZTExUEp5QnpBQUdZT2taZnoyNEs0T1NpQlVENmJyS1JjTUJEeGw1OEh4a1VuRHhTbExHWFljSmtMSlRJclFiTEcwcG9vNFBDVzJpYjFMSDlENUpfOVpNS1hWN25Ra3hXbEVrejVoWFZLNFV2bXY1eVFfdGp2N2YwRGZSSjJEZHdCMHN2Nlppc3dWaEVPSG1WYkFwTFlORXo1aWZEeDNYcUU1OC1JU1FlM0NTNnFwMUgxXzJzajVpMEgyQkJaQjZjUEV5bWdFUnJXMnE3TUZB?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-10-25T21:52-03:00",
+   "titulo": "Petróleo alto e investimentos em IA: Apesar do cenário, UBS BB espera crescimento de quase 30% no lucro das empresas do S&P; entenda",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNR2RrbVRib3pDZTBWQlVEZmFUTDE1OVhiYkVUMElXd0c1RE5zc2FFd2YzR2tMem5fVmVXUy03T1piU2tFWmpIMVBZNHdMRnhHM3JIYkkzeDlCd21MTHAwc1BMTFF4aFpicFJVYUpDa0JYZDRmMFFGclBWN3pkMXZvWmkyN3p5T05hamhlYXktRmQ2MVlFTndNeUZfUmFPUnhoNmZBVXRQZGVpQnJEd0ZubFdwMF9vbk1URGwxTWo3dkJuNVotNWhudDZFcXNmSHdXVUFoYmJOdFJtd0ZoODlBQ3hONWFmT2hFNmNGYmpXU1U2N1FPSlE?oc=5",
+   "fonte": "Money Times",
+   "site": "moneytimes.com.br",
+   "publicado": "2026-10-26T11:11-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "CBS substitui PIS e Cofins em 2027; veja o que falta definir",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS2UyZ3lDeS1NbXVxd3Y2N2xYTmI5dk9rQzhFWjRQSWhUdnVQOEpXM0VGTnA0eF80cHQ2cTJqWVF5bGJEMjBiOEc5cXNNX1hrZXJIU1hncmQyb0lCVDRTWVdDeXBDLWdKUWdNM0d3OW52bF9ERDlxTzNMT0lLODB2S1AtUGl5dFlqdC1rZnV1T3FoOEhzeGEycTlENWwtY1pDdkVubTVYYw?oc=5",
+   "fonte": "Portal Contabeis",
+   "site": "contabeis.com.br",
+   "publicado": "2026-10-26T10:45-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "pag",
+   "titulo": "SeMAE passa a aceitar Pix durante ações de corte",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGtCZjRRVmhSMDJLTmpVYldKc1pKUGlkSS1EcEQ0c0dCYkRsNkhMSUVPeWZNcGl3bUppVDVpdWZmMS1hX2ZqVVdIX0tJbjJrZ3hkMl80UTFMdl9zRkJtMm9aSUs5VWx2VjBEamJWVWlQNXFVTU9ZTWQ1TzNaMWVMTHNSUVNDUVFpbVNmOUppNU1HMzg?oc=5",
+   "fonte": "Prefeitura de São José do Rio Preto (SP)",
+   "site": "riopreto.sp.gov.br",
+   "publicado": "2026-10-26T09:04-03:00",
    "repercute": null,
    "dado": null
   },
@@ -17,77 +87,7 @@
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTlGdjFuUldHaWFjS0RpQXVtaFVvcFByUnAySlNOSlhQY2l3QTJ0RDJkZzBOREl6a2EtLXpzQVI4VjlVU1FvUmdjX29Ga18xSFR1dWJTOF9qaThoR3A1amlKbnFmc0pEcHB5azZMWm5OWGhNWjdKekR2NnlwWUJ5NEs1N0tHTnFQdTVEX1d3VzFmOTN1SmJJTXMxSGRQcDhFdi1yeUk2cmgzbThXX0hyT1djZw?oc=5",
    "fonte": "Folha de S.Paulo",
    "site": "www1.folha.uol.com.br",
-   "publicado": "2026-10-25T14:52-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "cClassTrib exige atenção na parametrização fiscal",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU2gyWXZSVzN3Q2t4RDV4ZnhFeTQ2a19iQXJWdnBVMnF5QzlEdVAyLXNfYTk4ZHUxZGtpNF9ZZjBjSDhDNGJ6LUtjX3dFNW5sQ2JuMDZrN3BjYWh0amNNU0p1dl9pUTJnM2RlZW9NWlZpTmpFZk1QN0FTWGhmalJoZ1E3Y1NuR2gzOXNqdEEybWxPNEVwcGRuOQ?oc=5",
-   "fonte": "Portal Contabeis",
-   "site": "contabeis.com.br",
-   "publicado": "2026-10-25T11:00-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Permuta de terreno por unidades a construir no IBS e na CBS: neutralidade na entrada, atenção na saída",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMmxYaEJoLUdlendwVWZNX3dXamc0eUMtUTJxVGxyNU1JOVJZSkRhSnlySU9jSUM4YU5DNi0yYjhDUjlJSkZMY0MtV2tidjFhU2JGbVNtdVBIYlFmSDFhVHhUcnNCNHpvSUVmZUVUdU5kbTBVVEgxV1Buak1rZXFqSGtCNlctcThDQ0tyZGxkMWFoR1lmNTlHMENIdmlMc2wzWUJka1pGbzlzRGNrbVRaN1NNai1iMVhhem5uQ1Z5WnBvMURnTmluOFZKYmJaTjdN?oc=5",
-   "fonte": "Consultor Jurídico",
-   "site": "conjur.com.br",
-   "publicado": "2026-10-25T07:02-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Reforma tributária: a promessa é simplificar, mas quem paga a conta da nova burocracia?",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWGphS0ZkaHk5VlpPTFZxYnExb1lCdkg5OWItWGtObUNLa3BSZl9Ub0Z0QlJmMmV3Y0g5d3Jpc21CeTdNaktiZDNORXBWT2ZLVFBQVDFKM29mekp5ZkVQc2VsYkJ4M21nZzhvVmJkbmVKYlZxcFNQZm10YTNlOWxIMURoVEp4dGdhVkwyaU9SWjFmNEE0TUllbzJSWU5kN2tpMGluNEFORmxmZFBLYTZucndaR3ZwRHoweHkxc1BLWWNUcHlmRGw2eS1qSmkxWnJ5aklN0gHYAUFVX3lxTE1keHhuMFR2UXZMSnNkVDRsUlFMMGVrM3FSUWc3VkMtb3RkUmdUMGREdnkyZVJrSUI1Y2hidE1zNFJJVHJBQUdhU1pJd1FTMnU2RE9veDRhOUtvLUZ0NDBpX3ZycnhaSTJkZ0M1cGJzN1JsbTR5RE9ubDVzSmt6Qy1RandYdzNMT211Y0ptWUV0TmpPZ0x6YzA5cXJkNHdyTjE2NldkSk84VmhkMnRQR3Z3b3dFQkVSOGl5SXdTNnR4bDZnVDRrRm4yQzRLNm5OUDM1eXNPUV9UOQ?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-10-25T06:30-03:00",
-   "repercute": 3,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Azul aprova financiamento de R$ 2 bi para lidar com combustível volátil",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdlEyYzFmdVhJVjlqRGZKQWlJZ2J3ei1NVEh6SGVGQ1hBdWhwaEd5bDNQQllmcFBWdGJZd19GZHRJcFFyaDI3cDQ4ZW9LeHNfM2U2MlFYbllYbG9OSFYxaThtUGMxX1NkaXVrT0oxTGFlQkhlMTFtbW4zWTBKN3lNSG1nRUEtVUo0VE1SNWZ3VG1HRHIyR3lRT29jWXkxWmJvNVA5UDlYT3pCdkpET1dSVg?oc=5",
-   "fonte": "Poder360",
-   "site": "poder360.com.br",
-   "publicado": "2026-10-24T19:33-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "'Ninguém previu o petróleo neste patamar', diz presidente da Petrobras",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOY3JxdUhPbFVKbGpWdTE4MWxyeEFwSElYREN3TzQ1LU9ScUJTNC1MTGNWSDFyYVp2QkU5TXlMcmN5TUloeE1vUWxGUnBkY0QxZ0MxdEgxMTd2Y09HTXZ0MlZGanZSemdrc2h6UF9GV2xfeng5dnFGeTdFcmQ0STI5dV9pQ0tpMDdBRTFjS1dBc29nbDFQWS1NV1lwbWgxTDJJaEJHNzVEbzczd01OaDVaaGFTRHBLVmFiZG9WZlNBWEUwSDBt0gHTAUFVX3lxTFB0RHZaNnBNbEJJb2ktbXNka04wajRaVHZrblJxWEpuSjE4Z0wwV2U1SkFuU1JFODRBcEtuckdUa0tYWE5vUGdmQV9EeDNJVzl2elRodkVjUUt4bmdHa2ZkZGtLdGN1REV2WjFPUllKNVRoQjdrc0xVZnU5NlhiUGpDMWJZMlNlbzJ4VnBzS1g2UXc3eDRCX2N5VjhPdlZOdHZIcEc4R1Y3b2E4N0VvMUF2d2Nsd290QkpBUjc5andERUt1MXhSUUJWLXNFS3VJNmdRX1E?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-10-24T15:08-03:00",
-   "repercute": 3,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "STF mantém o período de 10 anos como prazo para devolução de tributos na conta de energia",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUVNKOVVneDJaTEU5YW95SWRtTlNSQW5JendMbWktempYc1VLWFNGRHBSV1JUVGFNMWZmRU9VT0lJYS15Q1pXaWVtdjZhNGdMN1hNOWlHX2N5QXc1blIyU3IzSkhYdmhqVDNudXJSMnpCdEg0SWFYWktJOXhtYmRrMW1yTXplcFFhVkNRRmxaVnpEQUZpLXZ2VDhtVlFtZ0ZLOHJ2emRGSUhXbHUtZFVDZ3lRX0FDaGp0X3dZaA?oc=5",
-   "fonte": "JOTA Info",
-   "site": "jota.info",
-   "publicado": "2026-10-24T07:05-03:00",
-   "repercute": null,
-   "dado": "STF"
-  },
-  {
-   "tema": "comb",
-   "titulo": "Alta do petróleo pressiona governo a manter subsídio ao diesel",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPXzlZREdDVWV0NHFJS2lOREd2TnJJcC1wVmVaV3NodjRUWGNPUkllTlJNdGl4SU5nVUt6T2FXTEtlb0RsN2lnazdFWkJqZF9HdGNoa1pEblp1bWZFQUtra2c0blotazVOVVFVak1obVM1c2NmOVRYVEFpakJ3bmdJeVZFeDA5Q0VzSDdOUXVHZlNrNXlPS0Y1V1hfMHdQdW1DR3BwUTlvV3NKTFhRWWFUdEtyS18?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-10-24T04:00-03:00",
+   "publicado": "2026-10-26T08:52-03:00",
    "repercute": null,
    "dado": null
   }
