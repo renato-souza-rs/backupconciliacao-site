@@ -1,6 +1,16 @@
 {
- "atualizado": "2026-10-26T19:29-03:00",
+ "atualizado": "2026-10-27T01:25-03:00",
  "itens": [
+  {
+   "tema": "comb",
+   "titulo": "Análise: Petrobras perde preço, não capacidade de gerar caixa",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeDM4UjBabGJtUTFGWFpXS2Q5cWVyekh4VlFxem1fTXFtb2REYlBWM3hob05NQ2g3bHgyUG5SVlBEd0t5N1d2YUdrRlg1ZzdVUno3YXFtSExpMHJhVWVDUVNnSXFCdGh4VG5yenQ1SU81WmpCSFI3VXhVV08xMHZPay14YzdsTHcyVlZGRW5qLVRFTGNQZjJpVmpXOVJIYlRWdDRJUjIwTnhRNUZJNUd3eEFLMUk?oc=5",
+   "fonte": "CNN Brasil",
+   "site": "cnnbrasil.com.br",
+   "publicado": "2026-10-26T21:53-03:00",
+   "repercute": null,
+   "dado": null
+  },
   {
    "tema": "trib",
    "titulo": "Empresas têm até sexta para regularizar pendências do Simples Nacional",
@@ -18,7 +28,7 @@
    "fonte": "Folha de S.Paulo",
    "site": "www1.folha.uol.com.br",
    "publicado": "2026-10-26T18:15-03:00",
-   "repercute": 6,
+   "repercute": 4,
    "dado": null
   },
   {
@@ -28,16 +38,6 @@
    "fonte": "NeoFeed",
    "site": "neofeed.com.br",
    "publicado": "2026-10-26T17:55-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petróleo chega a cair mais de 2% em meio a ataques entre houthis e sauditas e negociações pela paz",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWmFRTi1uczFScmlxZ1hqSjBFQ19QYmR3TGp4cjJYZGZKMzZ5aFhvTUUtVm12Y29ZQmxvcFdHQi1WZTZPWk5qU1lXMS1zRk0zblhlVmxDanJONnR4a2RxdGdaZ1pXYmhPWVMzRDRKZ3pQRzNRaXd2UVVYWjlMbDdiR1M4UEtSRUpPRWRlV0N4S25yZGFjNVp2ZWZ5TXlqbEJEcGR3Q1RlU0h6eEFiSFE0TFQ5a0NQUWhWckVjbkR3NFJBM0ZYMzdaMS1mcG1rUGk1QUV3bV96UHVEaXg1TjE1c3RBQQ?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-10-26T17:08-03:00",
    "repercute": null,
    "dado": null
   },
@@ -53,21 +53,21 @@
   },
   {
    "tema": "comb",
-   "titulo": "Petróleo fecha em queda com avaliação de caminho diplomático para os EUA e o Irã",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcFh0dkdTQXI3TzNPdU4xWmZNdmZDZlBvTTZieHU1Q1VkN2dVVmNCRkdRUUFKand5ZU96d3JLeW1wQjVqUjZiNjNyVnNyd3lQcmJYdEhNU3RCblMtTlY2TVBoamRicmtqWDR5cUtiVm5VSEMyNTZHZDU3RG5KeHpGcXFsQzdZY3Bad2IwNA?oc=5",
-   "fonte": "InfoMoney",
-   "site": "infomoney.com.br",
-   "publicado": "2026-10-26T16:43-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
    "titulo": "Petróleo cai com perspectiva de negociações no Oriente Médio",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc0tpYm1zOWdqX1hkLWczNVhiSUhQSk9GQkJ5OS1MOU9Ldjg4LUo3QzNmUTVMeVBRdVItZDhtSkxCaExHVTVyUmlwRm10eGM2MkFjZDlzOTNrNUJvZ0VmY0dBUmpIXzI2eGFWam1sQTZ4RGROT0lvNnM3VjRJTDNMSEstcTk3MWZka1FNbmZEOGlCelloQXpLbDdRT2NiVTliSlpjcEplbi1CX0Q0T0hGUm1raENoSTduMmNkUHNEUE5aSUZNZXl2R9IByAFBVV95cUxPc0tpYm1zOWdqX1hkLWczNVhiSUhQSk9GQkJ5OS1MOU9Ldjg4LUo3QzNmUTVMeVBRdVItZDhtSkxCaExHVTVyUmlwRm10eGM2MkFjZDlzOTNrNUJvZ0VmY0dBUmpIXzI2eGFWam1sQTZ4RGROT0lvNnM3VjRJTDNMSEstcTk3MWZka1FNbmZEOGlCelloQXpLbDdRT2NiVTliSlpjcEplbi1CX0Q0T0hGUm1raENoSTduMmNkUHNEUE5aSUZNZXl2Rw?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-10-26T16:21-03:00",
+   "repercute": 3,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Petróleo cai com movimento para possível acordo entre EUA e Irã",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMjl6VXloMXhIZ1drc0VjWTdRTEtFRDQ0UHVNbFlySnpDQ3JPbXZ3ZVkzMTlzNGxHV0t4cnROajEyS3BNQnRZb3dUNWROYnRVM0NCOElPSWJfZHpZZUxjV2dacnR4SzFpWkxvWUNUbnRma01PVXFuLUJTUndsYUpUS2Mwa20xU25hMDZOUlZudWxtcU9YMm1SMTcwRU5Jbk02bVU5RkREZnQ0cl9ESmRHVzdRcnk2ZDQ?oc=5",
+   "fonte": "CNN Brasil",
+   "site": "cnnbrasil.com.br",
+   "publicado": "2026-10-26T16:11-03:00",
    "repercute": null,
    "dado": null
   },
