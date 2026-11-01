@@ -1,6 +1,76 @@
 {
- "atualizado": "2026-11-01T02:20-03:00",
+ "atualizado": "2026-11-01T12:54-03:00",
  "itens": [
+  {
+   "tema": "comb",
+   "titulo": "Petrobras aumenta preço do querosene de aviação em 7,2% em novembro",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUFViQVhIMkZwMHhuSEk2VG5qS3dDQmprUjEwTnNRSWRVR1NNdEM3cGNtWnIxSmJWa3hwaE1udnF1VEI0ckNRUWxxanhzWDVRMUQyTHVvUnlvRExVSkU5T1h1ZHNfX3pXSU8tUEdWSEhpcm5QMXlLSGl4MjU4MUtuUVdzUlc5aUxvRkFzR2VOUDlfZDgtbWZIUHRJbUNtNVA2M2d0bjd2UnNPQm9HbG5Za09vOTU2am1q?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-11-01T12:42-03:00",
+   "repercute": 3,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Opep+ mantém inalteradas as metas de produção de petróleo para dezembro",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUDZUQ2FhZWtaQm9CUlBIb21pSWRacDRqMzdRVkx4SmpCMXNoVFBSYzBnT3BKX3hKeWRhSVdLdHNmR05WRnBQZGhoejNRaUJQTG40SmRXQ0UzWUV1SW1mOGFiMFl6SnNIaGxpVHV0S2wweWxTdUNEMnJTakQ0N1FST3RmazRzMXB4YVBtYzBhUGRKbEZPSS0yc1JxV3pJT09uQzRpekphRjFGZF92bF9VVUllLU9VNXlHRFhOdVFiMXE3UdIB0AFBVV95cUxNaXEtUXFqbnM0MDA1TzZnRVRnU1ROMXlkUXpYREhURHliY05JdTM0bVJWOGN3Vjd6aTA2amVpd25ESURJRW5lZjRXMnVOVG54Y3hjai10Z3J2YW0zbFNWVHY0VnZPZTVjLW8tUVA0SlFlUzh6a1pxU2ZZbXZGTWRFWHpxenR6UjByVGR5SVdXemk5dWZqdm1HTDBoSklHUTFVLW51UC04VGxJTVU4QmJoVHphRWVHbWpaUlBuTVRvbkJNRk05bmtWdDJ4bnk1Vi16?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-11-01T11:06-03:00",
+   "repercute": 5,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Alíquota da CBS a 11,3% aumenta carga tributária sobre consumo em 2027",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa0JfN1NPVHJ0ZGNGelZBSHhUcExlb2F3RmZ6VUpvVWhwUnJxWVRRaVk1NTFwUnU1M2F5UEY3Wmw3M3RoSmQ4TFZ5WlZiYzYxSWZfTlRLVVIwb00yN3RyRkdPQnpzWXVWLWllejNjem1EZjFUalNxQUduR19mUzRkQWlBd0hRdlZMRjBPT2lFTVFGUGQzNnpGaGRjUjVZdnhkVFhISGVKb0VWYjJUZ2JXaWNleVZObnlSeERibw?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-11-01T10:30-03:00",
+   "repercute": 14,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Alíquota da CBS fica 23% acima do esperado e acende alerta para alta de preços em 2027",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPY1JGTlFpVjJYMTVXM1VNREJHenVkY0gwSFhaWGF2NTh4UlFqMXpyQ0ZPbl94VFNtekhQV1poTHdSb3FpbnFPbWFnemx4b2hKZF9ZbW1xa3RhOUdjMUVXV2tpLW1uS1V3TGtFLUt0dm1DMk5LOENaT1dfVlZjck9nNmZrT0ZEOGFYb2RwVk00aTk4cHJpM19jdDZTcnBDYTNKb2xGRDJHV29SbHRNRHgyWW5IQ1Y1cDRJSjNJaWR4N0NiaVZIcDNrRWlB?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-11-01T10:04-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Petrobras adia projetos em meio a disputa com ANP sobre programa de gás",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbExVZ2YzTWhqUUduV1k5TjEyZEQ2d3FvbmZqZF93VHBnNkcyMXhieG1YNHhhNWlrYWRpLUZ0bTFYQmN1UHd0ZU1nQmxSMVlQaWdEVjdHdEg2Si1oR1V1VEx2WVV1N3UyRjVqdjU1bThaTkNFMnN4c09rdDNxNVM5NlVYQzRNSTRndFNGNVRMQTNBZ2R4WWFWZzFLOGx6Unk4N1g1SnVXN0ZyTkt5dHFoSUdDNEVscmZjOUhCRXVSQmxrNnBremJfc2tUNy1ZN0hHcmJvUGVn0gHkAUFVX3lxTE1EMjhuNWtiWmFaRlRLMzZsbXlfLTlwWmJMaktzRTZxWW5wR25MeUdWZF9CX2FKczJxY0dRNmhwQnhRZXJBS2stMGM5U2dMUE4zMFh6bG1yVFNsN2duRkZnTHhBZndYcGFnRG9pQW1oUHhINk1XeGNyeWhrTXBZRDEwd0pONDZhTC04MThrX3hCaWMxYmdXQmVXX1RKMWhlcW9yRVpTU0pPZ05wS1UzVnRESHhXcF9FLTNNdWF1Vnp2RHpCQWd0SWU4Z0FaYTljNmZYX2dxOWk2WW0yRnQ0U2ZBNXN4SA?oc=5",
+   "fonte": "O GLOBO",
+   "site": "oglobo.globo.com",
+   "publicado": "2026-11-01T10:00-03:00",
+   "repercute": null,
+   "dado": "ANP"
+  },
+  {
+   "tema": "pag",
+   "titulo": "Vale-refeição e alimentação: 'Mercado não está pronto para nova regra este mês', diz Abrasel",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWDlQTmo3SE9xSTNtYjZwWWFST3dEUmlHeVZHN1BuWkpXSGNFblllYzRiTTQ0cURwUUFET1RqVnktWXltbTBZMVlzYVFFYXo1VWp3ZzFyYkM5NVBobEc0dDY0V19IMFlVVWlPQ19hWkVkRlNhVEd6bTkwWTBBMG1uM2ozWWJrSnZNUXd6QVVkcnktcEw1bmhldm1GSURRdmtkOTB2TVR6MmpvM0JBbmJFYXJCZ2h4MkE?oc=5",
+   "fonte": "Exame",
+   "site": "exame.com",
+   "publicado": "2026-11-01T08:03-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Rússia diz que instalação industrial foi atingida; Ucrânia reivindica ataque a refinaria de petróleo",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQ0MwaEhtZW5vVDJ6Y2JKTlI2OTBXMUhqZVhRY2RaWl9nb280NFZIbUdXN1JsOWtSZmZqVTdnTDZQaTNGWGlzaElhak1odUh0UjhKRmV6Q3c0SWZ4cDVQOXU1UUpWY2dtUXU1VnZhUVktQVU2UFVDTGZUY29JeU5nM3FpQjlqekwwa0diZ05UeklJZkI1ck1JYkk3ZExQOHJzMmZfSWJMR0FJZEFqN1hyQlhtZlhWMVhheUNESXEtYk5XREFZMjJCNU80NDB5RG9SS0FNUU81Z2lYell40gHiAUFVX3lxTE01RTdIbUxKUHJ2dDlhUjBibERiZkNmWnpMQU1PV0htcm1MamVXNWFMUDhmYUtpTi1yQm1KLWlYQzhwUTdQMGpTWkZyZGRiNm1QQ0pNYnIzdUlXSkFaRUloT2dNOHVCS09oS2g5akk1VTEyTFZuR05LbVRmcG5oMXBYRS1UWjlES1JuU1hKaE52U3FoMFFkSkpOLTBDWEsxaDlrRl82VEpTdElhcGZDbEZxWmZWU0FtN3NlYkFId3FuZnRtNXRpUmViVzU4ZGRrS0dISkdFeHEwVnFwQi1OOHRyS3c?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-11-01T07:35-03:00",
+   "repercute": null,
+   "dado": null
+  },
   {
    "tema": "pag",
    "titulo": "Novas regras para vale-refeição",
@@ -12,83 +82,13 @@
    "dado": null
   },
   {
-   "tema": "comb",
-   "titulo": "OPEP+ sinaliza produção estável em dezembro e volta foco para cotas de 2027",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMWR2STJyTXljV0g0aEJ2eDRlMWVMWEhYZDhBTGtqbk4ycGNQSm5VdEw1LXZNd2pqU2tvZ0paZEYxT3Z6VFZJcHltcUhqOVdzNmx2bHlmWE9HMzFzTm9JakRmb3ZlM0wwYXdlbDdNdkdkeWlnUlNMVXUtWk1FS1QzREhxUkpjQUNw0gGOAUFVX3lxTE84TzUtRy0xXzB0aEFqM19qSGdEcXhfNjFSbHlodkdCT1FqUWwwUG1aVmlYX3FCSXBFRzFIcWxfNEdGbWVZVFo5QmxubjJiQURyYzZUYUhMRmZYYlFXZGd3Z3ZqX0hiOHVBWjBrYTJyTGlOcTM1OXFEUE9fYjdrbUYtTUpRdThCUjNSWmZyYXc?oc=5",
-   "fonte": "InfoMoney",
-   "site": "infomoney.com.br",
-   "publicado": "2026-10-31T15:59-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Reforma Tributária: Senado vai ouvir Fazenda e TCU antes de definir alíquota da CBS",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbWc2UUNUUFV1UGhBUG9VR1cwSnY4SWFfUjlua3JKSWFJZEVWb3M3VVJYa3p4d0swRWRJdVh1MjF2bTJDSUx1bWIxMktzWGZ1S0kwYzBBRnlUdHlBQjNuVGZPWDVBUmdRVDE1WnFsRW1vNmRQbjVraUFjREhWTGdTbTV0MzBESzV6a3BubFNza1VzcmJlUnZWckl6QjVmUUt2QUNCQ0YzRmdXa3Y1bExUVnI2U0U2UnBNVkxMTTBOa0VoeklucHRMSmhTZWc1NTFlRENPcEV6c2HSAecBQVVfeXFMTUVWYTkwZXB2MnhTSWk1eVlZVVZvOHdad213Wmc1RGM4akY5R3l5YnRxN01EM3RtRGlTYmhuNi1VZ0xRRU04NGJ1cTdmaVNPdUt0aDJQdEVWRnlTN0gyNjA0UF9XR1dsbHJRWlV6ZVZ0VDNDa2FzRnA4M0RCYU02NUlDX0xJdGNQZjI2QkFqNWttREZ2VUlLNDBpUXdaUGx4UWZWUjlBSEtpOFZEektnX2hJaklzb3hXUlNBZTBRNXVHTDYwX05wbXVNclNnalJROHBTd21rVGFDbWthbHUxZ2tkMlpUOEpV?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-10-31T14:30-03:00",
-   "repercute": 11,
-   "dado": null
-  },
-  {
    "tema": "trib",
    "titulo": "Tributária: Comissão do Senado confirma Braga como relator da CBS e vai convidar Durigan para debate",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeUVkRDRwYW5NcENEWW96NHh2VWoyS1ItRHptUy1tN0lrZ081ZHZScklUTHZpWlhnZzFBTTVNbnQtN3hEY01odW5kWHlLLXRWVmVKNFoxQW5lOWZ0b3ZJZnotaHBsdzFwdFgtX1ZFdVBpbGJlckNOb1pNdXUyVi1SaTBwd01OSFoxOVNFNDF0aGxWMTZ0ZnB0STlaTmRBclN6cHctV0hQMzlMOWxsV3E1anExWDJQVXIzZDRKYThidXZOUTlsY0haRHJ6OUkwYzhOS3fSAdcBQVVfeXFMTkVXbHB6S1BsR0dRS3hiM2Z5WnY4dExCdVJscVRaS29XN202bmJmdWVQWjRNdEtPMkgydXhaNFJGMUxUZnA2N3ZYUjJWNUsyazVBMzJBWFJ2ejUwd2NFUXdsaWNhOGpndW1GWnpVeExfMW1BR0pPbzY3VHAwYnp1emZaNTdQSXZHb1BhNkR3cEpJNEd4ZV9sQ016THVQNGQyTjN5cU1teUlYajdIMGZHX1hLbW03dkxnblpGd3FLblY3bXFjUEFOd19FSUh4Ul9jUVRFb2Z0cVk?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeUVkRDRwYW5NcENEWW96NHh2VWoyS1ItRHptUy1tN0lrZ081ZHZScklUTHZpWlhnZzFBTTVNbnQtN3hEY01odW5kWHlLLXRWVmVKNFoxQW5lOWZ0b3ZJZnotaHBsdzFwdFgtX1ZFdVBpbGJlckNOb1pNdXUyVi1SaTBwd01OSFoxOVNFNDF0aGxWMTZ0ZnB0STlaTmRBclN6cHctV0hQMzlMOWxsV3E1anExWDJQVXIzZDRKYThidXZOUTlsY0haRHJ6OUkwYzhOS3c?oc=5",
    "fonte": "Estadão",
    "site": "estadao.com.br",
    "publicado": "2026-10-31T13:04-03:00",
-   "repercute": 3,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petrobras inova na produção sustentável de combustível de aviação",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMmRPTHVtdS0wWWtzOHdLSmdUeWIzNkFMSWlKNzlMNmVWOUkyS25aWkVGaE1zWDVOMWllS3RGRFl5MEh6RjhwUTk4TzFtZlkxMzRJS1M1ZkljZW9jbUJyZnhNLW9VRlpjMl8yNHhHcjNqU1VpMHpoVTlvdFpvOHRkVml6ZU82MWVaWkNZeURBR0ZNWWJKa1RQN3lQV0RTVVlab0JRY3dIdGw5c3ZI?oc=5",
-   "fonte": "Poder360",
-   "site": "poder360.com.br",
-   "publicado": "2026-10-31T08:03-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Muito além do vale-refeição: A disputa bilionária pelos benefícios corporativos",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNazkybi1UbDJKMXktX2I0S0N6RzEya2hxWFZNaHBiWHV3Z2pNTGt0bHFkeEp2SGlSTUplOWZXeC15OXlTc0pGcGFMODFjSEV2WDZjaEd2cFBGc0FNeXd3OE5Jb292ay1ZcjlCYTZrWnU1X3NpcUJpTTJiVHN2QU5GWU05S3ByOUo4dVNrVUF4dS1uVm1XVmhPb3NNc2xDdElvVUpqbXhiYU1yWlN3R1FOVy1MX1g?oc=5",
-   "fonte": "VEJA",
-   "site": "veja.abril.com.br",
-   "publicado": "2026-10-31T08:00-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petróleo avança 13,6% em outubro e Brent fecha no maior nível em seis meses com temor de nova escalada da guerra no Irã",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOUNGeWUwSWFKV1lsendiOEFiOTNENG5rNm53dF9PUjlDY0FGUFg2ak9QVkx3Z3ZHTzBfOU9ISUd4c3VkZFVUS0ZHVFdpaXFVV244RGlKbGlIUE41TDFvQndlSmZiTWtjM2lmVnloRlQwSXJIOV9NYXhka3NjeERfcEx5Zk9XdC1NaHAwT2FZNGxwVWNpUUVj?oc=5",
-   "fonte": "Times Brasil | CNBC",
-   "site": "timesbrasil.com.br",
-   "publicado": "2026-10-31T07:50-03:00",
-   "repercute": 3,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Política praticada pela Petrobras expõe falsa oposição: preços competitivos e proteção ao consumidor",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ2NFeTRqb3N5M05DRl9XVFhickYzNHA2RVFfNERHbkdpVUZVeVVjMjhFTXBnX3V0WTBpZC1SczdSSlY0THYzMWdLUmtZV2lETng1aEVVdy0wZ3QzV0tGQ194UEZNbGM2UkJEbjY1T0xPNWJ5RVZNRTZadGI0U0RBUnhDems2bEJPSlA2NTNpVmhYYTM0NktXMnhwRDk0dFRyYktLU1FadFdZNDNVSFh4aUpBN1NBWXJUTUNKbFRoVmtFNDFldTBSa1AwSkdhRVBJYWNmZV9nMkJEdmR4ZHJYWXZJM2nSAeoBQVVfeXFMUGhaT2w5bWp6bDR0b1pBMkt4WjZxM25rbGhXeUE5cHdyM2c5emFZN0x2QjJxTVlJVWZtS1oyajZpaS1BYWNNMGFMcFhZNVNSTXNuWHFEb2NSVHVfb1d5SVR4d3BJTGF1V1RyV2FHWTFkNWUwdmxLTWpkTWlZRkV3VVhZMVM5QVhWbHRBR0pFNXNFazF4aFFuQWp5c05RalVGZTd0OG5zdzl4MC1nWVd2R3Myb185WWotZnJTQVc5My13T3locVo0eGxsNEFNdnZSMURkdWNHRk9yVnUxRzUzMnBUWGpWMjgyOC1B?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-10-30T22:00-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Simples Nacional: empresas têm até hoje para escolher como pagar novos impostos no 1º semestre de 2027",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPcEYwSlRCX1dnMDZTbzVUazExQnRYaXpUa0tUYURqc2VSblRGR3RGOTFpdnZ6NTJ5aVlrTWVmVld1YlZVN3pVVURPa3ZDZXo0N1VzekNFZWpDYkc2a2k5NUpUWEJxVlRmZmZCcHp1SWFxRjB6ZW16S1NCTzAwemlpUVBiTGI2NE40TzVZMkNYTEpFbXN0b0dOVnpuR250ZWVtR1pEMk1kd0lLaE5EWnpYUUZYX2VSak9HRWxFVGlmZTFRTThKbjRIX0thWWdhMDZLanBpbGh6cGZpcHpiVW0zMnNud29iMl85TVBrMy1DcFNDSDdlNC1BWEthMzd1YlQ10gGAAkFVX3lxTE9wRjBKVEJfV2cwNlNvNVRrMTFCdFhpelRrS1RhRGpzZVJuVEZHdEY5MWl2dno1MnlpWWtNZWZWV3ViVlU3elVVRE9rdkNlejQ3VXN6Q0VlakNiRzZraTk1SlRYQnFWVGZmZkJwenVJYXFGMHplbXpLU0JPMDB6aWlRUGJMYjY0TjRPNVkyQ1hMSkVtc3RvR05Wem5HbnRlZW1HWkQyTWR3SUtoTkRaelhRRlhfZVJqT0dFbEVUaWZlMVFNOEpuNEhfS2FZZ2EwNktqcGlsaHpwZmlwemJVbTMyc253b2IyXzlNUGszLUNwU0NIN2U0LUFYS2EzN3ViVDU?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-10-30T19:44-03:00",
-   "repercute": 3,
+   "repercute": 4,
    "dado": null
   }
  ]
