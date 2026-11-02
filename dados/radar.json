@@ -1,34 +1,64 @@
 {
- "atualizado": "2026-11-01T18:52-03:00",
+ "atualizado": "2026-11-02T02:19-03:00",
  "itens": [
+  {
+   "tema": "trib",
+   "titulo": "Entenda como é tomada a decisão da atualização do ICMS dos combustíveis",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkJoQ0ljcUx2d0ZSdFk4RWZwbW9aMG5BeTJWaUIzaFVBNG4wT1BmRlhUdXpmYkVmZm9XWTFJYnBBRjhJZlc5TmRUMmthSkNvSVlVYWhKZXJkWGp5VDZsZDVEanRrb0MyaEE4RG9nNVVvTmRCTHNXY1E4UUtOcHQyX0JXVU5VMzRlZlJfME9nWFhXY1ZmRUlLVGo1M1hNeUZDZk56ZGZUZ0xHNDhNUUdjVlNR?oc=5",
+   "fonte": "agenciasp.sp.gov.br",
+   "site": "agenciasp.sp.gov.br",
+   "publicado": "2026-11-01T23:34-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "TCU dá aval à alíquota da CBS em 11,35% para 2027 e encaminhará cálculo ao Senado",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcEQ4c2dfaFJuQ25qa3F3NXpkYUJFdGxnX2NZc1NJWmZNb21BeFJJQXR0cFJFdVpycnNwczZ3dTRtcFU3NGRFMEl0S1dJdE5leFBCYlJVcTFvOFN1NjhwcEZ1SUJCcXQxTjFIZURrc3M2Y1VWUEZobG1RMUQwaXROOU1TU1YzLUk2U2JrX2lkbw?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-11-01T22:06-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Alíquota de novo imposto da reforma tributária assusta e carga tributária pode subir em 2027",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQkZXMFVJTkZYcnJOTjhFMG02X25EQVpIdENVNU00TXhCcHR3SllvTmU5a1hNTWk1ZnVuSHR4OEp3UXprZGxRdElDbHFLeFVCeVk0ZUdtbVpzalpENlRueGUxSENJWXNINTFTVDRIWVNDYXlhQmxDNmwwbDJSWVVjLUhtZVI2bHVmMnV4NkRURGJ3M0lqZUpzV2R0SXM1UjhlMVJZRDZHTEptemMyc3g0T0ZPS0lGOHA3aDJHS3BvcGRVNURrcjRTWGwwUWdOOHZqcjZB?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-11-01T21:11-03:00",
+   "repercute": 13,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Opep+ mantém metas de produção de petróleo para dezembro, antes de decisão sobre 2027",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWm84UW9WNTBaX1ZoUEZHdmlUQzFGQ3RxVTBrbUh6Z19UYWVRYkFmeDdoZlNzck5ZaXUwVGhpbkNwb054T2h2ZHM2RGJPQmRjcFhlVy1LTzFoUHZwV1BVRzBkcGVQdDlOSXo5ZW91UXBDaTFKR0djTmstZFlPMTZDNGdLV3FOTjAzWHpGdHFXeTA4bkM4SnJoLXpvT2xIZVlfaGdacEplUHZSOFBnZERWM3VON3EyT25PeHFES0Zua05BeUtFWkdpUi14Y1FiNzRF?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-11-01T20:52-03:00",
+   "repercute": 6,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Com CBS de 11,3%, Brasil caminha para ter o maior IVA do mundo",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSUdsaTgtV21KYzFoOTNuU3ZZZnVoLVM0TGZNQXFyd2xZNFkwMVFIaThTVlVuQVFycFJkdDFaTTltSGc3eHJhS1djcG1DMVBPcDJ3b3hObFNqVlBoSHBTY3BYLTJEV2U3ZTFEazF3eF91R3dfR3M3MjBHdmRLa091RURtYXFCZzIydVZPanlPN2wzNUpNd2dNRFF3?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-11-01T18:15-03:00",
+   "repercute": null,
+   "dado": null
+  },
   {
    "tema": "comb",
    "titulo": "Petrobras anuncia reajuste de preço de querosene de aviação em 7,2%",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX3gtcnBqeWRZOGFJQVdMdXpkUVQybmdib2hLVUZ6d2JVU2pBSXhpVGFJZ1RuNzlrbDc4WFdfa1FTX1BZalZCSmIyTUNzZnVGUWd1RHhWTFFiVU5lV0cxbVZSWjVyNDF5ZTE3aVg5SWplYXhKLU04NE5PN21tV2x4WG5GS3pxdldqQjMtUXBVSTF4Rk1GcHpBeXpFNTFVN0hPUU0zZ21KMnYwTktRNWJaclBxOXFiSE5Mb2J4UFU2YlRZMkpEMnlv0gHWAUFVX3lxTE9abHB4YVpTejZuWlBkTTdFcWhJSFI4Q2dXWVlZUlozSFJoeHRYMDJ5TlI3bDJiMWxEemdmd2lLYXRBNFpoVmRDaTRubUplVHFtYm1fbXQzaHBwd3FKNWNsUGl5dndRTkJEajhlSFM3NFNpQTJqby1OdDJyaEtneGNnM0ZaWHcwRmxDcGtDNlJuVHpuRFRxdXA0cFpCQ2pDcVhPVFdtZFNLbExGM0VNb19WY1J1ckEwbG5BTmJ3Z2pIdFdiYkRqdmJYYldVczQxdHg3THdQNXc?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
-   "publicado": "2026-11-01T17:37-03:00",
-   "repercute": 14,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Opep+ mantém inalteradas as metas de produção de petróleo para dezembro",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUDZUQ2FhZWtaQm9CUlBIb21pSWRacDRqMzdRVkx4SmpCMXNoVFBSYzBnT3BKX3hKeWRhSVdLdHNmR05WRnBQZGhoejNRaUJQTG40SmRXQ0UzWUV1SW1mOGFiMFl6SnNIaGxpVHV0S2wweWxTdUNEMnJTakQ0N1FST3RmazRzMXB4YVBtYzBhUGRKbEZPSS0yc1JxV3pJT09uQzRpekphRjFGZF92bF9VVUllLU9VNXlHRFhOdVFiMXE3UdIB0AFBVV95cUxNaXEtUXFqbnM0MDA1TzZnRVRnU1ROMXlkUXpYREhURHliY05JdTM0bVJWOGN3Vjd6aTA2amVpd25ESURJRW5lZjRXMnVOVG54Y3hjai10Z3J2YW0zbFNWVHY0VnZPZTVjLW8tUVA0SlFlUzh6a1pxU2ZZbXZGTWRFWHpxenR6UjByVGR5SVdXemk5dWZqdm1HTDBoSklHUTFVLW51UC04VGxJTVU4QmJoVHphRWVHbWpaUlBuTVRvbkJNRk05bmtWdDJ4bnk1Vi16?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-11-01T17:25-03:00",
-   "repercute": 5,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Alíquota da CBS a 11,3% aumenta carga tributária sobre consumo em 2027",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa0JfN1NPVHJ0ZGNGelZBSHhUcExlb2F3RmZ6VUpvVWhwUnJxWVRRaVk1NTFwUnU1M2F5UEY3Wmw3M3RoSmQ4TFZ5WlZiYzYxSWZfTlRLVVIwb00yN3RyRkdPQnpzWXVWLWllejNjem1EZjFUalNxQUduR19mUzRkQWlBd0hRdlZMRjBPT2lFTVFGUGQzNnpGaGRjUjVZdnhkVFhISGVKb0VWYjJUZ2JXaWNleVZObnlSeERibw?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-11-01T17:23-03:00",
-   "repercute": 12,
+   "publicado": "2026-11-01T18:02-03:00",
+   "repercute": 15,
    "dado": null
   },
   {
@@ -52,26 +82,6 @@
    "dado": null
   },
   {
-   "tema": "comb",
-   "titulo": "Petroleiras dobram lucros com guerra, enquanto gasolina dispara nos EUA",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOFh6cHpHY25LYkt1bFlXNmlxSm5JcVk1QVJOZXFWNWllaWlrRHhKWjRod3d6MERHTmJaUTVqYjJHUTc0eWFhOW1MRDZWSEtZVm0xc0hVNzdFQndQZm1XV2ppQWtHbXpMd2hQeGZzM3g5WVNfYUVHMk52WERyVUJZWlBQNW11bXpqWnZhSG1nbFBuVjB4eE1qVUk3VWZGUjVCNkRPMzEzbWh6bDBkZERmMG5IX2x3bzJNbTVOM2NYZ1Y?oc=5",
-   "fonte": "CNN Brasil",
-   "site": "cnnbrasil.com.br",
-   "publicado": "2026-11-01T12:21-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petrobras adia projetos em meio a disputa com ANP sobre programa de gás",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbExVZ2YzTWhqUUduV1k5TjEyZEQ2d3FvbmZqZF93VHBnNkcyMXhieG1YNHhhNWlrYWRpLUZ0bTFYQmN1UHd0ZU1nQmxSMVlQaWdEVjdHdEg2Si1oR1V1VEx2WVV1N3UyRjVqdjU1bThaTkNFMnN4c09rdDNxNVM5NlVYQzRNSTRndFNGNVRMQTNBZ2R4WWFWZzFLOGx6Unk4N1g1SnVXN0ZyTkt5dHFoSUdDNEVscmZjOUhCRXVSQmxrNnBremJfc2tUNy1ZN0hHcmJvUGVn0gHkAUFVX3lxTE1EMjhuNWtiWmFaRlRLMzZsbXlfLTlwWmJMaktzRTZxWW5wR25MeUdWZF9CX2FKczJxY0dRNmhwQnhRZXJBS2stMGM5U2dMUE4zMFh6bG1yVFNsN2duRkZnTHhBZndYcGFnRG9pQW1oUHhINk1XeGNyeWhrTXBZRDEwd0pONDZhTC04MThrX3hCaWMxYmdXQmVXX1RKMWhlcW9yRVpTU0pPZ05wS1UzVnRESHhXcF9FLTNNdWF1Vnp2RHpCQWd0SWU4Z0FaYTljNmZYX2dxOWk2WW0yRnQ0U2ZBNXN4SA?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-11-01T10:00-03:00",
-   "repercute": null,
-   "dado": "ANP"
-  },
-  {
    "tema": "pag",
    "titulo": "Novas regras para vale-refeição",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeG9JRXA1MVhrTmZER0UxdWwyOUZIYkoxUEtxU0xiYzktdTFEeDhaMnlPRTFZUS1ROW1GNEhxZ2ZjQ2sxX3Z5ZXhvSXBlbFdJemd6aGt0OE9zWG1QdXluWEZfYXFabU5zZUktNlY1US1vNE9zQXNHVTAyYzBYbnBWUFZjMjhtQnUwamRUWUx4dW9HN2MwNk12N3p0OEZmWk9oZFJlSnVrRUZjakZEOFNwODZDeFPSAcMBQVVfeXFMUHZkX1doNjZPSmFabkowWE5uRlRWSS01UDRlRmZoRF81RElCTEVZQnY5bDdfM3BYZVJuVEJNNVRMazlMemVUR3ZvVFUxV0tIWXhDSHV0R3lnU2MxUjRDNTJDVFg2d2pVQzd4ck5CYTZqalpWUnh2OHN0Y3R6R0tlX2Q3ZTNiTzRieHctQ3RlVTJXUU5RY1NGNk9KZndzdVpVZzJ5bXQ4U2I0cDBBLXNwWWtFcWx0cUZsZ2JLVkRTN1ViMWpR?oc=5",
@@ -79,16 +89,6 @@
    "site": "g1.globo.com",
    "publicado": "2026-10-31T20:26-03:00",
    "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "TCU dá aval à alíquota da CBS em 11,35% para 2027 e encaminhará cálculo ao Senado",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcEQ4c2dfaFJuQ25qa3F3NXpkYUJFdGxnX2NZc1NJWmZNb21BeFJJQXR0cFJFdVpycnNwczZ3dTRtcFU3NGRFMEl0S1dJdE5leFBCYlJVcTFvOFN1NjhwcEZ1SUJCcXQxTjFIZURrc3M2Y1VWUEZobG1RMUQwaXROOU1TU1YzLUk2U2JrX2lkbw?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-10-31T18:19-03:00",
-   "repercute": 3,
    "dado": null
   }
  ]
