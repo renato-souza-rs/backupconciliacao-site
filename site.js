@@ -76,6 +76,79 @@ if (t && n) {
   });
 })();
 
+// Botões "Enviar e-mail": o mailto: puro só funciona se o computador tiver um
+// app de e-mail padrão configurado — quem usa Gmail/Outlook no navegador clica
+// e nada acontece. Em vez de depender disso, abre uma janela com Gmail, Outlook,
+// app de e-mail e "copiar endereço", já com destinatário, assunto e texto.
+(function(){
+  var caixa = null, link = null;
+  function partes(href){
+    var resto = href.slice(7), i = resto.indexOf("?");
+    var p = new URLSearchParams(i < 0 ? "" : resto.slice(i + 1));
+    return { para: decodeURIComponent(i < 0 ? resto : resto.slice(0, i)), assunto: p.get("subject") || "", corpo: p.get("body") || "" };
+  }
+  function montar(){
+    caixa = document.createElement("div");
+    caixa.className = "em-fundo";
+    caixa.hidden = true;
+    caixa.innerHTML =
+      '<div class="em-caixa" role="dialog" aria-modal="true" aria-labelledby="em-titulo">' +
+        '<button type="button" class="em-fechar" aria-label="Fechar">×</button>' +
+        '<h3 id="em-titulo">Enviar e-mail</h3>' +
+        '<p class="em-para"></p>' +
+        '<div class="em-opcoes">' +
+          '<a class="btn btn-primary" data-em="gmail" target="_blank" rel="noopener">Abrir no Gmail</a>' +
+          '<a class="btn btn-ghost" data-em="outlook" target="_blank" rel="noopener">Abrir no Outlook</a>' +
+          '<a class="btn btn-ghost" data-em="app">Usar o app de e-mail</a>' +
+          '<button type="button" class="btn btn-ghost" data-em="copiar">Copiar endereço</button>' +
+        '</div>' +
+      '</div>';
+    document.body.appendChild(caixa);
+    caixa.addEventListener("click", function(ev){
+      if (ev.target === caixa || ev.target.closest(".em-fechar")) { fechar(); return; }
+      var op = ev.target.closest("[data-em]");
+      if (!op) return;
+      var opcao = op.getAttribute("data-em");
+      if (typeof gtag === "function") gtag("event", "click_email_opcao", { opcao: opcao, origem: link.getAttribute("data-origem") || "link", page_path: location.pathname, transport_type: "beacon" });
+      if (opcao === "copiar") { ev.preventDefault(); copiar(op); return; }
+      setTimeout(fechar, 0);
+    });
+    document.addEventListener("keydown", function(ev){ if (ev.key === "Escape" && !caixa.hidden) fechar(); });
+  }
+  function copiar(botao){
+    var email = partes(link.getAttribute("href")).para;
+    function feito(){ botao.textContent = "Endereço copiado!"; }
+    if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(email).then(feito, function(){ selecionar(); }); }
+    else selecionar();
+    function selecionar(){
+      var r = document.createRange(), s = window.getSelection();
+      r.selectNodeContents(caixa.querySelector(".em-para b"));
+      s.removeAllRanges(); s.addRange(r);
+      botao.textContent = "Selecionado: tecle Ctrl+C";
+    }
+  }
+  function abrir(a){
+    if (!caixa) montar();
+    link = a;
+    var m = partes(a.getAttribute("href")), q = encodeURIComponent;
+    caixa.querySelector(".em-para").innerHTML = "Para: <b></b>";
+    caixa.querySelector(".em-para b").textContent = m.para;
+    caixa.querySelector('[data-em="gmail"]').href = "https://mail.google.com/mail/?view=cm&fs=1&to=" + q(m.para) + "&su=" + q(m.assunto) + "&body=" + q(m.corpo);
+    caixa.querySelector('[data-em="outlook"]').href = "https://outlook.live.com/mail/0/deeplink/compose?to=" + q(m.para) + "&subject=" + q(m.assunto) + "&body=" + q(m.corpo);
+    caixa.querySelector('[data-em="app"]').href = a.getAttribute("href");
+    caixa.querySelector('[data-em="copiar"]').textContent = "Copiar endereço";
+    caixa.hidden = false;
+    caixa.querySelector('[data-em="gmail"]').focus();
+  }
+  function fechar(){ caixa.hidden = true; if (link) link.focus(); }
+  document.addEventListener("click", function(ev){
+    var a = ev.target.closest ? ev.target.closest('a[href^="mailto:"]') : null;
+    if (!a || (caixa && caixa.contains(a))) return;
+    ev.preventDefault();
+    abrir(a);
+  });
+})();
+
 // Eventos GA4 de contato. Delegado no document porque os links do WhatsApp
 // recebem o href só depois do carregamento (bloco acima).
 document.addEventListener("click", function(ev){
