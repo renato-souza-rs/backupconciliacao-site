@@ -57,7 +57,7 @@ LIMITE = W - 2 * M  # 1036 px uteis
 linhas = [
     ("Conferência de cartões", SEGOE_B, BRANCO),
     ("no automático,", SEGOE_B, BRANCO),
-    ("do portal ao centavo.", SEGOE_SL, (0xcf, 0xe0, 0xf0)),
+    ("da venda ao centavo.", SEGOE_SL, (0xcf, 0xe0, 0xf0)),
 ]
 TAM, ALTURA = 66, 78
 y = 176

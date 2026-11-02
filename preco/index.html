@@ -23,7 +23,7 @@
 <meta property="og:image" content="https://backupconciliacao.com.br/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Backup Conciliação — conferência de cartões no automático, do portal ao centavo.">
+<meta property="og:image:alt" content="Backup Conciliação — conferência de cartões no automático, da venda ao centavo.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Preço da conciliação de cartões para redes de postos">
 <meta name="twitter:description" content="R$ 150 por empresa/mês na conferência de cartões, R$ 100 na bancária. Preço máximo, sem fidelidade.">
@@ -53,7 +53,7 @@
     {
       "@type": "Offer",
       "name": "1ª Fase — Conferência de Cartões",
-      "description": "Coleta automática nos portais das operadoras e conciliação 3-way: ERP x Operadora x Conciliadora.",
+      "description": "Extração automática dos relatórios das operadoras e conciliação 3-way: ERP x Operadora x Conciliadora.",
       "priceSpecification": {
         "@type": "UnitPriceSpecification",
         "price": "150.00",
@@ -126,7 +126,7 @@
     {
       "@type": "Question",
       "name": "Tem taxa de implantação?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Não. Não há cobrança de entrada, de setup nem de configuração dos portais. O que a rede paga é a mensalidade por empresa, e ela só começa depois dos 30 dias." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Não. Não há cobrança de entrada, de setup nem de configuração das operadoras. O que a rede paga é a mensalidade por empresa, e ela só começa depois dos 30 dias." }
     },
     {
       "@type": "Question",
@@ -141,12 +141,12 @@
     {
       "@type": "Question",
       "name": "O preço muda conforme a quantidade de operadoras?",
-      "acceptedAnswer": { "@type": "Answer", "text": "O valor publicado é o teto de cada módulo e já considera o escopo usual de uma rede de postos. O escopo final é ajustado ao seu caso — quantidade de empresas, portais, bandeiras e o tamanho da tarefa diária — e o ajuste é sempre para baixo do teto, nunca acima." }
+      "acceptedAnswer": { "@type": "Answer", "text": "O valor publicado é o teto de cada módulo e já considera o escopo usual de uma rede de postos. O escopo final é ajustado ao seu caso — quantidade de empresas, operadoras, bandeiras e o tamanho da tarefa diária — e o ajuste é sempre para baixo do teto, nunca acima." }
     },
     {
       "@type": "Question",
-      "name": "E se uma operadora mudar o portal e o robô parar?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Os portais das operadoras mudam layout, estrutura e metodologia com frequência, e acompanhamos essas mudanças continuamente para manter a automação funcionando na maior cobertura possível. Mesmo assim, não existe garantia de extração plena e definitiva em 100% das operadoras — é melhor dizer isso agora do que no segundo mês." }
+      "name": "E se a extração de uma operadora parar?",
+      "acceptedAnswer": { "@type": "Answer", "text": "As operadoras mudam com frequência a forma de entregar os dados, e trabalhamos continuamente para manter a extração funcionando na maior cobertura possível. Mesmo assim, não existe garantia de extração plena e definitiva em 100% das operadoras — é melhor dizer isso agora do que no segundo mês." }
     }
   ]
 }
@@ -215,7 +215,7 @@
           <p class="pr-preco"><small>R$</small><b>150</b><span>/empresa/mês</span></p>
           <p class="pr-teto">Preço cheio do módulo — daqui só desce</p>
           <ul>
-            <li>Robôs baixam os relatórios de <strong>30+ operadoras</strong>, inclusive as que pedem código de verificação (2FA/OTP)</li>
+            <li>Robôs fazem a extração dos relatórios de <strong>30+ operadoras</strong>, todo dia</li>
             <li>Conciliação <strong>3-way</strong>: ERP × Operadora × Conciliadora</li>
             <li>Vendas, cancelamentos, chargebacks e taxas</li>
             <li>Cartão, frota, vale e PIX no mesmo fluxo</li>
@@ -292,7 +292,7 @@
             <span>por mês</span>
           </div>
         </div>
-        <p class="pr-calc-nota" id="pr-calc-nota">Estes são os valores de <strong>teto</strong>. O escopo final é fechado antes da contratação — quantidade de portais, bandeiras e o tamanho da tarefa diária — e o ajuste é sempre para baixo.</p>
+        <p class="pr-calc-nota" id="pr-calc-nota">Estes são os valores de <strong>teto</strong>. O escopo final é fechado antes da contratação — quantidade de operadoras, bandeiras e o tamanho da tarefa diária — e o ajuste é sempre para baixo.</p>
       </div>
     </div>
   </section>
@@ -317,14 +317,14 @@
       </div>
 
       <div class="pr-prova">
-        <h3>2. Canal ativo × passivo — mesmo onde as duas integram</h3>
-        <p class="pr-prova-intro">As operadoras entregam as vendas por arquivo (EDI). Quem só consome esse canal mostra informações de uma única fonte, e não tem como pedir o que não veio. Por isso rodamos também o canal ativo por você.</p>
+        <h3>2. Chega de conferir no Excel</h3>
+        <p class="pr-prova-intro">Hoje alguém do seu financeiro baixa o relatório de cada operadora, cola na planilha e procura diferença linha por linha. Nós fazemos isso todo dia, por você: os robôs fazem o trabalho mais difícil de extração dos relatórios e entregam só o que não bateu.</p>
         <div class="pr-stats">
-          <div><b>49.520</b><small>comparações diárias</small></div>
-          <div class="dest"><b>+4,0%</b><small>transações a mais no canal ativo</small></div>
-          <div class="dest"><b>+4,0%</b><small>valor a mais no canal ativo</small></div>
+          <div><b>+600</b><small>vendas por posto por dia, conferidas uma a uma</small></div>
+          <div><b>36</b><small>operadoras conferidas todo dia</small></div>
+          <div class="dest"><b>0</b><small>planilhas para você montar</small></div>
         </div>
-        <p class="pr-prova-nota">Cada comparação é um posto, uma operadora e um dia. O recorte honesto: em <strong>64,5%</strong> delas as duas fontes batem exatamente — a diferença se concentra em cerca de um terço dos casos, e os 4% são o agregado líquido, já descontados os dias em que a nossa própria coleta ficou atrás. A conciliadora não erra nem perde dado: ela recebe menos, e mais tarde.</p>
+        <p class="pr-prova-nota">Você abre o painel e já vê a venda que a operadora não pagou, com valor, data e posto.</p>
       </div>
     </div>
   </section>
@@ -351,7 +351,7 @@
 
           <div class="pr-janela">
             <h3>Até onde a auditoria alcança</h3>
-            <p><strong>Não impomos limite de período.</strong> A auditoria cobre o tempo que a sua rede quiser — o único limite é até onde cada operadora ainda fornece o dado, pelo portal ou pelo canal interno dela. A janela real de cada operadora é informada antes de começar, nunca prometida antes de medir.</p>
+            <p><strong>Não impomos limite de período.</strong> A auditoria cobre o tempo que a sua rede quiser — o único limite é até onde cada operadora ainda fornece o dado. A janela real de cada operadora é informada antes de começar, nunca prometida antes de medir.</p>
             <p class="pr-janela-nota">A entrega são o relatório e os arquivos comprobatórios do período auditado. Acompanhar esse histórico <em>dentro da plataforma</em>, com os painéis e a conferência diária, é a licença mensal — produto separado, contratável depois.</p>
           </div>
         </div>
@@ -397,7 +397,7 @@
         <div class="gcard">
           <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M12 8V5"/><circle cx="12" cy="4" r="1"/><path d="M9 13v1M15 13v1M9.5 17h5"/></svg></div>
           <h3>Coleta automática</h3>
-          <p>Os robôs acessam os portais, resolvem o código de verificação, baixam os relatórios e importam. Ninguém da sua equipe baixa ou digita nada.</p>
+          <p>Os robôs fazem o trabalho mais difícil de extração dos relatórios e importam tudo automaticamente. Ninguém da sua equipe baixa ou digita nada.</p>
         </div>
         <div class="gcard">
           <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
@@ -450,7 +450,7 @@
         </details>
         <details>
           <summary>Tem taxa de implantação?</summary>
-          <p>Não. Não há cobrança de entrada, de setup nem de configuração dos portais. O que a rede paga é a mensalidade por empresa, e ela só começa depois dos 30 dias.</p>
+          <p>Não. Não há cobrança de entrada, de setup nem de configuração das operadoras. O que a rede paga é a mensalidade por empresa, e ela só começa depois dos 30 dias.</p>
         </details>
         <details>
           <summary>Tem fidelidade ou multa de cancelamento?</summary>
@@ -462,11 +462,11 @@
         </details>
         <details>
           <summary>O preço muda conforme a quantidade de operadoras?</summary>
-          <p>O valor publicado é o teto de cada módulo e já considera o escopo usual de uma rede de postos. O escopo final é ajustado ao seu caso — quantidade de empresas, portais, bandeiras e o tamanho da tarefa diária — e o ajuste é sempre para baixo do teto, nunca acima.</p>
+          <p>O valor publicado é o teto de cada módulo e já considera o escopo usual de uma rede de postos. O escopo final é ajustado ao seu caso — quantidade de empresas, operadoras, bandeiras e o tamanho da tarefa diária — e o ajuste é sempre para baixo do teto, nunca acima.</p>
         </details>
         <details>
-          <summary>E se uma operadora mudar o portal e o robô parar?</summary>
-          <p>Os portais das operadoras mudam layout, estrutura e metodologia com frequência, e acompanhamos essas mudanças continuamente para manter a automação funcionando na maior cobertura possível. Mesmo assim, não existe garantia de extração plena e definitiva em 100% das operadoras — é melhor dizer isso agora do que no segundo mês.</p>
+          <summary>E se a extração de uma operadora parar?</summary>
+          <p>As operadoras mudam com frequência a forma de entregar os dados, e trabalhamos continuamente para manter a extração funcionando na maior cobertura possível. Mesmo assim, não existe garantia de extração plena e definitiva em 100% das operadoras — é melhor dizer isso agora do que no segundo mês.</p>
         </details>
       </div>
     </div>
@@ -496,7 +496,7 @@
     <div class="foot-top">
       <div>
         <div class="foot-brand"><img class="logo" src="/logo.png" alt="" width="34" height="34"> Backup Conciliação</div>
-        <p style="max-width:340px">Conferência de cartões e conciliação bancária para redes de postos de combustíveis e varejo multiloja — automatizada do portal ao centavo. Atendimento 100% remoto em todo o Brasil.</p>
+        <p style="max-width:340px">Conferência de cartões e conciliação bancária para redes de postos de combustíveis e varejo multiloja — automatizada da venda ao centavo. Atendimento 100% remoto em todo o Brasil.</p>
       </div>
       <div>
         <h5>Navegação</h5>
@@ -527,7 +527,7 @@
       </div>
     </div>
     <p class="disclaimer">
-      <strong>Aviso:</strong> os valores desta página são os preços de licença praticados e representam o teto por empresa (CNPJ) em cada módulo contratado. Os portais das operadoras mudam com frequência (layout, estruturas e metodologias) e acompanhamos essas mudanças continuamente para manter a automação funcionando na maior cobertura possível — ainda assim, não há garantia de extração plena e definitiva em 100% das operadoras. As medições apresentadas em "Por que vale o custo" vêm de dados históricos de redes clientes, anonimizados, e referem-se à média da conferência diária. "Conciliadora tradicional" descreve a categoria de serviço que consome apenas o arquivo EDI das operadoras; nenhuma empresa específica é avaliada aqui. O tratamento das informações segue a LGPD.
+      <strong>Aviso:</strong> os valores desta página são os preços de licença praticados e representam o teto por empresa (CNPJ) em cada módulo contratado. As operadoras mudam com frequência a forma de entregar os dados, e trabalhamos continuamente para manter a extração funcionando na maior cobertura possível — ainda assim, não há garantia de extração plena e definitiva em 100% das operadoras. As medições apresentadas em "Por que vale o custo" vêm de dados históricos de redes clientes, anonimizados, e referem-se à média da conferência diária. "Conciliadora tradicional" descreve a categoria de serviço que consome apenas o arquivo EDI das operadoras; nenhuma empresa específica é avaliada aqui. O tratamento das informações segue a LGPD.
     </p>
     <div class="copy">© <span id="ano">2026</span> Backup Conciliação · Todos os direitos reservados</div>
   </div>
