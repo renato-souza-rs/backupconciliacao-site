@@ -12,7 +12,7 @@ Meta da conversa: em até 2 dias, uma de duas coisas: **começar os 30 dias** ou
 
 - [ ] Responder em até 1 hora no horário comercial (o lead esfria rápido).
 - [ ] Mensagens curtas, uma pergunta por vez. Sem áudio na primeira mensagem.
-- [ ] Usar só fatos permitidos (preço, 30 dias, 36 × 23, 10,9%, +4%, "mais de 50 postos
+- [ ] Usar só fatos permitidos (preço, 30 dias, 36 × 23 (+57% de operadoras), +4%, "mais de 50 postos
       já utilizam módulos do sistema"). Nada de nome de cliente.
 - [ ] Não pedir senha por WhatsApp. Acessos a portais são combinados no início dos
       30 dias, pelo canal que você usa hoje para isso.
@@ -63,10 +63,9 @@ ou `sobre`, troque por: "Qual é hoje a maior dor no fechamento dos cartões?"
 **"Já temos conciliadora."**
 > Ótimo, então a gente não substitui: vira a terceira fonte. A conciliadora
 > tradicional trabalha com o arquivo que a operadora envia; nós cruzamos com o caixa da
-> rede e buscamos também no portal da operadora. Nas redes que atendemos, de abril a
-> setembro de 2026, a busca no portal trouxe 4% a mais de transações do que o arquivo,
-> e 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora
-> tradicional (36 operadoras no fluxo, contra 23).
+> rede e buscamos também no portal da operadora. Nas redes que atendemos, integramos
+> 57% mais operadoras do que a conciliadora tradicional (36 contra 23), e a busca no
+> portal trouxe 4% a mais de transações do que o arquivo.
 
 **"E a segurança dos acessos aos portais?"**
 > Os robôs só consultam e baixam relatórios. Não alteram, não cancelam e não contestam

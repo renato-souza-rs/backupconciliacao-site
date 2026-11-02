@@ -78,7 +78,7 @@ Cadência: E1 no dia 0, E2 no dia 3, E3 no dia 7, E4 no dia 14. Terça a quinta,
 ## E3 — dia 7 · as operadoras que ninguém confere
 
 **Assunto:** Quantas das suas operadoras entram na conferência?
-**Prévia:** Em redes clientes, 10,9% do faturamento conferido estava fora da conciliadora.
+**Prévia:** Em redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional.
 
 > Olá, {{nome}}.
 >
@@ -86,9 +86,8 @@ Cadência: E1 no dia 0, E2 no dia 3, E3 no dia 7, E4 no dia 14. Terça a quinta,
 > aceita (adquirentes, vales, frota, aplicativos, tags) e compare com a lista do que a
 > sua conciliação confere hoje.
 >
-> Nas redes que atendemos, medimos de abril a setembro de 2026: eram 36 operadoras no
-> fluxo, contra 23 cobertas pela conciliadora tradicional, e 10,9% do faturamento
-> conferido vinha das que ficavam de fora.
+> Nas redes que atendemos, são 36 operadoras integradas no fluxo, contra 23 cobertas
+> pela conciliadora tradicional: 57% a mais.
 >
 > Aqui está o que conferimos em cada operadora:
 > https://backupconciliacao.com.br/operadoras/

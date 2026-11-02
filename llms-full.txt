@@ -43,9 +43,9 @@ A pergunta certa não é só quanto custa a conciliadora, mas quanto custa ficar
 
 Quantas diferenças existem em cada posto, só a conferência mostra. Quando existem, elas podem aparecer como uma transação que não entrou no reembolso da frota, uma taxa acima do contrato ou um repasse de aplicativo que caiu menor. Uma por uma, se perdem no total do mês; por isso a conferência é feita venda a venda.
 
-Dois números medidos em redes clientes, de abril a setembro de 2026, mostram onde essas diferenças se escondem:
+Dois números medidos em redes clientes mostram onde essas diferenças se escondem:
 
-- 10,9% do faturamento conferido vinha de operadoras que ficavam fora da cobertura da conciliadora tradicional: 36 operadoras no fluxo, contra 23.
+- 57% mais operadoras integradas do que a conciliadora tradicional: 36 operadoras no fluxo, contra 23.
 - Buscando os dados no portal da operadora, apareceram 4% a mais de transações, e de valor, do que no arquivo padrão que a operadora envia (o arquivo EDI), em 49.520 comparações diárias.
 
 Ou seja: uma conciliadora pode ser barata e ainda assim deixar uma parte das vendas sem conferência, simplesmente porque não olha para elas.
@@ -287,7 +287,7 @@ Guarde o resultado de cada mês. A série histórica mostra quando a diferença 
 
 ## Não é só a Cielo
 
-O mesmo raciocínio vale para qualquer adquirente e para as operadoras de vale e frota, que também descontam taxa no repasse. Numa rede que aceita dezenas de meios de pagamento, fazer essa conta à mão para todos, todo mês, não é realista. Nas redes clientes medidas de abril a setembro de 2026, 36 operadoras passavam pelo fluxo de conferência, contra 23 cobertas pela conciliadora tradicional.
+O mesmo raciocínio vale para qualquer adquirente e para as operadoras de vale e frota, que também descontam taxa no repasse. Numa rede que aceita dezenas de meios de pagamento, fazer essa conta à mão para todos, todo mês, não é realista. Nas redes clientes, 36 operadoras passam pelo fluxo de conferência, contra 23 cobertas pela conciliadora tradicional: 57% a mais.
 
 ## Onde a Backup Conciliação entra
 
@@ -353,7 +353,7 @@ Os tipos de diferença a procurar são o abastecimento lançado numa operadora e
 
 ## Cuidado com a cobertura
 
-Muitas conciliadoras trabalham só com o arquivo padrão que a operadora envia (o arquivo EDI). Se uma operadora de frota não envia esse arquivo, ou envia incompleto, as vendas dela ficam fora da conferência sem que ninguém perceba. Nas redes clientes medidas de abril a setembro de 2026, 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional: 36 operadoras no fluxo, contra 23. E, buscando os dados também no portal, apareceram 4% a mais de transações do que no arquivo.
+Muitas conciliadoras trabalham só com o arquivo padrão que a operadora envia (o arquivo EDI). Se uma operadora de frota não envia esse arquivo, ou envia incompleto, as vendas dela ficam fora da conferência sem que ninguém perceba. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23). E, buscando os dados também no portal, apareceram 4% a mais de transações do que no arquivo.
 
 Na prática, peça à sua conciliadora a lista das operadoras de frota que ela confere e compare com a lista do seu caixa.
 
@@ -519,7 +519,7 @@ Se um desses sinais aparece na sua rede, comece por essa operadora: é ali que a
 
 ## A conciliadora tradicional confere esses meios?
 
-Depende de a operadora enviar o arquivo padrão (o arquivo EDI) que a conciliadora tradicional consome. Quando não envia, as vendas ficam de fora da conferência. Nas redes clientes medidas de abril a setembro de 2026, 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional, com 36 operadoras no fluxo contra 23. E, mesmo nas operadoras que enviam arquivo, buscar os dados no portal trouxe 4% a mais de transações, e de valor, em 49.520 comparações diárias.
+Depende de a operadora enviar o arquivo padrão (o arquivo EDI) que a conciliadora tradicional consome. Quando não envia, as vendas ficam de fora da conferência. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23). E, mesmo nas operadoras que enviam arquivo, buscar os dados no portal trouxe 4% a mais de transações, e de valor, em 49.520 comparações diárias.
 
 Vale a pena pedir à sua conciliadora a lista de operadoras conferidas e comparar com as formas de pagamento do seu caixa.
 
@@ -543,7 +543,7 @@ Separe no caixa as vendas Shell Box por posto e por dia, baixe o relatório de t
 
 ### A conciliadora tradicional confere esses pagamentos?
 
-Depende de a operadora enviar o arquivo padrão (EDI) que ela consome. Nas redes clientes medidas de abril a setembro de 2026, 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional.
+Depende de a operadora enviar o arquivo padrão (EDI) que ela consome. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23).
 
 ### Os robôs alteram alguma coisa no portal da operadora?
 
@@ -995,12 +995,11 @@ Os dados das operadoras são coletados por robôs, que entram nos portais no ace
 
 ## Os números
 
-- Mais de 50 postos já utilizam módulos do sistema (outubro de 2026).
-- 36 operadoras no fluxo de conferência das redes clientes, contra 23 da conciliadora tradicional.
-- 10,9% do faturamento conferido vinha de operadoras fora da cobertura da conciliadora tradicional.
+- Mais de 50 postos já utilizam módulos do sistema.
+- 36 operadoras integradas no fluxo de conferência das redes clientes, contra 23 da conciliadora tradicional: 57% a mais.
 - 4% a mais de transações, e de valor, buscando no portal da operadora em relação ao arquivo EDI, em 49.520 comparações diárias.
 
-As medições vêm de dados históricos de redes clientes, anonimizados, de abril a setembro de 2026. “Conciliadora tradicional” é a categoria de serviço que consome só o arquivo EDI das operadoras; nenhuma empresa específica é avaliada.
+As medições vêm de dados históricos de redes clientes, anonimizados. “Conciliadora tradicional” é a categoria de serviço que consome só o arquivo EDI das operadoras; nenhuma empresa específica é avaliada.
 
 ## Como trabalhamos
 
@@ -1023,7 +1022,7 @@ Em todo o Brasil, de forma 100% remota. A empresa fica em São Paulo (SP) e não
 
 ### Quantos postos usam o sistema?
 
-Mais de 50 postos já utilizam módulos do sistema (outubro de 2026).
+Mais de 50 postos já utilizam módulos do sistema.
 
 ### Como a Backup Conciliação trata os dados da rede?
 
