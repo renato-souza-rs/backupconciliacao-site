@@ -11,8 +11,8 @@ permitidos. Nenhuma pauta cita cliente.
 **Material de apoio para qualquer pauta:** os guias em https://backupconciliacao.com.br/guias/
 (o jornalista pode citar trechos), a página https://backupconciliacao.com.br/sobre/
 (quem é o fundador) e os números oficiais: 36 operadoras no fluxo contra 23 da
-conciliadora tradicional; 10,9% do faturamento conferido fora dela; +4% de transações
-buscando no portal em relação ao arquivo EDI, em 49.520 comparações diárias (abr–set/2026);
+conciliadora tradicional (+57% de operadoras integradas); +4% de transações
+buscando no portal em relação ao arquivo EDI, em 49.520 comparações diárias;
 mais de 50 postos já utilizam módulos do sistema.
 
 ---
@@ -68,8 +68,8 @@ mais de 50 postos já utilizam módulos do sistema.
 - Acervo: https://www.fecombustiveis.org.br/edicoes-revista/revista-combustiveis-e-conveniencia/
   (edição 242 no acervo on-line). Contato: imprensa da Fecombustíveis (item 1).
 - **Pauta:** reportagem ou artigo assinado: "Quantas das suas operadoras entram na
-  conferência?". Ângulo de dados: nas redes medidas, 10,9% do faturamento conferido vinha
-  de operadoras fora da cobertura da conciliadora tradicional (36 contra 23).
+  conferência?". Ângulo de dados: nas redes medidas, integramos 57% mais operadoras
+  do que a conciliadora tradicional (36 contra 23).
 
 ### 8. Brasil Postos (portal e Academia Brasil Postos)
 - Site: https://www.brasilpostos.com.br · contato: https://www.brasilpostos.com.br/contato/
@@ -107,8 +107,8 @@ mais de 50 postos já utilizam módulos do sistema.
 > de cartões para redes de postos. Escrevi um material prático sobre {{tema}} e acho que
 > pode ser útil para os leitores/associados de vocês: {{link do guia}}.
 > Posso adaptar como artigo assinado, sem citar marcas, ou participar de uma conversa/live
-> sobre o tema. Os números que usamos são medições anonimizadas, de abril a setembro de
-> 2026, e eu explico a metodologia.
+> sobre o tema. Os números que usamos são medições anonimizadas, e eu explico a
+> metodologia.
 
 ## Controle
 

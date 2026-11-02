@@ -11,7 +11,7 @@ para estes arquivos e eles não estão no `sitemap.xml`.
 > pasta fora do `main`. Decisão do owner; ver a descrição do PR.
 
 Regras que valem para todos os textos: só os fatos permitidos (preço, 30 dias, 36 × 23
-operadoras, 10,9%, +4% em 49.520 comparações, "mais de 50 postos já utilizam módulos do
+operadoras (+57%, sempre número de operadoras, nunca volume, e sem citar período), +4% em 49.520 comparações, "mais de 50 postos já utilizam módulos do
 sistema"); nenhum cliente nomeado; nenhuma promessa de recuperação ("a rede pleiteia; nós
 produzimos a prova"); nenhuma conciliadora citada pelo nome.
 
