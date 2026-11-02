@@ -1,6 +1,6 @@
 # Backup Conciliação
 
-> Conciliadora especializada em redes de postos de combustíveis no Brasil, que também atende supermercados, farmácias e redes de varejo multiloja. Faz a conciliação 3-way (tripla) ERP × Operadora × Conciliadora e a conciliação bancária dos recebíveis de cartão, frota, vale e PIX, com robôs (RPA) que coletam automaticamente os relatórios dos portais das operadoras. Atendimento 100% remoto em todo o Brasil.
+> Conciliadora especializada em redes de postos de combustíveis no Brasil, que também atende supermercados, farmácias e redes de varejo multiloja. Faz a conciliação 3-way (tripla) ERP × Operadora × Conciliadora e a conciliação bancária dos recebíveis de cartão, frota, vale e PIX, com robôs (RPA) que fazem automaticamente o trabalho mais difícil de extração dos relatórios das operadoras. Atendimento 100% remoto em todo o Brasil.
 
 A Backup Conciliação automatiza a conferência de cartões de redes de postos. Cada venda é conferida em três fontes: o ERP do posto (a venda oficial registrada no caixa), a Operadora (o que a adquirente, bandeira de vale ou empresa de frota diz que vai pagar) e a Conciliadora. Depois, os recebimentos previstos são confrontados com o extrato bancário.
 
@@ -8,7 +8,7 @@ Principais fatos:
 
 - Público: redes de postos de combustíveis e lojas de conveniência; também supermercados, farmácias e redes de varejo multiloja com cartão, vale e PIX.
 - Mais de 30 operadoras integradas, entre elas Getnet, Cielo, Rede, Alelo, Pluxee, VR, TicketLog, Edenred, ValeCard, Shellbox, ProFrotas, Abastece Aí, SemParar, Truckpag, BoaVista, CTF, FitCard, Wizeo, Ticket Serviços e PagSeguro.
-- Robôs (RPA) acessam os portais das operadoras, inclusive os que exigem 2FA/OTP, e importam os relatórios automaticamente, em rotina diária ou semanal.
+- Robôs (RPA) fazem o trabalho mais difícil de extração dos relatórios das operadoras e os importam automaticamente, em rotina diária ou semanal.
 - Divergências detectadas: sobras, faltas, cancelamentos e duplicidades (por exemplo, o mesmo abastecimento cobrado no cartão e na frota).
 - Conciliação bancária: valores não pagos, taxas acima do contratado, antecipações e PIX, com visão por posto (CNPJ) e por adquirente.
 - Dashboard online com visão por empresa, bandeira e período; fechamento diário/semanal com Excel por empresa.
@@ -16,8 +16,8 @@ Principais fatos:
 - Preço (teto por empresa/CNPJ, por mês): conferência de cartões R$ 150; conciliação bancária R$ 100; as duas fases juntas R$ 250. As fases são independentes e podem ser contratadas em separado. O valor publicado é o máximo — o ajuste de escopo é sempre para baixo.
 - Recuperação de perdas (auditoria retroativa, serviço sob demanda): entrega de relatório e documentos comprobatórios para a rede pleitear o ressarcimento junto à operadora; cobrança de 10% sobre o valor efetivamente ressarcido, sem cobrança pela auditoria.
 - Clientes: mais de 50 postos (CNPJs) já utilizam módulos do sistema.
-- Diferença para a conciliadora tradicional (que consome só o arquivo EDI das operadoras): a Backup Conciliação cruza com o ERP da rede e busca os dados também no portal da operadora. Medido em redes clientes: 57% mais operadoras integradas do que a conciliadora tradicional (36 contra 23), e 4% a mais de transações do que o arquivo entregou.
-- Segurança: os robôs só consultam e baixam relatórios nos portais das operadoras; não alteram, não cancelam e não contestam nada em nome da rede. Tratamento de dados conforme a LGPD.
+- Diferença para a conciliadora tradicional (que consome só o arquivo EDI das operadoras): a Backup Conciliação cruza com o ERP da rede. Medido em redes clientes: 57% mais operadoras integradas do que a conciliadora tradicional (36 contra 23).
+- Segurança: os robôs só consultam e baixam relatórios; não alteram, não cancelam e não contestam nada em nome da rede. Tratamento de dados conforme a LGPD.
 - Contato: WhatsApp +55 11 91872-9780 · contato@backupconciliacao.com.br
 
 ## Páginas
@@ -31,7 +31,7 @@ Principais fatos:
 
 ## Operadoras
 
-O que a Backup Conciliação confere em cada operadora: onde ficam os dados do posto (portal, relatórios), o que é conferido e como os dados são coletados.
+O que a Backup Conciliação confere em cada operadora: onde ficam os dados do posto (portal, relatórios) e o que é conferido.
 
 - [Índice das operadoras](https://backupconciliacao.com.br/operadoras/): todas as operadoras com página própria.
 - [Getnet](https://backupconciliacao.com.br/operadoras/getnet/) (adquirente (maquininha)): Na Getnet, as vendas e os pagamentos do posto ficam no aplicativo e no Portal Minha Conta, e o arquivo de conciliação da Getnet se chama Extrato Eletrônico. A Backup Conciliação confere cada venda do caixa (ERP) contra esses dados, separa o que foi antecipado e acompanha o pagamento até o extrato bancário, por posto.
@@ -42,7 +42,7 @@ O que a Backup Conciliação confere em cada operadora: onde ficam os dados do p
 - [Alelo](https://backupconciliacao.com.br/operadoras/alelo/) (benefícios e mobilidade): Na Alelo, o estabelecimento acompanha extratos e pagamentos no portal e aplicativo Meu Estabelecimento, onde também pede antecipação. A Backup Conciliação confere cada venda Alelo do caixa do posto ou da loja de conveniência contra esses dados e acompanha o reembolso até o extrato bancário, por posto (CNPJ).
 - [Pluxee](https://backupconciliacao.com.br/operadoras/pluxee/) (benefícios e mobilidade): Na Pluxee, o estabelecimento acompanha vendas e reembolsos no portal e aplicativo Pluxee Estabelecimentos, no menu Extratos, em Extrato de Pagamentos, filtrado por produto e período. A Backup Conciliação confere cada venda Pluxee do caixa do posto ou da loja de conveniência contra esses extratos e acompanha o reembolso até o banco.
 - [Shell Box](https://backupconciliacao.com.br/operadoras/shellbox/) (aplicativo de pagamento): No Shell Box, aplicativo de pagamento dos postos Shell, o cliente digita no celular o código de seis dígitos que fica ao lado da bomba e paga pelo app, sem passar pela maquininha. A Backup Conciliação confere cada venda Shell Box do caixa (ERP) contra os relatórios da operadora e acompanha o repasse até o extrato bancário.
-- [CTF](https://backupconciliacao.com.br/operadoras/ctf/) (cartão frota): Na CTF, que agora é Sem Parar Empresas, o veículo da frota é identificado na bomba por uma antena no bocal do tanque (UVE), TAG ou iButton, e a bomba é liberada sem passar pela maquininha. A Backup Conciliação confere cada abastecimento do caixa (ERP) contra os relatórios do Portal CTF e acompanha o crédito até o extrato bancário.
+- [CTF](https://backupconciliacao.com.br/operadoras/ctf/) (cartão frota): Na CTF, que agora é Sem Parar Empresas, o veículo da frota é identificado na bomba por uma antena no bocal do tanque (UVE), TAG ou iButton, e a bomba é liberada sem passar pela maquininha. A Backup Conciliação confere cada abastecimento do caixa (ERP) contra os relatórios da CTF e acompanha o crédito até o extrato bancário.
 
 ## Guias
 

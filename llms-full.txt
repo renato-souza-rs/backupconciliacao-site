@@ -18,11 +18,11 @@ Na Backup Conciliação, a conferência de cartões custa no máximo R$ 150 por 
 
 O preço é por empresa (CNPJ), porque cada posto tem cadastro próprio nas operadoras, vendas próprias e extrato próprio. São duas fases, que podem ser contratadas juntas ou separadas:
 
-- Conferência de cartões, R$ 150 por CNPJ/mês: cada venda de cartão, frota, vale e PIX conferida entre o caixa (ERP), o portal da operadora e a conciliadora.
+- Conferência de cartões, R$ 150 por CNPJ/mês: cada venda de cartão, frota, vale e PIX conferida entre o caixa (ERP), a operadora e a conciliadora.
 - Conciliação bancária, R$ 100 por CNPJ/mês: o que cada operadora deveria pagar confrontado com o que caiu no banco, com taxas e antecipações.
 - As duas fases, R$ 250 por CNPJ/mês.
 
-Esses valores são o teto. O escopo é ajustado a cada rede (quantidade de postos, de operadoras e de portais), e o ajuste é sempre para baixo. Não há taxa de implantação, fidelidade nem multa de cancelamento, e a rede usa o serviço por 30 dias, na própria operação, antes da primeira cobrança.
+Esses valores são o teto. O escopo é ajustado a cada rede (quantidade de postos e de operadoras), e o ajuste é sempre para baixo. Não há taxa de implantação, fidelidade nem multa de cancelamento, e a rede usa o serviço por 30 dias, na própria operação, antes da primeira cobrança.
 
 ## Tabela: quanto a rede paga por mês
 
@@ -43,10 +43,9 @@ A pergunta certa não é só quanto custa a conciliadora, mas quanto custa ficar
 
 Quantas diferenças existem em cada posto, só a conferência mostra. Quando existem, elas podem aparecer como uma transação que não entrou no reembolso da frota, uma taxa acima do contrato ou um repasse de aplicativo que caiu menor. Uma por uma, se perdem no total do mês; por isso a conferência é feita venda a venda.
 
-Dois números medidos em redes clientes mostram onde essas diferenças se escondem:
+Um número medido em redes clientes mostra onde essas diferenças se escondem:
 
 - 57% mais operadoras integradas do que a conciliadora tradicional: 36 operadoras no fluxo, contra 23.
-- Buscando os dados no portal da operadora, apareceram 4% a mais de transações, e de valor, do que no arquivo padrão que a operadora envia (o arquivo EDI), em 49.520 comparações diárias.
 
 Ou seja: uma conciliadora pode ser barata e ainda assim deixar uma parte das vendas sem conferência, simplesmente porque não olha para elas.
 
@@ -56,10 +55,9 @@ Ao pedir proposta, faça estas perguntas. Elas dizem mais sobre o custo real do 
 
 1. Quantas das minhas operadoras entram na conferência? Liste todas as que o posto aceita (adquirentes, vales, frota, aplicativos e tags) e pergunte quais ficam de fora.
 2. A conferência usa o meu caixa (ERP)? Comparar só o que a operadora informa com o que ela pagou não mostra a venda que ela nem registrou.
-3. Os dados vêm só do arquivo da operadora ou também do portal? O arquivo pode chegar incompleto; o portal é onde a operadora mostra o detalhe de cada transação.
-4. Quem baixa os relatórios? Se a equipe do posto precisa entrar em cada portal, a conferência atrasa justamente no mês mais corrido.
-5. Tem implantação, fidelidade ou multa? Custo de entrada e de saída também é preço.
-6. Posso testar antes de pagar? Usar na própria rede, com as próprias vendas, vale mais que qualquer demonstração.
+3. Quem baixa os relatórios? Se a equipe do posto precisa entrar em cada portal, a conferência atrasa justamente no mês mais corrido.
+4. Tem implantação, fidelidade ou multa? Custo de entrada e de saída também é preço.
+5. Posso testar antes de pagar? Usar na própria rede, com as próprias vendas, vale mais que qualquer demonstração.
 
 ## E a recuperação de perdas?
 
@@ -87,7 +85,7 @@ A recuperação de perdas é um serviço à parte, cobrado em 10% só sobre o va
 
 ### O preço muda para redes maiores?
 
-O valor publicado é o teto por CNPJ. O escopo é ajustado a cada rede, conforme a quantidade de postos, operadoras e portais, e o ajuste é sempre para baixo.
+O valor publicado é o teto por CNPJ. O escopo é ajustado a cada rede, conforme a quantidade de postos e de operadoras, e o ajuste é sempre para baixo.
 
 ---
 
@@ -138,9 +136,9 @@ Registre cada pedido, com protocolo, data e valor. Esse histórico ajuda a ver s
 
 ## Onde a Backup Conciliação entra
 
-Fazer esse cruzamento à mão, todo dia e em vários postos, é o que ninguém consegue manter. Na Backup Conciliação, robôs baixam os relatórios do portal da Getnet e das outras operadoras, inclusive dos portais que pedem código de verificação, e a conciliação 3-way confere cada venda contra o caixa e a conciliadora. A venda sem pagamento aparece no fechamento diário ou semanal, já com o posto, a data e o valor.
+Fazer esse cruzamento à mão, todo dia e em vários postos, é o que ninguém consegue manter. Na Backup Conciliação, os robôs fazem o trabalho mais difícil de extração dos relatórios da Getnet e das outras operadoras, e a conciliação 3-way confere cada venda contra o caixa e a conciliadora. A venda sem pagamento aparece no fechamento diário ou semanal, já com o posto, a data e o valor.
 
-Os robôs só consultam e baixam: não alteram nada no portal e não contestam em nome da rede. Quando a rede quer recuperar valores de meses anteriores, a auditoria retroativa entrega o relatório com a prova de cada diferença. A rede pleiteia; nós produzimos a prova. A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Veja os valores na página de preço.
+Os robôs só consultam e baixam: não alteram nada e não contestam em nome da rede. Quando a rede quer recuperar valores de meses anteriores, a auditoria retroativa entrega o relatório com a prova de cada diferença. A rede pleiteia; nós produzimos a prova. A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Veja os valores na página de preço.
 
 ## Dúvidas sobre venda não paga pela Getnet
 
@@ -158,7 +156,7 @@ O prazo depende do contrato do estabelecimento com a Getnet; confira no contrato
 
 ### A Backup Conciliação cobra a Getnet em nome do posto?
 
-Não. Os robôs só consultam e baixam relatórios, sem alterar nada no portal. A rede pleiteia o pagamento; a Backup Conciliação produz a prova. Na recuperação de perdas, a cobrança é de 10% só sobre o valor recuperado e comprovado.
+Não. Os robôs só consultam e baixam relatórios, sem alterar nada em nome da rede. A rede pleiteia o pagamento; a Backup Conciliação produz a prova. Na recuperação de perdas, a cobrança é de 10% só sobre o valor recuperado e comprovado.
 
 ---
 
@@ -211,9 +209,9 @@ Por fim, acompanhe o pedido até o fim: o ajuste só está resolvido quando o va
 
 ## Onde a Backup Conciliação entra
 
-Na Backup Conciliação, robôs baixam todo dia os relatórios do portal da TicketLog e de outras operadoras de frota, como ValeCard, CTF, ProFrotas e Truckpag. Cada abastecimento é conferido entre o caixa, a operadora e a conciliadora, na conciliação 3-way, e a conciliação bancária confere se o reembolso caiu no banco com a taxa certa. A diferença chega no fechamento diário ou semanal, por posto e com valor.
+Na Backup Conciliação, os robôs fazem todo dia o trabalho mais difícil de extração dos relatórios da TicketLog e de outras operadoras de frota, como ValeCard, CTF, ProFrotas e Truckpag. Cada abastecimento é conferido entre o caixa, a operadora e a conciliadora, na conciliação 3-way, e a conciliação bancária confere se o reembolso caiu no banco com a taxa certa. A diferença chega no fechamento diário ou semanal, por posto e com valor.
 
-Os robôs só consultam e baixam, sem alterar nada no portal, e os dados são tratados conforme a LGPD. Para saber quanto custa na sua rede, use a calculadora de preço.
+Os robôs só consultam e baixam relatórios, sem alterar nada em nome da rede, e os dados são tratados conforme a LGPD. Para saber quanto custa na sua rede, use a calculadora de preço.
 
 ## Dúvidas sobre o reembolso da TicketLog
 
@@ -227,7 +225,7 @@ As causas mais comuns são uma transação autorizada que não entrou no ciclo d
 
 ### Preciso baixar o relatório da TicketLog todos os dias?
 
-Para não perder prazo de contestação, a conferência deve ser diária ou semanal. Na Backup Conciliação, robôs baixam os relatórios do portal automaticamente; os robôs só consultam e baixam, sem alterar nada no portal.
+Para não perder prazo de contestação, a conferência deve ser diária ou semanal. Na Backup Conciliação, os robôs fazem esse trabalho de extração dos relatórios automaticamente; eles só consultam e baixam, sem alterar nada em nome da rede.
 
 ### O que fazer quando um abastecimento não entrou no reembolso?
 
@@ -291,7 +289,7 @@ O mesmo raciocínio vale para qualquer adquirente e para as operadoras de vale e
 
 ## Onde a Backup Conciliação entra
 
-A conciliação bancária da Backup Conciliação confronta o que cada operadora deveria pagar com o que caiu no banco e aponta taxas acima do contratado, por posto e por operadora. Robôs baixam os relatórios dos portais, e a conciliação 3-way garante que a venda conferida é a mesma que está no caixa. Os robôs só consultam e baixam; o pedido de revisão é da rede, com a prova pronta. Veja os valores na página de preço.
+A conciliação bancária da Backup Conciliação confronta o que cada operadora deveria pagar com o que caiu no banco e aponta taxas acima do contratado, por posto e por operadora. Os robôs fazem o trabalho mais difícil de extração dos relatórios, e a conciliação 3-way garante que a venda conferida é a mesma que está no caixa. Os robôs só consultam e baixam; o pedido de revisão é da rede, com a prova pronta. Veja os valores na página de preço.
 
 ## Dúvidas sobre a taxa da Cielo
 
@@ -353,7 +351,7 @@ Os tipos de diferença a procurar são o abastecimento lançado numa operadora e
 
 ## Cuidado com a cobertura
 
-Muitas conciliadoras trabalham só com o arquivo padrão que a operadora envia (o arquivo EDI). Se uma operadora de frota não envia esse arquivo, ou envia incompleto, as vendas dela ficam fora da conferência sem que ninguém perceba. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23). E, buscando os dados também no portal, apareceram 4% a mais de transações do que no arquivo.
+Muitas conciliadoras trabalham só com o arquivo padrão que a operadora envia (o arquivo EDI). Se uma operadora de frota não envia esse arquivo, ou envia incompleto, as vendas dela ficam fora da conferência sem que ninguém perceba. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23).
 
 Na prática, peça à sua conciliadora a lista das operadoras de frota que ela confere e compare com a lista do seu caixa.
 
@@ -369,7 +367,7 @@ Se o time não tem horas para baixar relatórios de cinco ou mais portais toda s
 
 ## Onde a Backup Conciliação entra
 
-Na Backup Conciliação, robôs entram nos portais de TicketLog, ValeCard, CTF, ProFrotas, Truckpag e das demais operadoras, inclusive nos que pedem código de verificação, e baixam os relatórios em rotina diária ou semanal. Frota, cartão, vale e PIX são conferidos no mesmo fluxo da conciliação 3-way, e as diferenças chegam por posto, com valor. Os robôs só consultam e baixam; não alteram nada no portal. Para saber o custo na sua rede, use a calculadora de preço.
+Na Backup Conciliação, os robôs fazem o trabalho mais difícil de extração dos relatórios de TicketLog, ValeCard, CTF, ProFrotas, Truckpag e das demais operadoras, em rotina diária ou semanal. Frota, cartão, vale e PIX são conferidos no mesmo fluxo da conciliação 3-way, e as diferenças chegam por posto, com valor. Os robôs só consultam e baixam relatórios; não alteram nada em nome da rede. Para saber o custo na sua rede, use a calculadora de preço.
 
 ## Dúvidas sobre conciliação de cartão frota
 
@@ -519,7 +517,7 @@ Se um desses sinais aparece na sua rede, comece por essa operadora: é ali que a
 
 ## A conciliadora tradicional confere esses meios?
 
-Depende de a operadora enviar o arquivo padrão (o arquivo EDI) que a conciliadora tradicional consome. Quando não envia, as vendas ficam de fora da conferência. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23). E, mesmo nas operadoras que enviam arquivo, buscar os dados no portal trouxe 4% a mais de transações, e de valor, em 49.520 comparações diárias.
+Depende de a operadora enviar o arquivo padrão (o arquivo EDI) que a conciliadora tradicional consome. Quando não envia, as vendas ficam de fora da conferência. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23). Na prática, uma parte das vendas por aplicativo, tag e frota pode ficar sem conferência sem que ninguém perceba.
 
 Vale a pena pedir à sua conciliadora a lista de operadoras conferidas e comparar com as formas de pagamento do seu caixa.
 
@@ -529,7 +527,7 @@ Abra o pedido pelo canal de atendimento ao estabelecimento de cada operadora, co
 
 ## Onde a Backup Conciliação entra
 
-Na Backup Conciliação, robôs entram nos portais dessas operadoras, inclusive nos que pedem código de verificação, e baixam os relatórios em rotina diária ou semanal. As vendas por aplicativo, tag e frota são conferidas no mesmo fluxo da conciliação 3-way que confere cartões e vales, e a conciliação bancária acompanha o repasse até o extrato. Os robôs só consultam e baixam, sem alterar nada no portal, e os dados são tratados conforme a LGPD. Veja os valores na página de preço.
+Na Backup Conciliação, os robôs fazem o trabalho mais difícil de extração dos relatórios dessas operadoras, em rotina diária ou semanal. As vendas por aplicativo, tag e frota são conferidas no mesmo fluxo da conciliação 3-way que confere cartões e vales, e a conciliação bancária acompanha o repasse até o extrato. Os robôs só consultam e baixam relatórios, sem alterar nada em nome da rede, e os dados são tratados conforme a LGPD. Veja os valores na página de preço.
 
 ## Dúvidas sobre Shell Box, Sem Parar e CTF
 
@@ -545,9 +543,9 @@ Separe no caixa as vendas Shell Box por posto e por dia, baixe o relatório de t
 
 Depende de a operadora enviar o arquivo padrão (EDI) que ela consome. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23).
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
-Não. Os robôs só consultam e baixam relatórios, inclusive nos portais que pedem código de verificação. Não alteram, não cancelam e não contestam nada em nome da rede, e os dados são tratados conforme a LGPD.
+Não. Os robôs só consultam e baixam relatórios. Não alteram, não cancelam e não contestam nada em nome da rede, e os dados são tratados conforme a LGPD.
 
 ---
 
@@ -577,7 +575,7 @@ As dúvidas do estabelecimento vão para a Central de Relacionamento e para a ce
 3. Antecipações, cessões e gravames do Extrato Eletrônico, separados da taxa da venda.
 4. Crédito no banco ou na Get Conta, contra a agenda.
 
-Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+Cada venda é conferida em três fontes, na conciliação 3-way. Os robôs fazem o trabalho mais difícil de extração dos relatórios, todo dia, e só consultam.
 
 ## Dúvidas sobre a conciliação da Getnet
 
@@ -589,7 +587,7 @@ No aplicativo Getnet, menu Extrato (Histórico de vendas, Recebimentos, Negocia�
 
 A venda antecipada é paga em outra data e com desconto da antecipação. A conferência separa a taxa da venda do desconto da antecipação, usando os dados de antecipações, cessões e gravames do Extrato Eletrônico.
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
 Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
 
@@ -626,7 +624,7 @@ O atendimento ao estabelecimento está na página Fale conosco da Cielo, que inc
 3. Recebimentos antecipados (Receba Rápido) separados da taxa da venda.
 4. Crédito no banco contra os recebíveis previstos.
 
-Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+Cada venda é conferida em três fontes, na conciliação 3-way. Os robôs fazem o trabalho mais difícil de extração dos relatórios, todo dia, e só consultam.
 
 ## Dúvidas sobre a conciliação da Cielo
 
@@ -638,7 +636,7 @@ No app Cielo Gestão e na área logada do site, em Vendas e Recebíveis. Para co
 
 Porque a venda recebida antes muda a data e o valor do crédito. Separar o desconto da antecipação da taxa da venda evita confundir antecipação com taxa acima do contrato.
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
 Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
 
@@ -669,12 +667,12 @@ Como o aplicativo mostra também as vendas com vales, vale conferir se o caixa r
 
 ## O que a Backup Conciliação confere na Rede
 
-1. Vendas do caixa (ERP) contra os extratos do Portal Rede, por posto e por dia.
+1. Vendas do caixa (ERP) contra os extratos da Rede, por posto e por dia.
 2. Vendas com vales lançadas na forma de pagamento certa no caixa.
 3. Cessões, gravames e antecipações separados antes de apontar falta.
-4. Crédito no banco contra o que o portal mostra a receber.
+4. Crédito no banco contra o que a Rede mostra a receber.
 
-Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+Cada venda é conferida em três fontes, na conciliação 3-way. Os robôs fazem o trabalho mais difícil de extração dos relatórios, todo dia, e só consultam.
 
 ## Dúvidas sobre a conciliação da Rede
 
@@ -686,7 +684,7 @@ No Portal Rede, em Vendas, Extratos, Consultar Extratos, e no aplicativo da Rede
 
 Porque parte da agenda pode estar antecipada ou comprometida em cessões e gravames. A conferência separa esses valores antes de apontar uma falta, para cobrar só o que de fato não foi pago.
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
 Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
 
@@ -718,12 +716,12 @@ O programa de relacionamento da TicketLog com os postos se chama Tamo Junto, e i
 
 ## O que a Backup Conciliação confere na TicketLog
 
-1. Abastecimentos do caixa (ERP) contra as transações do portal Sou Parceiro.
-2. Cada transação autorizada dentro de um pagamento consultado no portal.
+1. Abastecimentos do caixa (ERP) contra as transações da TicketLog.
+2. Cada transação autorizada dentro de um pagamento da TicketLog.
 3. Reembolsos antecipados pelo Antecipa ligados ao ciclo de origem.
 4. Crédito no banco contra os pagamentos previstos.
 
-Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+Cada venda é conferida em três fontes, na conciliação 3-way. Os robôs fazem o trabalho mais difícil de extração dos relatórios, todo dia, e só consultam.
 
 ## Dúvidas sobre a conciliação da TicketLog
 
@@ -735,7 +733,7 @@ No portal Sou Parceiro Abastecimento, acessado com código de usuário e senha. 
 
 No Ticket Fleet, o gestor da frota define regras por veículo e motorista, como dias e horários, tipo de combustível, limite de litros e preço máximo. A recusa pode ser regra do cliente, e não falha do posto.
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
 Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
 
@@ -765,12 +763,12 @@ Para o dia a dia, a ValeCard separa a Central de Atendimento de Estabelecimento 
 
 ## O que a Backup Conciliação confere na ValeCard
 
-1. Abastecimentos do caixa (ERP) contra as vendas ValeCard do portal.
+1. Abastecimentos do caixa (ERP) contra as vendas ValeCard.
 2. Consulta Pagamento: quais vendas entraram em cada pagamento.
 3. Plano de pagamento e antecipações liberadas, separados do que está em atraso.
 4. Crédito no banco contra o pagamento consultado.
 
-Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+Cada venda é conferida em três fontes, na conciliação 3-way. Os robôs fazem o trabalho mais difícil de extração dos relatórios, todo dia, e só consultam.
 
 ## Dúvidas sobre a conciliação da ValeCard
 
@@ -782,7 +780,7 @@ No portal da Rede Credenciada – Estabelecimento, pela área Sou Estabeleciment
 
 É um produto da ValeCard voltado ao posto, com portal de gestão e treinamento, em que cada motorista abastece com senha pessoal e intransferível.
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
 Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
 
@@ -817,7 +815,7 @@ Na conferência, o ponto de atenção é o CNPJ. Cada posto e cada loja de conve
 3. Antecipações separadas do reembolso normal.
 4. Crédito no banco contra o valor reembolsado.
 
-Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+Cada venda é conferida em três fontes, na conciliação 3-way. Os robôs fazem o trabalho mais difícil de extração dos relatórios, todo dia, e só consultam.
 
 ## Dúvidas sobre a conciliação da Alelo
 
@@ -829,7 +827,7 @@ No portal e aplicativo Meu Estabelecimento, da Alelo, com extratos, pagamentos, 
 
 Não. A venda passa pela maquininha da adquirente, mas quem reembolsa é a Alelo, com credenciamento próprio. Por isso ela precisa ser conferida no Meu Estabelecimento, e não no extrato da adquirente.
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
 Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
 
@@ -864,7 +862,7 @@ Para a conferência, o filtro por produto é o detalhe que mais ajuda: refeiçã
 3. Pluxee Frota, capturado pela automação do posto, conferido à parte.
 4. Crédito no banco contra o Extrato de Pagamentos.
 
-Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+Cada venda é conferida em três fontes, na conciliação 3-way. Os robôs fazem o trabalho mais difícil de extração dos relatórios, todo dia, e só consultam.
 
 ## Dúvidas sobre a conciliação da Pluxee
 
@@ -876,7 +874,7 @@ No portal ou aplicativo Pluxee Estabelecimentos. No portal, em Extratos, Extrato
 
 É o cartão de frota da Pluxee, antigo Wizeo, com página própria para postos. Segundo a Pluxee, ele é aceito por POS Sysdata e por TEF SITEF e LINX.
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
 Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
 
@@ -906,7 +904,7 @@ A Raízen mantém o Portal do Revendedor, que ela descreve como o canal para aco
 2. Cada venda contra a transação correspondente no relatório da operadora.
 3. Repasse previsto contra o crédito no banco.
 
-Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+Cada venda é conferida em três fontes, na conciliação 3-way. Os robôs fazem o trabalho mais difícil de extração dos relatórios, todo dia, e só consultam.
 
 ## Dúvidas sobre a conciliação do Shell Box
 
@@ -918,7 +916,7 @@ Pelo aplicativo: ele digita o código de seis dígitos que fica ao lado da bomba
 
 Porque o pagamento é feito no aplicativo, sem passar pela adquirente. A venda precisa ser registrada no caixa com forma de pagamento própria e conferida no relatório do Shell Box.
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
 Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
 
@@ -932,7 +930,7 @@ Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem impl
 
 URL: https://backupconciliacao.com.br/operadoras/ctf/
 
-Na CTF, que agora é Sem Parar Empresas, o veículo da frota é identificado na bomba por uma antena no bocal do tanque (UVE), TAG ou iButton, e a bomba é liberada sem passar pela maquininha. A Backup Conciliação confere cada abastecimento do caixa (ERP) contra os relatórios do Portal CTF e acompanha o crédito até o extrato bancário.
+Na CTF, que agora é Sem Parar Empresas, o veículo da frota é identificado na bomba por uma antena no bocal do tanque (UVE), TAG ou iButton, e a bomba é liberada sem passar pela maquininha. A Backup Conciliação confere cada abastecimento do caixa (ERP) contra os relatórios da CTF e acompanha o crédito até o extrato bancário.
 
 ## Como o abastecimento CTF acontece
 
@@ -946,12 +944,12 @@ O posto acessa o Portal CTF com um login master. Pelos manuais publicados, o por
 
 ## O que a Backup Conciliação confere na CTF
 
-1. Abastecimentos CTF do caixa (ERP) contra os relatórios de crédito do Portal CTF.
+1. Abastecimentos CTF do caixa (ERP) contra os relatórios de crédito da CTF.
 2. Abastecimentos em contingência (FIC eletrônico) conferidos à parte.
 3. Placa e odômetro usados para ligar cada venda ao veículo.
 4. Crédito no banco contra os créditos do período.
 
-Cada venda é conferida em três fontes, na conciliação 3-way. Robôs baixam os relatórios no acesso da rede, com código de verificação (2FA) quando o portal pede, e só consultam.
+Cada venda é conferida em três fontes, na conciliação 3-way. Os robôs fazem o trabalho mais difícil de extração dos relatórios, todo dia, e só consultam.
 
 ## Dúvidas sobre a conciliação da CTF
 
@@ -963,7 +961,7 @@ Por uma antena no bocal do tanque, a UVE, que transmite placa, código do client
 
 É o abastecimento feito de forma manual quando a identificação automática falha, com autorização prévia da Central de Atendimento CTF. No Portal CTF, essas vendas ficam em Contingências, FIC eletrônico.
 
-### Os robôs alteram alguma coisa no portal da operadora?
+### Os robôs alteram alguma coisa na operadora?
 
 Não. Só consultam e baixam relatórios, e os dados são tratados conforme a LGPD.
 
@@ -977,7 +975,7 @@ Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem impl
 
 URL: https://backupconciliacao.com.br/sobre/
 
-A Backup Conciliação é uma conciliadora especializada em redes de postos de combustíveis, fundada por Renato Souza, em São Paulo (SP), com atendimento 100% remoto em todo o Brasil. Ela confere cada venda de cartão, frota, vale e PIX entre o caixa do posto (ERP), o portal da operadora e a conciliadora, e acompanha o pagamento até o extrato bancário. Mais de 50 postos já utilizam módulos do sistema.
+A Backup Conciliação é uma conciliadora especializada em redes de postos de combustíveis, fundada por Renato Souza, em São Paulo (SP), com atendimento 100% remoto em todo o Brasil. Ela confere cada venda de cartão, frota, vale e PIX entre o caixa do posto (ERP), a operadora e a conciliadora, e acompanha o pagamento até o extrato bancário. Mais de 50 postos já utilizam módulos do sistema.
 
 ## Renato Souza
 
@@ -989,21 +987,21 @@ Não há central de atendimento no meio do caminho: o contato é direto, pelo Wh
 
 ## O que a Backup Conciliação faz
 
-Cada venda de cartão, frota, vale e PIX é conferida em três fontes ao mesmo tempo, na conciliação 3-way: o caixa do posto (ERP), o portal da operadora e a conciliadora. Depois, a conciliação bancária confronta o que cada operadora deveria pagar com o que caiu no banco. As divergências chegam no fechamento diário ou semanal, por posto (CNPJ) e com valor.
+Cada venda de cartão, frota, vale e PIX é conferida em três fontes ao mesmo tempo, na conciliação 3-way: o caixa do posto (ERP), a operadora e a conciliadora. Depois, a conciliação bancária confronta o que cada operadora deveria pagar com o que caiu no banco. As divergências chegam no fechamento diário ou semanal, por posto (CNPJ) e com valor.
 
-Os dados das operadoras são coletados por robôs, que entram nos portais no acesso da própria rede e baixam os relatórios. Veja as operadoras conferidas e os guias práticos para o financeiro.
+Os robôs fazem o trabalho mais difícil de extração dos relatórios das operadoras, todo dia. Veja as operadoras conferidas e os guias práticos para o financeiro.
 
 ## Os números
 
 - Mais de 50 postos já utilizam módulos do sistema.
 - 36 operadoras integradas no fluxo de conferência das redes clientes, contra 23 da conciliadora tradicional: 57% a mais.
-- 4% a mais de transações, e de valor, buscando no portal da operadora em relação ao arquivo EDI, em 49.520 comparações diárias.
+- Mais de 600 vendas por posto por dia, conferidas uma a uma.
 
 As medições vêm de dados históricos de redes clientes, anonimizados. “Conciliadora tradicional” é a categoria de serviço que consome só o arquivo EDI das operadoras; nenhuma empresa específica é avaliada.
 
 ## Como trabalhamos
 
-1. Robôs só consultam: nos portais das operadoras, só consultam e baixam relatórios. Não alteram, não cancelam e não contestam nada em nome da rede.
+1. Robôs só consultam: só consultam e baixam relatórios. Não alteram, não cancelam e não contestam nada em nome da rede.
 2. LGPD: o tratamento das informações da rede segue a Lei Geral de Proteção de Dados.
 3. 30 dias antes de pagar: a rede usa o serviço por 30 dias, na própria operação, antes da primeira cobrança.
 4. Sem fidelidade e sem implantação: licença mensal, sem prazo mínimo e sem multa de cancelamento.
@@ -1018,7 +1016,7 @@ Renato Souza, fundador da Backup Conciliação, em São Paulo (SP). O contato é
 
 ### Onde a Backup Conciliação atende?
 
-Em todo o Brasil, de forma 100% remota. A empresa fica em São Paulo (SP) e não há atendimento presencial: os robôs acessam os portais das operadoras no acesso da própria rede.
+Em todo o Brasil, de forma 100% remota. A empresa fica em São Paulo (SP) e não há atendimento presencial: os robôs fazem a extração dos relatórios todo dia, sem ninguém precisar ir ao posto.
 
 ### Quantos postos usam o sistema?
 
@@ -1026,4 +1024,4 @@ Mais de 50 postos já utilizam módulos do sistema.
 
 ### Como a Backup Conciliação trata os dados da rede?
 
-Os robôs só consultam e baixam relatórios nos portais das operadoras; não alteram, não cancelam e não contestam nada em nome da rede. O tratamento dos dados segue a LGPD.
+Os robôs só consultam e baixam relatórios; não alteram, não cancelam e não contestam nada em nome da rede. O tratamento dos dados segue a LGPD.
