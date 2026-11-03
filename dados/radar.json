@@ -1,44 +1,34 @@
 {
- "atualizado": "2026-11-02T16:20-03:00",
+ "atualizado": "2026-11-02T23:49-03:00",
  "itens": [
+  {
+   "tema": "comb",
+   "titulo": "Instituto Mauá pesquisa uso de etanol hidratado em motores a diesel",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVXRPakE2cU5JcGdab0dmNFNmNEJjTE1OSnlYODVvUU9CeVJNV3FNamI3RzJBa0hyRkJka1U3M3Y1dk5XMTU3bnpHU3dNVF9vS215MnpoOTR6TEJ5cmMtWlc0ZjltSmlfT19ndFcwMlNadnVjMlAzZnhIT3lRSHN1a0lFQUhYV1B0REZVQXI0ZHlBX3NHOEJFZkdfdno0Mlpnc1VBeQ?oc=5",
+   "fonte": "CNN Brasil",
+   "site": "cnnbrasil.com.br",
+   "publicado": "2026-11-02T20:58-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Alíquota da CBS a 11,3% aumenta carga tributária sobre consumo em 2027",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa0JfN1NPVHJ0ZGNGelZBSHhUcExlb2F3RmZ6VUpvVWhwUnJxWVRRaVk1NTFwUnU1M2F5UEY3Wmw3M3RoSmQ4TFZ5WlZiYzYxSWZfTlRLVVIwb00yN3RyRkdPQnpzWXVWLWllejNjem1EZjFUalNxQUduR19mUzRkQWlBd0hRdlZMRjBPT2lFTVFGUGQzNnpGaGRjUjVZdnhkVFhISGVKb0VWYjJUZ2JXaWNleVZObnlSeERibw?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-11-02T19:31-03:00",
+   "repercute": 8,
+   "dado": null
+  },
   {
    "tema": "comb",
    "titulo": "Petróleo despenca quase 8% com expectativa de retomada de negociações entre EUA e Irã",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZzlYczF0M1hlck9GT3NmYlAzT2tzXzQzOXFvVTJyM0JzUFZHeFZBUjlyQnVMdlYzTkZrcGZnTGhITGRMaTB2NVMyekJFQi11cFVTRnM3ajVsZm0yUWlnOU5rRjllTEZCckVDR0E0S3RwX3hNZ3JwT3BzcEdBQ2lVaDNvUTNvYUdFeHFPWWc3Z05oUFpDNjdYVTlTc0VWT1hodmYxX2c4SU4xSThpU0JjMWtKLUNqeTdGaVhraU1WYUJLSGItRWo2MVI0cEtNdml0b3c?oc=5",
    "fonte": "Folha de S.Paulo",
    "site": "www1.folha.uol.com.br",
-   "publicado": "2026-11-02T15:53-03:00",
-   "repercute": 3,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "ICMS sobre os combustíveis: gasolina, diesel e gás de cozinha terão imposto maior",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUVpMcG41bGN4TElLV05EdzNXcXZYbjJsbzZlWXBleE1kSHVwd1poeU5WQXVuNkgxYkVKRWc1SUZUR3FjMnhhWmRZd1dYU2Zyblp2Q1VFekNjRHYzbzExM2lidHRSdzZaUURCM3ZiTHZaT0pUUnNjYmRyb19ZR3FmOVl6cGRaT0U0Z2JCaXl0S1gzdVZSWDRMRjg1ZENGeXFtWllobVJpZ3NCbWNRNFB5UUZHQXZnenE4anJVMFFCMzhoYm1WN0lEclljMURyRU15YmlqTldIZzdISEFBYlZtS1ZHRXJhUdIB9AFBVV95cUxNWUtXckNtLVdUdjJqSjZyU05RT2ltSWxueEZpSktrcFhaUndDNk5HeU9sM0JYTUEweUhEVDZaY2JwWkNrZTFrRmFGdEUzMzhxNzI0eWo5UE9YZlBvV0ZaZXRfbFZhUmNqeGFZVURHbWx3SG5QWWdfQURnUnBkTTlDT1BzQTZkNjJiMHZFUW82c0NGVHVNdFlrNGJITGh2elBRWUdLRWhxcElzNEpMWWJ2NFBRNVBuUmVCN3R5b3B5Z2lraHJYbFF6ZVcxaDBBMUhPNTVpQ00zMndmZGZkYXNsRDJLY3ViRHRxQkoteTFlTDgwenhH?oc=5",
-   "fonte": "G1",
-   "site": "g1.globo.com",
-   "publicado": "2026-11-02T15:11-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Mudanças facilitam uso do vale-alimentação",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORExQMGotYkpnb1FnWmQ0S3l5Q0UwbjV1UmZsUDgyZXNHd3hCQkx5VjBaVnQ4MXdXWmpWaG9hUC04d1BtbzBiUTlVV1NqdGxyTkZHNU1MM0I2MnVpb1JLNXNpTDRJWlJRNl9iU3RQWnZrZFhRMFVwd3Rjc0Jza0V1U2x3WnFOaEN0Q0NjVmVSOW1KZmdYOVc5RWlyWlh2M3VKbk9nWUZ1T0hWb3FZYVlJczl4dlFmSHZxNnQyVjRkMktFNGliNk1qedIB1wFBVV95cUxNUWJfT3dVZ1lfV3FQSDRqcnJFc0dVdU5hZVBaa0pTalZOa1BFNWl2NG9kdDZab0NtRTcwci1jSWtBNzV6MmxtVW9teF9ONmQ0QVVWNG5qSDZOZ1I4dHFndFF6RGlyQURwTU9NNkk4b0tTRzBhZU9KMkF0UFZaX0duLXlDWGFjNU1wYzY4a0dwVFdBQm4xdTdRWDFIWENLNmxBZ1NzQ3R0cGtWRTNabHBlUmh4a3Bwa1BKS2hPVGtFM2RIOWtROEJFdWZSZW81c2RZNHVWbEZKSQ?oc=5",
-   "fonte": "G1",
-   "site": "g1.globo.com",
-   "publicado": "2026-11-02T14:53-03:00",
-   "repercute": 3,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Alíquota de novo imposto da reforma tributária assusta e carga tributária pode subir em 2027",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQkZXMFVJTkZYcnJOTjhFMG02X25EQVpIdENVNU00TXhCcHR3SllvTmU5a1hNTWk1ZnVuSHR4OEp3UXprZGxRdElDbHFLeFVCeVk0ZUdtbVpzalpENlRueGUxSENJWXNINTFTVDRIWVNDYXlhQmxDNmwwbDJSWVVjLUhtZVI2bHVmMnV4NkRURGJ3M0lqZUpzV2R0SXM1UjhlMVJZRDZHTEptemMyc3g0T0ZPS0lGOHA3aDJHS3BvcGRVNURrcjRTWGwwUWdOOHZqcjZB?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-11-02T13:40-03:00",
-   "repercute": 8,
+   "publicado": "2026-11-02T18:51-03:00",
+   "repercute": 7,
    "dado": null
   },
   {
@@ -48,16 +38,16 @@
    "fonte": "G1",
    "site": "g1.globo.com",
    "publicado": "2026-11-02T13:40-03:00",
-   "repercute": 4,
+   "repercute": 6,
    "dado": null
   },
   {
-   "tema": "comb",
-   "titulo": "Petróleo cai mais de 6% com esperança de paz; Goldman projeta US$ 140",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTlgtLU9ERW9uQ1kzTUVGdkFiTFhsVU1TaVpFU29IcHAtYTVucUNVRXJsVVdnUUlSaHk1d3Rqa09SR2I0cFc0SUtJckdsZTlWTXZNMmpCNGlxbUNPeEdpQllUVHY2U2diN0pzTmZFS1pjYXFsUjRHQVl1eXhaRFVRR0YwTC1Ld1VISGJmQUFKNm0tczZNcVlxekNZNm0yT0RadVFGbFZscUjSAa4BQVVfeXFMTmJWTEhFd2hGN0N5VlZwSUtzVG5LODlRSE9ZU1FERlhLeDh1S1BfMS1ESm1sZkdpS3U2NnZ2RUstN19IbEJ3b2V0NWZRT3NSU3lEMGx5M1RpalpjWFprMmE4RENZbmZ6bnN1Tlgtc0V3NVY0MHllaGZBNmpVWDBmdFQ0dFdFR29UejBCaXBueF9na3NRMUtFMElfbG5GWUlXckdHVnlsUENhX0M4MDZB?oc=5",
-   "fonte": "InfoMoney",
-   "site": "infomoney.com.br",
-   "publicado": "2026-11-02T11:55-03:00",
+   "tema": "trib",
+   "titulo": "Nota fiscal nacional passa a ser obrigatória para empresas do Simples",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRjE0VnpCaUVNeERHMVZXcnZDMnllMW9IN2J4YVhxYVoydEQxTUxMT2N1LV9kbTQxanROZkg0eXFzQ2tXLVNjeWxSRlpMbkJGSTRkWk1saUswOXJ2Z0NHcVVkOWpTWjZnb2l6cjZwM1JFR1RXU0FiY3RJSjdUZGJTZGlBY2FtSVJpTFFIQTc3VVlrc18tNlZiSW5nRndhcEdKYzEzR3Z6WGYxWlBkMHNTdjFzOExpX1g5UERBSS1xTjd6QkZTUnhxVzdEbFBLNkwzUDdoYVBlREZVZWN5U1E?oc=5",
+   "fonte": "Agência Brasil",
+   "site": "agenciabrasil.ebc.com.br",
+   "publicado": "2026-11-02T13:02-03:00",
    "repercute": null,
    "dado": null
   },
@@ -78,7 +68,7 @@
    "fonte": "Folha de S.Paulo",
    "site": "www1.folha.uol.com.br",
    "publicado": "2026-11-02T09:03-03:00",
-   "repercute": 7,
+   "repercute": 6,
    "dado": null
   },
   {
@@ -89,6 +79,16 @@
    "site": "agenciabrasil.ebc.com.br",
    "publicado": "2026-11-02T07:22-03:00",
    "repercute": 6,
+   "dado": null
+  },
+  {
+   "tema": "pag",
+   "titulo": "Pix começa a ser testado em ônibus de Niterói",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT1NDRmhFeW5UQlF1MmkxNWNhY0h1Qmt6Slh0cER6SjFaWEtmTnJEaG5OWFJ1cGpjSnVvZXpsa2Z5MWxrLV9vYnhXRnViUWdDYmlUXzhLS0xBZkVyT1dHY1BLWXBxWlgzQzNaYlFSdlluLTMydF96RDkxcHVZVVd2WHFNQnM0ZlN3X3Bka2NET0pKY3J4MlBmN05hMVNiNi0xdEttTE1qZ1plXzFoN1BtZWdFZDRNMEhjNHN1SlJEUHFVcGZo0gHEAUFVX3lxTFBPU0NGaEV5blRCUXUyaTE1Y2FjSHVCa3pKWHRwRHpKMVpYS2ZOckRobk5YUnVwamNKdW9lemxrZnkxbGstX29ieFdGdWJRZ0NiaVRfOEtLTEFmRXJPV0djUEtZcHFaWDNDM1piUVJ2WW4tMzJ0X3pEOTFwdVlVV3ZYcU1CczRmU3dfcGRrY0RPSkpjcngyUGY3TmExU2I2LTF0S21MTWpnWmVfMWg3UG1lZ0VkNE0wSGM0c3VKUkRQcVVwZmg?oc=5",
+   "fonte": "O GLOBO",
+   "site": "oglobo.globo.com",
+   "publicado": "2026-11-01T05:00-03:00",
+   "repercute": null,
    "dado": null
   }
  ]
