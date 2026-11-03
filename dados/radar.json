@@ -1,24 +1,84 @@
 {
- "atualizado": "2026-11-02T23:49-03:00",
+ "atualizado": "2026-11-03T13:55-03:00",
  "itens": [
   {
    "tema": "comb",
-   "titulo": "Instituto Mauá pesquisa uso de etanol hidratado em motores a diesel",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVXRPakE2cU5JcGdab0dmNFNmNEJjTE1OSnlYODVvUU9CeVJNV3FNamI3RzJBa0hyRkJka1U3M3Y1dk5XMTU3bnpHU3dNVF9vS215MnpoOTR6TEJ5cmMtWlc0ZjltSmlfT19ndFcwMlNadnVjMlAzZnhIT3lRSHN1a0lFQUhYV1B0REZVQXI0ZHlBX3NHOEJFZkdfdno0Mlpnc1VBeQ?oc=5",
-   "fonte": "CNN Brasil",
-   "site": "cnnbrasil.com.br",
-   "publicado": "2026-11-02T20:58-03:00",
+   "titulo": "Produção de petróleo e gás natural no Brasil alcança novo recorde em setembro, diz ANP",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV25ESThURTJpUDBpVzV3UGxoZ3pZR2hfMGJmbl80WWRQTU9SZHAxdFp1dGY3WWhFeHBwRXZvaG00WGdTNGhCWHhlVHJqN2pyOEdQeHVmUm0wOENKdUUzMEZKTWs3UlpidFd4NFE3LUx0SXpOSmg2bzBQNHJSblM5WkVrcXEtZWU1UnFWMlNCQkpsSEFzTnBobmdWbVVGaG41VTJEXw?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-11-03T13:47-03:00",
+   "repercute": 5,
+   "dado": "ANP"
+  },
+  {
+   "tema": "pag",
+   "titulo": "Veja o que muda com as novas regras para vale-refeição e alimentação",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOFFMSV92QnZkbGtJME1kNGpJZnVNVjVsNERIUEt0cXRJVVJrNEtGOE80dEEwd1dzOTdqSjRyT2NnVWRacEN4STh6UWxmT0Fhcjd3WTRMUXlPN3dtYmc0SUFrbmkxX1ZCRUt3UWZZR1BXR0JILTZNTEE2cEI1U2lObGJYQWU0OXZPWlliUEtvbTIwNkxINUhwNDRZTk15dTVMb3V0OFhVV2dMRXYzM1llR2FHaUZKUzd6Y1EzWg?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "site": "www1.folha.uol.com.br",
+   "publicado": "2026-11-03T13:28-03:00",
+   "repercute": 6,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Alíquota de 11,3% não estava nas previsões da Receita nem do TCU e preocupa, diz relator da CBS",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM2lYbFIzeGQwU2x4V3R6YVZKNk1veVNhNTZzQ2czTTdmVmlEZmJNT2g2bXFnZmRUd1NuS1JyWi1jR20xN1h1STJaLWY2bl9oVkttT3FzbkltaFluUm1HSnRKZmJnMEw2Sm1DaU16RTFTVnl3TFBBQXBCUWlSTzJUXzRibUhzdHNLaHUzQktCbFdWN2g2RlczNG9GWlZybUd3ZlNvTWp5Vl84S0RIT01uekszUWQwUVlPQ1hNNmhsaTNnOFo1Y1E4RFRSZ0tLMGdqMF9rOWw4Uk9fdE4wbnFHYjByVnBKcjNmS2JDczVn0gH8AUFVX3lxTE9tdjQtX3lyTmJzTWdzeFJsbXJuS0MwNkVRb2N5QzJ1UURWZENaOGloT0VyS0Zfd3ZHdXRQdUFzZERFNVZBaFhEMGowNVp0NHNldDdKb213cXF6LTc1dG1Rb29nZi1PMmwwT0Qya21pOFVWekZFLXNzbkdQNUNDZXhKVUotemU0eEVhVGpTQ1labXB6S1diZl9mVEk1MnBHOVV6OHlORC0yX3RCU19COHMwc0hWX1JTaHFfQ0J6eXdQbENzTkg0dUZrMzJxXzhYMWlYdFFNOGJUaUZvT0N6OUpWTGRYNHg4ZlVpa19PUG5rWEdybjVOWXRaZ3VMVw?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-11-03T13:28-03:00",
+   "repercute": 11,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "ANP multa distribuidoras de combustíveis em mais de R$ 700 milhões por elevação abusiva de preços",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQjUwWDQ1cTJaTktPeTF5c19vbFZtSWc2WU5TZzFuWHA1WngxQ2FYQlVsMXBHS21iVVJZY2tSTkVuYWVIQkNaWGRnc2xlQUNZOWtpUHZWUzgwcGduSmNMaWlQNmRYTkxQenNMSjFUSnUzcTZJYkt4cjl0b2RMMEc2QzB3U21kZXJiRnQxTDBYbTEyNE5kTGY5MWh5QUZnTHVOU3lmRFFudS11Rk1WSnozOE5BNjBBdk9pWFZPWXZVLXVCOGtZaXNjSXN2V0JLU0l3N0w5bC1LeVRacDVjWWJmQ3Via9IB8gFBVV95cUxOVmNWeERkWnBmU2pVT3F2UEZTTElmX2UyUnc2RXh6akJWTldRYVFkN181ZXZmRFY4T3BZNVhTa09NaVkwZEFFaGNfRkhYcVV6UWVpaDJXLWItUnlPejlRT19DUFlkUXpuSWJGMjdoNVZISjlOZ3ljcURNaU1GdVZOSjJYUEJMY1dWTDNKS05oU2lDU0xiSkFfTVk0Q2s1R1FkSERlZ0RRUlFsdTZTTE81R1l4NGlYcGdWVnFvY0lfS0tNMDRlM3ZFVGk3WlJGU0s1dVRsdWpMUV9HNmhNVGQ4a0lsdlpQYW5uRVgyZlFKMGU0UQ?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-11-03T13:10-03:00",
+   "repercute": null,
+   "dado": "ANP"
+  },
+  {
+   "tema": "pag",
+   "titulo": "Zoop obtém aval das bandeiras de cartão para atuar como adquirente",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSmtkR1owdm5GdmJ6dENBVmwyR1V2clZyRDJIeGRrbFplTHZKZkk0TUItSGgyaXdnTjNLQUQzamYxdzVvUmtqNEJEV0kxNGdDaW85Q3RzRzN5Z180ZzBJaWpvLTZuUl9UeTNhV0dBRWVoVFU1RDVSZVZtS1JlT1dqRXlEMEtEZDdfVWhhTUZLUVpBTXRkd1hvYmJCakdBT1pfS0lfdzRWZ3ljT2NjLU5UazdBcHQzMGlQbm1VYklCZ9IBzgFBVV95cUxPT3FXcmUxUjF5SGN2YVJZZmNnWnZFYlFSZXJMb29UdzVwVUM2ektiUERyZVdIVHNLMzRqRHhJWVRVMGhtUmpQMHF3NnA1SWRlWlE1NU1xbTVSb016bl9XUmlmcW9SOFotSlFNTi14WVpLbng2eGc0b2s4VGRSNlhKZ24xVmsySlFQRElzUlNZVHNSQjNxZ3lXSWtlNFh5a0tkNnc4MXp3OXlsZGp5WGRSaWRNbk5lRmlsUWx3SFo0YmVrdFhwQ0Nfc21IQXB1dw?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-11-03T12:49-03:00",
    "repercute": null,
    "dado": null
   },
   {
    "tema": "trib",
-   "titulo": "Alíquota da CBS a 11,3% aumenta carga tributária sobre consumo em 2027",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa0JfN1NPVHJ0ZGNGelZBSHhUcExlb2F3RmZ6VUpvVWhwUnJxWVRRaVk1NTFwUnU1M2F5UEY3Wmw3M3RoSmQ4TFZ5WlZiYzYxSWZfTlRLVVIwb00yN3RyRkdPQnpzWXVWLWllejNjem1EZjFUalNxQUduR19mUzRkQWlBd0hRdlZMRjBPT2lFTVFGUGQzNnpGaGRjUjVZdnhkVFhISGVKb0VWYjJUZ2JXaWNleVZObnlSeERibw?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-11-02T19:31-03:00",
-   "repercute": 8,
+   "titulo": "Governo quer enviar MP do Imposto Seletivo ainda hoje ao Congresso",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaFRnTklQZVlCRjVFNjJaY2FDTTVVblVhbVcxbEhlUEs4ZnRGdjY5OXFmTTg3SHZyUkpWUTNnNUpxeUN2ZXBMUnFISVljblVGSWNlUDFMSlhjVFY3bkRNdDVtYUhId0lKTFQtVE9vUjdybXlIcW1LSkhiMGZTN1p6el9BLW44LWFyOVhvRVFHS0hBN0EyemNkbG84a3hYU0RHY3gzM3JOMUozM1NmNmQ5aU1nNEI1RHAtdU8zNXY3b0Zhdw?oc=5",
+   "fonte": "Agência Brasil",
+   "site": "agenciabrasil.ebc.com.br",
+   "publicado": "2026-11-03T12:34-03:00",
+   "repercute": 5,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "EMPRESAS DO SIMPLES NACIONAL DEVEM EMITIR NOTAS DE SERVIÇO PELO SISTEMA NACIONAL",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWHJlLTI3QjhlUG1jR1J0UXBubm0zeEFyb1E1bGFnWUFoZ0RWRW1PNndGME1NVlBfZEJ5eHY5OUI4ZGdERk5Ed1d1bjJMU2V1VVNHR0QtV1NQUC03ZHIzSzJvMnh4aDRJMFhzbXJxcDhLRE80UFFvMXBTZHdhTXFDOEktaUVhbVkxMVR2RXI2d2J3bFFZdmJ2N2lCbV9sUVlIeTNhdFM5dkVJWnh4QXc?oc=5",
+   "fonte": "Prefeitura Municipal de Campo Novo de Rondonia",
+   "site": "camponovo.ro.gov.br",
+   "publicado": "2026-11-03T11:04-03:00",
+   "repercute": 3,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Preços do petróleo sobem após ataques dos EUA à ilha iraniana de Qeshm",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRWpWMHBmOFlXV09VanY4czFEVmlfaVc1UUI3dHMyZms1cDUxUHUyVGt4N01sNXNaZU1jRlVlVEl6YktMWmZIclZBeV9jcnZsWTE1dW96eW9YRzktNFZXWFBFQ2trZlpVSXlLZzlTa0pvNkx0NGlpZjRMTk1jVmFoX2RRWmRzV2wxM3dRWUJ1d3M2eEt0WU9nWDJaWl9YM1phOEtmRUR4YXN3bDJ1RUZsTEZINA?oc=5",
+   "fonte": "Times Brasil | CNBC",
+   "site": "timesbrasil.com.br",
+   "publicado": "2026-11-03T09:22-03:00",
+   "repercute": 3,
    "dado": null
   },
   {
@@ -27,68 +87,8 @@
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZzlYczF0M1hlck9GT3NmYlAzT2tzXzQzOXFvVTJyM0JzUFZHeFZBUjlyQnVMdlYzTkZrcGZnTGhITGRMaTB2NVMyekJFQi11cFVTRnM3ajVsZm0yUWlnOU5rRjllTEZCckVDR0E0S3RwX3hNZ3JwT3BzcEdBQ2lVaDNvUTNvYUdFeHFPWWc3Z05oUFpDNjdYVTlTc0VWT1hodmYxX2c4SU4xSThpU0JjMWtKLUNqeTdGaVhraU1WYUJLSGItRWo2MVI0cEtNdml0b3c?oc=5",
    "fonte": "Folha de S.Paulo",
    "site": "www1.folha.uol.com.br",
-   "publicado": "2026-11-02T18:51-03:00",
-   "repercute": 7,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Novas regras para vale-refeição e alimentação trazem benefícios aos trabalhadores",
-   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSlJhSHM5T0NSamZQdEduMHRDNmJaQ0YyWTlCNUpVSi0tZmZEMUhvQ25BVE54TGZILS01ZzVEZVU1QkxrNVFwdG1rY3EtN0ctR3lxTnFmb1laWjJ4V1NEM2VEUnpEbElVX25YRmFEQ3l3cldwSnNmT1R5V1pHTlFpT3ZQaUdwUnpCaGpPbmxBX3pCVDR2a0c1LTl0aEdzQmowWU8xSXlFT0Z0X1J4Mmh0LVdBX25ZUVN3bFJsTzlWNkJfQm5WazlsVlI5em8tUDV0NXlPUmRNWnAxMkdSRUxWMG1HYjh3TTZ4dHRISnJnd2xVbGtPOXhBQ2VBTnNZMThHSlNWQ2dZLUEzMWg1WkHSAY4CQVVfeXFMTkpSYUhzOU9DUmpmUHRHbjB0QzZiWkNGMlk5QjVKVUotLWZmRDFIb0NuQVROeExmSC0tNWc1RGVVNUJMazVRcHRta2NxLTdHLUd5cU5xZm9ZWloyeFdTRDNlRFJ6RGxJVV9uWEZhREN5d3JXcEpzZk9UeVdaR05RaU92UGlHcFJ6QmhqT25sQV96QlQ0dmtHNS05dGhHc0JqMFlPMUl5RU9GdF9SeDJodC1XQV9uWVFTd2xSbE85VjZCX0JuVms5bFZSOXpvLVA1dDV5T1JkTVpwMTJHUkVMVjBtR2I4d002eHR0SEpyZ3dsVWxrTzl4QUNlQU5zWTE4R0pTVkNnWS1BMzFoNVpB?oc=5",
-   "fonte": "G1",
-   "site": "g1.globo.com",
-   "publicado": "2026-11-02T13:40-03:00",
+   "publicado": "2026-11-03T07:59-03:00",
    "repercute": 6,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Nota fiscal nacional passa a ser obrigatória para empresas do Simples",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRjE0VnpCaUVNeERHMVZXcnZDMnllMW9IN2J4YVhxYVoydEQxTUxMT2N1LV9kbTQxanROZkg0eXFzQ2tXLVNjeWxSRlpMbkJGSTRkWk1saUswOXJ2Z0NHcVVkOWpTWjZnb2l6cjZwM1JFR1RXU0FiY3RJSjdUZGJTZGlBY2FtSVJpTFFIQTc3VVlrc18tNlZiSW5nRndhcEdKYzEzR3Z6WGYxWlBkMHNTdjFzOExpX1g5UERBSS1xTjd6QkZTUnhxVzdEbFBLNkwzUDdoYVBlREZVZWN5U1E?oc=5",
-   "fonte": "Agência Brasil",
-   "site": "agenciabrasil.ebc.com.br",
-   "publicado": "2026-11-02T13:02-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "A Petrobras e a defasagem do preço do diesel",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUWhGbUJoUE00XzB3elBoMWFBWmF0blU4LUdfd3FSX3NubWVmY1dWbWk5YnRocXRleEZkNHEtZkp3QWtmYTlHSVJ6bGV1NWxmam40V0J6VTBSNlQ2UjhndVFtaTVFd0VMb3Q3X0NVTmhNOXFxQjVMZmtrUFlKMUNNeXdHc3dCUkVyRG1jSjJzZWVWemVRRFYxVmQzYXRvekMwQmE2dHdSaDByR0XSAboBQVVfeXFMTVBkeW10djM0b3c4blNPM0ZYQk5MNlJOWDBTeUp3dUZYdVZQWkRTaUxxOVF5cTJvMTVNX20xSWtZTlZmSEpQR2t5c0lYUEtHUTBhMFJ0NkN1ZzBfZmlIX0Y1LVU1Q3dSOUVfb2FxRlFsN2xVTWtkbmx3azFLTk51b3VkWERIOGpHSmE0aTFTbWVQN1QtX0dpdkR2U2tvaG0xdnpjWVlrbnBRdnJyc2FUSXEzSkhpM2xnXzVB?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-11-02T09:23-03:00",
-   "repercute": 10,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Opep+ mantém metas de produção de petróleo para dezembro, antes de decisão sobre 2027",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWm84UW9WNTBaX1ZoUEZHdmlUQzFGQ3RxVTBrbUh6Z19UYWVRYkFmeDdoZlNzck5ZaXUwVGhpbkNwb054T2h2ZHM2RGJPQmRjcFhlVy1LTzFoUHZwV1BVRzBkcGVQdDlOSXo5ZW91UXBDaTFKR0djTmstZFlPMTZDNGdLV3FOTjAzWHpGdHFXeTA4bkM4SnJoLXpvT2xIZVlfaGdacEplUHZSOFBnZERWM3VON3EyT25PeHFES0Zua05BeUtFWkdpUi14Y1FiNzRF?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-11-02T09:03-03:00",
-   "repercute": 6,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petrobras reajusta combustível de aviação em R$ 0,45 por litro",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY3JyTW1TenRNY2NfQkt5TGMzVFBsQ1FubHAtQVdrZmFrUkYtWFJPb0VnYzJYV1BoQkd5bWhmb1J5bzdaUURIWUhidGFOcVJRQ3ZqTmk4Z2ZNN0hGYkhvTUF1SVh2QXFiQTRyYjh3R1N0UlpsVmRpRnRhb2JaWW5iS3JyOHp4VkxCTGJjMHplWjNYMjVudG0zVXFNN3B4SlRfUnk0RXZiNXgxOGx0VWlDNzZJNU5LNDlrbFE?oc=5",
-   "fonte": "Agência Brasil",
-   "site": "agenciabrasil.ebc.com.br",
-   "publicado": "2026-11-02T07:22-03:00",
-   "repercute": 6,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Pix começa a ser testado em ônibus de Niterói",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT1NDRmhFeW5UQlF1MmkxNWNhY0h1Qmt6Slh0cER6SjFaWEtmTnJEaG5OWFJ1cGpjSnVvZXpsa2Z5MWxrLV9vYnhXRnViUWdDYmlUXzhLS0xBZkVyT1dHY1BLWXBxWlgzQzNaYlFSdlluLTMydF96RDkxcHVZVVd2WHFNQnM0ZlN3X3Bka2NET0pKY3J4MlBmN05hMVNiNi0xdEttTE1qZ1plXzFoN1BtZWdFZDRNMEhjNHN1SlJEUHFVcGZo0gHEAUFVX3lxTFBPU0NGaEV5blRCUXUyaTE1Y2FjSHVCa3pKWHRwRHpKMVpYS2ZOckRobk5YUnVwamNKdW9lemxrZnkxbGstX29ieFdGdWJRZ0NiaVRfOEtLTEFmRXJPV0djUEtZcHFaWDNDM1piUVJ2WW4tMzJ0X3pEOTFwdVlVV3ZYcU1CczRmU3dfcGRrY0RPSkpjcngyUGY3TmExU2I2LTF0S21MTWpnWmVfMWg3UG1lZ0VkNE0wSGM0c3VKUkRQcVVwZmg?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-11-01T05:00-03:00",
-   "repercute": null,
    "dado": null
   }
  ]
