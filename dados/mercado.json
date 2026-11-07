@@ -1,11 +1,11 @@
 {
- "atualizado": "2026-11-07T02:24-03:00",
+ "atualizado": "2026-11-07T12:33-03:00",
  "wti": {
-  "ultimo": 90.34,
-  "var_abs": -0.18,
-  "var_pct": -0.2,
-  "semana_abs": -13.78,
-  "semana_pct": -13.23,
+  "ultimo": 90.83,
+  "var_abs": 0.31,
+  "var_pct": 0.34,
+  "semana_abs": -13.29,
+  "semana_pct": -12.76,
   "min_dia": 89.07,
   "max_dia": 92.0
  },

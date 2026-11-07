@@ -1,44 +1,34 @@
 {
- "atualizado": "2026-11-07T02:24-03:00",
+ "atualizado": "2026-11-07T12:33-03:00",
  "itens": [
   {
    "tema": "pag",
-   "titulo": "Vale-refeição e alimentação: novas regras entram em vigor neste sábado; veja perguntas e respostas",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZUViOFNjRG5ybHdDbW1KSjFpNHdicmNCMVV4TDhkVEh3U2tXV0pYdXVFbUNQNWQ3dW9oTGx5d1J5LW1IVzIyNm45UXRydlpJeTdLRWxJRUU1MUxMXzMxTjRNN0VsOU5sTTJwcFluVjlHdFVSUkRfaXBlQ2YyVUo3TE44MkZLczRIVW93bGdjMkpuc3pFdC11LVdxeDRlUDFRS1HSAbABQVVfeXFMT25aOU5DQWNJcnR0di1XTU9heFRFZ3JFTU13eVpyZVB1MFNJZER2SGNyZi1HZmF3NGJ0ZUVUcGdGYkJVa2NJQ1Vmd2J5Q2ZNbVVhUDdIaWpYSVVpNGI3cHZHSC1wdlhpbDI4UjJTUVBGR2hFdmtFaVJaakdXNEFjcFRVa0pCNnNKOUpja3Q4eGFJZlVkRHl0djBzZ1FmRF9qNWFOejNycEZna09JYU1oeHc?oc=5",
-   "fonte": "G1",
-   "site": "g1.globo.com",
-   "publicado": "2026-11-07T00:00-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "VA e VR devem ser aceitos em qualquer maquininha a partir deste sábado (7)",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObjR3cFN1OS1QVFpUcWVEMHk1WDZ0d2hISERGR1V6Ti15UHNXakpyMENacU4zSndoREpiZVlXVU8yQ29pZFA4SmJNRll5LWVVNUcxTGtDN0w3azFqQWVSMnp0RVJRMFcwdHREanAzT1JtNXVfUTZsd0kwZ3c4OUFsUWVCWDdBckdxYmNvbHFERHNlSldPY0p0VkxFa0o2MHFzNzR1aUo1TDRoVnJiY2VuVFppU1ZmNFhpTDR4Q1Z6ZVdsREpF?oc=5",
-   "fonte": "CNN Brasil",
-   "site": "cnnbrasil.com.br",
-   "publicado": "2026-11-06T23:39-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Cigarro e cerveja vão aumentar de preço? Entenda impacto do imposto do pecado",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMXhsbW5MUUEtUWRrT1RrVnUtU3hkTElwUG5MNmxYcFpfUDdPRjd1aXZpaXo5dzEzeHVfWGhaRTM4N1VjaWJzOU9pMnRLa2ZSMEV5OElKdWpBZFNzbUhqMWduWlMxenUwRXAyWFktTjE5amxPNjRabXlFOEMwcnFjZU8zSWpqam5yVE1WcWF6UnpfYjAxdl82U3JzNi1uRkppQ0hfNHBtNDRiOWNaVjhnR19QX0thdHNVN2VLNEgwaGczbURzMU5TTzRnd0PSAdsBQVVfeXFMTXVZSUJfVnVlbDJLMzE4d0h1VUlFUGRKWkxCWks4VVFURVlCMjVYZ3VId3dzWFh1bG8zM1lvVjV4cTE5V1RsRmVTQTUxUEdQdExudDJLc1RoRkJoZDVUb28tRUlCTUpxWGJyMFpNck5nSVE1T0tlUHQ0ZWZBaTFVbm5VUHZHajc3Z1BnTGZ1MjFGTkJnRFRkQmdsMXRrYnluUnlQQlE1cGdOczhLTE44NmdjOWVnZjV3a3ZOdVVwOGM0b1hXZjJNTW1KSWJtUmlSTk9iempUZjNlZm9z?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-11-06T21:35-03:00",
+   "titulo": "Vale-refeição e alimentação mudam hoje: veja o que muda com as novas regras",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVEV5Ym5mLWR6ZFlKdWJpdjVNTXIxOEktU2lqdTA0bUN1Y3VYekFuMS12SXMtbTVacnVEcEgybURFVFRBUG05S2tJUzlwelkta29nWkpubU4wNjJNa2EzYWtEaVZMMncwdGstdmVxbi1pY2tkZ0VkcTNGdU92SUh2RFp6MEpJV1d6Z3pKd281RHdmdk1WOU1QbWxLSnR0d3JVcWt1b0xBLXpzd1U4dExaOTF30gG3AUFVX3lxTE9xOEVaSWhzMzhkVkRqNG5sRDBFN2Niazk5ay1hdnZHT1Z1c3IyQUdZM3poRzNfSTdqdExsT1JFNGp5RkJueDNhajN3dEk2VEEyckJmdWpEM0hrdnVJTXpqV0FmLVJWVGFaOHFtbUtDeDIzTGVzZEx4R08tMlJtendjS1UwdUNrNTFoa2xGXzhDV2pMNFo1NzYxQWlRcUo4dUlzbHlfZ3lXQkJEX2lWWTNIWWVXMnBwOA?oc=5",
+   "fonte": "InfoMoney",
+   "site": "infomoney.com.br",
+   "publicado": "2026-11-07T12:19-03:00",
    "repercute": 8,
    "dado": null
   },
   {
    "tema": "comb",
-   "titulo": "Petrobras pode distribuir até US$ 4,2 bilhões em dividendos apesar da queda do petróleo Brent",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPS1VvWHJEb214clgxblF3eW9yOUo3V2ZfdFFUem9XdGlHSFdfdlVsZGE0STFYenJRdlZqbjdKYmVwam9oYnV1T2NGcWVkclo4U0lEN2U5eEJHdFZTTjMzUEhpbzZEZzZoV2ZMQm9FVm8yUEtSZHJjY1NFZWNPYmtaQ0pqX3pKN2VSdzZ6OTBQaldzVk5BblR1MjVpUU15LUtfdzZiaWNxLVVVcDhscFRYSVpBMWFvOW9VRmQ3WDFQQlRqcVlxMGc0Z1FSQ25yVUx1REs5RU1YS0RLY3BGbWlUaXZPa2hqaVh0eXVINWVHQQ?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-11-06T21:29-03:00",
+   "titulo": "Petróleo em alta impactou produção da Suzano, diz CFO",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUVUyWVFENDFIVGlwclJXYzdEalE1Z0ZJNU5vM0ZqUHBCZDItM2tMb0ZTb2hVUC1HT0ttdXRpSGdaNktpS3NscGVhMzNlTVdTQXM1cE5Ga1N0WFo2X0dmVHQzNjBHNnk1TkRuTlk1LU9EcW1rNFFMMUFITVlENTkzZ1VrTWVKY2wtTUtWcXZrclI?oc=5",
+   "fonte": "CNN Brasil",
+   "site": "cnnbrasil.com.br",
+   "publicado": "2026-11-07T12:01-03:00",
    "repercute": 3,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Qual o impacto da CBS em 2027 na safra de verão da soja",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVNGUVdNemhZTllzNWFneW9aSjlPTkpINldKYmpHUU9zZFljbjhNMXVFcnFKaFo1TlBXUlFtQTI3R1M1cDNWTE9WZmlfMzBLVzV6d3ZtT1owSXNacFA5YzdJYXNNLTBzTzRZaWpNeFRFREp1bVNIU01Qd3djQ3RqRW5jaFU2a0tzOGZlbmh2ejVoMHcwUFZsTEV4Tm1nejd3bzFSc0tOUDB3d29QNGRjYlRZS3NlUGVobWJF?oc=5",
+   "fonte": "Consultor Jurídico",
+   "site": "conjur.com.br",
+   "publicado": "2026-11-07T11:23-03:00",
+   "repercute": null,
    "dado": null
   },
   {
@@ -47,9 +37,19 @@
    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSGdpcDFWUS1SNUlPUVdSUlVPUnFfRnNTOW8zM1NVeHgxMWwyRzduVVVJZFBGekRlSUF4TENwd1kzZWltd3JHTXlqSjh1bmt5ZGpqSG9ONkVJVUpqZmtpZXU3WlExVnlPcTJWei1sOTFicHRTcmotUDBkakliUl9UTGhXbWFVUDZNejB0QmtXUWxTQ0FZRUo5bU9jczNOMGFaZGo3WHp3Vl9jRUY1V3BaRThuM0hOcVRLTFVLZUZRTlVEOWZhQ2UtMHUzWnFnVTJOdUo5Y1VNaTZxVzVnUUF5TUEzWHpTdjVYMWJZTXh5U3hpekhLQ1RxVWNGaEw5cmfSAY4CQVVfeXFMTjdiSGdPdklabzFIMzZjM1N0c1lBcUprQmZiMEx4dTRjMG5YUVpzd1JSMzNEU3lYUEFiYWh0X3hGYUJpa1h6TU1uTHBkZlBSWWNqcTM4eGlmQ3MwQTJ4Vm1wRVJkbEhkcnJCVUdjSDU5OXJ1dkxVR2tzbHdfRnFxNy1kTmx1Y18zV1Y1YnRjSjk5cEt0bWpXTl8xSTVyRkQ3SVV4MUFiUWtDaWR6aWRtSjZHeUZsS3ZNbmhrTDQ2WWZtcjNWSWxUQlBEMWdQbTc0U0EzRlhrbnY5eFpWMkhVS2JaWEZMOW5XVmhaSlFjU3JUOFFpUVJZS3ZNYnJZcG5mMHVZcHVKMnd6NllTZzZR?oc=5",
    "fonte": "O GLOBO",
    "site": "oglobo.globo.com",
-   "publicado": "2026-11-06T19:13-03:00",
-   "repercute": 15,
+   "publicado": "2026-11-07T11:18-03:00",
+   "repercute": 16,
    "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "NTS suspende investimento e vai à Justiça contra ANP",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMFUzM0w1a0kta1B6S3Rvd1BldnRTT1pfOTU2VE9pNVFmb09BTV9oSV9HeDdCcktwRTB6bDF6ai11c01idTlLVkNDVlFPck55S2tZRmFOMHlIeDlXdU5XMlVmS0JmR0VGRXowWGRhaEtGUkFpc2dFcEExd0hnamhBbGJ1alJtZFRURGpxM3NaUWw0aldhV2FMZHRnOFZVWGFIY2ZqaVpIN0FFaVXSAboBQVVfeXFMTktSREtNbTFtU2tuZkV3STBNalpVU2VwamVwQldZRW1uVnJNUlJNR1BwWG1UODZma2JqTUhGeTRtYlNoZXFmN0gtQzJKT09fTVIybjk2aXozYnozcDJ5WnZtSG9kVC10c3ZtNXBObEdKdENoMjdHc2tiNU1IQ2xUSEQ5ZTZzVFpLOGdGOTR4THBDakt5V3F0UEVvUjZoZVd5dXdvT1lCZXR0dmFqdGIwTXVsUEJ5ZzBJTFd3?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-11-07T10:10-03:00",
+   "repercute": 5,
+   "dado": "ANP"
   },
   {
    "tema": "comb",
@@ -57,8 +57,18 @@
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcUdJemplU1d3aXFnTDhfSmw1Wjd3MmRqeVdHNl8xYlljMk1GS3JyWE5zbUZqUjZ6SzN4Nm14dDQ5R3Z6a05jWmpGMXoxa0RKa3BkRGk4NGc2ZXZlTnVjQlh2U3VrNWU4ZGFQS0RnT2ZxdHVHVWpMZlV5U3g0TXBadUZTbExKR2FUNFl6dFI0OFcxakt6Tm9iN9IBngFBVV95cUxPZDg2ZnlvdFcybmc4QTRudWxEOXFSbkZSWTF2WmJXeGNCRDRzWkwtbzJ6UVV2RW1hY2s0MTZzdWhQWWdPNHIzR3kzTlgwaE53UHdTb1RSQ20wZmJvdUVSMlFvajJpWkt4eER0LTUwajdtYVZrU0RGRGlTS3hCaWpHUmFmZHl1TEExcVhueGFzV1hUWHBlYjhtVGxnUl9YQQ?oc=5",
    "fonte": "Estadão",
    "site": "estadao.com.br",
-   "publicado": "2026-11-06T18:30-03:00",
-   "repercute": 4,
+   "publicado": "2026-11-07T03:55-03:00",
+   "repercute": 6,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "Imposto Seletivo: entenda cobrança sobre carros e quais ficarão isentos",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY3k5WnBNNmtTcGh3M3U2dVdoeEpibWp2YWdmSDFTUUxsVjluY2tRczMtcmp1WUR5ZTBGdE1VdUdZT1hjMFMybUNabWdkQjFHU3Y5TFZEUnRYcndtRDl3WVRLcThPVkdTQlhaTnBsWktlR3d0c2FMeXY2d1kyMlNiNm9GRHM2QVRTbnZyY1V3OTNLRnQ2OFFvaDN5UGtyNUFaNFNvVkhTQjJEcXVEQW1ONUlqTk8xWk14SDdWVkttWnRydGlJbG84atIB1wFBVV95cUxNQnRCcDVjZC1oMFJISnRvNzZGdUFfcldmTHZaN1MtUXRZQmx3ZU5iLTY4dmtXUy1aNzJ6ekJwRVFuSFhwLUI2Uk5pdG1RY2YtSEJhQm1WSDZpSlRIalRkenk1N0E1MktQY19CYUd3QjEtc0V1MGNQRjhSNnVLakt5RTNIekg3eHZrekl4R2w2X2E5WDR4cGgyWEFPSDY4cEhwbTNZTUF5ZHhKUk94LTQxckh5WWpUR2RsNERSZENYRkRyLXdnNU5BUTBDSmlFeWRyOGEwRWlsQQ?oc=5",
+   "fonte": "O GLOBO",
+   "site": "oglobo.globo.com",
+   "publicado": "2026-11-06T21:35-03:00",
+   "repercute": 8,
    "dado": null
   },
   {
@@ -68,7 +78,7 @@
    "fonte": "Estadão",
    "site": "estadao.com.br",
    "publicado": "2026-11-06T18:06-03:00",
-   "repercute": null,
+   "repercute": 3,
    "dado": null
   },
   {
@@ -77,19 +87,9 @@
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZzV4SW96eUZlbDdaV19YaDgwVnlQbjc4MW5fUnVWaVZDQnQyeHVUNU44SDBoTXgzb0hxd2FlaG1kd0xialhIc0hQZjg3c21VNEc3NDFBLWo1LUk3UGVCa090Y0RfN2xBZnh6aWVKNDFzdE5ldkNtQ0FwaWdRaDl5MmhfOFFscXpZX3ZOWUJmRkN6amZ0UUU3UkhDUnZlSFF6eEl1MTRVcXJNb3VraDFFdi05NkUycmdpUHl1MVhzcU1vaWdPREVfbkI4SkQ0cjNneXlrald4VmjSAecBQVVfeXFMTVRGR2JmWjdLZXZpODNXeW9UNmhjNFJrQVU5RDFaVlVlRnpxQmVLTmJyeVpZQW9sTWpJVnJlV09LU1FDaFRPeHBPT3MzWUdxcTA4aHZmT0RPSWNhVFhsMHlDNTZpSnNWYjBlS25TdUtYNEpNNFVKOVdmc3k5ZXJhWHg2bTBqYVNqZUxlQUpnSGpJV1pYeDdpWERsVHdrV05LU3FldGc1ZXlNeFhzUFlpR1VuaU9fTkJncFhuNUFRYk42V084OGlmaXFDYndNTkljeEdtZHdUTW4wVHo0YjV4MThpUGxBNXZV?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
-   "publicado": "2026-11-06T17:15-03:00",
+   "publicado": "2026-11-06T17:37-03:00",
    "repercute": 5,
    "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "NTS suspende investimentos no Brasil e vai à Justiça contra decisão da ANP",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLTNBMGNlU1RFYTdqOUJtX1VuMGRsa2pRVHhCdFIyUFBYZFI1SDlXSnl6OWRXUTVnMW1KREM4aTdlTTRySVNLQWFBQW1TUGxEdUhkNGtTZl9BYlZpaEVTZjBSMkx6ZVg5R0lzOEQyZkVvbjB0Ty1pUVZmTHBlNzVjdzMycFM5NEtrUktSRGJQQ1N6WThiZDE2MF96djI3ZkFrUnFPREdoa29wWDZTMzl5YUJRS29HM0FsbW9hcWZZMmN5UEZkM21hZE0td1pIYzFvdGFv0gHiAUFVX3lxTFBSUTh4OGlhTVI1M0ZsM3RtVmZCWHZ2eXdwN29xUTFrMzF0Vm5aU3FuSFd1UG1nZWtDblhaOUJIUkZNX1h4TE45a0tzNTJyT0JHWUJmMVNNN2NwTmZrbkdleThydU55NDRvNzJLS3dmcVVUUjVpMGFLU2tfeF9VRDI4dUYyZWZ1RUNGbVF2ang3RlhMRk1BQk5jZC1kb0dCU0J3YW1HcTlMc2QwSjBkalYzUjlMRTJ1ZkxPUDdUTm1wbU9pb1hELWZmMjU4NU1NSUFWS3U5ZUhKaGF4X2tXZkhFYnc?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
-   "publicado": "2026-11-06T13:40-03:00",
-   "repercute": 4,
-   "dado": "ANP"
   }
  ]
 }
