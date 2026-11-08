@@ -1,13 +1,13 @@
 {
- "atualizado": "2026-11-07T18:38-03:00",
+ "atualizado": "2026-11-08T02:24-03:00",
  "wti": {
   "ultimo": 90.83,
   "var_abs": 0.31,
   "var_pct": 0.34,
   "semana_abs": -13.29,
   "semana_pct": -12.76,
-  "min_dia": 89.07,
-  "max_dia": 92.0
+  "min_dia": null,
+  "max_dia": null
  },
  "brent": {
   "ultimo": 98.32,
@@ -15,8 +15,8 @@
   "var_pct": 0.03,
   "semana_abs": -19.32,
   "semana_pct": -16.42,
-  "min_dia": 96.65,
-  "max_dia": 100.27
+  "min_dia": null,
+  "max_dia": null
  },
  "usd": {
   "ultimo": 5.5013,

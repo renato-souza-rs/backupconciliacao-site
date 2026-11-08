@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07T18:38-03:00",
+ "atualizado": "2026-11-08T02:24-03:00",
  "itens": [
   {
    "tema": "pag",
@@ -7,16 +7,36 @@
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd2o4R24zRU9RX0NCVFQxX0EycEpyNnNXQjBsSWRkdWlZN3hsWjFvVGh4T3lTYkI2eHJVMWE4aVZ5a0xEVF8wRHpKUTdwd01YdmVWMm9Tb25FNnpyWE9lTUVfallncXpNREt5cHRoZFYyVHJLeGozajZnRTQ2QVVIREVVbDVkM1lhOHRXd2ZUMXlSUWwwVmg2ONIBngFBVV95cUxPYzNGRTdUSkp6aTl4ZG83MnczME5yR1duWS1rUDdpTDBpOGhSS3RvejV5UDJGZHRJSW52NFZlTHR6RFltTUV6WG5DRHozWjV6VTM2U3hwVlZiQ1Y2bDJKYlg1bTlFVVFwb0h5dTNrMDBDV3FtTGpZR2hOYnVSNnlOUjl3OHladkZwSUdVWlIteWF5dEp1ZUJuSHRrbVhFdw?oc=5",
    "fonte": "Estadão",
    "site": "estadao.com.br",
-   "publicado": "2026-11-07T17:40-03:00",
+   "publicado": "2026-11-07T21:20-03:00",
    "repercute": 10,
    "dado": null
   },
   {
+   "tema": "pag",
+   "titulo": "Nova regra do vale-refeição entra em vigor",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2FJV05XNEN4ZU9ucENkZ0xkNHV0MEVoT21FU1plTkxHckFyVnZ5S2g3LUJrVjVNcFlNdGU2MFdXelpHcUZ1TzRyYVYwd0c0Qmw0VnowdmlTMmhCRF85MzdTNUlZUTQxdW9ZS250akctd2llSnpaZW5sTUs4Sjc4Wm9kaVNpQkxLN0VWZG9iZ0tHWW9lcXhzaXFBTkhCSE1FNVHSAbABQVVfeXFMUE9XNnlxclpBU0RvN3NPbGVzYXZKODVsRWI1ekFVbTF2VG5MVENmcm5wcHZhbDJqckttdS1sWk56ckVyR3F6ZlZBdzBVcjdGNDZDYmdXVDQ4bXJUVnJDaTNPWE9kTnU1cGg4Z3FHOV9nQTFqQ2NhOHpjUEU2S3pUaUlHWDhLdGJBdFc4MlRadk9hRGFQODRaTmdzbU1XWXlfWUM5UTlFUlNLMFRsRHpheHI?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
+   "publicado": "2026-11-07T21:16-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "pag",
+   "titulo": "Tickets passam a ser aceitos em qualquer maquininha a partir deste sábado (7)",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSVpQZUVjV0xtdy1BZHoyWnJBS042YzRRRTRxaURrSkp6ZDU3bjVxUm5zUkJGMmJTRzNMREUxVE5HOVg5YXNLdXRocWtldjVjLUU4dWY1V2M2MXAzWmNHb1QyVVI1TVB2Q3lUOVJ2aFpuWEdTSDcwbDlGSl95Q3ZVY3loeUxiTHF4QmFTYjFpcGZuTXRwcTBPTF9DTWNaNkQ0eXVuejJZTHBQckZNSjlUaHNHM2Y5czhVOEdGZkI2TnhBZUdpa3RuVi1ub1BXT2FkSEViMHlCak_SAd4BQVVfeXFMTzNPZ281WF9UdGJZZTJMZTRFbHdweFJ6Yi1vci1EMzNFM05jRVZ6OHlJeG5Ga0o4SU93NzNuSk8tVmUtSnBUa2EzU09wdDNEaTlPNXZCRzdVNXN1dUp6SFg0SjVlM1piWXdWUFlxM1FOZURYcDQ3WDJiRVp6Uk1zUDl5MjMzelc4aVVCODBjZnZsaUpocVczTVE3eG1FZlpPQnhlWTQzLUgwNVlvMlk3Vnp0em9NY3lwOUg1T3NfSEctbUdMbzFrdUNadlFiT2gxZHBXMUZ6NmlHRnZBMnNn?oc=5",
+   "fonte": "Correio Braziliense",
+   "site": "correiobraziliense.com.br",
+   "publicado": "2026-11-07T20:33-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
    "tema": "trib",
-   "titulo": "Imposto Seletivo: entenda cobrança sobre carros e quais ficarão isentos",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY3k5WnBNNmtTcGh3M3U2dVdoeEpibWp2YWdmSDFTUUxsVjluY2tRczMtcmp1WUR5ZTBGdE1VdUdZT1hjMFMybUNabWdkQjFHU3Y5TFZEUnRYcndtRDl3WVRLcThPVkdTQlhaTnBsWktlR3d0c2FMeXY2d1kyMlNiNm9GRHM2QVRTbnZyY1V3OTNLRnQ2OFFvaDN5UGtyNUFaNFNvVkhTQjJEcXVEQW1ONUlqTk8xWk14SDdWVkttWnRydGlJbG84atIB1wFBVV95cUxNQnRCcDVjZC1oMFJISnRvNzZGdUFfcldmTHZaN1MtUXRZQmx3ZU5iLTY4dmtXUy1aNzJ6ekJwRVFuSFhwLUI2Uk5pdG1RY2YtSEJhQm1WSDZpSlRIalRkenk1N0E1MktQY19CYUd3QjEtc0V1MGNQRjhSNnVLakt5RTNIekg3eHZrekl4R2w2X2E5WDR4cGgyWEFPSDY4cEhwbTNZTUF5ZHhKUk94LTQxckh5WWpUR2RsNERSZENYRkRyLXdnNU5BUTBDSmlFeWRyOGEwRWlsQQ?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
+   "titulo": "O novo Imposto Seletivo seleciona?",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSDdiSk5HOEVOY0FveWt3MG45cTN2RU9EU05rbXFIVUpnSnRuWVc0bDN4YnVOM0pBNmVjekFoTTV2cWd6TUVMVm12bUFlbDF1ZGItVHZDSXNIV1ZYT1lkdUJ0Z3ZrU0ZPSV9GcTA5MUczeFpGNkxiMm5VajFCbkFOX3FRa0NfVl9f?oc=5",
+   "fonte": "JOTA Info",
+   "site": "jota.info",
    "publicado": "2026-11-07T15:25-03:00",
    "repercute": 4,
    "dado": null
@@ -38,7 +58,7 @@
    "fonte": "Estadão",
    "site": "estadao.com.br",
    "publicado": "2026-11-07T13:27-03:00",
-   "repercute": 13,
+   "repercute": 14,
    "dado": null
   },
   {
@@ -48,16 +68,16 @@
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-11-07T13:08-03:00",
-   "repercute": 7,
+   "repercute": 6,
    "dado": null
   },
   {
-   "tema": "trib",
-   "titulo": "Qual o impacto da CBS em 2027 na safra de verão da soja",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVNGUVdNemhZTllzNWFneW9aSjlPTkpINldKYmpHUU9zZFljbjhNMXVFcnFKaFo1TlBXUlFtQTI3R1M1cDNWTE9WZmlfMzBLVzV6d3ZtT1owSXNacFA5YzdJYXNNLTBzTzRZaWpNeFRFREp1bVNIU01Qd3djQ3RqRW5jaFU2a0tzOGZlbmh2ejVoMHcwUFZsTEV4Tm1nejd3bzFSc0tOUDB3d29QNGRjYlRZS3NlUGVobWJF?oc=5",
-   "fonte": "Consultor Jurídico",
-   "site": "conjur.com.br",
-   "publicado": "2026-11-07T11:23-03:00",
+   "tema": "comb",
+   "titulo": "Petróleo em alta impactou produção da Suzano, diz CFO",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUVUyWVFENDFIVGlwclJXYzdEalE1Z0ZJNU5vM0ZqUHBCZDItM2tMb0ZTb2hVUC1HT0ttdXRpSGdaNktpS3NscGVhMzNlTVdTQXM1cE5Ga1N0WFo2X0dmVHQzNjBHNnk1TkRuTlk1LU9EcW1rNFFMMUFITVlENTkzZ1VrTWVKY2wtTUtWcXZrclI?oc=5",
+   "fonte": "CNN Brasil",
+   "site": "cnnbrasil.com.br",
+   "publicado": "2026-11-07T12:01-03:00",
    "repercute": null,
    "dado": null
   },
@@ -68,28 +88,8 @@
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-11-07T10:10-03:00",
-   "repercute": null,
-   "dado": "ANP"
-  },
-  {
-   "tema": "trib",
-   "titulo": "NF-e e IBS/CBS: como conferir se uma rejeição já vale",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV2RDcjl3RUdVUDIySEowdjhGZHRGUlFFOWd6Tm9iWGZYRjMzbkNib3JSRW1Tek1XOXNzVm5Qc1RvY3dCYmZXUC1xN3EwaVhhc1M2TnRfcDZQZWpvTC1lQTV4OW03QlFRamFNOU9CVFNzZHdrWExCRGE1cHVJTDJpbjdxTlJOdWdZWk1jUkttWU55V01EeXQ0aVpqN1VCQQ?oc=5",
-   "fonte": "Portal Contabeis",
-   "site": "contabeis.com.br",
-   "publicado": "2026-11-07T10:00-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Balsas de São Sebastião, Ilhabela e outras praias de SP terão pagamento via Pix e mais mudanças",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOTVLNUtncTRWeE5SQ2tIQVVMTWh3YVgwRklkNmszdU1qNHBGT1RqNjVvaW1tVnRoQkJTTGMzWVY5VkFsU25IT0V3R3liTXRHRzNuSlhDQWZSSmh1bEktYTFBamF4NEFrMFlZbTJFZk1Qb05CSFVBcW1VbEtpRTZERkZ0RVg3cEwxLVl6N3gzQjJ1U05xWG5ZM3ZCWU9yTFY1d2VBYUpOcy0xQzl4cWV1SW5rdV9oRnlhOHVoUDl4QmJvRk55Ni1xRlJVRWbSAdIBQVVfeXFMUDVWUUlIckZiV0ZLeEtiYUtEamxkV3lCMl9tM3Q4dWVMMHFuVXhLbXNSQWZuTmwtbFlEWVpSVmgyS3NTdmJKY3Q2V3NiTWtCeFZwaXoxc0RQUTJMek9zSDVqbUF6dndmZFV2dXZhX1FtZ1JaWGsydXhMMHlQZ2l6MHllalIxelhfdk9MaktfbmlXRXFFZ3B3TlZxSjBfdXN1cnV2OVpyVWNyOEtzbmtXMmpRcm5PNE5tdFd1RExKVjFLNDJkVTRyVVpodjJRRUFkaXVR?oc=5",
-   "fonte": "Estadão",
-   "site": "estadao.com.br",
-   "publicado": "2026-11-06T18:06-03:00",
    "repercute": 3,
-   "dado": null
+   "dado": "ANP"
   }
  ]
 }
