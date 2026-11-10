@@ -556,3 +556,42 @@ section.mm-monitor{padding-top:30px}
 .em-opcoes .btn{justify-content:center;width:100%}
 .em-fechar{position:absolute;top:8px;right:12px;background:none;border:none;font-size:1.6rem;line-height:1;color:var(--cinza);cursor:pointer;padding:4px 8px}
 .em-fechar:hover{color:var(--azul)}
+
+/* ---------- O dia a dia (home) ---------- */
+/* Fundo escuro de proposito: fica entre uma secao .alt e uma branca sem quebrar a alternancia. */
+#dia-a-dia{background:linear-gradient(135deg,#0a2c4d,var(--azul));color:#fff}
+#dia-a-dia .sec-head{max-width:860px;margin-bottom:40px}
+#dia-a-dia .sec-head .kicker{color:var(--ouro-claro)}
+#dia-a-dia .sec-head h2{color:#fff}
+.ciclo{--trilho:rgba(255,255,255,.28);list-style:none;display:grid;grid-template-columns:repeat(6,1fr);position:relative}
+.ciclo::before{content:"";position:absolute;left:8.33%;right:8.33%;bottom:8px;height:3px;background:var(--trilho)}
+.ciclo li{display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 8px}
+.ciclo strong{font-size:.98rem;line-height:1.3;margin-bottom:4px}
+.ciclo-quando{color:#9fd0ff;font-weight:800;font-size:.95rem;margin-bottom:6px}
+.ciclo-entrega .ciclo-quando{color:var(--ouro-claro);font-size:1.15rem}
+.ciclo-desc{color:rgba(255,255,255,.72);font-size:.86rem;line-height:1.35}
+.ciclo-ponto{position:relative;z-index:1;width:19px;height:19px;border-radius:50%;background:var(--azul);border:3px solid #9fd0ff;margin-top:auto}
+.ciclo .ciclo-desc{margin-bottom:22px}
+.ciclo-entrega .ciclo-ponto{border-color:var(--ouro-claro)}
+.ciclo-ponto::after{content:"";position:absolute;inset:-3px;border-radius:50%;border:2px solid currentColor;color:#9fd0ff;opacity:0;animation:ciclo-pulso 9s infinite}
+.ciclo-entrega .ciclo-ponto::after{color:var(--ouro-claro)}
+.ciclo li:nth-child(2) .ciclo-ponto::after{animation-delay:1.5s}
+.ciclo li:nth-child(3) .ciclo-ponto::after{animation-delay:3s}
+.ciclo li:nth-child(4) .ciclo-ponto::after{animation-delay:4.5s}
+.ciclo li:nth-child(5) .ciclo-ponto::after{animation-delay:6s}
+.ciclo li:nth-child(6) .ciclo-ponto::after{animation-delay:7.5s}
+@keyframes ciclo-pulso{0%{opacity:.8;transform:scale(1)}14%,100%{opacity:0;transform:scale(2.6)}}
+@media(prefers-reduced-motion:reduce){.ciclo-ponto::after{animation:none}}
+.ciclo-volta{margin:-10px 8.33% 0;padding:34px 24px 28px;border:3px solid rgba(255,255,255,.28);border-top:0;border-radius:0 0 56px 56px;text-align:center}
+.ciclo-volta strong{font-size:1.2rem}
+.ciclo-volta p{color:rgba(255,255,255,.72);font-size:.95rem;margin-top:6px}
+.ciclo-nota{text-align:center;color:rgba(255,255,255,.72);max-width:760px;margin:26px auto 0;font-size:.95rem}
+@media(max-width:880px){
+  .ciclo{grid-template-columns:1fr;gap:18px}
+  .ciclo::before{content:none}
+  .ciclo li{position:relative;align-items:flex-start;text-align:left;padding:0 0 0 36px}
+  .ciclo li:not(:last-child)::before{content:"";position:absolute;left:8px;top:6px;bottom:-24px;width:3px;background:var(--trilho)}
+  .ciclo .ciclo-desc{margin-bottom:0}
+  .ciclo-ponto{position:absolute;left:0;top:3px;margin:0}
+  .ciclo-volta{margin:26px 0 0;padding:20px;border:3px solid rgba(255,255,255,.28);border-radius:20px}
+}
