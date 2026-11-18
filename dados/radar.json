@@ -1,53 +1,43 @@
 {
- "atualizado": "2026-11-17T15:20-03:00",
+ "atualizado": "2026-11-17T23:47-03:00",
  "itens": [
   {
    "tema": "trib",
-   "titulo": "Alíquota da CBS teve impacto de isenções propostas pelo STF, diz Durigan",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3hacF9PQWQ3X2FRdmlkcVFPa3hVZHpjXzBFZlBiRHE0RHJDQWFDT01QODlRZjVRX1AtMW1KMGUzVW5nVS1rMFpkMVVPUXpmNVk4cTYweDJ4UjlpeHJTYmlBSHp2dTJKUngwbnF5Q3hqSE9BVnZLQnh3LXhRbWlGT1ljY3RRTnl4d0pOaUJwREw5RUlZVkFfM2NpaGNDRi0tWFcxLVlhak9xTWdfZExXdFdmSTV6VHFBQU9aUHYzUXc?oc=5",
-   "fonte": "Folha de S.Paulo",
-   "site": "www1.folha.uol.com.br",
-   "publicado": "2026-11-17T14:46-03:00",
-   "repercute": 18,
-   "dado": "STF"
+   "titulo": "Durigan: Reforma tributária pode ter ‘pequeno impacto’ na inflação, mas mercado vai ajustar preços",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSHRIVDVUN29WREtCc1dmOGpnRGdVUXNMaTg3RFRzbEwxNnlvWjltT1ZBdU5XcTRxOWNNc2lIUDhhZlRuQnh5RXhGZExfRC11M3BtcnlhUjN3alVsSC02a2ZseG9TRG8tNGJySzltdTRIWDJ2TFhnbTJzLXpwTDNLcTh3UkFZMFByRkVSYU5BQ0l3WTlfVlpKQmFfZF9INkNyT05LLTZoS3ByZkRCNUVNY1RXQUo1dFNLQ2p1QUkyaFRycnNjUkdVUzh0MmlscE0zSXJaWEJR?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-11-17T21:49-03:00",
+   "repercute": 17,
+   "dado": null
   },
   {
-   "tema": "trib",
-   "titulo": "Barreirinhas: Projeto-piloto para implementar CBS será aberto nesta semana para demais pessoas jurídicas",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZ0pHYTZJRzNmbDF2SElVUDQtb1pPZVd5X1k1RTJ1NlRGem9pZGpHenNfSTAyNnhHdlpWa016U2JQa3BUZTlCWE4ta2U2MF9PYjRUeUFOQ3QwblRwRXN2RzVnbFdSaVZWS0pqVktPSmRhaUdVaXB4YUpLMElxRjl4d1JjeUVFdENWcmFJd19ja0UxSUlDRV9wUnVnTHNFRXQ0UDI2cnNuRG92aEpYcjRNZDJ3LXJXM2lkNkFVYzVnMy1OOWR4Q1g0NEZ0MzRHdnRsT3Flc3dacENucjV3UGxQVTN4M2pNNERwOTI0dmlR0gH8AUFVX3lxTE5Kb0szUGV1aU9LbzVwY3R5OTdvb0VrcFBSWTh1OU5uMFQ4U2N3WEZIMzBEMkJrVXRKVVRXcG0xeGp6NWRsUGhweENnZFd3TEx1Um9wLXFyZ0RRSFZ3dXlNdFg4eUVLX0xoRHNwRGNBYnhnc1gySzdaZEtlN0dfY2Jwdm9BUmEzd0Y3RjJZQkRYMmJabmtZOGZ0Q3BHUHAwNGdkYmVRRkpoMWdsQ3JJaEdxTnV2U2dWRnVlUUdsMkp6bFdLWHBzN1BVSmk0UTF4TXpCOXE5N0tGN2pOcTFLWU44Q3cwaEFTMVBaZHRpangtb25ZTHNHQTVmLWFhOQ?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-11-17T14:44-03:00",
-   "repercute": null,
+   "tema": "comb",
+   "titulo": "Sergipe registra alta na venda de gasolina, álcool e etanol",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYVJfdkx3anlKZzFnZFlLeDdXYzhMamRtczUxX2VFTllDMGlGU05pa1c3XzFsa25lcnJja01MNnhwUzhVNTVKUk9oa1JJM1dITEY1dk9DN0NCWWF6ODNlQURadzMzNHBiRlI2bHJhTEk5c2FvTTV2ZWdBdDNpdmxCaE00bGJDUlpfSDQ3azFPNVIxUHYxTTdaRHhNWi1XUm9VUHRJX3RCVUpPUmFNS0dpLWk5UjFHZmJFYTgzUlpZQUFfRnB5OG1rRE1xUkJUNnRRQWJFbWpGWThEMTjSAdsBQVVfeXFMTWFSX3ZMd2p5SmcxZ2RZS3g3V2M4TGpkbXM1MV9lRU5ZQzBpRlNOaWtXN18xbGtuZXJyY2tNTDZ4cFM4VTU1SlJPaGtSSTNXSExGNXZPQzdDQllhejgzZUFEWnczMzRwYkZSNmxyYUxJOXNhb001dmVnQXQzaXZsQmhNNGxiQ1JaX0g0N2sxTzVSMVB2MU03WkR4TVotV1JvVVB0SV90QlVKT1JhTUtHaS1pOVIxR2ZiRWE4M1JaWUFBX0ZweThta0RNcVJCVDZ0UUFiRW1qRlk4RDE4?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
+   "publicado": "2026-11-17T20:38-03:00",
+   "repercute": 3,
    "dado": null
   },
   {
    "tema": "trib",
-   "titulo": "Receita diz que adiar tributária equivale a retirar R$ 10 bi dos pobres",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQ3VuUDFWRDBVUVdpQXl4Ymhab3l4ZDNlTkpMV1ZlRFhCcjdjZVV5cmVXWkRweHlOOFpUN250ZUtBbE9wVGhUSXdUbS1SclFHV1lnYjdvbkhuclhlbERzRGZhT3Y2ZDFyaVBOMXJ3Zk9yZTlRdXU1RG9UR01penlhNk84bmRGOHFheklTWUNiTGZ6RnJiekpRQjNlNHB6eGpMaGVVa01YVHZqSmZjX2JGMDRDZ0NBR0E4T1gwWWo1MlJFU29yN0RLYg?oc=5",
-   "fonte": "CNN Brasil",
-   "site": "cnnbrasil.com.br",
-   "publicado": "2026-11-17T14:15-03:00",
+   "titulo": "CBS: No Senado, TCU e Fazenda dividem com Congresso responsabilidade por alíquota",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMXFEd21BUzk4Yk9kX3kwbUFCck5KNFlva1BrNjlsYjZUWDhjenQyRWZXQUNRNWVaVVYzSU9zSUJIWlc2eGpJSXd5QXB0UWR4MS1JVGhZSkpBbVY0UzNzVnp3RWhaQ05YNU16cTU2QWsyM1dfR1V5YTlEYU10amdueFFhTWhlMGdjMkdQeXVKRGM2NlNjSXRoWXBPWVlYTmduRkRhUFhoSmpHYUFWMFJ4R1Q0b3JuT0pmN1ZTQ1I3eG50Y3Y1Z21td29mMmRZcElWdzVmX3lR?oc=5",
+   "fonte": "JOTA Info",
+   "site": "jota.info",
+   "publicado": "2026-11-17T19:11-03:00",
    "repercute": null,
    "dado": null
   },
   {
    "tema": "comb",
-   "titulo": "Petrobras: Citi corta preço-alvo e mantém visão neutra após 3T e alta de investimento",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPV0tpSy1YNl9WaVRCTF9jYTlEOG42ZlE2a1BZcC1DdFFDM2RJNnZJQmpQZUtkb0x5Q2hjb3AzNHVITUg0em1WX2VQTy1BV0ZhdGZrUTMzZWY3UF9DM2g3MHhBMVpxazdnbGdnSHpKd2dxODhoMEc2ajJKVGhEWDFVbFhpbDhCSDdjc3hSMEtITkZzOTRFclI3am5DUHpETUpvQVh1MzVvNFdSYTVoRjR6NnlWTHRaXzVyazdoSjFlaDU4SDdwakhDWdIBzgFBVV95cUxQLTZvcldScFVKZW52QUZ1S3Z4UjFZdEhaRzJKOVA0Z0Z4Qjg3cUFiQVZvWXN4NTdFZzJBMlRDQXBuWkdUZXFYeERWT1ZnSzJScllNdE16S2tZUDd2Znd1bURBdERlVGJ4OTVucy1XdHZCNlRhaWtFUGZpb0UtUWtiWlVpbmtJZmowQkI4Q0dCM2FLYXNGeThENW5seDlFRVlFS0ZJd0ZVOGphYmdXVkZFY2dWU05lUlRDME1OenkxVzZoRjRaQWtHWDFWY0JaQQ?oc=5",
-   "fonte": "InfoMoney",
-   "site": "infomoney.com.br",
-   "publicado": "2026-11-17T13:18-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "trib",
-   "titulo": "Metodologia de cálculo da CBS é consistente e não apresentou nenhuma fragilidade, diz presidente do TCU",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOckV2RmtDa09welgzbW9xeE1GUEd5Z2JSdmNqa2xpUmNtMjlfWVR1b1U4Nml3dlE4MXdaZUh2eHJITEU0TDRUZksxRndpSnVkbHV6X0s2S2poaXlHNEFfbWQ3VkZsT1ZYWVpSWG54QVE2ajlpZDRfT1hYc2Q5Y0JqMGV6VXhNcXhNRzA1NVN4bXlTb3ZDanNrT3lIU3FfVGZXN1NTUjM2MS1uY2FBZDhFWWpKMjhhc1gxS2VkejlESW4tbVlsQ3pRWXhoX3k4eDlNc1VaOUdDbVQxOXZzOW1tNzluS0lKa0hIcmVHa2k5Z9IB_gFBVV95cUxNS1pMOFlhT3U3Rk14LWpNU0Z2TEpJeHFUV2pva0xxbE5aaVhOMlU0UjI3Vkh3OU1peVE2TUc0OXBEWFhIa2hmNVBWbVloaFFFVFhKMEVZWHMzT0FJZ0FJSjJPZE5iOWV5dThydnlqdHkxUmxXZUpNc2lkbHNsdUtBVWZvVHVMV0RhNjU1dzl2UG1NYkhSRWxIb1BHcm1mNGltdDhlVjZhblJ5d3d5Y0ZQZ1pBRjZvRF9fWFp2dEMxZnMtbEdZLVphYlhMYUJZTUpLSXAxc2JxSzdNREJOOWVzbkp5Zm80MGJEV2tqMnpmbGhYM2RqeFk1WFFXSU52dw?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-11-17T12:38-03:00",
+   "titulo": "Petrobras entra no radar de risco do Citi: mais gastos podem pressionar dívida e dividendos",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZENneElpeHhsSlJkZUNFT0VDcnJjT1F1NUwtRHlVTXJUblhobHNuM2hqNjc3X3VOVkFGNEhUZDN5cnVLX2U4R0dPRHo3NGJNVGNtcVc2azk3OTdrRnE3dmlwc3RFR0FwUnI3NmNwYW1RUjhLSUstTWZKUGVlRUdiVXNuNGRDTDQ2MGNsQWZSSFd0VkRhZm5KRFAwUlJMc1RhQ2dNZkE3UktpY3h4ZUU4eC04RlJWU2J0T1d5UWs5SG9lTGk2a2VzdEJrQUZpa2VXamR6M1ItdzRTMTljVW9aV0FR0gHiAUFVX3lxTFBkQ2d4SWl4eGxKUmRlQ0VPRUNycmNPUXU1TC1EeVVNclRuWGhsc24zaGo2NzdfdU5WQUY0SFRkM3lydUtfZThHR09Eejc0Yk1UY21xVzZrOTc5N2tGcTd2aXBzdEVHQXBScjc2Y3BhbVFSOEtJSy1NZkpQZWVFR2JVc240ZENMNDYwY2xBZlJIV3RWRGFmbkpEUDBSUkxzVGFDZ01mQTdSS2ljeHhlRTh4LThGUlZTYnRPV3lRazlIb2VMaTZrZXN0QmtBRmlrZVdqZHozUi13NFMxOWNVb1pXQVE?oc=5",
+   "fonte": "Estadão",
+   "site": "estadao.com.br",
+   "publicado": "2026-11-17T18:21-03:00",
    "repercute": null,
    "dado": null
   },
@@ -57,18 +47,38 @@
    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNV29XT25hWE8yUjg1YTZKc3ZPRVA4bUpWd25Td2JwZ0NzZEp6ek1rc3duSkgzYlhNc3d3Z0pqQTVaYTk4ZFBpTjdRN01XRnNZNGNYVGNlalpQUURNQVpES3dGMjNMSlltelphRkxCbzlPUGdPd3RKTHYtZlBobU1nWFJmU1hMaFQzLWZnSWljUi1qRUJPTF91SFhTTlpNNzlvYWQ0b1FrSmZwSVdTMlJsa2dOLVp4Y3pTUV9XSHBmenQ3MTVWSkJzbFFfd1V6OHlCTjF1aGZlaWJsbWkzRWNVQjUta9IB8gFBVV95cUxOYjh1b1lvWVVTaXg3UkhERmU1S0JHa1pUZ3Zyc0Nic09QU0tralJ1VFJkVU91SzRXUFlMd3doaHNjcHpWYnBoUlVPclJEeFlSdXIxYUdzWWhCcXBabnJqdG1hVE9IUjNLRjQxVVYzUnNSVVlMaVVfeEpDNlpMMEdmNDJtVDdBME5JcjlCLTBIYTZham9fU0FXclJKa1pURUlGRmtRQmlhWGJoZ2N0c0s3cEdFcjJXakM0TmdWOEgzT016X2paNk5XR1V4VFNMUU9wd0xhbmNEWW9ONHhjMjg1UF9tOGh0M3dIWTI2aDZ6dnJ2dw?oc=5",
    "fonte": "O GLOBO",
    "site": "oglobo.globo.com",
-   "publicado": "2026-11-17T10:30-03:00",
-   "repercute": 8,
+   "publicado": "2026-11-17T18:00-03:00",
+   "repercute": 9,
    "dado": null
   },
   {
    "tema": "comb",
-   "titulo": "Petróleo tem forte queda com sinais de melhora na oferta",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORWRKRDVoMXl2RUJaUkhHLXZ5cWVNVlAyNHA5S0pCNTZkMG1uTzFQUElPLXN0N3Vnc1Fna2ZteFo1S0VodWEyOTZGT2FPS1VXbE1qbWJxcUFKQ3VKQlgtNm1Zd25iZW51dl9JM3NUZHhFQUJtT2JpT09CMktsclMyNUo3cVRyZi1uYksycEhoMDYzdjhhX2lkWmpiNnJPaW01ZEtWVlJRWWZncXRwbWxkSW5ZcUvSAcMBQVVfeXFMTl9taEFkSDBQRnZjZ3NfWk9PTlM0WDVObGc0cEh0ZHY2a0FUcjdWQ2hUXzNCckRKa2IwR2NGSzRhU2lNaktrdDc4TlAzQ0J6U2RPRmlNMmtzcGpacU9oRFV5WXFkNUdDamZiZE0zWWhLdUNOckI0OEtGZWdsMkhjaFJiWW5mekoyTDNFcVFZak9WS2c4SWVMT01za0lQY2c3bHMtT3E1N3RHSE55M3VsN2dHQWJUdDNTNjgtN19udDJza2lF?oc=5",
+   "titulo": "Petróleo sobe em meio a ataques a petroleiros e previsão de queda nos estoques",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcVcxX3VHOFVhSE51VXZfcGN2Z3ZpUTAtc1VGZlpoZllIVXlnYXRFNm84SDNCYkZ3VjFIamI1bmZzSC04d3ZqOHoyZnBLd3IwQlJhWlhCX1FHYUZkNGNTTXM3NDVGbWtVeF9jTmstNGRkR0s0WDZ3b0xnSFJoOEhCWFF4SndaUVM2aTNmTUNqSWg3WmlncVg3cy1JQ1c1OWdrWTdrc0NqRVFrLWM3bXRnOWNhRnNXQVlR0gG-AUFVX3lxTE9BTGZGM2FtalJfYTRKMms2UWh4VHRkVGhpMWRjZGc3ZGZ1V3FkZFhvU19UNWZlWXBwTzlUMU5jX0E0Z3BKa2REVU9MdTZNTy1zNnZrS2dsUllObUFFdU9UT0o0NjI4ZVJ6WllNdEtSSUZHaGMyQVZRVm5ZdkhEcTRLR3dOekNVNDhBTUROcTZaaldNaDhxN0pxSF9VUUdGTzhfYUoyRjNZXzZqMlJ3eThOaV9zS0tLSjExVmx3emc?oc=5",
+   "fonte": "InfoMoney",
+   "site": "infomoney.com.br",
+   "publicado": "2026-11-17T17:43-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Petróleo tem leve alta com tensões no Oriente Médio e excedente de oferta em foco",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPemNCVGw2SXpkN29OeW9xRGhySW9XM3F1ZkJUenFDWGJtLWpUZWs4NVBCeGF0UVEyZFV6RkJXT2t0RDB1Qy14eV9iZXJ5ejJaXzMzcnBGdmZycTNld0hjV3g4OFJpelRYd1R1dHVfWDBQaXhkTU44ZEVUeWpPSGhIMVN3QTZPU2dqVVRYd1Z2anRwaGpkcTM1aFZyYml4QVViMmptYlAyeEJyTG44MUYyZWpLVVR0NWF5QjBMQ09ZWVZxcUFORXA4Vkh1Qnhhc3VaQTR0ck9n0gHkAUFVX3lxTFBjMzlObnYzVlhvN3dwWkkyakhKN1BFYmlHd1VVU0hLeWxWZnNHZUpHVm9WOEhJVjFBMTljWk1LRlNmOTdXSkNpbjl6ZFI1M3NhQllPUFp2d0l1Y3g2enBDWEpkeUtJUmFoVTNzQTlnYzY0c2dtalN5M2VFeEZOWVVaVUUzTTFZRmFTdmJhdDAzdTJ1dDJ6ZnlFemdvWmNIdnVSbWpmcXZHN3pMTml2bGRydTJxNjJxdDdxdXVFYTh6MkpVenphcnBxQW93TGt5djFtUHNtRzh5a295XzJSRUl1NFFfbQ?oc=5",
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
-   "publicado": "2026-11-16T18:17-03:00",
-   "repercute": 6,
+   "publicado": "2026-11-17T17:38-03:00",
+   "repercute": 7,
+   "dado": null
+  },
+  {
+   "tema": "pag",
+   "titulo": "Novas funções do Pix avançam em ritmos diferentes e desafiam meios de pagamento",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcW5vemRBUWZuMV9PZ0RiaGtLZDI1enh4YzdDeGZRbHhTTzBfQTZfbDR1ekpoN1F0QzRnZE41b0VsdWxtU0ZaUWpTTDRSTUhpRXdDd1NLRzFQNVNacEs3Yi1WZ2VzYWZRajhVdF9nSlc4RWE3V3RfclpDQy1xem5nbnZhZjZCcGdqdk5taW5TOHZ6VzFvR2c?oc=5",
+   "fonte": "Finsiders Brasil",
+   "site": "finsidersbrasil.com.br",
+   "publicado": "2026-11-17T17:20-03:00",
+   "repercute": null,
    "dado": null
   },
   {
@@ -78,16 +88,6 @@
    "fonte": "JC",
    "site": "jc.uol.com.br",
    "publicado": "2026-11-16T17:05-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "pag",
-   "titulo": "Reforma tributária: Créditos sobre despesas de viagens e equipamentos de empregados",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMzJKaHVtaTZweTBOcGk4UWdvelRlSGRsODk0bXlzaDcxX2pxTlpFTEk2VXM3RmYxVjliMW55d3RybTVIMHROWldDVUgwRFBaS1NZM255Wmxka0k2WTlyMXVjUFEwMGtDYzBLYXNvcmdIMF8temE2X2hhZFZISDU5aktMQzlVYVo1b29RM2ZPeHpPc2s2VjlxbmY4WEFxdURLWkRaV3JPWUgxaDNnOFB3?oc=5",
-   "fonte": "Migalhas",
-   "site": "migalhas.com.br",
-   "publicado": "2026-11-16T14:40-03:00",
    "repercute": null,
    "dado": null
   }
