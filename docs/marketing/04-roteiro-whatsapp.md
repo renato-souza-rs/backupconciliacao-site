@@ -12,8 +12,9 @@ Meta da conversa: em até 2 dias, uma de duas coisas: **começar os 30 dias** ou
 
 - [ ] Responder em até 1 hora no horário comercial (o lead esfria rápido).
 - [ ] Mensagens curtas, uma pergunta por vez. Sem áudio na primeira mensagem.
-- [ ] Usar só fatos permitidos (preço, 30 dias, 36 × 23 (+57% de operadoras), +4%, "mais de 50 postos
-      já utilizam módulos do sistema"). Nada de nome de cliente.
+- [ ] Usar só fatos permitidos (preço, "use e pague após 30 dias", "36 operadoras no nosso
+      fluxo", "mais de 50 empresas já utilizam módulos do sistema"). Nada de nome de cliente
+      nem comparação com outra conciliadora.
 - [ ] Não pedir senha por WhatsApp. Acessos a portais são combinados no início dos
       30 dias, pelo canal que você usa hoje para isso.
 - [ ] Se a pessoa disser que não quer contato, agradecer e registrar. Não insistir.
@@ -34,7 +35,7 @@ ou `sobre`, troque por: "Qual é hoje a maior dor no fechamento dos cartões?"
 
 ## Perguntas de qualificação (uma por mensagem, conforme a resposta)
 
-1. Quais operadoras o caixa aceita? (adquirentes, vales, frota, aplicativos)
+1. Quais operadoras o caixa aceita? (operadoras de cartão, vales, frota, aplicativos)
 2. Qual ERP ou sistema de caixa os postos usam?
 3. Quem faz a conferência hoje e quanto tempo isso toma por semana?
 4. Já aconteceu de descobrir uma venda não paga ou uma taxa errada só meses depois?
@@ -43,9 +44,9 @@ ou `sobre`, troque por: "Qual é hoje a maior dor no fechamento dos cartões?"
 
 **Se a dor ficou clara:**
 
-> Faz sentido. O que fazemos é conferir cada venda entre o caixa, o portal da operadora
-> e o banco, e mostrar a diferença por posto, com valor. A rede usa 30 dias antes de
-> pagar, e o teto é R$ 150 por CNPJ/mês (sem implantação, sem fidelidade):
+> Faz sentido. O que fazemos é conferir cada venda entre o caixa, a operadora e o banco,
+> e mostrar a diferença por posto, com valor. Use e pague após 30 dias, com garantia de
+> 7 dias, e são R$ 150 por CNPJ/mês (sem implantação, sem fidelidade):
 > https://backupconciliacao.com.br/preco/
 >
 > Para começar, preciso entender as operadoras e o ERP de 1 ou 2 postos. Podemos falar
@@ -61,18 +62,16 @@ ou `sobre`, troque por: "Qual é hoje a maior dor no fechamento dos cartões?"
 ## Respostas às objeções mais comuns
 
 **"Já temos conciliadora."**
-> Ótimo, então a gente não substitui: vira a terceira fonte. A conciliadora
-> tradicional trabalha com o arquivo que a operadora envia; nós cruzamos com o caixa da
-> rede e buscamos também no portal da operadora. Nas redes que atendemos, integramos
-> 57% mais operadoras do que a conciliadora tradicional (36 contra 23), e a busca no
-> portal trouxe 4% a mais de transações do que o arquivo.
+> Ótimo, então a gente não substitui: ela vira a terceira fonte. Nós cruzamos cada venda
+> com o caixa da rede e com os relatórios das operadoras. Nas redes que atendemos, são 36
+> operadoras no nosso fluxo: cartão, frota, vale, PIX e aplicativos.
 
-**"E a segurança dos acessos aos portais?"**
+**"E a segurança dos dados da rede?"**
 > Os robôs só consultam e baixam relatórios. Não alteram, não cancelam e não contestam
 > nada em nome da rede, e os dados são tratados conforme a LGPD.
 
 **"Está caro" / "Não tenho orçamento agora."**
-> O teto é R$ 150 por posto/mês, e vocês usam 30 dias antes de pagar. A conta é
+> São R$ 150 por posto/mês, e vocês usam e pagam após 30 dias. A conta é
 > simples: se a conferência achar no mês uma venda de R$ 150 ou mais que a operadora não
 > pagou, a mensalidade daquele posto está coberta.
 
@@ -82,8 +81,8 @@ ou `sobre`, troque por: "Qual é hoje a maior dor no fechamento dos cartões?"
 > recuperado e comprovado pelo relatório da operadora. Não prometemos valor.
 
 **"Não tenho tempo para implantar."**
-> Não há implantação cobrada, e a coleta nos portais é feita por robôs, em rotina
-> diária ou semanal. A equipe passa a olhar só o que diverge.
+> Não há implantação cobrada, e os robôs extraem os relatórios das operadoras
+> automaticamente, em rotina diária ou semanal. A equipe passa a olhar só o que diverge.
 
 ## Acompanhamento se não houver resposta
 

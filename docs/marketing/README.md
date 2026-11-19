@@ -10,10 +10,15 @@ para estes arquivos e eles não estão no `sitemap.xml`.
 > `exclude: [docs]` (o Jekyll do Pages deixa de copiar a pasta), **ou** manter esta
 > pasta fora do `main`. Decisão do owner; ver a descrição do PR.
 
-Regras que valem para todos os textos: só os fatos permitidos (preço, 30 dias, 36 × 23
-operadoras (+57%, sempre número de operadoras, nunca volume, e sem citar período), +4% em 49.520 comparações, "mais de 50 postos já utilizam módulos do
-sistema"); nenhum cliente nomeado; nenhuma promessa de recuperação ("a rede pleiteia; nós
-produzimos a prova"); nenhuma conciliadora citada pelo nome.
+Regras que valem para todos os textos: só os fatos permitidos (preço; "Use e pague após
+30 dias. Garantia de 7 dias: se não servir, não há cobrança."; "36 operadoras no nosso fluxo";
+"mais de R$ 800 milhões em vendas de cartão e mais de 9 milhões de transações conferidas
+por ano, em mais de 50 empresas"); nada de comparação com conciliadora ou concorrente, nem
+período da medição; nunca "teste", "grátis", "sem cobrança" ou "antes da primeira
+cobrança"; robô pode, mas nunca dizer ou insinuar que o robô, a plataforma ou nós
+acessamos o portal da operadora, nem como (login, senha, código de verificação); nenhum
+cliente nomeado; nenhuma promessa de recuperação ("a rede pleiteia; nós produzimos a
+prova"); nenhuma conciliadora citada pelo nome.
 
 | # | Arquivo | O que é | Tempo |
 |---|---|---|---|

@@ -49,7 +49,7 @@
         + '<div class="delta ' + f.cls + '"><small>Divergência</small><b class="mono">' + f.div + "</b></div>"
         + (f.obs ? '<p class="mm-obs">' + f.obs + "</p>" : "") + "</div>";
     });
-    [["/img/demo_resumo.webp", "Resumo do mês e evolução diária"], ["/img/demo_tabela.webp", "Conferência por adquirente"]].forEach(function (s) {
+    [["/img/demo_resumo.webp", "Resumo do mês e evolução diária"], ["/img/demo_tabela.webp", "Conferência por operadora"]].forEach(function (s) {
       html += '<figure class="card3 mm-slide mm-img" aria-hidden="true"><img src="' + s[0] + '" alt="Tela do sistema: ' + s[1] + ', com dados de demonstração" loading="lazy" data-zoom="/img/demo_tela.webp">'
         + "<figcaption><b>" + s[1] + "</b><span>Tela real, dados de demonstração</span></figcaption></figure>";
     });

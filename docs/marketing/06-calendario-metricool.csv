@@ -78,14 +78,14 @@ Vendas que não passam pela maquininha também não aparecem no relatório dela.
 
 Passo a passo completo no site: link na bio.
 backupconciliacao.com.br/guias/conferir-shellbox-semparar-ctf-posto/","2026-11-12","12:00:00","TRUE","FALSE","TRUE","","",""
-"Uma rede de postos aceita várias operadoras de frota. Cada uma com portal, login, relatório e calendário de reembolso próprios.
+"Uma rede de postos aceita várias operadoras de frota. Cada uma com portal, relatório e calendário de reembolso próprios.
 
-Quando a conferência depende de alguém baixar planilha de cada portal toda semana, ela tende a ser a primeira tarefa a ser adiada.
+Quando a conferência depende de alguém baixar planilha de cada operadora toda semana, ela tende a ser a primeira tarefa a ser adiada.
 
 Uma rotina única para todas as operadoras de frota:
 https://backupconciliacao.com.br/guias/conciliacao-cartao-frota-posto/","2026-11-17","08:30:00","TRUE","TRUE","FALSE","","",""
 "Um portal para cada operadora de frota.
-Um login, um relatório e um calendário diferentes.
+Um relatório e um calendário diferentes.
 
 Quem confere todos, toda semana?
 
@@ -93,18 +93,18 @@ Passo a passo completo no site: link na bio.
 backupconciliacao.com.br/guias/conciliacao-cartao-frota-posto/","2026-11-17","12:00:00","TRUE","FALSE","TRUE","","",""
 "Faça a lista de todas as formas de pagamento que o caixa da rede aceita. Agora, a lista do que a conciliação confere hoje.
 
-Nas redes que atendemos: 36 operadoras integradas no fluxo, contra 23 da conciliadora tradicional. São 57% a mais.
+Nas redes que atendemos, são 36 operadoras no nosso fluxo: cartão, frota, vale, PIX e aplicativos.
 
 O que conferimos em cada operadora:
 https://backupconciliacao.com.br/operadoras/","2026-11-19","08:30:00","TRUE","TRUE","FALSE","","",""
-"36 operadoras no fluxo.
-23 cobertas pela conciliadora tradicional.
+"36 operadoras no nosso fluxo.
+Cartão, frota, vale, PIX e aplicativos.
 
-+57% de operadoras integradas (redes clientes).
+Quantas das suas entram na conferência hoje?
 
 Passo a passo completo no site: link na bio.
 backupconciliacao.com.br/operadoras/","2026-11-19","12:00:00","TRUE","FALSE","TRUE","","",""
-"O crédito da adquirente veio menor que as vendas do dia. Erro da operadora?
+"O crédito da operadora de cartão veio menor que as vendas do dia. Erro da operadora?
 
 Nem sempre. Parte da agenda pode estar antecipada ou comprometida em cessão e gravame. Cobrar sem separar isso gera pedido recusado.
 
@@ -117,7 +117,7 @@ Antes de cobrar, confira antecipação, cessão e gravame.
 
 Passo a passo completo no site: link na bio.
 backupconciliacao.com.br/operadoras/rede/","2026-11-24","12:00:00","TRUE","FALSE","TRUE","","",""
-"A taxa da adquirente parece acima do contrato. Mas parte das vendas foi recebida antes.
+"A taxa da operadora de cartão parece acima do contrato. Mas parte das vendas foi recebida antes.
 
 Quando o desconto da antecipação se mistura com a taxa da venda, a conta mente nos dois sentidos: aponta erro onde não há e esconde onde há.
 
@@ -132,7 +132,7 @@ Passo a passo completo no site: link na bio.
 backupconciliacao.com.br/operadoras/cielo/","2026-11-26","12:00:00","TRUE","FALSE","TRUE","","",""
 "A loja de conveniência aceita vale-refeição e alimentação. A venda passa na maquininha, mas quem reembolsa é a operadora do benefício, com extrato próprio.
 
-Resultado: essa venda não aparece no recebimento da adquirente e pode ficar sem conferência.
+Resultado: essa venda não aparece no recebimento da operadora de cartão e pode ficar sem conferência.
 
 Onde ficam os extratos de pagamento da Pluxee:
 https://backupconciliacao.com.br/operadoras/pluxee/","2026-12-01","08:30:00","TRUE","TRUE","FALSE","","",""

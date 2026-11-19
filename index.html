@@ -151,17 +151,17 @@
     {
       "@type": "Question",
       "name": "O que é conciliação 3-way (tripla)?",
-      "acceptedAnswer": { "@type": "Answer", "text": "É a conferência de cada venda em três fontes ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a adquirente diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto." }
+      "acceptedAnswer": { "@type": "Answer", "text": "É a conferência de cada venda em três fontes ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a operadora de cartão, vale ou frota diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto." }
     },
     {
       "@type": "Question",
       "name": "Vocês fazem conciliação bancária?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Sim. Os recebimentos previstos pelas operadoras são confrontados com os créditos do extrato bancário, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por adquirente." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim. Os recebimentos previstos pelas operadoras são confrontados com os créditos do extrato bancário, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por operadora." }
     },
     {
       "@type": "Question",
       "name": "Quanto custa?",
-      "acceptedAnswer": { "@type": "Answer", "text": "R$ 150 por empresa (CNPJ) por mês na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços cheios de cada módulo: o ajuste de escopo só desce a partir deles. Não há taxa de implantação nem fidelidade." }
+      "acceptedAnswer": { "@type": "Answer", "text": "R$ 150 por empresa (CNPJ) por mês na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços de cada módulo, e o escopo final é fechado no contrato antes de começar. Não há taxa de implantação nem fidelidade." }
     },
     {
       "@type": "Question",
@@ -175,7 +175,7 @@
     },
     {
       "@type": "Question",
-      "name": "Como funcionam os 30 dias antes da primeira cobrança?",
+      "name": "Como funciona o pagamento?",
       "acceptedAnswer": { "@type": "Answer", "text": "Use e pague após 30 dias: a rede usa o serviço na própria operação e só então começa a pagar. Garantia de 7 dias: se não servir, não há cobrança. A licença é mensal e sem fidelidade, e o escopo é ajustado por rede — quantidade de empresas, operadoras e bandeiras envolvidas." }
     },
     {
@@ -278,9 +278,9 @@
         <p>Venda no caixa que a operadora nunca registrou, movimento na operadora sem venda correspondente, lançamento em duplicidade: isso só aparece quando o ERP entra nas comparações. Quem recebe só o arquivo da operadora não tem como saber as divergências entre caixa vs operadora.</p>
       </div>
       <div class="cc-card">
-        <span class="cc-num">+36</span>
-        <h3>Cobre as operadoras que ela não integra</h3>
-        <p>PIX, Abastece Aí, ProFrotas Ipiranga, Premmia, Shellbox, SemParar/CTF, SemParar, Baratão, Gasola, MaxiFrota, iFood, PagBem, GreenCard entre outras: são mais de 36 operadoras no nosso fluxo.</p>
+        <span class="cc-num">36</span>
+        <h3>Cartão, frota, vale, PIX e aplicativos no mesmo fluxo</h3>
+        <p>PIX, Abastece Aí, ProFrotas Ipiranga, Premmia, Shellbox, SemParar/CTF, Baratão, Gasola, MaxiFrota, iFood, PagBem e GreenCard, entre outras: são 36 operadoras no nosso fluxo.</p>
       </div>
       <div class="cc-card">
         <span class="cc-num">0</span>
@@ -288,7 +288,7 @@
         <p>Hoje alguém do financeiro baixa o relatório de cada operadora, cola na planilha e procura diferença linha por linha. Os robôs fazem esse trabalho mais difícil de extração todo dia e entregam só o que não bateu.</p>
       </div>
     </div>
-    <p class="cc-nota">Medições em redes clientes, anonimizadas. “Conciliadora tradicional” é a categoria de serviço que consome só o arquivo EDI das operadoras; nenhuma empresa específica é avaliada. <a href="/preco/#vale-a-pena">Detalhes da medição</a>.</p>
+    <p class="cc-nota">As medições citadas vêm de dados históricos de redes clientes, anonimizados.</p>
     <!-- DEPOIMENTO (pendente de autorização do cliente). Para ativar, preencher e
          tirar do comentário:
     <blockquote class="relacionado" style="max-width:760px;margin:26px auto 0">
@@ -323,7 +323,7 @@
       <div class="modcard">
         <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M7 21h10M5 7h14"/><path d="M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/></svg></div>
         <h3>Conferente de Caixa — conciliação 3-way</h3>
-        <p>Fechamento diário/semanal em conciliação 3-way (tripla): cruza ERP (vendas oficiais) × Operadora (o que a adquirente vai pagar) × Conciliadora e aponta, por empresa, onde sobra, falta ou foi cancelado.</p>
+        <p>Fechamento diário/semanal em conciliação 3-way (tripla): cruza ERP (vendas oficiais) × Operadora (o que a operadora vai pagar) × Conciliadora e aponta, por empresa, onde sobra, falta ou foi cancelado.</p>
         <ul>
           <li>Comparativo 3-way por loja ou posto</li>
           <li>Excel anexo (1 aba por empresa)</li>
@@ -349,7 +349,7 @@
         <p>Plataforma web onde a rede acompanha vendas conciliadas, divergências, taxas e antecipações — por empresa, bandeira e período, com filtros e exportação.</p>
         <ul>
           <li>KPIs de ERP, Operadora e Conciliadora</li>
-          <li>Visão por adquirente e por período</li>
+          <li>Visão por operadora e por período</li>
           <li>Aba de Chamados para demandas de cartões</li>
         </ul>
       </div>
@@ -361,7 +361,7 @@
         <ul>
           <li>Valores previstos e não pagos</li>
           <li>Taxas acima do contratado</li>
-          <li>Antecipações e PIX, por loja ou posto (CNPJ) e por adquirente</li>
+          <li>Antecipações e PIX, por loja ou posto (CNPJ) e por operadora</li>
         </ul>
         <a class="saiba" href="/conciliacao-bancaria-postos/">Saiba mais sobre a conciliação bancária &rarr;</a>
       </div>
@@ -387,7 +387,7 @@
       <div class="flowstep">
         <div class="n">2</div>
         <h4>Operadora</h4>
-        <p>O que a adquirente (Getnet, Cielo, Rede, vale, frota...) diz que vai pagar, com taxas e prazos.</p>
+        <p>O que a operadora (Getnet, Cielo, Rede, vale, frota...) diz que vai pagar, com taxas e prazos.</p>
       </div>
       <div class="flowstep">
         <div class="n">3</div>
@@ -408,7 +408,7 @@
     </div>
     <ol class="ciclo">
       <li><span class="ciclo-quando">De madrugada</span><strong>Extratos das operadoras</strong><span class="ciclo-desc">cartão, frota, vale e PIX</span><span class="ciclo-ponto" aria-hidden="true"></span></li>
-      <li><span class="ciclo-quando">Até o início da manhã</span><strong>Arquivos oficiais das operadoras</strong><span class="ciclo-desc">conferem o que foi coletado</span><span class="ciclo-ponto" aria-hidden="true"></span></li>
+      <li><span class="ciclo-quando">Até o início da manhã</span><strong>Relatórios das operadoras</strong><span class="ciclo-desc">todos importados</span><span class="ciclo-ponto" aria-hidden="true"></span></li>
       <li><span class="ciclo-quando">Início da manhã</span><strong>Vendas do seu ERP</strong><span class="ciclo-desc">o movimento do posto</span><span class="ciclo-ponto" aria-hidden="true"></span></li>
       <li><span class="ciclo-quando">Antes do expediente</span><strong>Conciliação automática</strong><span class="ciclo-desc">as três fontes são cruzadas</span><span class="ciclo-ponto" aria-hidden="true"></span></li>
       <li class="ciclo-entrega"><span class="ciclo-quando">Até 08:30</span><strong>Painel publicado</strong><span class="ciclo-desc">com tudo o que as operadoras já liberaram</span><span class="ciclo-ponto" aria-hidden="true"></span></li>
@@ -448,7 +448,7 @@
     <div class="sec-head">
       <span class="kicker">Preço publicado</span>
       <h2>Quanto fica para a sua rede</h2>
-      <p>O preço é por empresa (CNPJ) e é o teto: o ajuste de escopo só desce a partir dele. Sem taxa de implantação, sem fidelidade.</p>
+      <p>O preço é por empresa (CNPJ), e o escopo final é fechado no contrato antes de começar. Sem taxa de implantação, sem fidelidade.</p>
     </div>
     <div class="pr-calc">
       <div class="pr-calc-top">
@@ -472,11 +472,11 @@
           <span>por mês</span>
         </div>
       </div>
-      <p class="pr-calc-nota" id="pr-calc-nota">Valores de <strong>teto</strong>. O escopo final — operadoras, bandeiras e o tamanho da tarefa diária — é fechado antes da contratação, e o ajuste é sempre para baixo.</p>
+      <p class="pr-calc-nota" id="pr-calc-nota">Valores pelo preço publicado de cada módulo. O escopo final — operadoras, bandeiras e o tamanho da tarefa diária — é fechado no contrato antes de começar.</p>
     </div>
     <div class="roi">
       <b>1 venda</b>
-      <p>A R$ 150 por posto/mês, basta a conferência achar <strong>uma venda desse valor que a operadora não pagou</strong>, por posto, no mês, para a mensalidade se pagar. E os primeiros 30 dias são de uso, antes de qualquer cobrança.</p>
+      <p>A R$ 150 por posto/mês, basta a conferência achar <strong>uma venda desse valor que a operadora não pagou</strong>, por posto, no mês, para a mensalidade se pagar. Use e pague após 30 dias, com garantia de 7 dias: se não servir, não há cobrança.</p>
     </div>
     <p class="calc-mais"><a href="/preco/">Ver os planos, o que está incluso e a recuperação de perdas &rarr;</a></p>
   </div>
@@ -502,8 +502,8 @@
       </div>
       <div class="gcard">
         <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
-        <h3>30 dias antes de pagar</h3>
-        <p>Use e pague após 30 dias: a rede usa o serviço na própria operação e só então começa a pagar. Garantia de 7 dias: se não servir, não há cobrança.</p>
+        <h3>Use e pague após 30 dias</h3>
+        <p>A rede usa o serviço na própria operação e só então começa a pagar. Garantia de 7 dias: se não servir, não há cobrança.</p>
       </div>
       <div class="gcard">
         <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 7.5-2"/></svg></div>
@@ -513,7 +513,7 @@
       <div class="gcard">
         <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12l-8 8-9-9V3h8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></div>
         <h3>Preço publicado</h3>
-        <p>R$ 150 por empresa/mês na conferência de cartões. É o teto: daqui só desce. <a href="/preco/">Ver preços</a>.</p>
+        <p>R$ 150 por empresa (CNPJ) por mês na conferência de cartões. O escopo final é fechado no contrato antes de começar. <a href="/preco/">Ver preços</a>.</p>
       </div>
       <div class="gcard">
         <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div>
@@ -564,15 +564,15 @@
       </details>
       <details>
         <summary>O que é conciliação 3-way (tripla)?</summary>
-        <p>É a <a href="/conciliacao-3-way-postos/" style="color:var(--azul2);font-weight:700">conferência de cada venda em três fontes</a> ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a adquirente diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto.</p>
+        <p>É a <a href="/conciliacao-3-way-postos/" style="color:var(--azul2);font-weight:700">conferência de cada venda em três fontes</a> ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a operadora de cartão, vale ou frota diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto.</p>
       </details>
       <details>
         <summary>Vocês fazem conciliação bancária?</summary>
-        <p>Sim. Os recebimentos previstos pelas operadoras são confrontados com os <a href="/conciliacao-bancaria-postos/" style="color:var(--azul2);font-weight:700">créditos do extrato bancário</a>, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por adquirente.</p>
+        <p>Sim. Os recebimentos previstos pelas operadoras são confrontados com os <a href="/conciliacao-bancaria-postos/" style="color:var(--azul2);font-weight:700">créditos do extrato bancário</a>, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por operadora.</p>
       </details>
       <details>
         <summary>Quanto custa?</summary>
-        <p><a href="/preco/" style="color:var(--azul2);font-weight:700">R$ 150 por empresa (CNPJ) por mês</a> na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços cheios de cada módulo: o ajuste de escopo só desce a partir deles. Não há taxa de implantação nem fidelidade.</p>
+        <p><a href="/preco/" style="color:var(--azul2);font-weight:700">R$ 150 por empresa (CNPJ) por mês</a> na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços de cada módulo, e o escopo final é fechado no contrato antes de começar. Não há taxa de implantação nem fidelidade.</p>
       </details>
       <details>
         <summary>Quais operadoras e bandeiras são cobertas?</summary>
@@ -583,7 +583,7 @@
         <p>Não. Os robôs (RPA) fazem o trabalho mais difícil de extração dos relatórios e importam automaticamente para a base, em rotina diária ou semanal.</p>
       </details>
       <details>
-        <summary>Como funcionam os 30 dias antes da primeira cobrança?</summary>
+        <summary>Como funciona o pagamento?</summary>
         <p>Use e pague após 30 dias: a rede usa o serviço na própria operação e só então começa a pagar. Garantia de 7 dias: se não servir, não há cobrança. A licença é mensal e sem fidelidade, e o escopo é ajustado por rede — quantidade de empresas, operadoras e bandeiras envolvidas.</p>
       </details>
       <details>
@@ -611,7 +611,7 @@
   <div class="wrap">
     <div class="cta">
       <h2>Use e pague após 30 dias</h2>
-      <p>Deixe quatro dados e retornamos pelo WhatsApp com o escopo da sua rede. A cobrança só começa depois de 30 dias de uso.</p>
+      <p>Deixe quatro dados e retornamos pelo WhatsApp com o escopo da sua rede. Use e pague após 30 dias. Garantia de 7 dias: se não servir, não há cobrança.</p>
       <form class="cta-form" id="form-lead" data-origem="form_home" action="https://formsubmit.co/contato@backupconciliacao.com.br" method="POST">
         <input type="hidden" name="_subject" value="Novo contato pelo site — use e pague após 30 dias">
         <input type="hidden" name="_template" value="table">
@@ -621,7 +621,7 @@
         <label>Rede ou empresa<input type="text" name="Rede" required autocomplete="organization" maxlength="120"></label>
         <label>Quantos postos (CNPJs)<input type="number" name="CNPJs" required min="1" max="999" inputmode="numeric"></label>
         <label>WhatsApp<input type="tel" name="WhatsApp" required autocomplete="tel" placeholder="(11) 90000-0000" maxlength="20"></label>
-        <button type="submit" class="btn btn-primary full">Quero começar os 30 dias &rarr;</button>
+        <button type="submit" class="btn btn-primary full">Quero usar e pagar após 30 dias &rarr;</button>
         <p class="cta-lgpd">Usamos estes dados para responder ao seu contato e preparar a proposta. Veja a <a href="/privacidade/">Política de privacidade</a>.</p>
         <p class="cta-msg" id="form-msg" role="status" hidden></p>
       </form>
@@ -674,7 +674,7 @@
       </div>
     </div>
     <p class="disclaimer">
-      <strong>Aviso:</strong> os dados de clientes exibidos nesta página são ilustrativos e fictícios, e as telas do sistema usam dados de demonstração, sem qualquer informação real de clientes. O total de empresas refere-se aos CNPJs ativos em clientes. As medições citadas (mais de R$ 800 milhões em vendas de cartão e mais de 9 milhões de transações conferidas por ano, em mais de 50 empresas) vêm de dados históricos de redes clientes, anonimizados; “conciliadora tradicional” descreve a categoria de serviço que consome apenas o arquivo EDI das operadoras, e nenhuma empresa específica é avaliada. O formulário de contato é processado pelo serviço FormSubmit, que entrega a mensagem por e-mail.
+      <strong>Aviso:</strong> os dados de clientes exibidos nesta página são ilustrativos e fictícios, e as telas do sistema usam dados de demonstração, sem qualquer informação real de clientes. O total de empresas refere-se aos CNPJs ativos em clientes. As medições citadas (mais de R$ 800 milhões em vendas de cartão e mais de 9 milhões de transações conferidas por ano, em mais de 50 empresas) vêm de dados históricos de redes clientes, anonimizados. O formulário de contato é processado pelo serviço FormSubmit, que entrega a mensagem por e-mail.
     </p>
     <div class="copy">© <span id="ano">2026</span> Backup Conciliação · 42.183.883 RENATO DE AGUIAR SOUZA · CNPJ 42.183.883/0001-62 · Todos os direitos reservados · <a href="/privacidade/">Política de privacidade</a></div>
   </div>
