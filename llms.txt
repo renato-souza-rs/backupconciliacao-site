@@ -12,7 +12,7 @@ Principais fatos:
 - Divergências detectadas: sobras, faltas, cancelamentos e duplicidades (por exemplo, o mesmo abastecimento cobrado no cartão e na frota).
 - Conciliação bancária: valores não pagos, taxas acima do contratado, antecipações e PIX, com visão por posto (CNPJ) e por adquirente.
 - Dashboard online com visão por empresa, bandeira e período; fechamento diário/semanal com Excel por empresa.
-- Contratação: licença online mensal com garantia de 30 dias (a rede usa por 30 dias antes de começar a pagar); sem fidelidade e sem multa de cancelamento; escopo ajustado por rede.
+- Contratação: licença online mensal; use e pague após 30 dias, com garantia de 7 dias (se não servir, não há cobrança); sem fidelidade; escopo ajustado por rede.
 - Preço (teto por empresa/CNPJ, por mês): conferência de cartões R$ 150; conciliação bancária R$ 100; as duas fases juntas R$ 250. As fases são independentes e podem ser contratadas em separado. O valor publicado é o máximo — o ajuste de escopo é sempre para baixo.
 - Recuperação de perdas (auditoria retroativa, serviço sob demanda): entrega de relatório e documentos comprobatórios para a rede pleitear o ressarcimento junto à operadora; cobrança de 10% sobre o valor efetivamente ressarcido, sem cobrança pela auditoria.
 - Clientes: mais de 50 postos (CNPJs) já utilizam módulos do sistema.
