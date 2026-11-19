@@ -7,7 +7,7 @@
 
 ## Por que oferecer
 
-O "30 dias sem cobrança" pede que a rede mexa nos acessos de todos os postos. Para quem
+O "Use e pague após 30 dias" pede que a rede mexa nos acessos de todos os postos. Para quem
 ainda não confia, isso é um passo grande. O Raio-X é menor: **um posto, uma operadora,
 um mês**. A rede vê, com os próprios números, se existe diferença, e a decisão de
 começar os 30 dias passa a ser tomada com prova, não com promessa.

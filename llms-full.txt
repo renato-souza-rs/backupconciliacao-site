@@ -22,7 +22,7 @@ O preço é por empresa (CNPJ), porque cada posto tem cadastro próprio nas oper
 - Conciliação bancária, R$ 100 por CNPJ/mês: o que cada operadora deveria pagar confrontado com o que caiu no banco, com taxas e antecipações.
 - As duas fases, R$ 250 por CNPJ/mês.
 
-Esses valores são o teto. O escopo é ajustado a cada rede (quantidade de postos e de operadoras), e o ajuste é sempre para baixo. Não há taxa de implantação, fidelidade nem multa de cancelamento, e a rede usa o serviço por 30 dias, na própria operação, antes da primeira cobrança.
+Esses valores são o teto. O escopo é ajustado a cada rede (quantidade de postos e de operadoras), e o ajuste é sempre para baixo. Não há taxa de implantação, fidelidade nem multa (para encerrar, avise com 30 dias), e a rede usa o serviço, na própria operação, e paga após 30 dias.
 
 ## Tabela: quanto a rede paga por mês
 
@@ -45,7 +45,7 @@ Quantas diferenças existem em cada posto, só a conferência mostra. Quando exi
 
 Um número medido em redes clientes mostra onde essas diferenças se escondem:
 
-- 57% mais operadoras integradas do que a conciliadora tradicional: 36 operadoras no fluxo, contra 23.
+- Mais de R$ 800 milhões em vendas de cartão conferidas por ano.
 
 Ou seja: uma conciliadora pode ser barata e ainda assim deixar uma parte das vendas sem conferência, simplesmente porque não olha para elas.
 
@@ -63,11 +63,11 @@ Ao pedir proposta, faça estas perguntas. Elas dizem mais sobre o custo real do 
 
 Quando a conferência encontra valores que a operadora deveria ter pago e não pagou, a rede pode pedir o ressarcimento. A Backup Conciliação oferece a auditoria retroativa como serviço à parte: levantamos as diferenças e entregamos o relatório e os documentos que comprovam cada uma. A rede pleiteia; nós produzimos a prova.
 
-A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Não há cobrança pela auditoria em si, e não há promessa de valor: quem decide o ressarcimento é a operadora.
+É um serviço à parte, com contrato próprio. A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Não há cobrança pela auditoria em si, e não há promessa de valor: quem decide o ressarcimento é a operadora.
 
 ## Como começar
 
-Comece pela calculadora de preço para ter o teto da sua rede. Depois, preencha o formulário abaixo com o nome da rede, a quantidade de postos e o seu WhatsApp: retornamos com o escopo, e você usa por 30 dias antes da primeira cobrança. Se quiser entender o método antes, veja como funciona a conciliação 3-way. Hoje, mais de 50 postos já utilizam módulos do sistema.
+Comece pela calculadora de preço para ter o teto da sua rede. Depois, preencha o formulário abaixo com o nome da rede, a quantidade de postos e o seu WhatsApp: retornamos com o escopo, e você usa por 30 dias antes da primeira cobrança. Se quiser entender o método antes, veja como funciona a conciliação 3-way. Hoje, mais de 50 empresas já utilizam módulos do sistema.
 
 ## Dúvidas sobre o preço
 
@@ -77,11 +77,11 @@ Na Backup Conciliação, o teto é de R$ 150 por CNPJ por mês para a conferênc
 
 ### Existe taxa de implantação ou fidelidade?
 
-Não. Não há taxa de implantação, fidelidade nem multa de cancelamento. A rede usa o serviço por 30 dias antes da primeira cobrança.
+Não. Não há taxa de implantação, fidelidade nem multa; para encerrar, avise com 30 dias. A rede usa o serviço e paga após 30 dias.
 
 ### Como é cobrada a recuperação de perdas?
 
-A recuperação de perdas é um serviço à parte, cobrado em 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia o ressarcimento; a Backup Conciliação produz a prova. Não há cobrança pela auditoria.
+A recuperação de perdas é um serviço à parte, com contrato próprio, cobrado em 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia o ressarcimento; a Backup Conciliação produz a prova. Não há cobrança pela auditoria.
 
 ### O preço muda para redes maiores?
 
@@ -138,7 +138,7 @@ Registre cada pedido, com protocolo, data e valor. Esse histórico ajuda a ver s
 
 Fazer esse cruzamento à mão, todo dia e em vários postos, é o que ninguém consegue manter. Na Backup Conciliação, os robôs fazem o trabalho mais difícil de extração dos relatórios da Getnet e das outras operadoras, e a conciliação 3-way confere cada venda contra o caixa e a conciliadora. A venda sem pagamento aparece no fechamento diário ou semanal, já com o posto, a data e o valor.
 
-Os robôs só consultam e baixam: não alteram nada e não contestam em nome da rede. Quando a rede quer recuperar valores de meses anteriores, a auditoria retroativa entrega o relatório com a prova de cada diferença. A rede pleiteia; nós produzimos a prova. A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Veja os valores na página de preço.
+Os robôs só consultam e baixam: não alteram nada e não contestam em nome da rede. Quando a rede quer recuperar valores de meses anteriores, a auditoria retroativa entrega o relatório com a prova de cada diferença. A rede pleiteia; nós produzimos a prova. É um serviço à parte, com contrato próprio: a cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Veja os valores na página de preço.
 
 ## Dúvidas sobre venda não paga pela Getnet
 
@@ -156,7 +156,7 @@ O prazo depende do contrato do estabelecimento com a Getnet; confira no contrato
 
 ### A Backup Conciliação cobra a Getnet em nome do posto?
 
-Não. Os robôs só consultam e baixam relatórios, sem alterar nada em nome da rede. A rede pleiteia o pagamento; a Backup Conciliação produz a prova. Na recuperação de perdas, a cobrança é de 10% só sobre o valor recuperado e comprovado.
+Não. Os robôs só consultam e baixam relatórios, sem alterar nada em nome da rede. A rede pleiteia o pagamento; a Backup Conciliação produz a prova. A recuperação de perdas é um serviço à parte, com contrato próprio: a cobrança é de 10% só sobre o valor recuperado e comprovado.
 
 ---
 
@@ -285,7 +285,7 @@ Guarde o resultado de cada mês. A série histórica mostra quando a diferença 
 
 ## Não é só a Cielo
 
-O mesmo raciocínio vale para qualquer adquirente e para as operadoras de vale e frota, que também descontam taxa no repasse. Numa rede que aceita dezenas de meios de pagamento, fazer essa conta à mão para todos, todo mês, não é realista. Nas redes clientes, 36 operadoras passam pelo fluxo de conferência, contra 23 cobertas pela conciliadora tradicional: 57% a mais.
+O mesmo raciocínio vale para qualquer adquirente e para as operadoras de vale e frota, que também descontam taxa no repasse. Numa rede que aceita dezenas de meios de pagamento, fazer essa conta à mão para todos, todo mês, não é realista. Nas redes clientes, 36 operadoras passam pelo fluxo de conferência: são mais de 9 milhões de transações conferidas por ano.
 
 ## Onde a Backup Conciliação entra
 
@@ -351,7 +351,7 @@ Os tipos de diferença a procurar são o abastecimento lançado numa operadora e
 
 ## Cuidado com a cobertura
 
-Muitas conciliadoras trabalham só com o arquivo padrão que a operadora envia (o arquivo EDI). Se uma operadora de frota não envia esse arquivo, ou envia incompleto, as vendas dela ficam fora da conferência sem que ninguém perceba. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23).
+Muitas conciliadoras trabalham só com o arquivo padrão que a operadora envia (o arquivo EDI). Se uma operadora de frota não envia esse arquivo, ou envia incompleto, as vendas dela ficam fora da conferência sem que ninguém perceba. No nosso fluxo a conferência não depende só desse arquivo: são mais de 9 milhões de transações conferidas por ano, em mais de 50 empresas.
 
 Na prática, peça à sua conciliadora a lista das operadoras de frota que ela confere e compare com a lista do seu caixa.
 
@@ -517,7 +517,7 @@ Se um desses sinais aparece na sua rede, comece por essa operadora: é ali que a
 
 ## A conciliadora tradicional confere esses meios?
 
-Depende de a operadora enviar o arquivo padrão (o arquivo EDI) que a conciliadora tradicional consome. Quando não envia, as vendas ficam de fora da conferência. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23). Na prática, uma parte das vendas por aplicativo, tag e frota pode ficar sem conferência sem que ninguém perceba.
+Depende de a operadora enviar o arquivo padrão (o arquivo EDI) que a conciliadora tradicional consome. Quando não envia, as vendas ficam de fora da conferência. No nosso fluxo a conferência não depende só desse arquivo: são mais de 9 milhões de transações conferidas por ano, em mais de 50 empresas. Na prática, uma parte das vendas por aplicativo, tag e frota pode ficar sem conferência sem que ninguém perceba.
 
 Vale a pena pedir à sua conciliadora a lista de operadoras conferidas e comparar com as formas de pagamento do seu caixa.
 
@@ -541,7 +541,7 @@ Separe no caixa as vendas Shell Box por posto e por dia, baixe o relatório de t
 
 ### A conciliadora tradicional confere esses pagamentos?
 
-Depende de a operadora enviar o arquivo padrão (EDI) que ela consome. Nas redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional (36 contra 23).
+Depende de a operadora enviar o arquivo padrão (EDI) que ela consome. No nosso fluxo a conferência não depende só desse arquivo: são mais de 9 milhões de transações conferidas por ano, em mais de 50 empresas.
 
 ### Os robôs alteram alguma coisa na operadora?
 
@@ -975,7 +975,7 @@ Até R$ 150 por posto (CNPJ) por mês, para todas as operadoras juntas, sem impl
 
 URL: https://backupconciliacao.com.br/sobre/
 
-A Backup Conciliação é uma conciliadora especializada em redes de postos de combustíveis, fundada por Renato Souza, em São Paulo (SP), com atendimento 100% remoto em todo o Brasil. Ela confere cada venda de cartão, frota, vale e PIX entre o caixa do posto (ERP), a operadora e a conciliadora, e acompanha o pagamento até o extrato bancário. Mais de 50 postos já utilizam módulos do sistema.
+A Backup Conciliação é uma conciliadora especializada em redes de postos de combustíveis, fundada por Renato Souza, em São Paulo (SP), com atendimento 100% remoto em todo o Brasil. Ela confere cada venda de cartão, frota, vale e PIX entre o caixa do posto (ERP), a operadora e a conciliadora, e acompanha o pagamento até o extrato bancário. Mais de 50 empresas já utilizam módulos do sistema. Por ano, são mais de R$ 800 milhões em vendas de cartão e mais de 9 milhões de transações conferidas.
 
 ## Renato Souza
 
@@ -993,9 +993,9 @@ Os robôs fazem o trabalho mais difícil de extração dos relatórios das opera
 
 ## Os números
 
-- Mais de 50 postos já utilizam módulos do sistema.
-- 36 operadoras integradas no fluxo de conferência das redes clientes, contra 23 da conciliadora tradicional: 57% a mais.
-- Mais de 600 vendas por posto por dia, conferidas uma a uma.
+- Mais de 50 empresas já utilizam módulos do sistema.
+- 36 operadoras integradas no fluxo de conferência das redes clientes.
+- Mais de 9 milhões de transações por ano, conferidas uma a uma.
 
 As medições vêm de dados históricos de redes clientes, anonimizados. “Conciliadora tradicional” é a categoria de serviço que consome só o arquivo EDI das operadoras; nenhuma empresa específica é avaliada.
 
@@ -1004,9 +1004,9 @@ As medições vêm de dados históricos de redes clientes, anonimizados. “Conc
 1. Robôs só consultam: só consultam e baixam relatórios. Não alteram, não cancelam e não contestam nada em nome da rede.
 2. LGPD: o tratamento das informações da rede segue a Lei Geral de Proteção de Dados.
 3. 30 dias antes de pagar: a rede usa o serviço por 30 dias, na própria operação, antes da primeira cobrança.
-4. Sem fidelidade e sem implantação: licença mensal, sem prazo mínimo e sem multa de cancelamento.
+4. Sem fidelidade e sem implantação: licença mensal, sem multa; para encerrar, avise com 30 dias.
 5. Preço publicado: até R$ 150 por CNPJ/mês na conferência de cartões, R$ 100 na conciliação bancária e R$ 250 nas duas. Veja a página de preço.
-6. Recuperação de perdas: 10% só do valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia; nós produzimos a prova.
+6. Recuperação de perdas (serviço à parte, com contrato próprio): 10% só do valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia; nós produzimos a prova.
 
 ## Dúvidas sobre a Backup Conciliação
 
@@ -1020,7 +1020,7 @@ Em todo o Brasil, de forma 100% remota. A empresa fica em São Paulo (SP) e não
 
 ### Quantos postos usam o sistema?
 
-Mais de 50 postos já utilizam módulos do sistema.
+Mais de 50 empresas já utilizam módulos do sistema. Por ano, são mais de R$ 800 milhões em vendas de cartão e mais de 9 milhões de transações conferidas.
 
 ### Como a Backup Conciliação trata os dados da rede?
 
