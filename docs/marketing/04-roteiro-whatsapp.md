@@ -1,6 +1,6 @@
 # 4. Roteiro de WhatsApp para quem preencheu o formulário
 
-O formulário "30 dias sem cobrança" chega por e-mail (FormSubmit) com: Nome, Rede,
+O formulário "Use e pague após 30 dias" chega por e-mail (FormSubmit) com: Nome, Rede,
 quantidade de CNPJs, WhatsApp e **Origem** (a página onde a pessoa estava, por exemplo
 `guia_taxa_cielo_acima_do_contrato_posto` ou `operadora_ticketlog`). Use a Origem para
 abrir a conversa pelo assunto que trouxe a pessoa.

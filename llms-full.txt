@@ -63,7 +63,7 @@ Ao pedir proposta, faça estas perguntas. Elas dizem mais sobre o custo real do 
 
 Quando a conferência encontra valores que a operadora deveria ter pago e não pagou, a rede pode pedir o ressarcimento. A Backup Conciliação oferece a auditoria retroativa como serviço à parte: levantamos as diferenças e entregamos o relatório e os documentos que comprovam cada uma. A rede pleiteia; nós produzimos a prova.
 
-A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Não há cobrança pela auditoria em si, e não há promessa de valor: quem decide o ressarcimento é a operadora.
+É um serviço à parte, com contrato próprio. A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Não há cobrança pela auditoria em si, e não há promessa de valor: quem decide o ressarcimento é a operadora.
 
 ## Como começar
 
@@ -81,7 +81,7 @@ Não. Não há taxa de implantação, fidelidade nem multa; para encerrar, avise
 
 ### Como é cobrada a recuperação de perdas?
 
-A recuperação de perdas é um serviço à parte, cobrado em 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia o ressarcimento; a Backup Conciliação produz a prova. Não há cobrança pela auditoria.
+A recuperação de perdas é um serviço à parte, com contrato próprio, cobrado em 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia o ressarcimento; a Backup Conciliação produz a prova. Não há cobrança pela auditoria.
 
 ### O preço muda para redes maiores?
 
@@ -138,7 +138,7 @@ Registre cada pedido, com protocolo, data e valor. Esse histórico ajuda a ver s
 
 Fazer esse cruzamento à mão, todo dia e em vários postos, é o que ninguém consegue manter. Na Backup Conciliação, os robôs fazem o trabalho mais difícil de extração dos relatórios da Getnet e das outras operadoras, e a conciliação 3-way confere cada venda contra o caixa e a conciliadora. A venda sem pagamento aparece no fechamento diário ou semanal, já com o posto, a data e o valor.
 
-Os robôs só consultam e baixam: não alteram nada e não contestam em nome da rede. Quando a rede quer recuperar valores de meses anteriores, a auditoria retroativa entrega o relatório com a prova de cada diferença. A rede pleiteia; nós produzimos a prova. A cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Veja os valores na página de preço.
+Os robôs só consultam e baixam: não alteram nada e não contestam em nome da rede. Quando a rede quer recuperar valores de meses anteriores, a auditoria retroativa entrega o relatório com a prova de cada diferença. A rede pleiteia; nós produzimos a prova. É um serviço à parte, com contrato próprio: a cobrança é de 10% só sobre o valor recuperado e comprovado pelo relatório da operadora. Veja os valores na página de preço.
 
 ## Dúvidas sobre venda não paga pela Getnet
 
@@ -156,7 +156,7 @@ O prazo depende do contrato do estabelecimento com a Getnet; confira no contrato
 
 ### A Backup Conciliação cobra a Getnet em nome do posto?
 
-Não. Os robôs só consultam e baixam relatórios, sem alterar nada em nome da rede. A rede pleiteia o pagamento; a Backup Conciliação produz a prova. Na recuperação de perdas, a cobrança é de 10% só sobre o valor recuperado e comprovado.
+Não. Os robôs só consultam e baixam relatórios, sem alterar nada em nome da rede. A rede pleiteia o pagamento; a Backup Conciliação produz a prova. A recuperação de perdas é um serviço à parte, com contrato próprio: a cobrança é de 10% só sobre o valor recuperado e comprovado.
 
 ---
 
@@ -1006,7 +1006,7 @@ As medições vêm de dados históricos de redes clientes, anonimizados. “Conc
 3. 30 dias antes de pagar: a rede usa o serviço por 30 dias, na própria operação, antes da primeira cobrança.
 4. Sem fidelidade e sem implantação: licença mensal, sem multa; para encerrar, avise com 30 dias.
 5. Preço publicado: até R$ 150 por CNPJ/mês na conferência de cartões, R$ 100 na conciliação bancária e R$ 250 nas duas. Veja a página de preço.
-6. Recuperação de perdas: 10% só do valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia; nós produzimos a prova.
+6. Recuperação de perdas (serviço à parte, com contrato próprio): 10% só do valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia; nós produzimos a prova.
 
 ## Dúvidas sobre a Backup Conciliação
 

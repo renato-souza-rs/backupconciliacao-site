@@ -58,10 +58,10 @@ os eventos:
 
 | Evento GA4 | Quando dispara |
 |---|---|
-| `generate_lead` | formulário "30 dias sem cobrança" enviado com sucesso (o lead de verdade) |
+| `generate_lead` | formulário "Use e pague após 30 dias" enviado com sucesso (o lead de verdade) |
 | `click_whatsapp` | clique em qualquer link de WhatsApp |
 | `click_email` | clique em qualquer link de e-mail |
-| `click_cta` | clique nos demais botões com `data-origem` (ex.: "30 dias sem cobrança" do topo) |
+| `click_cta` | clique nos demais botões com `data-origem` (ex.: "Use e pague após 30 dias" do topo) |
 
 Configuração única no GA4 (Administrador):
 
