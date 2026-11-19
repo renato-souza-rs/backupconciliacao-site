@@ -11,6 +11,122 @@ document.querySelectorAll("[data-wa]").forEach(function(a){ a.href = waLink; a.t
 var ano = document.getElementById("ano");
 if (ano) ano.textContent = new Date().getFullYear();
 
+// ----- Medição de audiência só depois do aceite (LGPD; Guia de Cookies da ANPD) -----
+// O Google Analytics 4 e o Metricool gravam cookies e identificadores que não são
+// necessários para o site funcionar. Por isso nada deles carrega antes de a pessoa
+// aceitar: os dois scripts saíram do <head> das páginas e só entram por aqui.
+// "Recusar" tem o mesmo destaque de "Aceitar", e a escolha pode ser mudada a
+// qualquer momento em "Preferências de cookies", no rodapé. A escolha fica só no
+// navegador (localStorage "bc_cookies": aceitou ou recusou, e quando), sem
+// identificar ninguém, e é perguntada de novo depois de 1 ano.
+var GA_ID = "G-WR2TJLGTL4";
+var METRICOOL_HASH = "495b648fc48a73d94cfd1a8396a95478";
+(function(){
+  var CHAVE = "bc_cookies", VALIDADE_DIAS = 365, ligado = false, faixa = null;
+
+  function ler(){
+    try {
+      var e = JSON.parse(localStorage.getItem(CHAVE) || "null");
+      if (!e || (e.escolha !== "aceito" && e.escolha !== "recusado")) return null;
+      if (Date.now() - e.em > VALIDADE_DIAS * 864e5) return null;
+      return e.escolha;
+    } catch (_) { return null; }
+  }
+  function gravar(escolha){
+    try { localStorage.setItem(CHAVE, JSON.stringify({ escolha: escolha, em: Date.now() })); } catch (_) {}
+  }
+
+  function ligarMedicao(){
+    if (ligado) return;
+    ligado = true;
+    window.dataLayer = window.dataLayer || [];
+    // O GA exige o objeto "arguments" na fila, não um array.
+    window.gtag = function(){ window.dataLayer.push(arguments); };
+    window.gtag("js", new Date());
+    window.gtag("config", GA_ID);
+    var g = document.createElement("script");
+    g.async = true;
+    g.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
+    document.head.appendChild(g);
+    var m = document.createElement("script");
+    m.async = true;
+    m.src = "https://tracker.metricool.com/resources/be.js";
+    m.onload = function(){ if (window.beTracker) window.beTracker.t({ hash: METRICOOL_HASH }); };
+    document.head.appendChild(m);
+  }
+
+  // Apaga os cookies do Google Analytics deste site (_ga, _ga_<id>, _gid, _gat).
+  function apagarCookiesDeMedicao(){
+    var partes = location.hostname.split("."), dominios = [""];
+    for (var i = 0; i < partes.length - 1; i++) dominios.push("." + partes.slice(i).join("."));
+    document.cookie.split(";").forEach(function(c){
+      var nome = c.split("=")[0].trim();
+      if (!/^(_ga|_gid|_gat)/.test(nome)) return;
+      dominios.forEach(function(d){
+        document.cookie = nome + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/" + (d ? "; domain=" + d : "");
+      });
+    });
+  }
+
+  function fechar(){ if (faixa) faixa.hidden = true; }
+  function abrir(){
+    if (!faixa) {
+      faixa = document.createElement("div");
+      faixa.className = "ck";
+      faixa.setAttribute("role", "region");
+      faixa.setAttribute("aria-label", "Aviso de cookies");
+      faixa.innerHTML =
+        '<p class="ck-txt">Este site usa ferramentas de medição de audiência (Google Analytics e Metricool), ' +
+        'que gravam cookies e identificadores no seu navegador. Elas só são ativadas se você aceitar. ' +
+        '<a href="/privacidade/">Política de privacidade</a></p>' +
+        '<div class="ck-botoes">' +
+          '<button type="button" class="ck-btn" data-ck="recusado">Recusar</button>' +
+          '<button type="button" class="ck-btn" data-ck="aceito">Aceitar</button>' +
+        '</div>';
+      faixa.addEventListener("click", function(ev){
+        var b = ev.target.closest ? ev.target.closest("[data-ck]") : null;
+        if (b) escolher(b.getAttribute("data-ck"));
+      });
+      // Primeiro elemento da página: quem navega por teclado chega nele antes do menu.
+      document.body.insertBefore(faixa, document.body.firstChild);
+    }
+    faixa.hidden = false;
+  }
+  function escolher(escolha){
+    gravar(escolha);
+    fechar();
+    if (escolha === "aceito") { ligarMedicao(); return; }
+    apagarCookiesDeMedicao();
+    // Quem tinha aceitado e agora recusa: recarrega para tirar os scripts já ativos.
+    if (ligado) location.reload();
+  }
+
+  // "Preferências de cookies" no rodapé de todas as páginas: reabre o aviso.
+  var copy = document.querySelector("footer .copy");
+  if (copy) {
+    var pref = document.createElement("button");
+    pref.type = "button";
+    pref.className = "ck-pref";
+    pref.textContent = "Preferências de cookies";
+    pref.addEventListener("click", function(){
+      abrir();
+      var b = faixa.querySelector("[data-ck]");
+      if (b) b.focus();
+    });
+    copy.appendChild(document.createTextNode(" · "));
+    copy.appendChild(pref);
+  }
+
+  var escolha = ler();
+  if (escolha === "aceito") ligarMedicao();
+  else {
+    // Sem aceite não fica cookie de medição: limpa os gravados antes de este
+    // aviso existir e os de uma escolha que venceu.
+    apagarCookiesDeMedicao();
+    if (!escolha) abrir();
+  }
+})();
+
 // Menu mobile
 var t = document.getElementById("toggle"), n = document.getElementById("nav");
 if (t && n) {
