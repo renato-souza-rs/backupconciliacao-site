@@ -33,6 +33,22 @@ Antes de abrir PR, rode:
   Origem do formulário e evento `click_cta` (requer `npm i -g playwright`).
 - Todos os dados exibidos são **ilustrativos e fictícios** (LGPD) — nenhuma informação real de cliente.
 
+## Aviso de cookies (LGPD)
+
+O Google Analytics 4 e o Metricool **só carregam depois do aceite** do visitante (Guia de Cookies
+da ANPD: cookie de medição não é necessário para o site funcionar).
+
+- Os dois scripts **não ficam no HTML**: entram só pelo `site.js` (bloco "Medição de audiência só
+  depois do aceite"). `scripts/verificar_paginas.py` reprova página que traga rastreador direto.
+- Primeira visita: faixa no rodapé com **Recusar** e **Aceitar**, com o mesmo destaque. Sem
+  escolha ou com recusa, nada de medição carrega e os cookies `_ga` são apagados.
+- A escolha fica só no navegador (`localStorage`, chave `bc_cookies`) e é pedida de novo após 1 ano.
+- O link **Preferências de cookies**, no rodapé de todas as páginas, reabre o aviso.
+- Rastreador novo (pixel, mapa de calor, chat de terceiro): entra pela mesma porta do `site.js`
+  e é citado na `/privacidade/`. Nunca direto no `<head>`.
+- Efeito na medição: quem recusa não aparece no GA4 nem no Metricool. Os números passam a ser
+  um piso, não o total de visitas.
+
 ## Como medir (Search Console + GA4)
 
 Cada CTA tem um `data-origem` que identifica a página e a posição do botão:

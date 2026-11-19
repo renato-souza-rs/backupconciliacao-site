@@ -2,6 +2,8 @@
 """Verifica as páginas do site antes do merge (só biblioteca padrão).
 
 Em todas as páginas:
+  - nenhum rastreador (Google Analytics, Metricool) direto no HTML: a medição só entra
+    pelo site.js, depois do aceite no aviso de cookies;
   - todo JSON-LD é JSON válido;
   - o FAQ visível (#faq: <summary> e <p>) é IDÊNTICO ao JSON-LD FAQPage.
 Nos guias (/guias/<slug>/):
@@ -27,6 +29,8 @@ from html.parser import HTMLParser
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://backupconciliacao.com.br"
+# Rastreadores que só podem carregar depois do aceite no aviso de cookies (site.js).
+RASTREADORES = ("googletagmanager.com", "google-analytics.com", "gtag(", "tracker.metricool.com", "beTracker")
 EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2705\u274C\u26A0\u2B50]")  # pictogramas; o ☰ do menu não conta
 
 
@@ -141,7 +145,16 @@ def tipos(objs):
 def verificar(caminho, erros, sitemap, llms):
     rel = os.path.relpath(caminho, RAIZ)
     p = Leitor()
-    p.feed(open(caminho, encoding="utf-8").read())
+    bruto_html = open(caminho, encoding="utf-8").read()
+    p.feed(bruto_html)
+
+    # Medição só depois do aceite (LGPD; Guia de Cookies da ANPD): nenhuma página pode trazer o
+    # Google Analytics nem o Metricool no HTML — eles entram só pelo site.js, que pede o aceite.
+    for rastreador in RASTREADORES:
+        if rastreador in bruto_html:
+            erros.append(f"{rel}: carrega {rastreador} direto no HTML (a medição só pode entrar pelo site.js, depois do aceite)")
+    if 'src="/site.js"' not in bruto_html:
+        erros.append(f"{rel}: sem /site.js (é ele que mostra o aviso de cookies e o link de preferências)")
 
     objs = []
     for bruto in p.jsonld:

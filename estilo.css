@@ -595,3 +595,19 @@ section.mm-monitor{padding-top:30px}
   .ciclo-ponto{position:absolute;left:0;top:3px;margin:0}
   .ciclo-volta{margin:26px 0 0;padding:20px;border:3px solid rgba(255,255,255,.28);border-radius:20px}
 }
+
+/* ----- Aviso de cookies (site.js): nada de medição carrega antes do aceite.
+   Os dois botões usam a MESMA classe de propósito: recusar não pode ter menos
+   destaque que aceitar (Guia de Cookies da ANPD). Fica acima do botão do
+   WhatsApp (z 60) e abaixo das janelas (z 1000). ----- */
+.ck{position:fixed;left:0;right:0;bottom:0;z-index:900;background:var(--tinta);color:#fff;padding:14px 18px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 20px;box-shadow:0 -6px 24px rgba(13,59,102,.25)}
+.ck[hidden]{display:none}
+.ck-txt{margin:0;max-width:760px;font-size:.9rem;line-height:1.5}
+.ck-txt a{color:#fff;text-decoration:underline}
+.ck-botoes{display:flex;gap:10px}
+.ck-btn{font:inherit;font-weight:700;font-size:.92rem;min-width:110px;padding:10px 18px;border-radius:11px;border:1.5px solid #fff;background:#fff;color:var(--tinta);cursor:pointer}
+.ck-btn:hover{background:var(--linha)}
+.ck-btn:focus-visible,.ck-pref:focus-visible{outline:3px solid var(--ouro-claro);outline-offset:2px}
+/* "Preferências de cookies" no rodapé: botão com a mesma cara do link vizinho */
+.ck-pref{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.ck-pref:hover{color:#fff}
