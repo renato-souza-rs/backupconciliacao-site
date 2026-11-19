@@ -10,10 +10,9 @@ permitidos. Nenhuma pauta cita cliente.
 
 **Material de apoio para qualquer pauta:** os guias em https://backupconciliacao.com.br/guias/
 (o jornalista pode citar trechos), a página https://backupconciliacao.com.br/sobre/
-(quem é o fundador) e os números oficiais: 36 operadoras no fluxo contra 23 da
-conciliadora tradicional (+57% de operadoras integradas); +4% de transações
-buscando no portal em relação ao arquivo EDI, em 49.520 comparações diárias;
-mais de 50 postos já utilizam módulos do sistema.
+(quem é o fundador) e os números oficiais: 36 operadoras no nosso fluxo; mais de
+R$ 800 milhões em vendas de cartão e mais de 9 milhões de transações conferidas por ano,
+em mais de 50 empresas. Sem comparação com outra conciliadora e sem período da medição.
 
 ---
 
@@ -68,8 +67,8 @@ mais de 50 postos já utilizam módulos do sistema.
 - Acervo: https://www.fecombustiveis.org.br/edicoes-revista/revista-combustiveis-e-conveniencia/
   (edição 242 no acervo on-line). Contato: imprensa da Fecombustíveis (item 1).
 - **Pauta:** reportagem ou artigo assinado: "Quantas das suas operadoras entram na
-  conferência?". Ângulo de dados: nas redes medidas, integramos 57% mais operadoras
-  do que a conciliadora tradicional (36 contra 23).
+  conferência?". Ângulo de dados: nas redes clientes, são 36 operadoras no nosso fluxo,
+  entre cartão, frota, vale, PIX e aplicativos.
 
 ### 8. Brasil Postos (portal e Academia Brasil Postos)
 - Site: https://www.brasilpostos.com.br · contato: https://www.brasilpostos.com.br/contato/
@@ -82,9 +81,9 @@ mais de 50 postos já utilizam módulos do sistema.
 ### 9. eixos (antiga epbr), editoria Combustíveis e Bioenergia
 - Editoria: https://eixos.com.br/combustiveis-e-bioenergia/ · contato:
   https://eixos.com.br/energia/contato/
-- **Pauta (sugestão de dado para matéria):** "Arquivo EDI × portal da operadora: 4% a
-  mais de transações em 49.520 comparações diárias". Ângulo de mercado: dependência do
-  arquivo padrão na conciliação da revenda. Oferecer o Renato como fonte.
+- **Pauta (sugestão de dado para matéria):** "Mais de 9 milhões de transações de cartão
+  conferidas por ano, venda a venda, em redes de postos". Ângulo de mercado: por que a
+  conferência da revenda precisa cruzar o caixa (ERP), a operadora e o banco. Oferecer o Renato como fonte.
 
 ## Evento
 
@@ -95,7 +94,7 @@ mais de 50 postos já utilizam módulos do sistema.
   Fecombustíveis). Evento bienal: a próxima deve ser em 2028 (data **não verificada**).
 - Tem o **Fórum Internacional** (17ª edição em 2026) com palestras:
   https://www.expopostos.com.br/newsletter/forum-internacional-expopostos-2026-inscricoes-abertas
-- **Pauta:** submeter palestra para o próximo Fórum: "Do portal ao centavo: como uma rede
+- **Pauta:** submeter palestra para o próximo Fórum: "Da venda ao centavo: como uma rede
   de postos confere cartão, frota, vale e PIX venda a venda". Até lá, visitar a próxima
   edição com material impresso que aponte para /guias/ (QR Code) e anotar contatos.
 

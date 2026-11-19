@@ -19,7 +19,7 @@ começar os 30 dias passa a ser tomada com prova, não com promessa.
 | Postos | 1 CNPJ, escolhido pela rede |
 | Operadora | 1, escolhida pela rede (sugestão: a de maior volume ou a que mais preocupa) |
 | Período | 1 mês fechado (o último mês completo) |
-| Fontes | vendas do caixa (ERP) daquele posto; relatórios do portal da operadora; extrato bancário dos créditos daquela operadora |
+| Fontes | vendas do caixa (ERP) daquele posto; relatórios da operadora; extrato bancário dos créditos daquela operadora |
 | Conferência | venda a venda: caixa × operadora × banco, com taxa efetiva por modalidade |
 | Público | redes com 3 ou mais postos (sugestão; quem decide é o owner) |
 | Limite | até N Raio-X por mês, para não comprometer o atendimento dos clientes (N a definir) |
@@ -31,8 +31,8 @@ contestação junto à operadora; recuperação de valores (é outro serviço, c
 ## O que a rede envia
 
 1. Exportação das vendas do mês daquele posto no ERP (formato que o ERP gerar).
-2. Relatórios do mês no portal da operadora **ou** um acesso de consulta ao portal,
-   se a operadora oferecer esse tipo de perfil. Os robôs só consultam e baixam.
+2. Os relatórios do mês daquela operadora, enviados pela rede, **ou** a rede libera os
+   acessos e os robôs extraem os relatórios. Os robôs só consultam e baixam.
 3. Extrato bancário do período com os créditos daquela operadora.
 4. A tabela de taxas contratadas, se a rede tiver.
 
@@ -79,4 +79,4 @@ compra, mensagem de WhatsApp para leads frios e e-mail E4 da sequência.
 2. Prazo de entrega (X dias úteis).
 3. Limite mensal (N Raio-X por mês) e público mínimo (quantos postos).
 4. Prazo de exclusão dos dados (Y dias).
-5. Se o Raio-X pode usar acesso ao portal ou só relatórios enviados pela rede.
+5. Se o Raio-X pode usar os acessos liberados pela rede ou só relatórios enviados por ela.

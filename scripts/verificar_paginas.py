@@ -33,6 +33,22 @@ SITE = "https://backupconciliacao.com.br"
 RASTREADORES = ("googletagmanager.com", "google-analytics.com", "gtag(", "tracker.metricool.com", "beTracker")
 # Razão social e CNPJ de quem opera o site (os mesmos dos Termos de Uso do portal do cliente).
 IDENTIFICACAO = ("42.183.883 RENATO DE AGUIAR SOUZA", "CNPJ 42.183.883/0001-62")
+# Regra do dono (19/11/2026): citar robô PODE; dizer ou insinuar que o robô/a plataforma/nós ACESSA o portal da
+# operadora, ou contar como (login, senha, código de verificação), NÃO PODE. Texto sobre o que o PRÓPRIO POSTO faz
+# no portal é permitido. A trava olha frase a frase: quem faz (robô, plataforma, nós) + acesso ao portal.
+QUEM_COLETA = re.compile(r"\brob[ôo]s?\b|\bRPAs?\b|\bplataforma\b|\bautoma[çc][ãa]o\b|\bnós\b|\bnoss[oa]s?\b",
+                         re.I)
+ACESSO_PORTAL = re.compile(r"\bportal\b|\bportais\b|\blogin\b|\bsenhas?\b|c[óo]digos? de verifica|captcha|"
+                           r"\bOTP\b|\b2FA\b", re.I)
+SEMPRE_PROIBIDO = re.compile(r"c[óo]digos? de verifica|do portal ao centavo|entrar em cada portal", re.I)
+
+
+def frases_que_insinuam_acesso(texto):
+    """Frases do texto visível que juntam quem coleta (robô, plataforma, nós) e acesso ao portal."""
+    texto = re.sub(r"\s+", " ", texto)
+    for frase in re.split(r"(?<=[.!?;])\s+", texto):
+        if SEMPRE_PROIBIDO.search(frase) or (QUEM_COLETA.search(frase) and ACESSO_PORTAL.search(frase)):
+            yield frase.strip()
 EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2705\u274C\u26A0\u2B50]")  # pictogramas; o ☰ do menu não conta
 
 
@@ -157,6 +173,27 @@ def verificar(caminho, erros, sitemap, llms):
             erros.append(f"{rel}: carrega {rastreador} direto no HTML (a medição só pode entrar pelo site.js, depois do aceite)")
     if 'src="/site.js"' not in bruto_html:
         erros.append(f"{rel}: sem /site.js (é ele que mostra o aviso de cookies e o link de preferências)")
+
+    # Robô pode; robô/plataforma acessando o portal da operadora, não (regra do dono, 19/11/2026).
+    visivel = re.sub(r"<!--[\s\S]*?-->|<style[\s\S]*?</style>|<script[\s\S]*?</script>", " ", bruto_html)
+    partes = [html.unescape(re.sub(r"<[^>]+>", " ", visivel))]
+
+    def _textos_json(no):   # JSON-LD: cada campo de texto é lido separado (o Google e as IAs leem)
+        if isinstance(no, str):
+            partes.append(no)
+        elif isinstance(no, dict):
+            for v in no.values():
+                _textos_json(v)
+        elif isinstance(no, list):
+            for v in no:
+                _textos_json(v)
+    for bloco in p.jsonld:
+        try:
+            _textos_json(json.loads(bloco))
+        except json.JSONDecodeError:
+            pass   # o JSON inválido é acusado mais abaixo
+    for frase in (f for parte in partes for f in frases_que_insinuam_acesso(parte)):
+        erros.append(f"{rel}: frase diz ou insinua que o robô/a plataforma acessa o portal: \"{frase[:160]}\"")
 
     # Quem opera o site: razão social e CNPJ no rodapé de toda página.
     rodape = bruto_html[bruto_html.rfind('<div class="copy">'):]
@@ -299,6 +336,8 @@ def main():
     for caminho in paginas:
         verificar(caminho, erros, sitemap, llms)
     semelhanca_operadoras(erros)
+    for frase in frases_que_insinuam_acesso(llms):
+        erros.append(f"llms.txt: frase diz ou insinua que o robô/a plataforma acessa o portal: \"{frase[:160]}\"")
     # llms-full.txt precisa refletir o texto atual das páginas
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import gerar_llms_full

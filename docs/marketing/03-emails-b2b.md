@@ -78,7 +78,7 @@ Cadência: E1 no dia 0, E2 no dia 3, E3 no dia 7, E4 no dia 14. Terça a quinta,
 ## E3 — dia 7 · as operadoras que ninguém confere
 
 **Assunto:** Quantas das suas operadoras entram na conferência?
-**Prévia:** Em redes clientes, integramos 57% mais operadoras do que a conciliadora tradicional.
+**Prévia:** Nas redes clientes, são 36 operadoras no nosso fluxo.
 
 > Olá, {{nome}}.
 >
@@ -86,8 +86,8 @@ Cadência: E1 no dia 0, E2 no dia 3, E3 no dia 7, E4 no dia 14. Terça a quinta,
 > aceita (adquirentes, vales, frota, aplicativos, tags) e compare com a lista do que a
 > sua conciliação confere hoje.
 >
-> Nas redes que atendemos, são 36 operadoras integradas no fluxo, contra 23 cobertas
-> pela conciliadora tradicional: 57% a mais.
+> Nas redes que atendemos, são 36 operadoras no nosso fluxo: cartão, frota, vale, PIX
+> e aplicativos.
 >
 > Aqui está o que conferimos em cada operadora:
 > https://backupconciliacao.com.br/operadoras/
@@ -106,8 +106,8 @@ Cadência: E1 no dia 0, E2 no dia 3, E3 no dia 7, E4 no dia 14. Terça a quinta,
 > Não quero lotar sua caixa de entrada, então este é o último e-mail da sequência.
 >
 > Se um dia fizer sentido: a conferência de cartões custa até R$ 150 por posto (CNPJ)
-> por mês, sem implantação e sem fidelidade, e a rede usa por 30 dias antes da primeira
-> cobrança. O preço está publicado aqui: https://backupconciliacao.com.br/preco/
+> por mês, sem implantação e sem fidelidade. Use e pague após 30 dias. Garantia de 7 dias:
+> se não servir, não há cobrança. O preço está publicado aqui: https://backupconciliacao.com.br/preco/
 >
 > Se preferir, me responda com o melhor horário e conversamos 15 minutos pelo WhatsApp.
 >
