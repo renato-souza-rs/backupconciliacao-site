@@ -22,7 +22,7 @@ O preço é por empresa (CNPJ), porque cada posto tem cadastro próprio nas oper
 - Conciliação bancária, R$ 100 por CNPJ/mês: o que cada operadora deveria pagar confrontado com o que caiu no banco, com taxas e antecipações.
 - As duas fases, R$ 250 por CNPJ/mês.
 
-Esses valores são o teto. O escopo é ajustado a cada rede (quantidade de postos e de operadoras), e o ajuste é sempre para baixo. Não há taxa de implantação nem fidelidade, e a rede usa o serviço, na própria operação, e paga após 30 dias.
+Esses valores são o teto. O escopo é ajustado a cada rede (quantidade de postos e de operadoras), e o ajuste é sempre para baixo. Não há taxa de implantação, fidelidade nem multa (para encerrar, avise com 30 dias), e a rede usa o serviço, na própria operação, e paga após 30 dias.
 
 ## Tabela: quanto a rede paga por mês
 
@@ -77,7 +77,7 @@ Na Backup Conciliação, o teto é de R$ 150 por CNPJ por mês para a conferênc
 
 ### Existe taxa de implantação ou fidelidade?
 
-Não. Não há taxa de implantação nem fidelidade. A rede usa o serviço e paga após 30 dias.
+Não. Não há taxa de implantação, fidelidade nem multa; para encerrar, avise com 30 dias. A rede usa o serviço e paga após 30 dias.
 
 ### Como é cobrada a recuperação de perdas?
 
@@ -1004,7 +1004,7 @@ As medições vêm de dados históricos de redes clientes, anonimizados. “Conc
 1. Robôs só consultam: só consultam e baixam relatórios. Não alteram, não cancelam e não contestam nada em nome da rede.
 2. LGPD: o tratamento das informações da rede segue a Lei Geral de Proteção de Dados.
 3. 30 dias antes de pagar: a rede usa o serviço por 30 dias, na própria operação, antes da primeira cobrança.
-4. Sem fidelidade e sem implantação: licença mensal.
+4. Sem fidelidade e sem implantação: licença mensal, sem multa; para encerrar, avise com 30 dias.
 5. Preço publicado: até R$ 150 por CNPJ/mês na conferência de cartões, R$ 100 na conciliação bancária e R$ 250 nas duas. Veja a página de preço.
 6. Recuperação de perdas: 10% só do valor recuperado e comprovado pelo relatório da operadora. A rede pleiteia; nós produzimos a prova.
 
