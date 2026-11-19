@@ -511,11 +511,11 @@ Se um desses sinais aparece na sua rede, comece por essa operadora: é ali que a
 6. Confira o crédito no extrato bancário, no valor e na data previstos.
 7. Liste as diferenças com a prova de cada uma: registro no caixa, dados da transação no portal e extrato.
 
-## A conciliadora tradicional confere esses meios?
+## Esses meios entram na conferência?
 
-Depende de a operadora enviar o arquivo padrão (o arquivo EDI) que a conciliadora tradicional consome. Quando não envia, as vendas ficam de fora da conferência. No nosso fluxo a conferência não depende só desse arquivo: são mais de 9 milhões de transações conferidas por ano, em mais de 50 empresas. Na prática, uma parte das vendas por aplicativo, tag e frota pode ficar sem conferência sem que ninguém perceba.
+Nem toda operadora envia o arquivo padrão de conciliação (o arquivo EDI). Quando a conferência depende só desse arquivo, as vendas dessa operadora ficam de fora. No nosso fluxo, além do arquivo, os robôs extraem os relatórios de cada operadora: são mais de 9 milhões de transações conferidas por ano, em mais de 50 empresas. Sem isso, uma parte das vendas por aplicativo, tag e frota pode ficar sem conferência sem que ninguém perceba.
 
-Vale a pena pedir à sua conciliadora a lista de operadoras conferidas e comparar com as formas de pagamento do seu caixa.
+Vale a pena conferir a lista de operadoras cobertas hoje e compará-la com as formas de pagamento do seu caixa.
 
 ## Quando encontrar uma diferença
 
@@ -535,9 +535,9 @@ Porque esses pagamentos, em geral, não passam pela maquininha do posto: o clien
 
 Separe no caixa as vendas Shell Box por posto e por dia, baixe o relatório de transações e de repasse no portal da operadora, cruze as duas listas e confira se o crédito caiu no extrato bancário no valor e na data previstos.
 
-### A conciliadora tradicional confere esses pagamentos?
+### Esses pagamentos entram na conferência?
 
-Depende de a operadora enviar o arquivo padrão (EDI) que ela consome. No nosso fluxo a conferência não depende só desse arquivo: são mais de 9 milhões de transações conferidas por ano, em mais de 50 empresas.
+Entram. Nem toda operadora envia o arquivo padrão de conciliação (o arquivo EDI); por isso, além dele, os robôs extraem os relatórios de cada operadora. São mais de 9 milhões de transações conferidas por ano, em mais de 50 empresas.
 
 ### Os robôs alteram alguma coisa na operadora?
 
