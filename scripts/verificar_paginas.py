@@ -31,6 +31,8 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://backupconciliacao.com.br"
 # Rastreadores que só podem carregar depois do aceite no aviso de cookies (site.js).
 RASTREADORES = ("googletagmanager.com", "google-analytics.com", "gtag(", "tracker.metricool.com", "beTracker")
+# Razão social e CNPJ de quem opera o site (os mesmos dos Termos de Uso do portal do cliente).
+IDENTIFICACAO = ("42.183.883 RENATO DE AGUIAR SOUZA", "CNPJ 42.183.883/0001-62")
 EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2705\u274C\u26A0\u2B50]")  # pictogramas; o ☰ do menu não conta
 
 
@@ -155,6 +157,12 @@ def verificar(caminho, erros, sitemap, llms):
             erros.append(f"{rel}: carrega {rastreador} direto no HTML (a medição só pode entrar pelo site.js, depois do aceite)")
     if 'src="/site.js"' not in bruto_html:
         erros.append(f"{rel}: sem /site.js (é ele que mostra o aviso de cookies e o link de preferências)")
+
+    # Quem opera o site: razão social e CNPJ no rodapé de toda página.
+    rodape = bruto_html[bruto_html.rfind('<div class="copy">'):]
+    for trecho in IDENTIFICACAO:
+        if trecho not in rodape:
+            erros.append(f"{rel}: rodapé sem \"{trecho}\" (razão social e CNPJ de quem opera o site)")
 
     objs = []
     for bruto in p.jsonld:
