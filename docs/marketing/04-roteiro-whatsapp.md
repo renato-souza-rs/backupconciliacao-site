@@ -35,7 +35,7 @@ ou `sobre`, troque por: "Qual é hoje a maior dor no fechamento dos cartões?"
 
 ## Perguntas de qualificação (uma por mensagem, conforme a resposta)
 
-1. Quais operadoras o caixa aceita? (adquirentes, vales, frota, aplicativos)
+1. Quais operadoras o caixa aceita? (operadoras de cartão, vales, frota, aplicativos)
 2. Qual ERP ou sistema de caixa os postos usam?
 3. Quem faz a conferência hoje e quanto tempo isso toma por semana?
 4. Já aconteceu de descobrir uma venda não paga ou uma taxa errada só meses depois?
@@ -46,7 +46,7 @@ ou `sobre`, troque por: "Qual é hoje a maior dor no fechamento dos cartões?"
 
 > Faz sentido. O que fazemos é conferir cada venda entre o caixa, a operadora e o banco,
 > e mostrar a diferença por posto, com valor. Use e pague após 30 dias, com garantia de
-> 7 dias, e o teto é R$ 150 por CNPJ/mês (sem implantação, sem fidelidade):
+> 7 dias, e são R$ 150 por CNPJ/mês (sem implantação, sem fidelidade):
 > https://backupconciliacao.com.br/preco/
 >
 > Para começar, preciso entender as operadoras e o ERP de 1 ou 2 postos. Podemos falar
@@ -71,7 +71,7 @@ ou `sobre`, troque por: "Qual é hoje a maior dor no fechamento dos cartões?"
 > nada em nome da rede, e os dados são tratados conforme a LGPD.
 
 **"Está caro" / "Não tenho orçamento agora."**
-> O teto é R$ 150 por posto/mês, e vocês usam e pagam após 30 dias. A conta é
+> São R$ 150 por posto/mês, e vocês usam e pagam após 30 dias. A conta é
 > simples: se a conferência achar no mês uma venda de R$ 150 ou mais que a operadora não
 > pagou, a mensalidade daquele posto está coberta.
 

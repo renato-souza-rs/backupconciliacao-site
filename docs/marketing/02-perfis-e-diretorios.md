@@ -21,7 +21,7 @@ para postos", com o mesmo nome, descrição e link em todo lugar.
 > de combustíveis em três fontes: o caixa do posto (ERP), a operadora e a conciliadora,
 > e acompanha o pagamento até o extrato bancário. Os robôs extraem os relatórios das
 > operadoras todo dia e só consultam, sem alterar nada. As divergências chegam por
-> posto, com valor. Preço publicado: até R$ 150 por CNPJ/mês na conferência de cartões,
+> posto, com valor. Preço publicado: R$ 150 por CNPJ/mês na conferência de cartões,
 > sem implantação e sem fidelidade. Use e pague após 30 dias. Garantia de 7 dias: se
 > não servir, não há cobrança. Mais de 50 empresas já utilizam módulos do sistema. Atendimento 100% remoto em todo o Brasil.
 

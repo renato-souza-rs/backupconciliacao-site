@@ -151,17 +151,17 @@
     {
       "@type": "Question",
       "name": "O que é conciliação 3-way (tripla)?",
-      "acceptedAnswer": { "@type": "Answer", "text": "É a conferência de cada venda em três fontes ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a adquirente diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto." }
+      "acceptedAnswer": { "@type": "Answer", "text": "É a conferência de cada venda em três fontes ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a operadora de cartão, vale ou frota diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto." }
     },
     {
       "@type": "Question",
       "name": "Vocês fazem conciliação bancária?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Sim. Os recebimentos previstos pelas operadoras são confrontados com os créditos do extrato bancário, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por adquirente." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim. Os recebimentos previstos pelas operadoras são confrontados com os créditos do extrato bancário, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por operadora." }
     },
     {
       "@type": "Question",
       "name": "Quanto custa?",
-      "acceptedAnswer": { "@type": "Answer", "text": "R$ 150 por empresa (CNPJ) por mês na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços cheios de cada módulo: o ajuste de escopo só desce a partir deles. Não há taxa de implantação nem fidelidade." }
+      "acceptedAnswer": { "@type": "Answer", "text": "R$ 150 por empresa (CNPJ) por mês na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços de cada módulo, e o escopo final é fechado no contrato antes de começar. Não há taxa de implantação nem fidelidade." }
     },
     {
       "@type": "Question",
@@ -323,7 +323,7 @@
       <div class="modcard">
         <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M7 21h10M5 7h14"/><path d="M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/></svg></div>
         <h3>Conferente de Caixa — conciliação 3-way</h3>
-        <p>Fechamento diário/semanal em conciliação 3-way (tripla): cruza ERP (vendas oficiais) × Operadora (o que a adquirente vai pagar) × Conciliadora e aponta, por empresa, onde sobra, falta ou foi cancelado.</p>
+        <p>Fechamento diário/semanal em conciliação 3-way (tripla): cruza ERP (vendas oficiais) × Operadora (o que a operadora vai pagar) × Conciliadora e aponta, por empresa, onde sobra, falta ou foi cancelado.</p>
         <ul>
           <li>Comparativo 3-way por loja ou posto</li>
           <li>Excel anexo (1 aba por empresa)</li>
@@ -349,7 +349,7 @@
         <p>Plataforma web onde a rede acompanha vendas conciliadas, divergências, taxas e antecipações — por empresa, bandeira e período, com filtros e exportação.</p>
         <ul>
           <li>KPIs de ERP, Operadora e Conciliadora</li>
-          <li>Visão por adquirente e por período</li>
+          <li>Visão por operadora e por período</li>
           <li>Aba de Chamados para demandas de cartões</li>
         </ul>
       </div>
@@ -361,7 +361,7 @@
         <ul>
           <li>Valores previstos e não pagos</li>
           <li>Taxas acima do contratado</li>
-          <li>Antecipações e PIX, por loja ou posto (CNPJ) e por adquirente</li>
+          <li>Antecipações e PIX, por loja ou posto (CNPJ) e por operadora</li>
         </ul>
         <a class="saiba" href="/conciliacao-bancaria-postos/">Saiba mais sobre a conciliação bancária &rarr;</a>
       </div>
@@ -387,7 +387,7 @@
       <div class="flowstep">
         <div class="n">2</div>
         <h4>Operadora</h4>
-        <p>O que a adquirente (Getnet, Cielo, Rede, vale, frota...) diz que vai pagar, com taxas e prazos.</p>
+        <p>O que a operadora (Getnet, Cielo, Rede, vale, frota...) diz que vai pagar, com taxas e prazos.</p>
       </div>
       <div class="flowstep">
         <div class="n">3</div>
@@ -448,7 +448,7 @@
     <div class="sec-head">
       <span class="kicker">Preço publicado</span>
       <h2>Quanto fica para a sua rede</h2>
-      <p>O preço é por empresa (CNPJ) e é o teto: o ajuste de escopo só desce a partir dele. Sem taxa de implantação, sem fidelidade.</p>
+      <p>O preço é por empresa (CNPJ), e o escopo final é fechado no contrato antes de começar. Sem taxa de implantação, sem fidelidade.</p>
     </div>
     <div class="pr-calc">
       <div class="pr-calc-top">
@@ -472,7 +472,7 @@
           <span>por mês</span>
         </div>
       </div>
-      <p class="pr-calc-nota" id="pr-calc-nota">Valores de <strong>teto</strong>. O escopo final — operadoras, bandeiras e o tamanho da tarefa diária — é fechado antes da contratação, e o ajuste é sempre para baixo.</p>
+      <p class="pr-calc-nota" id="pr-calc-nota">Valores pelo preço publicado de cada módulo. O escopo final — operadoras, bandeiras e o tamanho da tarefa diária — é fechado no contrato antes de começar.</p>
     </div>
     <div class="roi">
       <b>1 venda</b>
@@ -513,7 +513,7 @@
       <div class="gcard">
         <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12l-8 8-9-9V3h8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></div>
         <h3>Preço publicado</h3>
-        <p>R$ 150 por empresa/mês na conferência de cartões. É o teto: daqui só desce. <a href="/preco/">Ver preços</a>.</p>
+        <p>R$ 150 por empresa (CNPJ) por mês na conferência de cartões. O escopo final é fechado no contrato antes de começar. <a href="/preco/">Ver preços</a>.</p>
       </div>
       <div class="gcard">
         <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div>
@@ -564,15 +564,15 @@
       </details>
       <details>
         <summary>O que é conciliação 3-way (tripla)?</summary>
-        <p>É a <a href="/conciliacao-3-way-postos/" style="color:var(--azul2);font-weight:700">conferência de cada venda em três fontes</a> ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a adquirente diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto.</p>
+        <p>É a <a href="/conciliacao-3-way-postos/" style="color:var(--azul2);font-weight:700">conferência de cada venda em três fontes</a> ao mesmo tempo: o ERP (a venda oficial registrada no caixa), a Operadora (o que a operadora de cartão, vale ou frota diz que vai pagar) e a Conciliadora. Comparar só duas fontes deixa passar erros que as duas repetem; a terceira fonte mostra qual delas está divergindo e por quanto.</p>
       </details>
       <details>
         <summary>Vocês fazem conciliação bancária?</summary>
-        <p>Sim. Os recebimentos previstos pelas operadoras são confrontados com os <a href="/conciliacao-bancaria-postos/" style="color:var(--azul2);font-weight:700">créditos do extrato bancário</a>, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por adquirente.</p>
+        <p>Sim. Os recebimentos previstos pelas operadoras são confrontados com os <a href="/conciliacao-bancaria-postos/" style="color:var(--azul2);font-weight:700">créditos do extrato bancário</a>, identificando valores não pagos, taxas acima do contratado e antecipações, com visão por loja ou posto (CNPJ) e por operadora.</p>
       </details>
       <details>
         <summary>Quanto custa?</summary>
-        <p><a href="/preco/" style="color:var(--azul2);font-weight:700">R$ 150 por empresa (CNPJ) por mês</a> na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços cheios de cada módulo: o ajuste de escopo só desce a partir deles. Não há taxa de implantação nem fidelidade.</p>
+        <p><a href="/preco/" style="color:var(--azul2);font-weight:700">R$ 150 por empresa (CNPJ) por mês</a> na conferência de cartões, R$ 100 na conciliação bancária ou R$ 250 nas duas. São os preços de cada módulo, e o escopo final é fechado no contrato antes de começar. Não há taxa de implantação nem fidelidade.</p>
       </details>
       <details>
         <summary>Quais operadoras e bandeiras são cobertas?</summary>

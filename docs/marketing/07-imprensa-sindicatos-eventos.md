@@ -34,7 +34,7 @@ em mais de 50 empresas. Sem comparação com outra conciliadora e sem período d
   https://sincopetro.org.br/revista-posto-de-observacao/).
 - **Pauta para a revista:** "A venda passou na maquininha. O dinheiro caiu?" Um artigo
   prático de como achar a venda não paga e que prova juntar para cobrar a operadora
-  (base: guia da Getnet, válido para qualquer adquirente).
+  (base: guia da Getnet, válido para qualquer operadora de cartão).
 
 ### 3. Minaspetro (MG)
 - Site: https://minaspetro.com.br (contatos na home).

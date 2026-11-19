@@ -83,7 +83,7 @@ Cadência: E1 no dia 0, E2 no dia 3, E3 no dia 7, E4 no dia 14. Terça a quinta,
 > Olá, {{nome}}.
 >
 > Uma conta que vale fazer na {{rede}}: liste todas as formas de pagamento que o caixa
-> aceita (adquirentes, vales, frota, aplicativos, tags) e compare com a lista do que a
+> aceita (operadoras de cartão, vales, frota, aplicativos, tags) e compare com a lista do que a
 > sua conciliação confere hoje.
 >
 > Nas redes que atendemos, são 36 operadoras no nosso fluxo: cartão, frota, vale, PIX
@@ -105,7 +105,7 @@ Cadência: E1 no dia 0, E2 no dia 3, E3 no dia 7, E4 no dia 14. Terça a quinta,
 >
 > Não quero lotar sua caixa de entrada, então este é o último e-mail da sequência.
 >
-> Se um dia fizer sentido: a conferência de cartões custa até R$ 150 por posto (CNPJ)
+> Se um dia fizer sentido: a conferência de cartões custa R$ 150 por posto (CNPJ)
 > por mês, sem implantação e sem fidelidade. Use e pague após 30 dias. Garantia de 7 dias:
 > se não servir, não há cobrança. O preço está publicado aqui: https://backupconciliacao.com.br/preco/
 >
