@@ -50,8 +50,12 @@
         + '<div class="delta ' + f.cls + '"><small>Divergência</small><b class="mono">' + f.div + "</b></div>"
         + (f.obs ? '<p class="mm-obs">' + f.obs + "</p>" : "") + "</div>";
     });
-    [["/img/demo_resumo.webp", "Resumo do mês e evolução diária"], ["/img/demo_tabela.webp", "Conferência por operadora"]].forEach(function (s) {
-      html += '<figure class="card3 mm-slide mm-img" aria-hidden="true"><img src="' + s[0] + '" alt="Tela do sistema: ' + s[1] + ', com dados de demonstração" loading="lazy" data-zoom="/img/demo_tela.webp">'
+    // [imagem do slide, legenda, tela inteira aberta no clique] — telas reais com dados fabricados ("Rede Exemplo")
+    [["/img/demo_resumo.webp", "Resumo do mês e evolução diária", "/img/demo_tela.webp"],
+     ["/img/demo_tabela.webp", "Conferência por operadora", "/img/demo_tela.webp"],
+     ["/img/demo_diferencas.webp", "Diferenças de caixa por empresa e dia", "/img/demo_diferencas_tela.webp"],
+     ["/img/demo_analitica.webp", "ERP × Operadora, venda a venda", "/img/demo_analitica_tela.webp"]].forEach(function (s) {
+      html += '<figure class="card3 mm-slide mm-img" aria-hidden="true"><img src="' + s[0] + '" alt="Tela do sistema: ' + s[1] + ', com dados de demonstração" loading="lazy" data-zoom="' + s[2] + '">'
         + "<figcaption><b>" + s[1] + "</b><span>Tela real, dados de demonstração</span></figcaption></figure>";
     });
     box.innerHTML = html;
