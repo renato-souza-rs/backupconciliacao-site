@@ -4,6 +4,8 @@
 Paleta e tipografia espelham index.html: --azul #0d3b66, --azul2 #1d6fb8,
 --ouro #BA7517, --ouro-claro #e0a93a.
 """
+import os
+
 from PIL import Image, ImageDraw, ImageFont
 
 W, H = 1200, 630
@@ -57,7 +59,7 @@ LIMITE = W - 2 * M  # 1036 px uteis
 linhas = [
     ("Conferência de cartões", SEGOE_B, BRANCO),
     ("no automático,", SEGOE_B, BRANCO),
-    ("da venda ao centavo.", SEGOE_SL, (0xcf, 0xe0, 0xf0)),
+    ("venda a venda.", SEGOE_SL, (0xcf, 0xe0, 0xf0)),
 ]
 TAM, ALTURA = 66, 78
 y = 176
@@ -96,6 +98,7 @@ print(f"  chips ok (termina em {x}px, limite {W - M}px)")
 d.line([M, 566, W - M, 566], fill=(255, 255, 255, 38), width=2)
 d.text((M, 582), "backupconciliacao.com.br", font=f(SEGOE_B, 26), fill=BRANCO)
 
-img.save(r"C:\Users\RenatoSouza88\Desktop\backupconciliacao-site\og-image.png",
+# grava ao lado deste script (a pasta do clone muda de PC para PC)
+img.save(os.path.join(os.path.dirname(os.path.abspath(__file__)), "og-image.png"),
          "PNG", optimize=True)
 print("og-image.png gerado:", img.size)
