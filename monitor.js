@@ -36,7 +36,8 @@
     var dias = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"];
     var fech = [ // valores ilustrativos (como sempre foram no site)
       { erp: "184.230,50", op: "184.230,50", conc: "184.230,50", div: "R$ 0,00 ✓", cls: "ok", st: '<span class="pill ok">Conciliado</span>', obs: "" },
-      { erp: "176.912,40", op: "175.627,50", conc: "176.912,40", div: "R$ 1.284,90", cls: "bad", st: '<span class="pill bad">Divergência apontada</span>', obs: "3 vendas no ERP sem pagamento da operadora." }
+      // caixa (ERP) contra a operadora: operadora e conciliadora batem, o caixa é que difere (pedido do owner 20/11/2026)
+      { erp: "175.627,50", op: "176.912,40", conc: "176.912,40", div: "R$ 1.284,90", cls: "bad", st: '<span class="pill bad">Divergência apontada</span>', obs: "3 vendas pagas pela operadora e não lançadas no caixa (ERP)." }
     ];
     var html = "", hoje = new Date();
     fech.forEach(function (f, i) {
