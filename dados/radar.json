@@ -1,55 +1,65 @@
 {
- "atualizado": "2026-11-19T15:05-03:00",
+ "atualizado": "2026-11-19T23:09-03:00",
  "itens": [
   {
-   "tema": "trib",
-   "titulo": "Com El Niño mais forte e reforma tributária, Warren Rena eleva projeções para o IPCA",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMHNybWRoWUd5SjNSZkNzOXhLMU0wclpGNU41R3RIaWN3akZEQ0ZpS0tkWDZTVkR1X3M4aWRJQ3J3VkoyMEp0RUF6dGVNTjJwdTE3NkJUVWpFQmxFN2Q0OUt5dVhOcGpYSnM3OVJCMGhvVHEzVmc1a3Zhbk5BcW1SXzlSOGw5TEI4R0tNbE1RbEREaDJkVEJxZFFTZnAteTdEY1ZVVldXUnp1WVlpVWFza0JJd0J6NmNFdG9OMlEtQVFvUGUxbXlzSzRLaXJHVTZzLTNNcUFn0gHkAUFVX3lxTE9tMzZfbi11VVdDQzByZUNiZmZuTzJHUFVBMnR0QkZFTGd4VnRLbWNoZTlFdGRhU2lyR2FSTjIwLWNVZ0pNNjExY2VGVDBmVU1hMGs4TDVXdFhtcl85S3EyRFRvX2RFNFlhR2RnYkdsOVJGSENieVFHSUZTdkFNd3dwT1V2aVltdmRseVJyT3hBaVY2VWNBRnRYREZOOC00bFBpNU9SclhhcUNxVFpSWTB2OWtSNXVBblZpc1pMbFhiLW9HUVhmVTRZOVIycXpyZ0Z1U2FZZldPS3hjb296Z1BIR1hrag?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-11-19T15:03-03:00",
-   "repercute": 13,
-   "dado": null
-  },
-  {
    "tema": "comb",
-   "titulo": "ANP acelera consulta pública sobre tarifas de transporte de gás",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU09SSXM4N2tIU0cxWU9ZdldaelFvcWJQRFNqQ3JmMmtpQmtaVG5CV1F4cGpQbExzUlBWNng5MU5kUVROcHdWRi1tcUE1TGlFWkdyOHQ3NFd4VUIwMU5yRWNKTjlaRDFoa0FqUjBCdDVjRXFGcTVZVzZjWXR4R2hzM3drMW5VU01iVUtJZHNKbXJWandXOEFhcmhzMEZZVXI0dXNJS1Jn?oc=5",
-   "fonte": "MegaWhat",
-   "site": "megawhat.uol.com.br",
-   "publicado": "2026-11-19T13:32-03:00",
-   "repercute": null,
-   "dado": "ANP"
-  },
-  {
-   "tema": "trib",
-   "titulo": "Agência de Comunicação - Imposto do pecado: o que é o Imposto Seletivo, quem paga e o que muda em 2027",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNalhMcExDMThlNHM0VC1tcUFaeDVMWUwyRzIzYVJrcEV0VjV2WU1zSDhOaGRhZjVmdGQ4blN4LXo0MmVPREVJU3ZPRVJQQlViVC1neEZ6VEZOWEoySUR3SmFoZzN5WmFRMFgzcDNTVUR1QzZuVWFJUWF6YTBfb2RIXzFvTXdPUExvNzd3WS11SXZnREJNODN2Yllhd2g1cU5vZkRVbDl1eDRsbW1zU3QxS00xSXB3cHpnNkNEUndYWFViakZ6czVpdm5yRjRjem8xSlZfcW94azJBdUlRM3VXSTFXNm9zUG5iRElKZ19RVGR6UQ?oc=5",
-   "fonte": "Estadão Blue Studio",
-   "site": "bluestudio.estadao.com.br",
-   "publicado": "2026-11-19T10:30-03:00",
-   "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "ANP rejeita pedido de transportadoras de gás pela revisão tarifária",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaVF0aWNLU0lSek1BZVRMajJFOGlyelRhT3NPM1UtN1lHZ3Fwc0RzNHlYVzdzTEU2alJCNlY2M0xnTGM5eWVETlZlb0RNYUpaYTRQaFVVNUxTZ0xPRGQzc0ozMng1aEVUUEVnZkJEdkt5RzF5alZXUncwU0plSHZTWUtWNkZGT1JRWmhxWGFQTzFpdUltb2NwQzFjVFJXNmY3dUlyWU5R?oc=5",
+   "titulo": "Diretor da ANP propõe mudanças no \"gas release\" após ouvir Petrobras",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMjdXNUJPdjBQY3VmMGJHYVYwZ3B4SFlySkFvNURyLXFpU2RfU01lVFU5TEJwQ1dXdEtfMXpYT2xXYmpHTjVIRVg3d0h5N2xCczVaeU1TTEVoYjRYZGRuQ29qZUgtaS1hb01lUmJ6RnJsX0FyNzBVTThCRGNhT2VBOF93VHNIMDZIM0R2Z0ozMUV3OEl4Q1lZRlNacVNER0VVX2JBdw?oc=5",
    "fonte": "CNN Brasil",
    "site": "cnnbrasil.com.br",
-   "publicado": "2026-11-19T09:52-03:00",
+   "publicado": "2026-11-19T21:29-03:00",
    "repercute": null,
    "dado": "ANP"
   },
   {
    "tema": "trib",
-   "titulo": "A Receita Federal divulga a atualização dos números referentes às solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
-   "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQOC1MZTZ1SGUtRXFKeTVRZXJlY2JXN0VxSURtV1JOV18tZlJsX1dvMWcxSHhIODlUMWx3RmRIM05EUV84elJEUGtxTDF2SThHVmVQVVZXaHdNSlFyUmtXSUFTOHJ1dTgzRWJRWEJ4UnRLRmlHYjdZc3JldHFKRFNWV0RiWWFhOXhjUkhkSlRtb1FmUmY4emk3TEUzckZjWlEwWXFwZS1jV3VBakNMN28xa3JncmZXTzBLRG1lRi0zczNsc2pMcUh5eFI4QXo5V3lZYUdUMEM5TVlxUlhHNW1mMGdlU2I3MXdvZTMzU1dmRC05STllOFlITlBFbEZFV3d3RkJSb1A4R0JQUDZlMVhqUUxRVXlrSWFTcHI4S1MwdTNZcG5xOHdMWG1tMXJQQ2lxZFBZbUtkYTR0Q0ZRcTl4ZQ?oc=5",
-   "fonte": "GOV.BR",
-   "site": "gov.br",
-   "publicado": "2026-11-19T09:30-03:00",
+   "titulo": "Colombianos vão às ruas contra reforma tributária que aumenta impostos para a classe média",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOclRROF9SNGlGbkdWZ01VdGVlaEdHRy1IU0kydl8yZ2JqWWh4bGYwcnNuemNEZFFCTURfc1gySnpsTHNoVEtVMU4yR25GaWtDdmpSaVRPLWQ5bHdsbGpuQ0NUTDB5SVNaZUNibzAyTUNOTjFjbTB3SlNSeE1KRkR4eFdWcmZwS1ozMkkySkZpYkVCTFJnR2hwQTIyLTk3UXJnVjV2Z3MtcFNuWHY0MTZja0cyRjJqNkxicHJ4LXhvd1k2ckVQLWRXSGRZaTNVeFhsVWs2QXpSUVpHSTB0SXNwYlphMNIB8gFBVV95cUxOdUhqZmZEcWlsOFhmdV9sT2ZMd3RDSFV4U1pNWnNrbUlGLV83UDBOS0JEWFFuNHQzQ25ZUXMxQmdwUUhwbC00NUdpZUhJbUppdEg0OEwtS3l4aUlXR19feFphMkZDLVNVaXVCcXRBUUF6VGdHcEl6VVdoQ3E2dDR3R1BJQUVlX0RONDhCVzM2VjVUcF9WNU4zQjE2MTNUeFp6RGZFLWhpbHg3U0FUQ0hYaHhRcm1URktMUG15WGpaVDExeXAxdU9FclNTS2pnM3dMbmlxcGFnWW9USkVzTU9sb3dTX3dJRVA4UVVoZUt1YkFfdw?oc=5",
+   "fonte": "O GLOBO",
+   "site": "oglobo.globo.com",
+   "publicado": "2026-11-19T21:17-03:00",
+   "repercute": 14,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Etanol fica mais caro e pesa no bolso do motorista",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWWtQaUptbWFlTEhRWC1ZTjlMVnN5WDJWOXZmYl9KWHBONF8tWWx3RkNHMVFiclhkR2c1S2FPX2hXNmc4alZRclM3eVUzdFRzdlM5Zl8zTk4wWGcwbUQwVFU5cmw4UmlVSFp1dFRhR2RZdnJYZzljNUlPZTNvZ0ZvSnFfUklQSTR0djhGWjJ2aE9LQXcwY3hGclE4ZWFFcmt5eWs5b0oxbkJFTmVXMTB4V1pNWVNKYk9MS2VJaTJmb1Y2dVBwWXpYanpibVJ4aUxRcmM2YUNhaUpnU2xQTVNzaENINEtMQlhF0gHoAUFVX3lxTFBZa1BpSm1tYWVMSFFYLVlOOUxWc3lYMlY5dmZiX0pYcE40Xy1ZbHdGQ0cxUWJyWGRHZzVLYU9faFc2ZzhqVlFyUzd5VTN0VHN2UzlmXzNOTjBYZzBtRDBUVTlybDhSaVVIWnV0VGFHZFl2clhnOWM1SU9lM29nRm9KcV9SSVBJNHR2OEZaMnZoT0tBdzBjeEZyUThlYUVya3l5azlvSjFuQkVOZVcxMHhXWk1ZU0piT0xLZUlpMmZvVjZ1UHBZelhqemJtUnhpTFFyYzZhQ2FpSmdTbFBNU3NoQ0g0S0xCWEU?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
+   "publicado": "2026-11-19T19:57-03:00",
    "repercute": null,
-   "dado": "Receita Federal"
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Preço do etanol sobe",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcTg0MEVnRFJiWmhRWkd1YWxsZmQyZm93OXVHZXVxd09CZE1RWFBmS0V6Vko5Rk1TcDVxcUFCbmRsR2E2YUYzcmVzd0ZtRzVhMy1ZUnFqS2Z2WVB4UXAtUVljd2p0b3Q5OXREbnR0Qm5pa2RBTVB5ZkJhOUZ3bEdHS2N4NkdzMGFJZlRURDNXLWppZDhQenhncnFxR2NYZVJmdk9JSnJIVFlzTjR0OVJ6T2dR0gHAAUFVX3lxTE05cnY0aWJUbUdTbjA3TFBXWFJOTEgwWlNydTMzYWNRb2xBMjNpeGZ0TkxoODRlem84dFJaZmJvWTlhWXV3ZmVLekEwemdld3dNZWV4YjhyLUxGNHU3bkc1UEJZOWw0ZzJOejN0SzhTTkJUOHQ5aHBNY2tVN0NsOGx2RHEwNkMwN1NNbDJpSkpfQmJ5SkxjRHA5NWZUMTIwbkswRGR2bms2V2I4di1FQTVHNTRZUGZwY2FvT29tZlVZag?oc=5",
+   "fonte": "G1",
+   "site": "g1.globo.com",
+   "publicado": "2026-11-19T19:53-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "trib",
+   "titulo": "CBS de 11,3%: impactos para empresas em 2027",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQckhyNk03b211ajU2SmNRTmhYTnVub25IV2IyWmF2cVNTc1Z5QWo0OGZVYllCTzdpXzktMmRpa2tsSzNyWENHZlZBZmRENGFRamtxaXZfYlA5WGdEMGRyUlFiVEdkSEktR3NJZUdQQ00ta0R0YkUza1d5X1NFTG5aVy1OVXZaWUJ0WHlmaU9wcw?oc=5",
+   "fonte": "Portal Contabeis",
+   "site": "contabeis.com.br",
+   "publicado": "2026-11-19T18:59-03:00",
+   "repercute": null,
+   "dado": null
+  },
+  {
+   "tema": "comb",
+   "titulo": "Petróleo encerra estável apesar de receios de escalada no Oriente Médio",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSXUxMWFGa2MzeFhkTWIwZVhEdnB1OVpSbHV0Q3ZFdHlGQTdRdGJzX3Y3RHZxZTdFTkZlMXpFazRFZXBmTTNsN1VTdjhaUGZvUVZrMGVzOXgyMU91TllIRUVGODRDMEdpT0VCSUY2R3FVOW1PMzlMT2JNa3RDeU8wQWtuSWdScC1FWjlTc05tYXQyN29HNmthWUJURTduS1ZmRkVlQlNnZVpHNm9tOGNTel9ZTEwzeFRKdldzSmkwLWFsWUNBZHozVtIB1wFBVV95cUxOY0RDMV9lbjZGVTBZR2NLX2F6MFdma3FUVllYV1VmSkxiVDRyY2tYVmpqRjVaQ2pYMm5PVi00bTdZU0ZmSVBpN3dBaWpCcFpVd3gzRXZzbkJ1VWNkR1cxR2d4dkI3UDZ5MEFsVGtQMzNfanM0dDBUT0FuendWUlVnZTFjeGVYWWVLZ3g1VVRjMy1WVkU4U1J3aXR6c1lpNk8tdXBXNFVQWDBBam52QURFaUFSYXpGQXJ2V1c1R043WHd5WV80bVVxelBlY29Odk1MMy1Way1aOA?oc=5",
+   "fonte": "Valor Econômico",
+   "site": "valor.globo.com",
+   "publicado": "2026-11-19T17:49-03:00",
+   "repercute": 5,
+   "dado": null
   },
   {
    "tema": "comb",
@@ -57,18 +67,8 @@
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXVhZlhvZUlyTk1aWVVxZ1N1RGxSTWNLcGRVQ2hYM0xRcktoY1JCblBMUWJHNWFIVnJsOXltbXJMT0Y4WDd1QlJ3YnpCaVdVR1hGTENLa3BYaDFsN3M0M3dUd05iaFNGWTlIR2NaYUsyR19aOXgzX3ducVJ5YXRTUm50UndDTEM5TVNMeFd5X3hQX0s4TlZUYnZLN0xCbXRlWGVIaENIMnBQeU1aM1E?oc=5",
    "fonte": "CNN Brasil",
    "site": "cnnbrasil.com.br",
-   "publicado": "2026-11-19T07:00-03:00",
+   "publicado": "2026-11-19T16:36-03:00",
    "repercute": null,
-   "dado": null
-  },
-  {
-   "tema": "comb",
-   "titulo": "Petróleo cai com recuperação da oferta e alta dos estoques nos EUA, apesar de riscos geopolíticos",
-   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOampJTjktS1FlTm53bVkwcEttSzd3R255azFYZXNmazZoY3dXS25tUzc2YlRLSkY0VnZZRFJHd3RyWnF1ek5MQjB6ay1aMzFDZEtTcm5iMEQ1RW5qR014eEJGa1VvN1hlQWVEX1oyWVc4Tm1iaHFjQzlHLUx0R082YzdnZ2ZMRDNRTmkwWmhRbnpQMkxXMjBiMWJHNmlHNWhvV0xkczZpTFRBeFpkREdtOC10VkU5RGluRUdUTDJzempYXzk5Mm0zMGdTamE1V08zQXRXcnVLcUdKU2FyNFNwMG1GdXV1S2MwNmg4bE1iTEhyVmPSAfMBQVVfeXFMTmpqSU45LUtRZU5ud21ZMHBLbUs3d0dueWsxWGVzZms2aGN3V0tubVM3NmJUS0pGNFZ2WURSR3d0clpxdXpOTEIwemstWjMxQ2RLU3JuYjBENUVuakdNeHhCRmtVbzdYZUFlRF9aMllXOE5tYmhxY0M5Ry1MdEdPNmM3Z2dmTEQzUU5pMFpoUW56UDJMVzIwYjFiRzZpRzVob1dMZHM2aUxUQXhaZERHbTgtdFZFOURpbkVHVEwyc3pqWF85OTJtMzBnU2phNVdPM0F0V3J1S3FHSlNhcjRTcDBtRnV1dUtjMDZoOGxNYkxIclZj?oc=5",
-   "fonte": "Valor Econômico",
-   "site": "valor.globo.com",
-   "publicado": "2026-11-18T18:07-03:00",
-   "repercute": 4,
    "dado": null
   },
   {
