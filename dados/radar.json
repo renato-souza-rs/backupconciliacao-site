@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T13:40-03:00",
+ "atualizado": "2026-11-21T19:55-03:00",
  "itens": [
   {
    "tema": "trib",
@@ -7,8 +7,8 @@
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNTZPYnlObE1hTWtmLWlfbnBxOE9EU0RZa19GeTVhM3FyNVNEWC1GdVlRd0I0NG81WWRKb1lVX0ZYcTBMMXhkaTFjaDZjN1M2MEp0WkdZazNwYlp6VUstS3Y1dnQ3cm1MeXk4TjVrcjhBSG55SmszU2d3NTN5U09QZU5VN056a25iRE9Ed2xtTkllV1VEV3JCTTBseTh5N080TGh3dUJ2Rk9ZZ1BFZ0pBQkl3cm5WUFE2Z0dLTE9Db3BCMlczZnBRQjdNQQ?oc=5",
    "fonte": "CNN Brasil",
    "site": "cnnbrasil.com.br",
-   "publicado": "2026-11-21T11:59-03:00",
-   "repercute": null,
+   "publicado": "2026-11-21T14:32-03:00",
+   "repercute": 5,
    "dado": null
   },
   {
@@ -58,7 +58,7 @@
    "fonte": "Valor Econômico",
    "site": "valor.globo.com",
    "publicado": "2026-11-20T17:42-03:00",
-   "repercute": 3,
+   "repercute": null,
    "dado": null
   },
   {
@@ -83,12 +83,12 @@
   },
   {
    "tema": "trib",
-   "titulo": "Colombianos vão às ruas contra reforma tributária que aumenta impostos para a classe média",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOclRROF9SNGlGbkdWZ01VdGVlaEdHRy1IU0kydl8yZ2JqWWh4bGYwcnNuemNEZFFCTURfc1gySnpsTHNoVEtVMU4yR25GaWtDdmpSaVRPLWQ5bHdsbGpuQ0NUTDB5SVNaZUNibzAyTUNOTjFjbTB3SlNSeE1KRkR4eFdWcmZwS1ozMkkySkZpYkVCTFJnR2hwQTIyLTk3UXJnVjV2Z3MtcFNuWHY0MTZja0cyRjJqNkxicHJ4LXhvd1k2ckVQLWRXSGRZaTNVeFhsVWs2QXpSUVpHSTB0SXNwYlphMNIB8gFBVV95cUxOdUhqZmZEcWlsOFhmdV9sT2ZMd3RDSFV4U1pNWnNrbUlGLV83UDBOS0JEWFFuNHQzQ25ZUXMxQmdwUUhwbC00NUdpZUhJbUppdEg0OEwtS3l4aUlXR19feFphMkZDLVNVaXVCcXRBUUF6VGdHcEl6VVdoQ3E2dDR3R1BJQUVlX0RONDhCVzM2VjVUcF9WNU4zQjE2MTNUeFp6RGZFLWhpbHg3U0FUQ0hYaHhRcm1URktMUG15WGpaVDExeXAxdU9FclNTS2pnM3dMbmlxcGFnWW9USkVzTU9sb3dTX3dJRVA4UVVoZUt1YkFfdw?oc=5",
-   "fonte": "O GLOBO",
-   "site": "oglobo.globo.com",
+   "titulo": "Quem tem medo da reforma tributária?",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNmtvODZzeE1COUF5RnlOc3ltRDVYOFNhSC1xY3liSWU3blg5cWhsaUJmUmJxWjd0WUFwRkRCNWlhWnlvN0R6Y3k2eGQ1QVotT1JzNEZLVmk0RHVPd3Vfa00xektMM2E3R0tEd2pTV2w5WVoxNVZtaUhRTlhpWklEU3k1bw?oc=5",
+   "fonte": "Migalhas",
+   "site": "migalhas.com.br",
    "publicado": "2026-11-20T08:00-03:00",
-   "repercute": 14,
+   "repercute": 3,
    "dado": null
   }
  ]
